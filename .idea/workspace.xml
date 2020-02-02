@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="" />
+    <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/1-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/1-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/128-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/128-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/128.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/129-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/129-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/129.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/129.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/130-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/130-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/130.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/130.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/131-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/131-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/131.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/131.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +29,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RN6kliRDbBZqXRzlPaUqDMzATL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -37,19 +55,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\777\Desktop\Animesaver\css" />
-      <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver" />
-      <recent name="C:\Users\777\Desktop\Animesaver\anime\atack_on_titans" />
-      <recent name="C:\Users\777\Desktop\Animesaver\anime\klinok" />
-      <recent name="C:\Users\777\Desktop\Animesaver\anime\kvartet" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver\Second" />
       <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver\First" />
       <recent name="C:\Users\777\Desktop\Animesaver" />
       <recent name="C:\Users\777\Desktop\Animesaver\css" />
       <recent name="C:\Users\777\Desktop\Animesaver\anime\kimi_no" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\777\Desktop\Animesaver\css" />
+      <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver" />
+      <recent name="C:\Users\777\Desktop\Animesaver\anime\atack_on_titans" />
+      <recent name="C:\Users\777\Desktop\Animesaver\anime\klinok" />
+      <recent name="C:\Users\777\Desktop\Animesaver\anime\kvartet" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -125,6 +143,7 @@
       <workItem from="1580417190154" duration="606000" />
       <workItem from="1580550812077" duration="12000" />
       <workItem from="1580550849365" duration="253000" />
+      <workItem from="1580672488235" duration="982000" />
     </task>
     <servers />
   </component>
@@ -136,6 +155,10 @@
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="383" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/35.27.1331.741@35.27.1331.741" timestamp="1580550820148" />
+    <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2" timestamp="1580672846358">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1580672846358" />
     <state x="214" y="38" key="SettingsEditor" timestamp="1580551104648">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
