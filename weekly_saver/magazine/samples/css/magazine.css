@@ -1,10 +1,18 @@
+@font-face {							 /*Шрифт Presentscript-cyrillic*/
+	font-family: "Presentscript-cyrillic";
+	src: url("../../../../fonts/presentscript-cyrillic.ttf");
+	src: url("../../../../fonts/presentscript-cyrillic.eot?#iefix")format("embedded-opentype"),
+	url("../../../../fonts/presentscript-cyrillic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
 body{
 	overflow:auto;
 	background: #303f9f;
-	background: linear-gradient(#303f9f, #778899), #303f9f;
-	background: -webkit-linear-gradient(#303f9f, #778899), #303f9f;
-	background: -moz-linear-gradient(#303f9f, #778899), #303f9f;
-	background: -o-linear-gradient(#303f9f, #778899), #303f9f;
+	background: linear-gradient(black, darkslategrey), black;
+	background: -webkit-linear-gradient(black, darkslategrey), black;
+	background: -moz-linear-gradient(black, darkslategrey), black;
+	background: -o-linear-gradient(black, darkslategrey), black;
 	margin:0;
 	padding:0;
 }
@@ -15,16 +23,17 @@ body{
 	padding-top: 0;
 	padding-bottom: 10px;
 	position: sticky;
-	font-family:"Ubuntu",arial,serif;
+	font-family:'Presentscript-cyrillic',arial,serif;
 	border-bottom: dashed 1px #303f9f;
 }
 .navigation	{
-	width: 13%;
-	background-color: #009688;
+	width: 14%;
+	background-color: whitesmoke;
 	position: fixed;
 	height: 100%;
 	overflow-y: auto;
 	border-right: solid 1px white;
+
 }
 
 ul {
@@ -49,14 +58,15 @@ li a:hover {
 }
 
 .dropbtn {
-	color: white;
-	padding: 16px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	font-size: 26px;
-	border: solid 1px white;
-	cursor: pointer;
-	border-radius: 10%;
+	font-size: 14pt;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: solid 1px #663399;
+	border-radius: 5px;
+	color: black;
+	font-family: 'Presentscript-cyrillic';
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -67,18 +77,19 @@ li a:hover {
 	display: inline-block;
 	position:absolute;
 	z-index:1000;
-	top:40px;
+	top:30%;
 	right:10px;
 }
 
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: white;
+	background-color: #2980B9;
 	padding: 10px;
 	margin: 0;
 	min-width: 220px;
 	right: 10px;
+	top: 60%;
 	overflow: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	border: none;
@@ -90,13 +101,32 @@ li a:hover {
 
 .show {display: block;}
 
+.link_buttons a{
+	font-size: 14pt;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: solid 1px #663399;
+	border-radius: 5px;
+	color: black;
+	font-family: 'Presentscript-cyrillic';
+	display: block;
+	text-decoration: none;
+	background-color: white;
+	margin-top: 10px;
+}
+
+.link_buttons a:hover, .link_buttons a:focus {background-color: #2980B9;}
+
 .description_of_magazine	{
 	padding-top: 10px;
 	padding-left: 5px;
 	position: sticky;
 	bottom: 10px;
 	border-top: dashed 1px #303f9f;
-	background-color: #009688;
+	background-color: whitesmoke;
+	background-color: whitesmoke;
 }
 
 .description_of_magazine p	{
