@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://animesaver.ru/sitemap.xml

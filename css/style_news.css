@@ -1,0 +1,56 @@
+@font-face {							 /*Шрифт Presentscript-cyrillic*/
+    font-family: "Presentscript-cyrillic";
+    src: url("../fonts/presentscript-cyrillic.ttf");
+    src: url("../fonts/presentscript-cyrillic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/presentscript-cyrillic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {							 /*Шрифт Futura-normal*/
+    font-family: "Futura-normal";
+    src: url("../fonts/futura-normal.ttf");
+    src: url("../fonts/futura-normalc.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/futura-normal.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {-webkit-text-size-adjust:none;}
+.layout {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+div {
+    border-bottom: solid 1px #663399;
+    margin-bottom: 10px;
+    position: relative;
+    display: block;
+}
+div h3  {
+    margin: 0;
+    color: #663399;
+    font-family: 'Futura-normal';
+    text-align: center;
+}
+div p    {
+    margin-top: 5px;
+    text-indent: 10px;
+    margin-bottom: 10px;
+    font-family: 'Futura-normal';
+}
+div a   {
+    display: block;
+    margin-top: 2px;
+    text-decoration: none;
+    color: #30cfd0;
+    position: absolute;
+    right: 3px;
+    bottom: 2px;
+}
+div span{
+    display: block;
+    font-family: 'Presentscript-cyrillic';
+    font-size: 10pt;
+    color: #787878;
+    margin-bottom: 3px;
+}
