@@ -20,40 +20,36 @@
 
 <div class="zoom-icon zoom-icon-in"></div>
 
-<div class="dropdown">
-	<button onclick="myFunction()" class="dropbtn">Как пользоваться</button>
-	<div id="myDropdown" class="dropdown-content">
-		<p>Чтобы перелистнуть:</p>
-		<span>Потяни за уголок страницы;<br>Справа и слева от журнала есть кнопки;<br>Можно еще стрелками на клавиатуре &larr; и &rarr;.</span>
-	</div>
-	<div class="link_buttons">
-		<a href="../../../index.html">Animesaver</a>
-		<a href="../../../weekly_saver.html">Weeklysaver</a>
-	</div>
-</div>
-
 <div class="magazine-viewport">
 	<div class="navigation">
-		<h4 class="title_of_navigation">НАВИГАЦИЯ</h4>
-		<ul>
-			<li><a href="#page/1">Обложка</a></li>
-			<li><a href="#page/2">Содержание</a></li>
-			<li><a href="#page/4">Хроники Орбереса. Джин и Ева : Глава 1</a></li>
-			<li><a href="#page/30">Death : Глава 1</a></li>
-			<li><a href="#page/44">Death : Глава 2</a></li>
-			<li><a href="#page/60">Death : Глава 3</a></li>
-			<li><a href="#page/80">Интервью с автором "Death"</a></li>
-			<li><a href="#page/90">Путник : Сингл</a></li>
-			<li><a href="#page/128">Аниме-новости</a></li>
-		</ul>
-		<div class="description_of_magazine">
-			<p> Ссылки на авторов: </p>
-			<span>Редактор : <a href="https://vk.com/igarashikuro"> Георгий Т.</a></span><br>
-			<span>Хроники  : <a href="https://vk.com/id168084791"> Анна П.</a></span><br>
-			<span>Хроники  : <a href="https://vk.com/id39358434"> Мария Х.</a></span><br>
-			<span>Death  : <a href="https://vk.com/sophie_laurel"> Sophie L.</a></span><br>
-			<span>Путник  : <a href="https://vk.com/azumi_lee"> Азуми Ли</a></span><br>
-			<span>Dev.  : <a href="https://vk.com/maybelaterwewill"> Александр Т.</a></span>
+		<button onclick="myFunction()" class="navigation_button">НАВИГАЦИЯ</button>
+		<div id="navigation" class="nav-content">
+			<ul>
+				<li><a href="#page/1">Обложка</a></li>
+				<li><a href="#page/2">Содержание</a></li>
+				<li><a href="#page/4">Хроники Орбереса. Джин и Ева : Глава 1</a></li>
+				<li><a href="#page/30">Death : Глава 1</a></li>
+				<li><a href="#page/44">Death : Глава 2</a></li>
+				<li><a href="#page/60">Death : Глава 3</a></li>
+				<li><a href="#page/80">Интервью с автором "Death"</a></li>
+				<li><a href="#page/90">Путник : Сингл</a></li>
+				<li><a href="#page/128">Аниме-новости</a></li>
+			</ul>
+			<div class="description_of_magazine">
+				<p> Ссылки на авторов: </p>
+				<span>Редактор : <a href="https://vk.com/igarashikuro"> Георгий Т.</a></span><br>
+				<span>Хроники  : <a href="https://vk.com/id168084791"> Анна П.</a></span><br>
+				<span>Хроники  : <a href="https://vk.com/id39358434"> Мария Х.</a></span><br>
+				<span>Death  : <a href="https://vk.com/sophie_laurel"> Sophie L.</a></span><br>
+				<span>Путник  : <a href="https://vk.com/azumi_lee"> Азуми Ли</a></span><br>
+				<span>Dev.  : <a href="https://vk.com/maybelaterwewill"> Александр Т.</a></span>
+			</div>
+		</div>
+	</div>
+	<div class="dropdown">
+		<div class="link_buttons">
+			<a href="../../../index.html">ANIMESAVER</a>
+			<a href="../../../weekly_saver.html">WEEKLYSAVER</a>
 		</div>
 	</div>
 	<div class="container">
@@ -476,6 +472,25 @@ window.onclick = function(event) {
 			var openDropdown = dropdowns[i];
 			if (openDropdown.classList.contains('show')) {
 				openDropdown.classList.remove('show');
+			}
+		}
+	}
+}
+
+function myFunction() {
+	document.getElementById("navigation").classList.toggle("nav_show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+	if (!event.target.matches('.navigation_button')) {
+
+		var dropdowns1 = document.getElementsByClassName("nav-content");
+		var i;
+		for (i = 0; i < dropdowns1.length; i++) {
+			var openDropdown = dropdowns1[i];
+			if (openDropdown.classList.contains('nav_show')) {
+				openDropdown.classList.remove('nav_show');
 			}
 		}
 	}
