@@ -22,11 +22,14 @@
     font-style: normal;
     font-weight: normal;
 }
-body    {margin: 0;background-image: linear-gradient(to top, #F08080 0%, white 60%);-webkit-text-size-adjust:none;}
+html,body	{margin:0; padding:0;}
+body    {background-image: linear-gradient(to top, #F08080 0%, white 60%);-webkit-text-size-adjust:none;}
 header {display: block;}
 .layout {
     width: 1260px;
     margin: auto;
+    padding: auto;
+    text-align: center;
     position: relative;
 }
 a {text-decoration: none;color: inherit;}
@@ -60,8 +63,8 @@ a:hover  {color: #10c9c3;}
 .ui {
     display: block;
     height: 356px;
-    width: auto;
-    background: url("../images/weekly_jump_pic.png");
+    width: 100%;
+    background: url("../images/weekly_jump_pic.png") 100% 100%;
     border: solid 1px black;
     border-radius: 15px;
     position: relative;
@@ -87,13 +90,14 @@ a:hover  {color: #10c9c3;}
     min-height: 170vh;
 }
 .manga_catalog {
+    box-sizing:border-box;
     display: -webkit-flex;
     display: flex;
     color: black;
-    position: absolute;
-    left: 100px;
+    position: relative;
+    padding-left: 100px;
 	margin-top: 30px;
-	width: 1260px;
+	width: 100%;
     font-family: 'Futura-normal';
     font-size: 10pt;
 }
@@ -278,8 +282,8 @@ footer  {
     font-family: 'Futura-normal';
     font-size: 10pt;
 }
-.sasuke	{background: url("../images/wj_bg_2.png") no-repeat; position: fixed; left: 40px;bottom: 30px;width: 250px; height:250px;padding: 0;z-index: -1;}
-.kisame	{background: url("../images/wj_bg_1.png") no-repeat; position: fixed; right: 40px;bottom: 30px;width: 250px; height:250px;padding: 0;z-index: -1;background-size: cover;}
+.sasuke	{background: url("../images/wj_bg_2.png") no-repeat; position: absolute; left: 40px;bottom: 50px;width: 250px; height:250px;padding: 0;z-index: -1;}
+.kisame	{background: url("../images/wj_bg_1.png") no-repeat; position: absolute; right: 40px;bottom: 50px;width: 250px; height:250px;padding: 0;z-index: -1;background-size: cover;}
 #Rights {margin-left: 150px;margin-top: 10px;}
 #Mellriart {margin-top: 23px;}
 #Piroll {color:#10c9c3;margin-top:20px;font-size: 12pt;width: 360px;}

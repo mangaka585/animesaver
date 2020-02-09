@@ -6,7 +6,7 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 <title>Weekly Saver magazine</title>
-<meta name="viewport" content="width = 1050, user-scalable = no" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
@@ -14,6 +14,15 @@
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
 </head>
 <body>
+<!-- Прелоадер -->
+<div class="preloader">
+	<svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+		<path fill="currentColor"
+			  d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+		</path>
+	</svg>
+</div>
+
 <div class="rotate">
 	<img src="pics/rotate1.png" alt="rotate_pic"/>
 	<p>Нужно повернуть</p>
@@ -51,8 +60,8 @@
 	</div>
 	<div class="dropdown">
 		<div class="link_buttons">
-			<a href="../../../index.html">ANIMESAVER</a>
-			<a href="../../../weekly_saver.html">WEEKLYSAVER</a>
+			<a href="../../../index.html">ГЛАВНАЯ</a>
+			<a href="../../../weekly_saver.html">ВЫБОР ВЫПУСКА</a>
 		</div>
 	</div>
 	<div class="container">
@@ -68,6 +77,13 @@
 
 <script type="text/javascript">
 
+window.onload = function () {
+	document.body.classList.add('loaded_hiding');
+	window.setTimeout(function () {
+		document.body.classList.add('loaded');
+		document.body.classList.remove('loaded_hiding');
+	}, 1500);
+}
 function loadApp() {
 
  	$('#canvas').fadeIn(1000);
