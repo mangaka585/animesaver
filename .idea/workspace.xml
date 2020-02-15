@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="Исправили некоторые страницы в журнале. Запустили его сегодня в 12 часов в доступ. Изменил некоторые ссылки и подписи. По стилям и сайту ничего не менял">
-      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/139-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/139.jpg" afterDir="false" />
+    <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/js/magazine_second.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/1-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/2-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/3-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/second.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_wj.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_wj.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_pages/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_pages/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver.html" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/css/magazine.css" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/css/magazine.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/atack_on_titans_season2.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/atack_on_titans/atack_on_titans_season2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/vnuk_mudretsa.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/vnuk_mudretsa/vnuk_mudretsa.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/80-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/80-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/80.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/80.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/81-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/81-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/81.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/81.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/82-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/82-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/82.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/82.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/83-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/83-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/83.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/83.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/84-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/84-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/84.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/84.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/85-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/85-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/85.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/86-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/86-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/86.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/86.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/87-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/87-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/87.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/87.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/88-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/88-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/88.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/88.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/89-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/89-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/89.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/89.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +72,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/weekly_saver/magazine/samples/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,19 +83,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/weekly_saver/magazine/samples/js" />
+      <recent name="C:\Users\777\Desktop\Animesaver\css" />
+      <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver" />
+      <recent name="C:\Users\777\Desktop\Animesaver\anime\atack_on_titans" />
+      <recent name="C:\Users\777\Desktop\Animesaver\anime\klinok" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver\Second" />
       <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver\First" />
       <recent name="C:\Users\777\Desktop\Animesaver" />
       <recent name="C:\Users\777\Desktop\Animesaver\css" />
       <recent name="C:\Users\777\Desktop\Animesaver\anime\kimi_no" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\777\Desktop\Animesaver\css" />
-      <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver" />
-      <recent name="C:\Users\777\Desktop\Animesaver\anime\atack_on_titans" />
-      <recent name="C:\Users\777\Desktop\Animesaver\anime\klinok" />
-      <recent name="C:\Users\777\Desktop\Animesaver\anime\kvartet" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -154,7 +176,10 @@
       <workItem from="1580935202150" duration="2843000" />
       <workItem from="1581022547455" duration="818000" />
       <workItem from="1581112352366" duration="4244000" />
-      <workItem from="1581177707978" duration="5535000" />
+      <workItem from="1581177707978" duration="6638000" />
+      <workItem from="1581281326800" duration="858000" />
+      <workItem from="1581528486152" duration="713000" />
+      <workItem from="1581622188784" duration="1948000" />
     </task>
     <task id="LOCAL-00001" summary=" Добавил те страницы, которые отправила дизайнер и переписал страницу журнала, т.к. их число увеличилось и теперь 136">
       <created>1580677786270</created>
@@ -198,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581154463574</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Исправил масштаб фонового изображения на читалке. Исправил на странице журнала так, что теперь контент посередине и не появляется горизонтальная полоса прокрутки. Переименовал кнопки везде где можно было. Сделал предзагрузку сайта читалки.">
+      <created>1581251193342</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581251193342</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +244,8 @@
     <MESSAGE value="Изменил дизайин журнала, сделал все ссылки рабочими, поменяли страницы и добавили новые, исправили обложку журнала. Почти готов журнал и оформление для выпуска" />
     <MESSAGE value="Изменили некоторые страницы журнала. Подправил стиль. Добавил невозможность просмотра журнала с устройства книжной ориентации." />
     <MESSAGE value="Исправили некоторые страницы в журнале. Запустили его сегодня в 12 часов в доступ. Изменил некоторые ссылки и подписи. По стилям и сайту ничего не менял" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправили некоторые страницы в журнале. Запустили его сегодня в 12 часов в доступ. Изменил некоторые ссылки и подписи. По стилям и сайту ничего не менял" />
+    <MESSAGE value="Исправил масштаб фонового изображения на читалке. Исправил на странице журнала так, что теперь контент посередине и не появляется горизонтальная полоса прокрутки. Переименовал кнопки везде где можно было. Сделал предзагрузку сайта читалки." />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил масштаб фонового изображения на читалке. Исправил на странице журнала так, что теперь контент посередине и не появляется горизонтальная полоса прокрутки. Переименовал кнопки везде где можно было. Сделал предзагрузку сайта читалки." />
   </component>
   <component name="WindowStateProjectService">
     <state x="295" y="58" width="800" height="677" key="#Vim_Emulation" timestamp="1580680643109">
@@ -223,10 +256,10 @@
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="383" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/35.27.1331.741@35.27.1331.741" timestamp="1580550820148" />
-    <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2" timestamp="1581251190332">
+    <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2" timestamp="1581807788443">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1581251190332" />
+    <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1581807788443" />
     <state x="214" y="38" key="SettingsEditor" timestamp="1581179267702">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
