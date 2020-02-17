@@ -70,11 +70,11 @@ a:hover  {color: #10c9c3;}
     font-family: 'Frutiger';
     position:absolute;
     font-size: 64pt;
-    left: 35px;
+    left: 55px;
     color: #10c9c3;
     margin-top: 5px;
 }
-.ui_2   {font-size: 14pt; color: #787878;position: absolute;top: 80px;left: 120px;}
+.ui_2   {font-size: 14pt; color: #787878;position: absolute;top: 80px;left: 90px;}
 .body_layout    {
     display: block;
     position: relative;
@@ -93,6 +93,7 @@ a:hover  {color: #10c9c3;}
     height: 720px;
     background: #F5FFFA;
 }
+.news_sidebar h3 {font-size: 0.95em;}
 .news_sidebar iframe    {
     border: 0;
     overflow: scroll;

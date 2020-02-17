@@ -70,11 +70,11 @@ a:hover  {color: #10c9c3;}
     font-family: 'Frutiger';
     position:absolute;
     font-size: 64pt;
-    left: 35px;
+    left: 55px;
     color: #10c9c3;
     margin-top: 5px;
 }
-.ui_2   {font-size: 14pt; color: #787878;position: absolute;top: 80px;left: 120px;}
+.ui_2   {font-size: 14pt; color: #787878;position: absolute;top: 80px;left: 90px;}
 .ui div {
     margin-top: 120px;
     margin-left: 100px;
@@ -98,6 +98,7 @@ a:hover  {color: #10c9c3;}
     height: 720px;
     background: #F5FFFA;
 }
+.news_sidebar h3 {font-size: 0.95em;}
 .news_sidebar iframe    {
     border: 0;
     overflow: scroll;
@@ -129,6 +130,7 @@ a:hover  {color: #10c9c3;}
     left: 30px;
 }
 .main_block_element_description {width: 600px;min-height: 310px;}
+.main_block_element_description p {text-align: justify;}
 .main_block_element_genre   {
     display: block;
     float: right;
@@ -140,6 +142,7 @@ a:hover  {color: #10c9c3;}
     min-height: 180px;
 }
 .main_block_element_genre h4    {margin-top: 10px;margin-bottom: 10px;}
+.main_block_element_genre span {font-size: 0.9em;}
 .main_block_element a h2  {
     font-family: 'Futura-normal';
     font-size: 16pt;
@@ -223,7 +226,7 @@ a:hover  {color: #10c9c3;}
     color: #787878;
     border: solid 1px #663399;
     border-radius: 15px;
-    height: 310px;
+    height: auto;
     background: #F5FFFA;
 }
 .top_of_anime h4  {

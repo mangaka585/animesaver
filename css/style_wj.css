@@ -73,12 +73,12 @@ a:hover  {color: #10c9c3;}
     font-family: 'Frutiger';
     position:absolute;
     font-size: 64pt;
-    left: 35px;
+    left: 65px;
 	top: 60px;
     color: #40B3B7;
     margin-top: 5px;
 }
-.ui_2   {font-size: 18pt; color: #787878;position: absolute;top: 190px;left: 90px;}
+.ui_2   {font-size: 18pt; color: #787878;position: absolute;top: 140px;left: 80px;}
 .ui div {
     margin-top: 120px;
     margin-left: 100px;

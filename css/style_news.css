@@ -37,6 +37,7 @@ div p    {
     text-indent: 10px;
     margin-bottom: 10px;
     font-family: 'Futura-normal';
+    text-align: justify;
 }
 div a   {
     display: block;

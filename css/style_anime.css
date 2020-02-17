@@ -16,6 +16,40 @@
 }
 body    {margin: 0;background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);-webkit-text-size-adjust:none;}
 header {display: block;}
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    /* фоновый цвет */
+    background: #e0e0e0;
+    z-index: 1001;
+}
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+}
+@keyframes preloader-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+.loaded .preloader {
+    display: none;
+}
 .layout {
     width: 1260px;
     margin: auto;
@@ -75,6 +109,7 @@ a:hover  {color: #10c9c3;}
     height: 720px;
     background: #F5FFFA;
 }
+.news_sidebar h3 {font-size: 0.95em;}
 .news_sidebar iframe    {
     border: 0;
     overflow: scroll;
@@ -99,7 +134,7 @@ a:hover  {color: #10c9c3;}
     top: 50px;
 }
 .description_of_anime_text h2   {color: #663399;text-align: center;font-family: 'Futura-normal';}
-.description_of_anime_text p  {text-indent: 20px; margin-left: 230px;margin-bottom: 30px;}
+.description_of_anime_text p  {text-indent: 20px; margin-left: 230px;margin-bottom: 30px;text-align: justify;}
 .description_of_anime_info {display: block;height: 120px;}
 .description_of_anime_info_1  {color: #787878;position: absolute; left: 250px;width: 100px;}
 .description_of_anime_info_2  {color: #787878; position: absolute; left: 350px; border-left: dotted 2px #787878;padding-left: 15px;}
