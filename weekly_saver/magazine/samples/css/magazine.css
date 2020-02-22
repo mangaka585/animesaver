@@ -1,7 +1,6 @@
 @font-face {							 /*Шрифт Presentscript-cyrillic*/
 	font-family: "Presentscript-cyrillic";
 	src: url("../../../../fonts/presentscript-cyrillic.ttf");
-	src: url("../../../../fonts/presentscript-cyrillic.eot?#iefix")format("embedded-opentype"),
 	url("../../../../fonts/presentscript-cyrillic.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
@@ -31,44 +30,38 @@ body{
 	-o-background-size: 100%; /* Opera 9.6+ */
 	background-size: 100%; /* Современные браузеры */
 }
+
 .preloader {
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	overflow: hidden;
-	/* фоновый цвет */
-	background: #e0e0e0;
-	z-index: 1001;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #dfe9f3;
+  z-index: 1006;
 }
 
 .preloader__image {
-	position: relative;
-	top: 50%;
-	left: 50%;
-	width: 70px;
-	height: 70px;
-	margin-top: -35px;
-	margin-left: -35px;
-	text-align: center;
-	animation: preloader-rotate 2s infinite linear;
-}
-
-@keyframes preloader-rotate {
-	100% {
-		transform: rotate(360deg);
-	}
+  position: relative;
+  top: 45%;
+  left: 45%;
+  width: 300px;
+  height: 200px;
+  margin-top: -32px;
+  margin-left: -32px;
+  background: url('../../../../images/Vanilla-1s-280px.gif') no-repeat 50% 50%;
 }
 
 .loaded_hiding .preloader {
-	transition: 0.3s opacity;
-	opacity: 0;
+  transition: 0.3s opacity;
+  opacity: 0;
 }
 
 .loaded .preloader {
-	display: none;
+  display: none;
 }
+
 @media all and (orientation: landscape) {
 
 	.rotate {

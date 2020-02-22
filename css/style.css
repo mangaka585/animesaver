@@ -1,7 +1,6 @@
 @font-face {							 /*Шрифт Presentscript-cyrillic*/
     font-family: "Presentscript-cyrillic";
     src: url("../fonts/presentscript-cyrillic.ttf");
-    src: url("fonts/presentscript-cyrillic.eot?#iefix")format("embedded-opentype"),
     url("../fonts/presentscript-cyrillic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
@@ -9,7 +8,6 @@
 @font-face {							 /*Шрифт Futura-normal*/
     font-family: "Futura-normal";
     src: url("../fonts/futura-normal.ttf");
-    src: url("fonts/futura-normalc.eot?#iefix")format("embedded-opentype"),
     url("../fonts/futura-normal.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
@@ -17,13 +15,42 @@
 @font-face {							 /*Шрифт Frutiger*/
     font-family: "Frutiger";
     src: url("../fonts/Frutiger.otf");
-    src: url("fonts/Frutiger.eot?#iefix")format("embedded-opentype"),
     url("../fonts/Frutiger.otf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 body    {margin: 0;background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);-webkit-text-size-adjust:none;}
 header {display: block;}
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #dfe9f3;
+  z-index: 1001;
+}
+
+.preloader__image {
+  position: relative;
+  top: 45%;
+  left: 45%;
+  width: 300px;
+  height: 200px;
+  margin-top: -32px;
+  margin-left: -32px;
+  background: url('../images/Vanilla-1s-280px.gif') no-repeat 50% 50%;
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
 .layout {
     width: 1260px;
     margin: auto;

@@ -17,26 +17,19 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-149359628-1');
-    </script>
     <link rel="shortcut icon" href="../../images/favicon_for_line.ico" type="image/png">
     <title>Мастера меча онлайн | Animesaver</title>
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" async></script>
-    <![endif]-->
     <link rel="stylesheet" href="../../css/style_anime.css">
     <meta name="description" content="Мастера меча онлайн смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Наруто Клинок Поджелудочную Доктор Стоун Мастера меча онлайн"/>
     <script src="../../playerjs.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../../scripts/jquery_code.js" type="text/javascript"></script>
 </head>
 <body>
+<div class="preloader">
+  <div class="preloader__image"></div>
+</div>
 <div class="layout">
     <header class="navi">
         <a href="../../index.html"><img src="../../images/favicon.png" alt="Logo of the site"></a>
@@ -73,7 +66,6 @@
                     <div class="description_of_anime_info_1">
                         <span>
                         Год:<br>
-                        Страна:<br>
                         Режиссер:<br>
                         Жанр:<br>
                         Премьера:<br>
@@ -84,7 +76,6 @@
                     <div class="description_of_anime_info_2">
                         <span>
                         2012<br>
-                        Япония<br>
                         Ито Томохико<br>
                         Приключения, фэнтези, романтика<br>
                         7 июля 2012<br>
@@ -104,87 +95,179 @@
                     <h3>Серия 1</h3>
                     <div id="player1"></div>
                     <script>
-                        var player = new Playerjs({id:"player1", file:"Sword_Art_Online_TV_2012_е01.mp4",poster:"1.1.jpg"});
+                        var player = new Playerjs({id:"player1", file:"Sword_Art_Online_TV_2012_е01.mp4"});
                     </script>
-                    <h3>Серия 4</h3>
-                    <div id="player4"></div>
-                    <script>
-                        var player = new Playerjs({id:"player4", file:"Sword_Art_Online_TV_2012_е04.mp4",poster:"1.1.jpg"});
-                    </script>
-                    <h3>Серия 7</h3>
-                    <div id="player7"></div>
-                    <script>
-                        var player = new Playerjs({id:"player7", file:"Sword_Art_Online_TV_2012_е07.mp4",poster:"1.1.jpg"});
-                    </script>
-                    <h3>Серия 10</h3>
-                    <div id="player10"></div>
-                    <script>
-                        var player = new Playerjs({id:"player10", file:"Sword_Art_Online_TV_2012_е10.mp4",poster:"1.1.jpg"});
-                    </script>
-                    <h3>Серия 13</h3>
-                    <div id="player13"></div>
-                    <script>
-                        var player = new Playerjs({id:"player13", file:"Sword_Art_Online_TV_2012_е13.mp4",poster:"1.1.jpg"});
-                    </script>
-                </div>
-                <div>
+				</div>
+				<div>
                     <h3>Серия 2</h3>
                     <div id="player2"></div>
                     <script>
-                        var player = new Playerjs({id:"player2", file:"Sword_Art_Online_TV_2012_е02.mp4",poster:"1.1.jpg"});
+                        var player = new Playerjs({id:"player2", file:"Sword_Art_Online_TV_2012_е02.mp4"});
                     </script>
-                    <h3>Серия 5</h3>
-                    <div id="player5"></div>
-                    <script>
-                        var player = new Playerjs({id:"player5", file:"Sword_Art_Online_TV_2012_е05.mp4",poster:"1.1.jpg"});
-                    </script>
-                    <h3>Серия 8</h3>
-                    <div id="player8"></div>
-                    <script>
-                        var player = new Playerjs({id:"player8", file:"Sword_Art_Online_TV_2012_е08.mp4",poster:"1.1.jpg"});
-                    </script>
-                    <h3>Серия 11</h3>
-                    <div id="player11"></div>
-                    <script>
-                        var player = new Playerjs({id:"player11", file:"Sword_Art_Online_TV_2012_е11.mp4",poster:"1.1.jpg"});
-                    </script>
-                    <h3>Серия 14</h3>
-                    <div id="player14"></div>
-                    <script>
-                        var player = new Playerjs({id:"player14", file:"Sword_Art_Online_TV_2012_е14.mp4",poster:"1.1.jpg"});
-                    </script>
-                </div>
-                <div>
+				</div>
+				<div>
                     <h3>Серия 3</h3>
                     <div id="player3"></div>
                     <script>
-                        var player = new Playerjs({id:"player3", file:"Sword_Art_Online_TV_2012_е03.mp4",poster:"1.1.jpg"});
+                        var player = new Playerjs({id:"player3", file:"Sword_Art_Online_TV_2012_е03.mp4"});
                     </script>
+				</div>
+                <div>
+                    <h3>Серия 4</h3>
+                    <div id="player4"></div>
+                    <script>
+                        var player = new Playerjs({id:"player4", file:"Sword_Art_Online_TV_2012_е04.mp4"});
+                    </script>
+				</div>
+				<div>
+                    <h3>Серия 5</h3>
+                    <div id="player5"></div>
+                    <script>
+                        var player = new Playerjs({id:"player5", file:"Sword_Art_Online_TV_2012_е05.mp4"});
+                    </script>
+				</div>
+				<div>
                     <h3>Серия 6</h3>
                     <div id="player6"></div>
                     <script>
-                        var player = new Playerjs({id:"player6", file:"Sword_Art_Online_TV_2012_е06.mp4",poster:"1.1.jpg"});
+                        var player = new Playerjs({id:"player6", file:"Sword_Art_Online_TV_2012_е06.mp4"});
                     </script>
+				</div>
+                <div>
+                    <h3>Серия 7</h3>
+                    <div id="player7"></div>
+                    <script>
+                        var player = new Playerjs({id:"player7", file:"Sword_Art_Online_TV_2012_е07.mp4"});
+                    </script>
+				</div>
+				<div>
+                    <h3>Серия 8</h3>
+                    <div id="player8"></div>
+                    <script>
+                        var player = new Playerjs({id:"player8", file:"Sword_Art_Online_TV_2012_е08.mp4"});
+                    </script>
+				</div>
+				<div>
                     <h3>Серия 9</h3>
                     <div id="player9"></div>
                     <script>
-                        var player = new Playerjs({id:"player9", file:"Sword_Art_Online_TV_2012_е09.mp4",poster:"1.1.jpg"});
+                        var player = new Playerjs({id:"player9", file:"Sword_Art_Online_TV_2012_е09.mp4"});
                     </script>
+				</div>
+                <div>
+                    <h3>Серия 10</h3>
+                    <div id="player10"></div>
+                    <script>
+                        var player = new Playerjs({id:"player10", file:"Sword_Art_Online_TV_2012_е10.mp4"});
+                    </script>
+				</div>
+				<div>
+                    <h3>Серия 11</h3>
+                    <div id="player11"></div>
+                    <script>
+                        var player = new Playerjs({id:"player11", file:"Sword_Art_Online_TV_2012_е11.mp4"});
+                    </script>
+				</div>
+				<div>
                     <h3>Серия 12</h3>
                     <div id="player12"></div>
                     <script>
-                        var player = new Playerjs({id:"player12", file:"Sword_Art_Online_TV_2012_е12.mp4",poster:"1.1.jpg"});
+                        var player = new Playerjs({id:"player12", file:"Sword_Art_Online_TV_2012_е12.mp4"});
                     </script>
+				</div>
+                <div>
+                    <h3>Серия 13</h3>
+                    <div id="player13"></div>
+                    <script>
+                        var player = new Playerjs({id:"player13", file:"Sword_Art_Online_TV_2012_е13.mp4"});
+                    </script>
+                </div>
+                <div>
+                    <h3>Серия 14</h3>
+                    <div id="player14"></div>
+                    <script>
+                        var player = new Playerjs({id:"player14", file:"Sword_Art_Online_TV_2012_е14.mp4"});
+                    </script>
+                </div>
+                <div>
                     <h3>Серия 15</h3>
                     <div id="player15"></div>
                     <script>
-                        var player = new Playerjs({id:"player15", file:"Sword_Art_Online_TV_2012_е15.mp4",poster:"1.1.jpg"});
+                        var player = new Playerjs({id:"player15", file:"Sword_Art_Online_TV_2012_е15.mp4"});
                     </script>
                 </div>
+				<div>
+                    <h3>Серия 16</h3>
+                    <div id="player16"></div>
+                    <script>
+                        var player = new Playerjs({id:"player16", file:"Sword_Art_Online_TV_2012_е16.mp4"});
+                    </script>
+				</div>
+				<div>
+                    <h3>Серия 17</h3>
+                    <div id="player17"></div>
+                    <script>
+                        var player = new Playerjs({id:"player17", file:"Sword_Art_Online_TV_2012_е17.mp4"});
+                    </script>
+				</div>
+				<div>
+                    <h3>Серия 18</h3>
+                    <div id="player18"></div>
+                    <script>
+                        var player = new Playerjs({id:"player18", file:"Sword_Art_Online_TV_2012_е18.mp4"});
+                    </script>
+				</div>
+                <div>
+                    <h3>Серия 19</h3>
+                    <div id="player19"></div>
+                    <script>
+                        var player = new Playerjs({id:"player19", file:"Sword_Art_Online_TV_2012_е19.mp4"});
+                    </script>
+				</div>
+				<div>
+                    <h3>Серия 20</h3>
+                    <div id="player20"></div>
+                    <script>
+                        var player = new Playerjs({id:"player20", file:"Sword_Art_Online_TV_2012_е20.mp4"});
+                    </script>
+				</div>
+				<div>
+                    <h3>Серия 21</h3>
+                    <div id="player21"></div>
+                    <script>
+                        var player = new Playerjs({id:"player21", file:"Sword_Art_Online_TV_2012_е21.mp4"});
+                    </script>
+				</div>
+                <div>
+                    <h3>Серия 22</h3>
+                    <div id="player22"></div>
+                    <script>
+                        var player = new Playerjs({id:"player22", file:"Sword_Art_Online_TV_2012_е22.mp4"});
+                    </script>
+				</div>
+				<div>
+                    <h3>Серия 23</h3>
+                    <div id="player23"></div>
+                    <script>
+                        var player = new Playerjs({id:"player23", file:"Sword_Art_Online_TV_2012_е23.mp4"});
+                    </script>
+                </div>
+				<div>
+                    <h3>Серия 24</h3>
+                    <div id="player24"></div>
+                    <script>
+                        var player = new Playerjs({id:"player24", file:"Sword_Art_Online_TV_2012_е24.mp4"});
+                    </script>
+                </div>
+                <div>
+                    <h3>Серия 25</h3>
+                    <div id="player25"></div>
+                    <script>
+                        var player = new Playerjs({id:"player25", file:"Sword_Art_Online_TV_2012_е25.mp4"});
+                    </script>
+                </div>
+                
             </section>
-            <div>
-                <a href="sword_art_online_1_1.html" class="previous_series">Предыдущие серии</a>
-            </div>
         </section>
         <div class="adv">                                                                   <!--ADV-->
             <h5>(Здесь когда-нибудь будет реклама)</h5>
