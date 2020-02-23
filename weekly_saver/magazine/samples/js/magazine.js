@@ -340,7 +340,7 @@ function setPreview(view) {
 
 function largeMagazineWidth() {
 	
-	return 2214;
+	return 1414;
 
 }
 

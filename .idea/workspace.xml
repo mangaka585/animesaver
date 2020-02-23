@@ -1,445 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="Исправил дизайн просмотра серий аниме, сделал прелоадеры">
-      <change afterPath="$PROJECT_DIR$/images/Vanilla-1s-280px.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/jquery_code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/js/magazine_third.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/third/1-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/third/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/third/100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/third/2-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/third/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/third/3-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/third/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pics/3-magazine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/third.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/ao_no_exorcist/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/ao_no_exorcist/1.2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/ao_no_exorcist/ao_no_exorcist_1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/ao_no_exorcist/ao_no_exorcist_1_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/ao_no_exorcist/ao_no_exorcist_1_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/ao_no_exorcist/ao_no_exorcist_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/ao_no_exorcist/ao_no_exorcist_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/1.9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/arifureta/arifureta.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/arifureta/arifureta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.12.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/1.9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/2.9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/atack_on_titans.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/atack_on_titans/atack_on_titans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/atack_on_titans_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/atack_on_titans/atack_on_titans_season2.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/atack_on_titans/atack_on_titans_season2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/bakuman/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/bakuman/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/bakuman/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/bakuman/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/bakuman/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/bakuman/3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anime/bakuman/bakuman-season1.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/bakuman/bakuman-season1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/bakuman/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/bakuman/main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/bakuman/main.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/boku_no_hero_academia/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/boku_no_hero_academia/1.2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/boku_no_hero_academia/1.3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/boku_no_hero_academia/boku_no_hero_academia_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/boku_no_hero_academia/boku_no_hero_academia_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/boku_no_hero_academia/boku_no_hero_academia_2_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/boku_no_hero_academia/boku_no_hero_academia_2_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/boku_no_hero_academia/boku_no_hero_academia_2_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/boku_no_hero_academia/boku_no_hero_academia_3_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/boku_no_hero_academia/boku_no_hero_academia_3_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/boku_no_hero_academia/boku_no_hero_academia_3_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/1.9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/dr_stone.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/dr_stone/dr_stone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dr_stone/dr_stone_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/kimi_no/kimi_no.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/kimi_no/kimi_no.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/1.9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/klinok.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/klinok/klinok.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/klinok/klinok2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/koe_no_katachi/koe_no_katachi.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/koe_no_katachi/koe_no_katachi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/1.9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/mag_obmanchik/mag_obmanchik.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/mag_obmanchik/mag_obmanchik.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/1.10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/1.11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/1.2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/1.3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/1.4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/1.5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/1.6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/1.7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/1.8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/1.9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/otaku_love/otaku_love.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/otaku_love/otaku_love.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/sword_art_online/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/sword_art_online/1.2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/sword_art_online/1.3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/sword_art_online/sword_art_online_1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/sword_art_online/sword_art_online_1_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/sword_art_online/sword_art_online_1_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/sword_art_online/sword_art_online_2_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/sword_art_online/sword_art_online_2_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/sword_art_online/sword_art_online_2_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/sword_art_online/sword_art_online_3_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/sword_art_online/sword_art_online_3_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/sword_art_online/sword_art_online_3_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/tate_no/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/tate_no/tate_no.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/tate_no/tate_no.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/tate_no/tate_no_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/1.9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/vnuk_mudretsa/vnuk_mudretsa.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/vnuk_mudretsa/vnuk_mudretsa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_anime.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_anime.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/anime_pics/bakuman1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/anime_pics/bakuman1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_pages/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_pages/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playerjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/playerjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/jquery_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/jquery_code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver.html" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/css/magazine.css" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/css/magazine.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/1-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/1-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/128-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/128-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/128.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/129-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/129-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/129.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/129.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/130-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/130-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/130.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/130.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/131-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/131-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/131.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/131.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/132-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/132-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/132.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/132.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/133-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/133-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/133.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/133.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/134-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/134-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/134.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/134.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/135-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/135-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/135.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/135.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/136-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/136-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/136.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/136.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/137-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/137-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/137.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/137.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/138-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/138-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/138.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/138.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/139-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/139-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/139.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/139.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/140-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/140-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/140.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/140.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/2-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/2-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/3-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/3-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/56-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/56-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/first/56.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/1-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/1-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/10-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/10-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/100-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/100-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/100.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/100.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/101-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/101-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/101.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/101.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/102-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/102-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/102.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/102.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/103-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/103-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/103.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/103.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/104-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/104-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/104.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/104.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/11-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/11-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/12-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/12-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/13-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/13-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/14-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/14-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/15-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/15-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/16-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/16-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/17-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/17-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/18-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/18-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/19-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/19-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/2-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/2-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/20-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/20-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/21-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/21-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/22-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/22-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/23-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/23-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/24-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/24-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/25-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/25-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/25.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/26-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/26-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/26.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/27-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/27-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/27.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/28-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/28-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/28.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/29-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/29-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/29.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/3-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/3-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/30-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/30-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/30.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/31-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/31-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/31.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/32-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/32-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/32.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/33-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/33-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/33.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/34-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/34-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/34.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/35-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/35-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/35.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/36-large" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/36-large" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/36.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/37-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/37-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/37.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/38-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/38-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/38.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/39-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/39-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/39.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/4-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/4-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/40-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/40-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/40.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/41-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/41-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/41.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/41.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/42-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/42-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/42.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/43-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/43-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/43.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/44-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/44-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/44.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/45-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/45-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/45.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/46-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/46-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/46.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/47-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/47-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/47.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/48-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/48-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/48.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/49-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/49-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/49.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/49.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/5-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/5-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/50-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/50-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/50.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/51-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/51-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/51.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/52-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/52-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/52.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/53-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/53-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/53.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/53.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/54-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/54-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/54.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/54.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/55-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/55-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/55.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/56-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/56-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/56.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/57-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/57-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/57.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/58-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/58-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/58.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/58.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/59-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/59-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/59.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/59.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/6-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/6-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/60-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/60-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/60.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/60.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/61-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/61-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/61.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/61.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/62-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/62-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/62.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/62.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/63-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/63-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/63.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/63.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/64-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/64-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/64.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/64.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/65-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/65-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/65.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/65.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/66-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/66-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/66.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/66.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/67-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/67-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/67.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/68-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/68-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/68.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/68.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/69-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/69-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/69.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/69.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/7-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/7-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/70-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/70-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/70.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/70.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/71-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/71-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/71.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/71.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/72-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/72-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/72.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/72.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/73-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/73-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/73.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/73.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/74-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/74-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/74.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/74.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/75-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/75-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/75.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/75.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/76-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/76-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/76.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/76.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/77-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/77-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/77.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/77.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/78-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/78-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/78.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/78.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/79-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/79-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/79.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/79.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/8-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/8-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/80-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/80-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/80.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/80.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/81-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/81-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/81.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/81.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/82-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/82-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/82.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/82.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/83-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/83-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/83.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/83.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/84-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/84-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/84.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/84.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/85-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/85-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/85.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/86-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/86-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/86.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/86.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/87-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/87-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/87.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/87.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/88-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/88-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/88.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/88.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/89-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/89-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/89.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/89.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/9-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/9-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/90-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/90-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/90.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/90.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/91-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/91-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/91.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/91.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/92-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/92-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/92.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/92.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/93-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/93-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/93.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/93.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/94-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/94-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/94.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/94.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/95-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/95-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/95.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/95.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/96-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/96-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/96.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/96.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/97-large" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/97-large" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/97.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/97.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/98-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/98-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/98.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/98.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/99-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/99-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/99.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pages/second/99.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pics/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pics/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pics/first_magazine.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pics/first_magazine.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pics/magazine_background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pics/magazine_background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pics/rotate1.png" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pics/rotate1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/pics/second_magazine.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/pics/second_magazine.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/js/magazine.js" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/js/magazine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/js/magazine_second.js" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/js/magazine_second.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weekly_saver/magazine/samples/second.html" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_saver/magazine/samples/second.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -479,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/anime/arifureta" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/weekly_saver/magazine/samples/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -490,19 +73,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/weekly_saver/magazine/samples/js" />
+      <recent name="$PROJECT_DIR$/weekly_saver/magazine/samples" />
+      <recent name="$PROJECT_DIR$/anime/arifureta" />
+      <recent name="C:\Users\777\Desktop\Animesaver\css" />
+      <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/anime/scripts" />
       <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver\Second" />
       <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver\First" />
       <recent name="C:\Users\777\Desktop\Animesaver" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/anime/arifureta" />
-      <recent name="$PROJECT_DIR$/weekly_saver/magazine/samples/js" />
-      <recent name="C:\Users\777\Desktop\Animesaver\css" />
-      <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver" />
-      <recent name="C:\Users\777\Desktop\Animesaver\anime\atack_on_titans" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -597,7 +180,10 @@
       <workItem from="1581976871873" duration="228000" />
       <workItem from="1582143294019" duration="7608000" />
       <workItem from="1582229198541" duration="7142000" />
-      <workItem from="1582370043972" duration="878000" />
+      <workItem from="1582370043972" duration="1563000" />
+      <workItem from="1582380555090" duration="673000" />
+      <workItem from="1582383446629" duration="2817000" />
+      <workItem from="1582455595309" duration="11131000" />
     </task>
     <task id="LOCAL-00001" summary=" Добавил те страницы, которые отправила дизайнер и переписал страницу журнала, т.к. их число увеличилось и теперь 136">
       <created>1580677786270</created>
@@ -669,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581975581675</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Исправил дизайн просмотра серий аниме, сделал прелоадеры">
+      <created>1582371048938</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582371048938</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -703,11 +296,11 @@
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="383" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/35.27.1331.741@35.27.1331.741" timestamp="1580550820148" />
-    <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2" timestamp="1582370989821">
+    <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2" timestamp="1582491730735">
       <screen x="38" y="27" width="1328" height="741" />
     </state>
     <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1581975580276" />
-    <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2/38.27.1328.741@38.27.1328.741" timestamp="1582370989821" />
+    <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2/38.27.1328.741@38.27.1328.741" timestamp="1582491730735" />
     <state x="214" y="38" key="SettingsEditor" timestamp="1581179267702">
       <screen x="35" y="27" width="1331" height="741" />
     </state>

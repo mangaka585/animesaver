@@ -48,7 +48,7 @@ function loadPage(page, pageElement) {
 
 	// Load the page
 
-	img.attr('src', 'pages/second/' +  page + '.jpg');
+	img.attr('src', 'pages/third/' +  page + '.jpg');
 
 	loadRegions(page, pageElement);
 
@@ -78,7 +78,7 @@ function zoomTo(event) {
 
 function loadRegions(page, element) {
 
-	$.getJSON('pages/second/'+page+'-regions.json').
+	$.getJSON('pages/third/'+page+'-regions.json').
 		done(function(data) {
 
 			$.each(data, function(key, region) {
@@ -179,7 +179,7 @@ function loadLargePage(page, pageElement) {
 
 	// Loadnew page
 	
-	img.attr('src', 'pages/second/' +  page + '-large.jpg');
+	img.attr('src', 'pages/third/' +  page + '-large.jpg');
 }
 
 // Load small page
@@ -193,7 +193,7 @@ function loadSmallPage(page, pageElement) {
 	img.unbind('load');
 	// Loadnew page
 
-	img.attr('src', 'pages/second/' +  page + '.jpg');
+	img.attr('src', 'pages/third/' +  page + '.jpg');
 }
 
 // http://code.google.com/p/chromium/issues/detail?id=128488

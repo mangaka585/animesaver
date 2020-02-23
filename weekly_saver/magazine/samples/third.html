@@ -18,7 +18,7 @@
 </head>
 <body>
 <div class="preloader">
-	<div class="preloader__image"></div>
+  <div class="preloader__image"></div>
 </div>
 
 <div class="rotate">
@@ -38,32 +38,20 @@
 <div class="zoom-icon zoom-icon-in"></div>
 
 <div class="magazine-viewport">
-	<div class="navigation">
-		<button onclick="myFunction()" class="navigation_button">НАВИГАЦИЯ</button>
-		<div id="navigation" class="nav-content">
-			<ul>
-				<li><a href="#page/1">Обложка</a></li>
-				<li><a href="#page/2">Содержание</a></li>
-				<li><a href="#page/4">Хроники Орбереса. Джин и Ева : Глава 1</a></li>
-				<li><a href="#page/30">Death : Глава 1</a></li>
-				<li><a href="#page/44">Death : Глава 2</a></li>
-				<li><a href="#page/60">Death : Глава 3</a></li>
-				<li><a href="#page/80">Интервью с автором "Death"</a></li>
-				<li><a href="#page/90">Путник : Сингл</a></li>
-				<li><a href="#page/128">Аниме-новости</a></li>
-				<li><a href="#page/138">Рецензия</a></li>
+
+	<div class="overlay">
+		<nav class="overlayMenu">
+			<ul role="menu">
+				<li><a href="#page/1" role="menuitem">Обложка</a></li>
+				<li><a href="#page/2" role="menuitem">Содержание</a></li>
+				<li><a href="#page/10" role="menuitem">Аниме-новости</a></li>
+				<li><a href="#page/16" role="menuitem">Kot and Shprot</a></li>
+				<li><a href="#page/62" role="menuitem">Хроники Орбереса</a></li>
+				<li><a href="#page/74" role="menuitem">Death</a></li>
 			</ul>
-			<div class="description_of_magazine">
-				<p> Ссылки на авторов: </p>
-				<span>Редактор : <a href="https://vk.com/igarashikuro"> Георгий Т.</a></span><br>
-				<span>Хроники  : <a href="https://vk.com/id168084791"> Анна П.</a></span><br>
-				<span>Хроники  : <a href="https://vk.com/id39358434"> Мария Х.</a></span><br>
-				<span>Death  : <a href="https://vk.com/sophie_laurel"> Sophie L.</a></span><br>
-				<span>Путник  : <a href="https://vk.com/azumi_lee"> Азуми Ли</a></span><br>
-				<span>Dev.  : <a href="https://vk.com/maybelaterwewill"> Александр Т.</a></span>
-			</div>
-		</div>
+		</nav>
 	</div>
+	<div class="navBurger" role="navigation" id="navToggle"><span>НАВИГАЦИЯ</span></div>
 	<div class="dropdown">
 		<div class="link_buttons">
 			<a href="../../../index.html">ГЛАВНАЯ</a>
@@ -81,7 +69,6 @@
 </div>
 </div>
 
-
 <script type="text/javascript">
 
 window.onload = function () {
@@ -98,19 +85,19 @@ function loadApp() {
  	var flipbook = $('.magazine');
 
  	// Check if the CSS was already loaded
-	
+
 	if (flipbook.width()==0 || flipbook.height()==0) {
 		setTimeout(loadApp, 10);
 		return;
 	}
-	
+
 	// Create the flipbook
 
 	flipbook.turn({
-			
+
 			// Magazine width
 
-			width: 922,
+			width: 891,
 
 			// Magazine height
 
@@ -127,7 +114,7 @@ function loadApp() {
 			// Enables gradients
 
 			gradients: true,
-			
+
 			// Auto center this flipbook
 
 			autoCenter: true,
@@ -138,17 +125,17 @@ function loadApp() {
 
 			// The number of pages
 
-			pages: 140,
+			pages: 106,
 
 			// Events
 
 			when: {
 				turning: function(event, page, view) {
-					
+
 					var book = $(this),
 					currentPage = book.turn('page'),
 					pages = book.turn('pages');
-			
+
 					// Update the current URI
 
 					Hash.go('page/' + page).update();
@@ -156,7 +143,7 @@ function loadApp() {
 					// Show and hide navigation buttons
 
 					disableControls(page);
-					
+
 
 					$('.thumbnails .page-'+currentPage).
 						parent().
@@ -176,7 +163,7 @@ function loadApp() {
 
 					$(this).turn('center');
 
-					if (page==1) { 
+					if (page==1) {
 						$(this).turn('peel', 'br');
 					}
 
@@ -199,11 +186,11 @@ function loadApp() {
 	$('.magazine-viewport').zoom({
 		flipbook: $('.magazine'),
 
-		max: function() { 
-			
+		max: function() {
+
 			return largeMagazineWidth()/$('.magazine').width();
 
-		}, 
+		},
 
 		when: {
 
@@ -214,7 +201,7 @@ function loadApp() {
 			},
 
 			swipeRight: function() {
-				
+
 				$(this).zoom('flipbook').turn('previous');
 
 			},
@@ -234,7 +221,7 @@ function loadApp() {
 				$('.made').hide();
 				$('.magazine').removeClass('animated').addClass('zoom-in');
 				$('.zoom-icon').removeClass('zoom-icon-in').addClass('zoom-icon-out');
-				
+
 				if (!window.escTip && !$.isTouch) {
 					escTip = true;
 
@@ -268,8 +255,7 @@ function loadApp() {
 
 	if ($.isTouch)
 		$('.magazine-viewport').bind('zoom.tap', zoomTo);
-	/*Верхняя строчка была doubleTap вместо Tap и работало увеличение при нажатии на страницу
-	else
+	/*else
 		$('.magazine-viewport').bind('zoom.tap', zoomTo);*/
 
 
@@ -295,15 +281,15 @@ function loadApp() {
 
 			break;
 			case esc:
-				
-				$('.magazine-viewport').zoom('zoomOut');	
+
+				$('.magazine-viewport').zoom('zoomOut');
 				e.preventDefault();
 
 			break;
 		}
 	});
 
-	// URIs - Format #/page/1 
+	// URIs - Format #/page/1
 
 	Hash.on('^page\/([0-9]*)$', {
 		yep: function(path, parts) {
@@ -332,28 +318,28 @@ function loadApp() {
 	// Events for thumbnails
 
 	$('.thumbnails').click(function(event) {
-		
+
 		var page;
 
 		if (event.target && (page=/page-([0-9]+)/.exec($(event.target).attr('class'))) ) {
-		
+
 			$('.magazine').turn('page', page[1]);
 		}
 	});
 
 	$('.thumbnails li').
 		bind($.mouseEvents.over, function() {
-			
+
 			$(this).addClass('thumb-hover');
 
 		}).bind($.mouseEvents.out, function() {
-			
+
 			$(this).removeClass('thumb-hover');
 
 		});
 
 	if ($.isTouch) {
-	
+
 		$('.thumbnails').
 			addClass('thumbanils-touch').
 			bind($.mouseEvents.move, function(event) {
@@ -390,47 +376,47 @@ function loadApp() {
 	// Events for the next button
 
 	$('.next-button').bind($.mouseEvents.over, function() {
-		
+
 		$(this).addClass('next-button-hover');
 
 	}).bind($.mouseEvents.out, function() {
-		
+
 		$(this).removeClass('next-button-hover');
 
 	}).bind($.mouseEvents.down, function() {
-		
+
 		$(this).addClass('next-button-down');
 
 	}).bind($.mouseEvents.up, function() {
-		
+
 		$(this).removeClass('next-button-down');
 
 	}).click(function() {
-		
+
 		$('.magazine').turn('next');
 
 	});
 
 	// Events for the next button
-	
+
 	$('.previous-button').bind($.mouseEvents.over, function() {
-		
+
 		$(this).addClass('previous-button-hover');
 
 	}).bind($.mouseEvents.out, function() {
-		
+
 		$(this).removeClass('previous-button-hover');
 
 	}).bind($.mouseEvents.down, function() {
-		
+
 		$(this).addClass('previous-button-down');
 
 	}).bind($.mouseEvents.up, function() {
-		
+
 		$(this).removeClass('previous-button-down');
 
 	}).click(function() {
-		
+
 		$('.magazine').turn('previous');
 
 	});
@@ -444,19 +430,19 @@ function loadApp() {
 
 // Zoom icon
 
- $('.zoom-icon').bind('mouseover', function() { 
- 	
+ $('.zoom-icon').bind('mouseover', function() {
+
  	if ($(this).hasClass('zoom-icon-in'))
  		$(this).addClass('zoom-icon-in-hover');
 
  	if ($(this).hasClass('zoom-icon-out'))
  		$(this).addClass('zoom-icon-out-hover');
- 
- }).bind('mouseout', function() { 
- 	
+
+ }).bind('mouseout', function() {
+
  	 if ($(this).hasClass('zoom-icon-in'))
  		$(this).removeClass('zoom-icon-in-hover');
- 	
+
  	if ($(this).hasClass('zoom-icon-out'))
  		$(this).removeClass('zoom-icon-out-hover');
 
@@ -464,7 +450,7 @@ function loadApp() {
 
  	if ($(this).hasClass('zoom-icon-in'))
  		$('.magazine-viewport').zoom('zoomIn');
- 	else if ($(this).hasClass('zoom-icon-out'))	
+ 	else if ($(this).hasClass('zoom-icon-out'))
 		$('.magazine-viewport').zoom('zoomOut');
 
  });
@@ -478,10 +464,9 @@ yepnope({
 	test : Modernizr.csstransforms,
 	yep: ['../../lib/turn.js'],
 	nope: ['../../lib/turn.html4.min.js'],
-	both: ['../../lib/zoom.min.js', 'js/magazine.js', 'css/magazine.css'],
+	both: ['../../lib/zoom.min.js', 'js/magazine_third.js', 'css/magazine.css'],
 	complete: loadApp
 });
-
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */

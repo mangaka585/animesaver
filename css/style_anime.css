@@ -152,7 +152,6 @@ a:hover  {color: #10c9c3;}
 .video  h3  {margin-top: 10px;margin-bottom: 5px;text-align: center;color: #663399;}
 .video h3:hover{color:#10c9c3}
 .video div div   {
-    border: solid 1px #663399;
     padding: 5px;
     margin-bottom: 5px;
 }
