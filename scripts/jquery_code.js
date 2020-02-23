@@ -27,7 +27,6 @@ $( document ).ready(function() {
     "margin-top":"5px"
   });
   $(".player_window").css({
-    "display":"none",
     "width":"80%",
     "margin-left":"auto",
     "margin-right":"auto"

@@ -125,8 +125,8 @@ a:hover  {color: #10c9c3;}
     height: 720px;
     background: #F5FFFA;
 }
-.news_sidebar h3 {font-size: 0.95em;}
-.news_sidebar iframe    {
+.news_sidebar h3, .adv h3 {font-size: 0.95em;}
+.news_sidebar iframe, .adv iframe    {
     border: 0;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;

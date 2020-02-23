@@ -24,7 +24,6 @@ header {display: block;}
   background: #dfe9f3;
   z-index: 1001;
 }
-
 .preloader__image {
   position: relative;
   top: 45%;
@@ -35,12 +34,10 @@ header {display: block;}
   margin-left: -32px;
   background: url('../images/Vanilla-1s-280px.gif') no-repeat 50% 50%;
 }
-
 .loaded_hiding .preloader {
   transition: 0.3s opacity;
   opacity: 0;
 }
-
 .loaded .preloader {
   display: none;
 }
@@ -103,8 +100,8 @@ a:hover  {color: #10c9c3;}
     height: 720px;
     background: #F5FFFA;
 }
-.news_sidebar h3 {font-size: 0.95em;}
-.news_sidebar iframe    {
+.news_sidebar h3, .adv h3 {font-size: 0.95em;}
+.news_sidebar iframe, .adv iframe    {
     border: 0;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
@@ -134,7 +131,6 @@ a:hover  {color: #10c9c3;}
 .description_of_anime_info_2  {color: #787878; position: absolute; left: 350px; border-left: dotted 2px #787878;padding-left: 15px;}
 .images_of_anime {margin-left: 30px;}
 .images_of_anime img    {border: solid 1px #663399;margin-top: 30px;margin-right: 34px;float: left;}
-.video_element  {display: block;width: 250px;border: solid 1px black;height: 145px;}
 .video  {
     display: -webkit-flex;
     display: flex;
@@ -154,6 +150,7 @@ a:hover  {color: #10c9c3;}
 .video div div   {
     padding: 5px;
     margin-bottom: 5px;
+    display: none;
 }
 .adv    {                                                   /*ADV*/
     display: block;

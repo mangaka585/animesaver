@@ -1,7 +1,6 @@
 @font-face {							 /*Шрифт Presentscript-cyrillic*/
     font-family: "Presentscript-cyrillic";
     src: url("../fonts/presentscript-cyrillic.ttf");
-    src: url("../fonts/presentscript-cyrillic.eot?#iefix")format("embedded-opentype"),
     url("../fonts/presentscript-cyrillic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
@@ -9,7 +8,6 @@
 @font-face {							 /*Шрифт Futura-normal*/
     font-family: "Futura-normal";
     src: url("../fonts/futura-normal.ttf");
-    src: url("../fonts/futura-normalc.eot?#iefix")format("embedded-opentype"),
     url("../fonts/futura-normal.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
@@ -17,7 +15,6 @@
 @font-face {							 /*Шрифт Frutiger*/
     font-family: "Frutiger";
     src: url("../fonts/Frutiger.otf");
-    src: url("fonts/Frutiger.eot?#iefix")format("embedded-opentype"),
     url("../fonts/Frutiger.otf") format("truetype");
     font-style: normal;
     font-weight: normal;
@@ -93,8 +90,8 @@ a:hover  {color: #10c9c3;}
     height: 720px;
     background: #F5FFFA;
 }
-.news_sidebar h3 {font-size: 0.95em;}
-.news_sidebar iframe    {
+.news_sidebar h3, .adv h3 {font-size: 0.95em;}
+.news_sidebar iframe, .adv iframe    {
     border: 0;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
