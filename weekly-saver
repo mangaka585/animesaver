@@ -29,22 +29,22 @@
     <meta name="yandex-verification" content="067bb48ccc18ed4a" />
     <script data-ad-client="ca-pub-2868200501042308" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
-    <title>Weekly Saver | Animesaver</title>
+    <title>Weekly Saver | Первый еженедельник манги в России</title>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" async></script>
     <![endif]-->
     <link rel="stylesheet" href="css/style_wj.css">
-    <meta name="description" content="Читать мангу онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru Animesaver" />
-    <meta name="keywords" content="Читать мангу Онлайн бесплатно Атака Титанов Наруто Клинок Поджелудочную Доктор Стоун Так сложно любить отаку Animesaver анимесэйвер"/>
+    <meta name="description" content="Читать мангу онлайн на сайте еженедельного журнала" />
+    <meta name="keywords" content="Читать мангу Онлайн бесплатно Animesaver анимесэйвер"/>
 </head>
 <body>
 <div class="layout">
     <header class="navi">
-        <a href="index.html"><img src="images/favicon.png" alt="Logo of the site"></a>
+        <a href="weekly-saver"><img src="images/favicon_ws.png" alt="Logo of the site"></a>
         <div class="navigation">
             <a href="index.html">ГЛАВНАЯ</a>
             <a href="catalogue">КАТАЛОГ</a>
-			<a href="weekly_saver">ЖУРНАЛ WS</a>
+			<a href="weekly-saver">ЖУРНАЛ WS</a>
         </div>
     </header>
     <div class="ui">
@@ -53,10 +53,16 @@
     </div>
     <section class="body_layout">
 		<div class="manga_catalog">
-			<div>
-                <a href="ws/magazine/samples/index.html">
-                    <img src="ws/magazine/samples/pics/first_magazine.jpg" alt="1" />
-                    <h2>Выпуск #1 | 03.02.2020</h2>
+            <div>
+                <a href="ws/magazine/samples/fourth.html">
+                    <img src="ws/magazine/samples/pics/4-magazine.jpg" alt="4" />
+                    <h2>Выпуск #4 | 15.03.2020</h2>
+                </a>
+            </div>
+            <div>
+                <a href="ws/magazine/samples/third.html">
+                    <img src="ws/magazine/samples/pics/3-magazine.jpg" alt="3" />
+                    <h2>Выпуск #3 | 23.02.2020</h2>
                 </a>
             </div>
             <div>
@@ -65,10 +71,10 @@
                     <h2>Выпуск #2 | 15.02.2020</h2>
                 </a>
             </div>
-            <div>
-                <a href="ws/magazine/samples/third.html">
-                    <img src="ws/magazine/samples/pics/3-magazine.jpg" alt="3" />
-                    <h2>Выпуск #3 | 23.02.2020</h2>
+			<div>
+                <a href="ws/magazine/samples/index.html">
+                    <img src="ws/magazine/samples/pics/first_magazine.jpg" alt="1" />
+                    <h2>Выпуск #1 | 03.02.2020</h2>
                 </a>
             </div>
 		</div>

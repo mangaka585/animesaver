@@ -32,11 +32,11 @@
 </div>
 <div class="layout">
     <header class="navi">
-        <a href="index.html"><img src="images/favicon.png" alt="Logo of the site"></a>
+        <a href="index.html"><img src="images/favicon.png" alt="Logo of the site" /></a>
         <div class="navigation">
             <a href="index.html">ГЛАВНАЯ</a>
             <a href="catalogue">КАТАЛОГ</a>
-            <a href="weekly_saver">ЖУРНАЛ WS</a>
+            <a href="weekly-saver">ЖУРНАЛ WS</a>
         </div>
     </header>
     <div class="ui">

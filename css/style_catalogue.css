@@ -1,24 +1,5 @@
-@font-face {							 /*Шрифт Presentscript-cyrillic*/
-    font-family: "Presentscript-cyrillic";
-    src: url("../fonts/presentscript-cyrillic.ttf");
-    url("../fonts/presentscript-cyrillic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {							 /*Шрифт Futura-normal*/
-    font-family: "Futura-normal";
-    src: url("../fonts/futura-normal.ttf");
-    url("../fonts/futura-normal.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {							 /*Шрифт Frutiger*/
-    font-family: "Frutiger";
-    src: url("../fonts/Frutiger.otf");
-    url("../fonts/Frutiger.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Exo+2|Gloria+Hallelujah&display=swap');
+
 body    {margin: 0;background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);-webkit-text-size-adjust:none;}
 header {display: block;}
 .layout {
@@ -33,21 +14,20 @@ a {text-decoration: none;color: inherit;}
 }
 .navi img  {
     position: absolute;
-    top: 20px;
+    top: 5px;
     left: 80px;
+    width: 90px;
+    border: none;
 }
 .navigation {
-    font-family: 'Presentscript-cyrillic';
+    font-family: 'Exo 2', sans-serif;
     position: absolute;
     right: 50px;
     top: 40px;
 }
 .navigation a    {
     font-size: 14pt;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 7px 15px;
     margin-left: 15px;
     border: solid 1px #663399;
     border-radius: 5px;
@@ -64,14 +44,20 @@ a:hover  {color: #10c9c3;}
     position: relative;
 }
 .ui_1   {
-    font-family: 'Frutiger';
-    position:absolute;
-    font-size: 64pt;
-    left: 55px;
+    font-family: 'Gloria Hallelujah', cursive;
+    position: absolute;
+    font-size: 4.5em;
+    left: 95px;
     color: #10c9c3;
-    margin-top: 5px;
+    margin-top: -10px;
 }
-.ui_2   {font-size: 14pt; color: #787878;position: absolute;top: 80px;left: 90px;}
+.ui_2   {
+    font-size: 0.9em;
+    color: #787878;
+    position: absolute;
+    top: 85px;
+    left: 120px;
+}
 .body_layout    {
     display: block;
     position: relative;
@@ -108,43 +94,27 @@ a:hover  {color: #10c9c3;}
 .catalogue_of   {
     display: -webkit-flex;
     display: flex;
-    font-family: 'Futura-normal';
+    font-size: 0.7em;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .catalogue_of div   {
     width: 263px;
-    margin: 1px;
     background: #dfe9f3;
     border-top: solid 1px #663399;
-    margin-bottom: 15px;
+    margin: 1px 1px 15px;
 }
-.catalogue_of p    {
+.catalogue_of h2    {
     text-align: center;
     height: 43px;
     width: 263px;
     margin: 0;
-    font-size: 15pt;
     color: black;
 }
 .catalogue_of img   {
     padding-left: 32px;
     padding-right: 31px;
     padding-bottom: 3px;
-}
-.Watch_button   {
-    font-family: 'Futura-normal';
-    position: absolute;
-    font-size: 14pt;
-    right: 10px;
-    bottom: 10px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-image: linear-gradient(to right, #314755 0%, #004e92 100%);
-    border: solid 1px #663399;
-    border-radius: 5px;
 }
 .adv    {                                                   /*ADV*/
     display: block;
@@ -169,17 +139,25 @@ footer  {
     border-top-right-radius: 15px;
 }
 .flex-container {
-    /*генерирует flex-контейнер уровня блока*/
     display: -webkit-flex;
     display: flex;
     color: #787878;
     position: absolute;
-    left: 200px;
-    font-family: 'Futura-normal';
+    left: 100px;
+    font-family: 'Comfortaa', cursive;
     font-size: 10pt;
 }
-#Rights {margin-left: 150px;margin-top: 10px;}
+#Rights {
+    margin-left: 145px;
+    margin-top: 10px;
+}
 #Mellriart {margin-top: 23px;}
-#Piroll {color:#10c9c3;margin-top:20px;font-size: 12pt;width: 360px;}
+#Piroll {
+    color: #10c9c3;
+    margin-top: 25px;
+    font-size: 0.9em;
+    width: 360px;
+    margin-right: 80px;
+}
 
 

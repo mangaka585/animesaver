@@ -1,296 +1,574 @@
-@font-face {							 /*Шрифт Presentscript-cyrillic*/
-    font-family: "Presentscript-cyrillic";
-    src: url("../fonts/presentscript-cyrillic.ttf");
-    url("../fonts/presentscript-cyrillic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {							 /*Шрифт Futura-normal*/
-    font-family: "Futura-normal";
-    src: url("../fonts/futura-normal.ttf");
-    url("../fonts/futura-normal.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {							 /*Шрифт Frutiger*/
-    font-family: "Frutiger";
-    src: url("../fonts/Frutiger.otf");
-    url("../fonts/Frutiger.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-body    {margin: 0;background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);-webkit-text-size-adjust:none;}
-header {display: block;}
-.preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  background: #dfe9f3;
-  z-index: 1001;
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Exo+2|Gloria+Hallelujah&display=swap');
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    -webkit-text-size-adjust: none;
 }
 
-.preloader__image {
-  position: relative;
-  top: 45%;
-  left: 45%;
-  width: 300px;
-  height: 200px;
-  margin-top: -32px;
-  margin-left: -32px;
-  background: url('../images/Vanilla-1s-280px.gif') no-repeat 50% 50%;
+header {
+    display: block;
 }
 
-.loaded_hiding .preloader {
-  transition: 0.3s opacity;
-  opacity: 0;
+@media screen and (max-width: 768px) {
+    .layout {
+        margin: auto;
+        position: relative;
+    }
+
+    .preloader {
+        display: none
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .navi {
+        background-color: white;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        position: fixed;
+        border-bottom: solid 1px #dfe9f3;
+    }
+
+    .navi :first-child, .navi_mobile, .mobile_menu_button {
+        position: relative;
+        display: inline;
+    }
+
+    .navi :first-child {
+        left: 5%
+    }
+
+    .navi :first-child img, .navi_mobile img {
+        width: 43px
+    }
+
+    .navi_mobile {
+        left: 62%
+    }
+
+    .mobile_menu_button {
+        left: 40%;
+        bottom: 10px;
+        font-size: 2.1em;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    a:hover {
+        color: #10c9c3;
+    }
+
+    .ui {
+        display: none
+    }
+
+    .body_layout {
+        display: block;
+        position: relative;
+    }
+
+    .news_sidebar {
+        display: none
+    }
+
+    .adv {
+        display: none
+    }
+
+    .main_block {
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .main_block_element {
+        position: relative;
+        width: auto;
+        border-top: dashed 1px #10c9c3;
+        padding-left: 5%;
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .main_block_element img {
+        display: inline;
+        float: left;
+        width: 30%;
+        padding: 5px;
+        border: solid 1px #040404;
+        left: 5%;
+
+    }
+
+    .main_block_element_description p {
+        text-align: justify;
+        max-width: 61%;
+        font-size: 0.7em;
+        display: block;
+        padding-left: 35.5%;
+    }
+
+    .main_block_element_genre {
+        display: none
+    }
+
+    .main_block_element a h2 {
+        font-family: 'Comfortaa', cursive;
+        font-size: 0.8em;
+        color: #004e92;
+        padding: 10px;
+        border-radius: 5px;
+        border: solid 1px #004e92;
+        display: block;
+        margin-left: 35%;
+        max-width: 56%;
+        margin-top: 0;
+    }
+
+    .main_block_element a h2:hover {
+        color: #30cfd0;
+    }
+
+    .index_pages {
+        width: auto;
+        height: 35px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .index_pages_button {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 14pt;
+        color: white;
+        background: #004e92;
+        padding: 9px 11px;
+        border-radius: 5px;
+        margin-right: 5px;
+        border: solid 1px black;
+    }
+
+    .index_pages_button_current {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 14pt;
+        color: white;
+        background: #663399;
+        padding: 9px 11px;
+        border-radius: 5px;
+        margin-right: 5px;
+        border: solid 1px black;
+    }
+
+    .Watch_button {
+        display: block;
+        font-family: 'Comfortaa', cursive;
+        font-size: 0.8em;
+        margin-left: 70%;
+        bottom: 10px;
+        width: 20%;
+        padding: 7px 15px;
+        background-image: linear-gradient(to right, #314755 0%, #004e92 100%);
+        border: solid 1px #663399;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+    }
+
+    .top_of_anime {
+        display: none;
+    }
+
+    footer {
+        display: block;
+        height: 20px;
+        background: white;
+        bottom: 0;
+    }
+
+    .flex-container {
+
+        display: -webkit-flex;
+        display: flex;
+        color: #787878;
+        position: relative;
+        padding-left: 20%;
+        font-family: 'Comfortaa', cursive;
+        font-size: 0.8em;
+    }
+
+    #Rights {
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    #Mellriart {
+        display: none;
+    }
+
+    #Piroll {
+        display: none;
+    }
 }
 
-.loaded .preloader {
-  display: none;
-}
-.layout {
-    width: 1260px;
-    margin: auto;
-    position: relative;
-}
-a {text-decoration: none;color: inherit;}
-.navi  {
-    background: white;
-    height: 90px;
-}
-.navi img  {
-    position: absolute;
-    top: 20px;
-    left: 80px;
-}
-.navigation {
-    font-family: 'Presentscript-cyrillic';
-    position: absolute;
-    right: 50px;
-    top: 40px;
-}
-.navigation a    {
-    font-size: 14pt;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 15px;
-    border: solid 1px #663399;
-    border-radius: 5px;
-    color: black;
-}
-a:hover  {color: #10c9c3;}
-.ui {
-    display: block;
-    height: 356px;
-    width: auto;
-    background: url("../images/anime_pic.jpg");
-    border: solid 1px black;
-    border-radius: 15px;
-    position: relative;
-}
-.ui_1   {
-    font-family: 'Frutiger';
-    position:absolute;
-    font-size: 64pt;
-    left: 55px;
-    color: #10c9c3;
-    margin-top: 5px;
-}
-.ui_2   {font-size: 14pt; color: #787878;position: absolute;top: 80px;left: 90px;}
-.ui div {
-    margin-top: 120px;
-    margin-left: 100px;
-    width: 300px;
-}
-.body_layout    {
-    display: block;
-    position: relative;
-    min-height: 170vh;
-}
-.news_sidebar   {                                          /*News sidebar*/
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 200px;
-    left: 0;
-    color: #787878;
-    border: solid 1px #663399;
-    border-radius: 15px;
-    text-align: center;
-    height: 720px;
-    background: #F5FFFA;
-}
-.news_sidebar h3, .adv h3 {font-size: 0.95em;}
-.news_sidebar iframe, .adv iframe    {
-    border: 0;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-    width: 100%;
-    height: 650px;
-}
-.main_block {
-    display: block;
-    width: 800px;
-    margin-left: 230px;
-    margin-right: 230px;
-    margin-top: 25px;
-}
-.main_block_element {
-    position: relative;
-    display: block;
-    width: auto;
-    border-top: solid 1px #10c9c3;
-    padding-left: 30px;
-    padding-top: 30px;
-    margin-bottom: 30px;
-}
-.main_block_element img {
-    display: block;
-    float: left;
-    padding: 5px;
-    border: solid 1px #040404;
-    left: 30px;
-}
-.main_block_element_description {width: 600px;min-height: 310px;}
-.main_block_element_description p {text-align: justify;}
-.main_block_element_genre   {
-    display: block;
-    float: right;
-    right: 0;
-    width: 100px;
-    border-left: solid 1px #787878;
-    padding: 5px;
-    top: 50px;
-    min-height: 180px;
-}
-.main_block_element_genre h4    {margin-top: 10px;margin-bottom: 10px;}
-.main_block_element_genre span {font-size: 0.9em;}
-.main_block_element a h2  {
-    font-family: 'Futura-normal';
-    font-size: 16pt;
-    margin-top: 0;
-    margin-left: 200px;
-    color:#004e92;
-    width: 420px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    border: solid 1px #004e92;
-}
-.main_block_element a h2:hover {color: #30cfd0;}
-.main_block_element p   {margin-left: 202px;width: 428px;}
-.index_pages    {
-    width: auto;
-    height: 35px;
-    text-align: center;
-    margin-bottom: 5px;
-}
-.index_pages_button {
-    font-family: 'Presentscript-cyrillic';
-    font-size: 14pt;
-    color:white;
-    background:#004e92;
-    padding: 9px;
-    padding-left: 11px;
-    padding-right: 11px;
-    border-radius: 5px;
-    margin-right: 5px;
-    border: solid 1px black;
-}
-.index_pages_button_current {
-    font-family: 'Presentscript-cyrillic';
-    font-size: 14pt;
-    color:white;
-    background:#663399;
-    padding: 9px;
-    padding-left: 11px;
-    padding-right: 11px;
-    border-radius: 5px;
-    margin-right: 5px;
-    border: solid 1px black;
-}
-.Watch_button   {
-    display: block;
-    font-family: 'Futura-normal';
-    position: absolute;
-    font-size: 14pt;
-    right: 0;
-    bottom: 10px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-image: linear-gradient(to right, #314755 0%, #004e92 100%);
-    border: solid 1px #663399;
-    border-radius: 5px;
-    color: white;
-}
-.adv    {                                                   /*ADV*/
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 200px;
-    color: #787878;
-    border: solid 1px #663399;
-    border-radius: 15px;
-    text-align: center;
-    height: 720px;
-    background: #F5FFFA;
-}
-.top_of_anime   {
-    display: block;
-    position: absolute;
-    top: 730px;
-    left: 0;
-    width: 200px;
-    color: #787878;
-    border: solid 1px #663399;
-    border-radius: 15px;
-    height: auto;
-    background: #F5FFFA;
-}
-.top_of_anime h4  {
-    text-align: center;
-}
-.top_of_anime ul{
-    color: black;
-    width: 200px;
-    margin-left: 5px;
-    padding-left: 5px;
-}
-.top_of_anime li{
-    padding-top: 5px;
-    list-style-type: none;
-    font-size: 11pt;
-}
-footer  {
-    display: block;
-    height: 55px;
-    background: #040404;
-    bottom: 0;
-    border: solid 1px #040404;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-.flex-container {
-    /*генерирует flex-контейнер уровня блока*/
-    display: -webkit-flex;
-    display: flex;
-    color: #787878;
-    position: absolute;
-    left: 200px;
-    font-family: 'Futura-normal';
-    font-size: 10pt;
-}
-#Rights {margin-left: 150px;margin-top: 10px;}
-#Mellriart {margin-top: 23px;}
-#Piroll {color:#10c9c3;margin-top:20px;font-size: 12pt;width: 360px;}
+@media screen and (min-width: 769px) {
 
+    .preloader {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        background: #dfe9f3;
+        z-index: 1001;
+    }
+
+    .preloader__image {
+        position: relative;
+        top: 35%;
+        left: 40%;
+        width: 300px;
+        height: 200px;
+        margin-top: -32px;
+        margin-left: -32px;
+        background: url('../images/Vanilla-1s-280px.gif') no-repeat 50% 50%;
+    }
+
+    .loaded_hiding .preloader {
+        transition: 0.3s opacity;
+        opacity: 0;
+    }
+
+    .loaded .preloader {
+        display: none;
+    }
+
+    .layout {
+        width: 1260px;
+        margin: auto;
+        position: relative;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .navi {
+        background: white;
+        height: 90px;
+    }
+
+    .navi img {
+        position: absolute;
+        top: 5px;
+        left: 80px;
+        width: 90px;
+        border: none;
+    }
+
+    .navi_mobile {
+        display: none
+    }
+
+    .mobile_menu_button {
+        display: none;
+    }
+
+    .navigation {
+        font-family: 'Exo 2', sans-serif;
+        position: absolute;
+        right: 50px;
+        top: 40px;
+    }
+
+    .navigation a {
+        font-size: 14pt;
+        padding: 7px 15px;
+        margin-left: 15px;
+        border: solid 1px #663399;
+        border-radius: 5px;
+        color: black;
+    }
+
+    a:hover {
+        color: #10c9c3;
+    }
+
+    .ui {
+        display: block;
+        height: 356px;
+        width: auto;
+        background: url("../images/anime_pic.jpg");
+        border: solid 1px black;
+        border-radius: 15px;
+        position: relative;
+    }
+
+    .ui_1 {
+        font-family: 'Gloria Hallelujah', cursive;
+        position: absolute;
+        font-size: 4.5em;
+        left: 95px;
+        color: #10c9c3;
+        margin-top: -10px;
+    }
+
+    .ui_2 {
+        font-size: 0.9em;
+        color: #787878;
+        position: absolute;
+        top: 85px;
+        left: 120px;
+    }
+
+    .ui div {
+        margin-top: 120px;
+        margin-left: 100px;
+        width: 300px;
+    }
+
+    .body_layout {
+        display: block;
+        position: relative;
+        min-height: 170vh;
+    }
+
+    .news_sidebar { /*News sidebar*/
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 200px;
+        left: 0;
+        color: #787878;
+        border: solid 1px #663399;
+        border-radius: 15px;
+        text-align: center;
+        height: 720px;
+        background: #F5FFFA;
+    }
+
+    .news_sidebar h3, .adv h3 {
+        font-size: 0.95em;
+    }
+
+    .news_sidebar iframe, .adv iframe {
+        border: 0;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        height: 650px;
+    }
+
+    .main_block {
+        display: block;
+        width: 800px;
+        margin-left: 230px;
+        margin-right: 230px;
+        margin-top: 25px;
+    }
+
+    .main_block_element {
+        position: relative;
+        display: block;
+        width: auto;
+        border-top: solid 1px #10c9c3;
+        padding-left: 30px;
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .main_block_element img {
+        display: block;
+        float: left;
+        padding: 5px;
+        border: solid 1px #040404;
+        left: 30px;
+    }
+
+    .main_block_element_description {
+        width: 600px;
+        min-height: 310px;
+    }
+
+    .main_block_element_description p {
+        text-align: justify;
+        font-size: 0.9em;
+    }
+
+    .main_block_element_genre {
+        display: block;
+        float: right;
+        right: 0;
+        width: 100px;
+        border-left: solid 1px #787878;
+        padding: 5px;
+        top: 50px;
+        min-height: 180px;
+    }
+
+    .main_block_element_genre h4 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .main_block_element_genre span {
+        font-size: 0.9em;
+    }
+
+    .main_block_element a h2 {
+        font-family: 'Comfortaa', cursive;
+        font-size: 1em;
+        margin-top: 0;
+        margin-left: 200px;
+        color: #004e92;
+        width: 68%;
+        padding: 10px;
+        border-radius: 5px;
+        border: solid 1px #004e92;
+    }
+
+    .main_block_element a h2:hover {
+        color: #30cfd0;
+    }
+
+    .main_block_element p {
+        margin-left: 202px;
+        width: 428px;
+    }
+
+    .main_block_element img {
+        width: 150px;
+    }
+
+    .index_pages {
+        width: auto;
+        height: 35px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .index_pages_button {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 14pt;
+        color: white;
+        background: #004e92;
+        padding: 9px 11px;
+        border-radius: 5px;
+        margin-right: 5px;
+        border: solid 1px black;
+    }
+
+    .index_pages_button_current {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 14pt;
+        color: white;
+        background: #663399;
+        padding: 9px 11px;
+        border-radius: 5px;
+        margin-right: 5px;
+        border: solid 1px black;
+    }
+
+    .Watch_button {
+        display: block;
+        font-family: 'Comfortaa', cursive;
+        position: absolute;
+        font-size: 0.8em;
+        right: 0;
+        bottom: 10px;
+        padding: 7px 15px;
+        background-image: linear-gradient(to right, #314755 0%, #004e92 100%);
+        border: solid 1px #663399;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .adv { /*ADV*/
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200px;
+        color: #787878;
+        border: solid 1px #663399;
+        border-radius: 15px;
+        text-align: center;
+        height: 720px;
+        background: #F5FFFA;
+    }
+
+    .top_of_anime {
+        display: block;
+        position: absolute;
+        top: 730px;
+        left: 0;
+        width: 200px;
+        color: #787878;
+        border: solid 1px #663399;
+        border-radius: 15px;
+        height: auto;
+        background: #F5FFFA;
+    }
+
+    .top_of_anime h4 {
+        text-align: center;
+    }
+
+    .top_of_anime ul {
+        color: black;
+        width: 200px;
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+
+    .top_of_anime li {
+        padding-top: 5px;
+        list-style-type: none;
+        font-size: 11pt;
+    }
+
+    footer {
+        display: block;
+        height: 55px;
+        background: #040404;
+        bottom: 0;
+        border: solid 1px #040404;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        color: #787878;
+        position: absolute;
+        left: 100px;
+        font-family: 'Comfortaa', cursive;
+        font-size: 10pt;
+    }
+
+    #Rights {
+        margin-left: 145px;
+        margin-top: 10px;
+    }
+
+    #Mellriart {
+        margin-top: 23px;
+    }
+
+    #Piroll {
+        color: #10c9c3;
+        margin-top: 25px;
+        font-size: 0.9em;
+        width: 360px;
+        margin-right: 80px;
+    }
+}
 

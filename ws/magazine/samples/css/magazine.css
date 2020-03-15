@@ -13,13 +13,14 @@ html,body	{margin:0; padding:0;}
 		height: 100%;
 		width: 100%;
 		z-index:1005;
-		background: url(../pics/1.jpg) 100% 100% no-repeat;
+		background: url(../pics/1.jpg) 100% no-repeat;
 		background-size: cover;
 		position:absolute;
 		top:0;
 	}
 	.rotate img, .rotate p {position: absolute;bottom: 0.5%;}
 	.rotate p {right:15%;font-size: 2em;bottom: 2%;margin-bottom:0; padding:0;}
+	.rotate img{width: 70px;border:none}
 }
 
 body{
@@ -63,6 +64,10 @@ body{
 }
 
 @media all and (orientation: landscape) {
+
+	.rotate {
+		display: none
+	}
 
 	.navBurger {
 		position: fixed;

@@ -48,12 +48,15 @@ header {display: block;}
 }
 a {text-decoration: none;color: inherit;}
 .navi  {
+    background: white;
     height: 90px;
 }
-.navi img  {
+.navi :first-child img  {
     position: absolute;
-    top: 20px;
+    top: 5px;
     left: 80px;
+    width: 90px;
+    border: none;
 }
 .navigation {
     font-family: 'Presentscript-cyrillic';
