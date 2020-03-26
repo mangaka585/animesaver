@@ -4,7 +4,7 @@ window.onload = function () {
     document.body.classList.add('loaded');
     document.body.classList.remove('loaded_hiding');
   }, 1500);
-}
+};
 
 $( document ).ready(function() {
 
@@ -34,4 +34,18 @@ $( document ).ready(function() {
   $('.clickme').on("click", function(){
     $(this).next().toggle(100)
   });
+
+  var navigation = $('#mobile_nav');
+  $('.menu-icon').on("click", function (){
+    $(this).toggleClass('clicked');
+    if (navigation.is(':visible')) {
+      navigation.hide();
+      $('body').removeClass('stop-scrolling')
+    } else {
+      $('html, body').animate({ scrollTop: 0 }, 500);
+      navigation.show();
+      $('body').addClass('stop-scrolling').bind('touchmove', function(e){e.preventDefault()}).unbind('touchmove')
+    }
+  });
+
 });

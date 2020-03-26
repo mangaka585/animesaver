@@ -86,6 +86,7 @@ body{
 		transform: rotate(0deg);
 		-webkit-transition: all 0.25s ease-in-out;
 		transition: all 0.25s ease-in-out;
+		z-index: 1005;
 	}
 	.navBurger span {position: relative;left: 35px;bottom: 7px}
 	.navBurger:before, .navBurger:after {
@@ -162,24 +163,48 @@ body{
 		transform-origin: right bottom;
 	}
 	.overlay.open li:nth-of-type(2) {
+		-webkit-animation-delay: 0.3s;
+		animation-delay: 0.3s;
+	}
+	.overlay.open li:nth-of-type(3) {
+		-webkit-animation-delay: 0.35s;
+		animation-delay: 0.35s;
+	}
+	.overlay.open li:nth-of-type(4) {
+		-webkit-animation-delay: 0.4s;
+		animation-delay: 0.4s;
+	}
+	.overlay.open li:nth-of-type(5) {
+		-webkit-animation-delay: 0.45s;
+		animation-delay: 0.45s;
+	}
+	.overlay.open li:nth-of-type(6) {
 		-webkit-animation-delay: 0.5s;
 		animation-delay: 0.5s;
 	}
-	.overlay.open li:nth-of-type(3) {
+	.overlay.open li:nth-of-type(7) {
+		-webkit-animation-delay: 0.55s;
+		animation-delay: 0.55s;
+	}
+	.overlay.open li:nth-of-type(8) {
 		-webkit-animation-delay: 0.6s;
 		animation-delay: 0.6s;
 	}
-	.overlay.open li:nth-of-type(4) {
+	.overlay.open li:nth-of-type(9) {
+		-webkit-animation-delay: 0.65s;
+		animation-delay: 0.65s;
+	}
+	.overlay.open li:nth-of-type(10) {
 		-webkit-animation-delay: 0.7s;
 		animation-delay: 0.7s;
 	}
-	.overlay.open li:nth-of-type(5) {
+	.overlay.open li:nth-of-type(11) {
+		-webkit-animation-delay: 0.75s;
+		animation-delay: 0.75s;
+	}
+	.overlay.open li:nth-of-type(12) {
 		-webkit-animation-delay: 0.8s;
 		animation-delay: 0.8s;
-	}
-	.overlay.open li:nth-of-type(6) {
-		-webkit-animation-delay: 0.9s;
-		animation-delay: 0.9s;
 	}
 
 	.overlayMenu {
@@ -207,8 +232,8 @@ body{
 		border: 1px solid rgba(255, 255, 255, 0.09);
 		color: #fff;
 		text-decoration: none;
-		font-size: 1em;
-		padding: 10px 40px 10px 40px;
+		font-size: 0.95em;
+		padding: 5px 40px 5px 40px;
 		margin: 5px 0;
 		-webkit-transition: 0.2s;
 		transition: 0.2s;
@@ -404,7 +429,7 @@ body{
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		width: 922px;
+		width: 300px;
 		height: 600px;
 		margin: auto;
 	}

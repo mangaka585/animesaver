@@ -66,6 +66,7 @@ a:hover  {color: #10c9c3;}
     border: solid 1px black;
     border-radius: 15px;
     position: relative;
+    box-sizing: border-box;
 }
 .ui_1   {
     font-family: 'Frutiger';
