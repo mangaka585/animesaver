@@ -2,38 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ws/magazine/samples/css/magazine_4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/5/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/5/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/5/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/5/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/5/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/5/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/5/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/5/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/15-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/15.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_catalogue.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_catalogue.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_wj.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_wj.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_pages/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_pages/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_pages/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_pages/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/jquery_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/jquery_code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/css/magazine.css" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/css/magazine.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/fourth.html" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/fourth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/js/magazine_fourth.js" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/js/magazine_fourth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/128-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/128-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/128.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/129-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/129-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/129.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/129.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/130-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/130-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/130.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/130.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/151-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/151-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/151.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/151.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sword-art-online-season-3" beforeDir="false" afterPath="$PROJECT_DIR$/sword-art-online-season-3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly-saver" beforeDir="false" afterPath="$PROJECT_DIR$/weekly-saver" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +191,8 @@
       <workItem from="1584819777771" duration="24553000" />
       <workItem from="1584992865684" duration="1291000" />
       <workItem from="1585164774958" duration="1708000" />
-      <workItem from="1585255146746" duration="3640000" />
+      <workItem from="1585255146746" duration="4551000" />
+      <workItem from="1585340650047" duration="5515000" />
     </task>
     <task id="LOCAL-00001" summary=" Добавил те страницы, которые отправила дизайнер и переписал страницу журнала, т.к. их число увеличилось и теперь 136">
       <created>1580677786270</created>
@@ -323,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584309115643</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Написал мобильные версии для домашней и каталога, увеличил скорость загрузки исправил недочеты для поднятия в строке поиске у поисковиков">
+      <created>1585258946601</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585258946601</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +330,8 @@
     <MESSAGE value="Добавил новый мульт" />
     <MESSAGE value="Убрал из ссылок html" />
     <MESSAGE value="Новый выпуск плюс обновления дизайна и поправки для SEO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Новый выпуск плюс обновления дизайна и поправки для SEO" />
+    <MESSAGE value="Написал мобильные версии для домашней и каталога, увеличил скорость загрузки исправил недочеты для поднятия в строке поиске у поисковиков" />
+    <option name="LAST_COMMIT_MESSAGE" value="Написал мобильные версии для домашней и каталога, увеличил скорость загрузки исправил недочеты для поднятия в строке поиске у поисковиков" />
   </component>
   <component name="WindowStateProjectService">
     <state x="295" y="58" width="800" height="677" key="#Vim_Emulation" timestamp="1580680643109">
@@ -363,11 +347,11 @@
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="383" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/35.27.1331.741@35.27.1331.741" timestamp="1580550820148" />
-    <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2" timestamp="1585258945005">
+    <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2" timestamp="1585346337243">
       <screen x="38" y="27" width="1328" height="741" />
     </state>
     <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1581975580276" />
-    <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2/38.27.1328.741@38.27.1328.741" timestamp="1585258945005" />
+    <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2/38.27.1328.741@38.27.1328.741" timestamp="1585346337243" />
     <state x="214" y="38" key="SettingsEditor" timestamp="1581179267702">
       <screen x="35" y="27" width="1331" height="741" />
     </state>

@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -36,20 +37,44 @@
     <link rel="stylesheet" href="css/style_wj.css">
     <meta name="description" content="Читать мангу онлайн на сайте еженедельного журнала" />
     <meta name="keywords" content="Читать мангу Онлайн бесплатно Animesaver анимесэйвер"/>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="layout">
     <header class="navi">
-        <a href="weekly-saver"><img src="images/favicon_ws.png" alt="Logo of the site"></a>
+        <a href="index.html" class="animesaver_link"><img src="images/favicon.png" alt="Logo of the site"></a>
+
         <div class="navigation">
             <a href="index.html">ГЛАВНАЯ</a>
             <a href="catalogue">КАТАЛОГ</a>
 			<a href="weekly-saver">ЖУРНАЛ WS</a>
         </div>
+        <div class="container">                                                         <!--Navigation button for mobile-->
+            <div class="menu-icon">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        <a href="weekly-saver" class="weeklysaver_link"><img src="images/favicon_ws.png" alt="Logo of WS" /></a>
     </header>
+    <div id="mobile_nav" class="mobile_nav">
+        <ul>
+            <a href="index.html"><li>ГЛАВНАЯ</li></a>
+            <a href="weekly-saver"><li>ЖУРНАЛ WS</li></a>
+            <a href="catalogue"><li>КАТАЛОГ</li></a>
+        </ul>
+    </div>
     <div class="ui">
-        <p class="ui_1">Weekly Saver</p>
-        <p class="ui_2">Первый еженедельник манги в России!</p>
+        <h1 class="ui_1">Weekly Saver</h1>
+        <h2 class="ui_2">Первый еженедельник манги в России!</h2>
     </div>
     <section class="body_layout">
 		<div class="manga_catalog">

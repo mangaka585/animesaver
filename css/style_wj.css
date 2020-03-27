@@ -1,290 +1,453 @@
-@font-face {							 /*Шрифт Presentscript-cyrillic*/
-    font-family: "Presentscript-cyrillic";
-    src: url("../fonts/presentscript-cyrillic.ttf");
-    url("../fonts/presentscript-cyrillic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {							 /*Шрифт Futura-normal*/
-    font-family: "Futura-normal";
-    src: url("../fonts/futura-normal.ttf");
-    url("../fonts/futura-normal.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {							 /*Шрифт Frutiger*/
-    font-family: "Frutiger";
-    src: url("../fonts/Frutiger.otf");
-    url("../fonts/Frutiger.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-html,body	{margin:0; padding:0;}
-body    {background-image: linear-gradient(to top, #F08080 0%, white 60%);-webkit-text-size-adjust:none;}
-header {display: block;}
-.layout {
-    width: 1260px;
-    margin: auto;
-    text-align: center;
-    position: relative;
-}
-a {text-decoration: none;color: inherit;}
-.navi  {
-    background: white;
-    height: 90px;
-}
-.navi img  {
-    position: absolute;
-    top: 5px;
-    left: 80px;
-    width: 90px;
-    border: none;
-}
-.navigation {
-    font-family: 'Presentscript-cyrillic';
-    position: absolute;
-    right: 50px;
-    top: 40px;
-}
-.navigation a    {
-    font-size: 14pt;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 15px;
-    border: solid 1px #663399;
-    border-radius: 5px;
-    color: black;
-}
-a:hover  {color: #10c9c3;}
-.ui {
-    display: block;
-    height: 356px;
-    width: 100%;
-    background: url("../images/weekly_jump_pic.png") 100% 100%;
-    border: solid 1px black;
-    border-radius: 15px;
-    position: relative;
-    box-sizing: border-box;
-}
-.ui_1   {
-    font-family: 'Frutiger';
-    position:absolute;
-    font-size: 64pt;
-    left: 65px;
-	top: 60px;
-    color: #40B3B7;
-    margin-top: 5px;
-}
-.ui_2   {font-size: 18pt; color: #787878;position: absolute;top: 140px;left: 80px;}
-.ui div {
-    margin-top: 120px;
-    margin-left: 100px;
-    width: 300px;
-}
-.body_layout    {
-    display: block;
-    position: relative;
-    min-height: 170vh;
-}
-.manga_catalog {
-    box-sizing:border-box;
-    display: -webkit-flex;
-    display: flex;
-    color: black;
-    position: relative;
-    padding-left: 90px;
-	margin-top: 30px;
-	width: 100%;
-    font-family: 'Futura-normal';
-    font-size: 10pt;
-}
-.manga_catalog div	{
-	padding: 3px;
-	margin-right: 40px;
-}
-.manga_catalog div h2:hover {color: darkorange}
-.manga_catalog img {border: ridge 3px black;}
-.manga_catalog div h2 {text-align: center;margin-top: 5px; color: #10c9c3;font-size: 16pt;}
-.news_sidebar   {                                          /*News sidebar*/
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 200px;
-    left: 0;
-    color: #787878;
-    border: solid 1px #663399;
-    border-radius: 15px;
-    text-align: center;
-    height: 720px;
-    background: #F5FFFA;
-}
-.news_sidebar iframe    {
-    border: 0;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-    width: 100%;
-    height: 650px;
-}
-.main_block {
-    display: block;
-    width: 800px;
-    margin-left: 230px;
-    margin-right: 230px;
-    margin-top: 25px;
-}
-.main_block_element {
-    position: relative;
-    display: block;
-    width: auto;
-    border-top: solid 1px #10c9c3;
-    padding-left: 30px;
-    padding-top: 30px;
-    margin-bottom: 30px;
-}
-.main_block_element img {
-    display: block;
-    float: left;
-    padding: 5px;
-    border: solid 1px #040404;
-    left: 30px;
-}
-.main_block_element_description {width: 600px;min-height: 310px;}
-.main_block_element_genre   {
-    display: block;
-    float: right;
-    right: 0;
-    width: 100px;
-    border-left: solid 1px #787878;
-    padding: 5px;
-    top: 50px;
-    min-height: 180px;
-}
-.main_block_element_genre h4    {margin-top: 10px;margin-bottom: 10px;}
-.main_block_element a h2  {
-    font-family: 'Futura-normal';
-    font-size: 16pt;
-    margin-top: 0;
-    margin-left: 200px;
-    color:#004e92;
-    width: 420px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    border: solid 1px #004e92;
-}
-.main_block_element a h2:hover {color: #30cfd0;}
-.main_block_element p   {margin-left: 202px;width: 428px;}
-.index_pages    {
-    width: auto;
-    height: 35px;
-    text-align: center;
-    margin-bottom: 5px;
-}
-.index_pages_button {
-    font-family: 'Presentscript-cyrillic';
-    font-size: 14pt;
-    color:white;
-    background:#004e92;
-    padding: 9px;
-    padding-left: 11px;
-    padding-right: 11px;
-    border-radius: 5px;
-    margin-right: 5px;
-    border: solid 1px black;
-}
-.index_pages_button_current {
-    font-family: 'Presentscript-cyrillic';
-    font-size: 14pt;
-    color:white;
-    background:#663399;
-    padding: 9px;
-    padding-left: 11px;
-    padding-right: 11px;
-    border-radius: 5px;
-    margin-right: 5px;
-    border: solid 1px black;
-}
-.Watch_button   {
-    display: block;
-    font-family: 'Futura-normal';
-    position: absolute;
-    font-size: 14pt;
-    right: 0;
-    bottom: 10px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-image: linear-gradient(to right, #314755 0%, #004e92 100%);
-    border: solid 1px #663399;
-    border-radius: 5px;
-    color: white;
-}
-.adv    {                                                   /*ADV*/
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 200px;
-    color: #787878;
-    border: solid 1px #663399;
-    border-radius: 15px;
-    text-align: center;
-    height: 720px;
-    background: #F5FFFA;
-}
-.top_of_anime   {
-    display: block;
-    position: absolute;
-    top: 730px;
-    left: 0;
-    width: 200px;
-    color: #787878;
-    border: solid 1px #663399;
-    border-radius: 15px;
-    height: 310px;
-    background: #F5FFFA;
-}
-.top_of_anime h4  {
-    text-align: center;
-}
-.top_of_anime ul{
-    color: black;
-    width: 200px;
-    margin-left: 5px;
-    padding-left: 5px;
-}
-.top_of_anime li{
-    padding-top: 5px;
-    list-style-type: none;
-    font-size: 11pt;
-}
-footer  {
-    display: block;
-    height: 55px;
-    background: #040404;
-    bottom: 0;
-    border: solid 1px #040404;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-.flex-container {
-    /*генерирует flex-контейнер уровня блока*/
-    display: -webkit-flex;
-    display: flex;
-    color: #787878;
-    position: absolute;
-    left: 200px;
-    font-family: 'Futura-normal';
-    font-size: 10pt;
-}
-.sasuke	{background: url("../images/wj_bg_2.png") no-repeat; position: absolute; left: 40px;bottom: 50px;width: 250px; height:250px;padding: 0;z-index: -1;}
-.kisame	{background: url("../images/wj_bg_1.png") no-repeat; position: absolute; right: 40px;bottom: 50px;width: 250px; height:250px;padding: 0;z-index: -1;background-size: cover;}
-#Rights {margin-left: 150px;margin-top: 10px;}
-#Mellriart {margin-top: 23px;}
-#Piroll {color:#10c9c3;margin-top:20px;font-size: 12pt;width: 360px;}
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Exo+2|Gloria+Hallelujah&display=swap');
 
+html,
+body	{
+    margin:0;
+    padding:0;
+}
 
+body    {
+    -webkit-text-size-adjust:none;
+}
+
+header {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+
+    body    {
+        background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    }
+
+    .stop-scrolling {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .layout {
+        margin: auto;
+        position: relative;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .navi {
+        background-color: white;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        position: fixed;
+        border-bottom: solid 1px #dfe9f3;
+        height: 43px;
+    }
+
+    .navi :first-child,
+    .weeklysaver_link,
+    .mobile_menu_button {
+        display: inline-block;
+    }
+
+    .animesaver_link {
+        margin-left: 5%
+    }
+
+    .navi :first-child img, .weeklysaver_link img {
+        width: 43px
+    }
+
+    .weeklysaver_link {
+        margin-left: 26%
+    }
+
+    .visuallyHidden {
+        position: absolute;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        height: 1px; width: 1px;
+        margin: -1px; padding: 0; border: 0;
+    }
+
+    .container {
+        display: inline;
+    }
+
+    .menu-icon {
+        position: relative;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 30px;
+        height: 21px;
+        margin-left: 33%;
+    }
+    .menu-icon .dot {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 7px;
+        height: 7px;
+        background-color: #004e92;
+        border-radius: 7px;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transition: margin 0.4s ease 0.4s, width 0.4s ease;
+        -moz-transition: margin 0.4s ease 0.4s, width 0.4s ease;
+        -o-transition: margin 0.4s ease 0.4s, width 0.4s ease;
+        transition: margin 0.4s ease 0.4s, width 0.4s ease;
+    }
+    .menu-icon .dot:nth-of-type(1) {
+        margin-top: -10px;
+        margin-left: -12px;
+        -webkit-transform: translate(-50%, -50%) rotate(45deg);
+        -moz-transform: translate(-50%, -50%) rotate(45deg);
+        -ms-transform: translate(-50%, -50%) rotate(45deg);
+        -o-transform: translate(-50%, -50%) rotate(45deg);
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    .menu-icon .dot:nth-of-type(2) {
+        margin-top: -10px;
+        -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+        -moz-transform: translate(-50%, -50%) rotate(-45deg);
+        -ms-transform: translate(-50%, -50%) rotate(-45deg);
+        -o-transform: translate(-50%, -50%) rotate(-45deg);
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    .menu-icon .dot:nth-of-type(3) {
+        margin-top: -10px;
+        margin-left: 12px;
+    }
+    .menu-icon .dot:nth-of-type(4) {
+        margin-left: -12px;
+    }
+    .menu-icon .dot:nth-of-type(6) {
+        margin-left: 12px;
+    }
+    .menu-icon .dot:nth-of-type(7) {
+        margin-top: 10px;
+        margin-left: -12px;
+    }
+    .menu-icon .dot:nth-of-type(8) {
+        margin-top: 10px;
+    }
+    .menu-icon .dot:nth-of-type(9) {
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+    .menu-icon.clicked .dot {
+        -webkit-transition: margin 0.4s ease, width 0.4s ease 0.4s;
+        -moz-transition: margin 0.4s ease, width 0.4s ease 0.4s;
+        -o-transition: margin 0.4s ease, width 0.4s ease 0.4s;
+        transition: margin 0.4s ease, width 0.4s ease 0.4s;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .menu-icon.clicked .dot:nth-of-type(1) {
+        width: 30px;
+    }
+    .menu-icon.clicked .dot:nth-of-type(2) {
+        width: 30px;
+    }
+
+    .mobile_nav {
+        height: 100vh;
+        background-color: #004e92;
+        z-index: 1006;
+        color: black;
+        display: none;
+    }
+
+    .mobile_nav ul  {
+        position: relative;
+        top: 60px;
+        margin-left: 15%;
+        margin-right: 20%;
+        text-align: center;
+    }
+
+    .mobile_nav ul li   {
+        margin-top: 10px;
+        list-style-type: none;
+        font-size: 1em;
+        padding: 7px 15px;
+        border: solid 1px black;
+        border-radius: 5px;
+        color: #004e92;
+        background-color: white;
+    }
+
+    a:hover {
+        color: #10c9c3;
+    }
+
+    .body_layout {
+        display: block;
+        position: relative;
+    }
+
+    .manga_catalog {
+        box-sizing: border-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        color: black;
+        position: relative;
+        margin-top: 35px;
+        width: 100%;
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+    }
+
+    .manga_catalog div {
+        width: 90%;
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .manga_catalog img {
+        width: 70%;
+        border: ridge 3px black;
+    }
+
+    .manga_catalog div h2 {
+        border-bottom: solid 1px dodgerblue;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        color: #10c9c3;
+        font-size: 1em;
+        padding-bottom: 1%;
+    }
+
+    .manga_catalog div h2:hover {
+        color: darkorange
+    }
+
+    footer {
+        display: block;
+        height: 20px;
+        background: white;
+        bottom: 0;
+    }
+
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        color: #787878;
+        position: relative;
+        padding-left: 20%;
+        font-family: 'Comfortaa', cursive;
+        font-size: 0.8em;
+    }
+
+    #Rights {
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .ui,
+    .navigation,
+    #Mellriart,
+    #Piroll,
+    .sasuke,
+    .kisame {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    body    {
+        background-image: linear-gradient(to top, #F08080 0%, white 60%);
+    }
+
+    .container,
+    .animesaver_link,
+    .mobile_nav {
+        display: none;
+    }
+
+    .layout {
+        width: 1260px;
+        margin: auto;
+        text-align: center;
+        position: relative;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .navi {
+        background: white;
+        height: 90px;
+    }
+
+    .navi img {
+        position: absolute;
+        top: 5px;
+        left: 80px;
+        width: 90px;
+        border: none;
+    }
+
+    .navigation {
+        font-family: 'Exo 2', sans-serif;
+        position: absolute;
+        right: 50px;
+        top: 40px;
+    }
+
+    .navigation a {
+        font-size: 14pt;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 15px;
+        border: solid 1px #663399;
+        border-radius: 5px;
+        color: black;
+    }
+
+    a:hover {
+        color: #10c9c3;
+    }
+
+    .ui {
+        display: block;
+        height: 356px;
+        width: auto;
+        background: url("../images/weekly_jump_pic.png") 100% 100%;
+        border: solid 1px black;
+        border-radius: 15px;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    .ui_1 {
+        font-family: 'Gloria Hallelujah', cursive;
+        position: absolute;
+        font-size: 5em;
+        left: 95px;
+        color: #10c9c3;
+        margin-top: 30px;
+    }
+
+    .ui_2 {
+        font-size: 1.2em;
+        color: #787878;
+        position: absolute;
+        top: 180px;
+        left: 135px;
+    }
+
+    .body_layout {
+        display: block;
+        position: relative;
+        min-height: 170vh;
+    }
+
+    .manga_catalog {
+        box-sizing: border-box;
+        display: -webkit-flex;
+        display: flex;
+        color: black;
+        position: relative;
+        padding-left: 90px;
+        margin-top: 30px;
+        width: 100%;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .manga_catalog div {
+        padding: 3px;
+        margin-right: 40px;
+    }
+
+    .manga_catalog img {
+        border: ridge 3px black;
+    }
+
+    .manga_catalog div h2 {
+        text-align: center;
+        margin-top: 5px;
+        color: #10c9c3;
+        font-size: 1em;
+    }
+
+    .manga_catalog div h2:hover {
+        color: darkorange
+    }
+
+    footer {
+        display: block;
+        height: 55px;
+        background: #040404;
+        bottom: 0;
+        border: solid 1px #040404;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        color: #787878;
+        position: absolute;
+        left: 100px;
+        font-family: 'Comfortaa', cursive;
+        font-size: 10pt;
+    }
+
+    #Rights {
+        margin-left: 145px;
+        margin-top: 10px;
+    }
+
+    #Mellriart {
+        margin-top: 23px;
+    }
+
+    #Piroll {
+        color: #10c9c3;
+        margin-top: 25px;
+        font-size: 0.9em;
+        width: 360px;
+        margin-right: 80px;
+    }
+
+    .sasuke {
+        background: url("../images/wj_bg_2.png") no-repeat;
+        position: absolute;
+        left: 40px;
+        bottom: 50px;
+        width: 250px;
+        height: 250px;
+        padding: 0;
+        z-index: -1;
+    }
+
+    .kisame {
+        background: url("../images/wj_bg_1.png") no-repeat;
+        position: absolute;
+        right: 40px;
+        bottom: 50px;
+        width: 250px;
+        height: 250px;
+        padding: 0;
+        z-index: -1;
+        background-size: cover;
+    }
+}

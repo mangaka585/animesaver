@@ -21,10 +21,6 @@ header {
         position: relative;
     }
 
-    .preloader {
-        display: none
-    }
-
     a {
         text-decoration: none;
         color: inherit;
@@ -152,10 +148,6 @@ header {
         width: 30px;
     }
 
-    .navigation {
-        display: none;
-    }
-
     .mobile_nav {
         height: 100vh;
         background-color: #004e92;
@@ -187,21 +179,9 @@ header {
         color: #10c9c3;
     }
 
-    .ui {
-        display: none
-    }
-
     .body_layout {
         display: block;
         position: relative;
-    }
-
-    .news_sidebar {
-        display: none
-    }
-
-    .adv {
-        display: none
     }
 
     .main_block {
@@ -235,10 +215,6 @@ header {
         font-size: 0.7em;
         display: block;
         padding-left: 35.5%;
-    }
-
-    .main_block_element_genre {
-        display: none
     }
 
     .main_block_element a h2 {
@@ -302,10 +278,6 @@ header {
         text-align: center;
     }
 
-    .top_of_anime {
-        display: none;
-    }
-
     footer {
         display: block;
         height: 20px;
@@ -314,7 +286,6 @@ header {
     }
 
     .flex-container {
-
         display: -webkit-flex;
         display: flex;
         color: #787878;
@@ -329,11 +300,15 @@ header {
         margin-top: 5px;
     }
 
-    #Mellriart {
-        display: none;
-    }
-
-    #Piroll {
+    #Mellriart,
+    #Piroll,
+    .top_of_anime,
+    .main_block_element_genre,
+    .adv,
+    .news_sidebar,
+    .ui,
+    .navigation,
+    .preloader {
         display: none;
     }
 }
@@ -367,10 +342,6 @@ header {
         opacity: 0;
     }
 
-    .loaded .preloader {
-        display: none;
-    }
-
     .layout {
         width: 1260px;
         margin: auto;
@@ -395,15 +366,10 @@ header {
         border: none;
     }
 
-    .weeklysaver_link {
-        display: none
-    }
-
-    .mobile_nav {
-        display: none;
-    }
-
-    .container  {
+    .mobile_nav ,
+    .container,
+    .weeklysaver_link,
+    .loaded .preloader {
         display: none;
     }
 
@@ -452,12 +418,6 @@ header {
         position: absolute;
         top: 85px;
         left: 120px;
-    }
-
-    .ui div {
-        margin-top: 120px;
-        margin-left: 100px;
-        width: 300px;
     }
 
     .body_layout {

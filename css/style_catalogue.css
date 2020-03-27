@@ -144,7 +144,12 @@ body    {
         width: 30px;
     }
 
-    .navigation {
+    .navigation,
+    .ui,
+    .news_sidebar,
+    .adv,
+    #Mellriart,
+    #Piroll {
         display: none;
     }
 
@@ -179,17 +184,9 @@ body    {
         color: #10c9c3;
     }
 
-    .ui {
-        display: none
-    }
-
     .body_layout {
         display: block;
         position: relative;
-    }
-
-    .news_sidebar {
-        display: none
     }
 
     .main_block {
@@ -226,12 +223,7 @@ body    {
 
     .catalogue_of img {
         width: 98%;
-        padding: 1%;
-        padding-bottom: 0;
-    }
-
-    .adv {
-        display: none
+        padding: 1% 1% 0;
     }
 
     footer {
@@ -254,14 +246,6 @@ body    {
     #Rights {
         align-items: center;
         margin-top: 5px;
-    }
-
-    #Mellriart {
-        display: none;
-    }
-
-    #Piroll {
-        display: none;
     }
 }
 @media screen and (min-width: 769px) {
