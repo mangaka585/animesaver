@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async  type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
         ym(55604875, "init", {
             clickmap:true,
             trackLinks:true,
@@ -16,7 +15,6 @@
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
@@ -24,16 +22,11 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-149359628-1');
     </script>
     <meta name="yandex-verification" content="067bb48ccc18ed4a" />
-    <script data-ad-client="ca-pub-2868200501042308" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Weekly Saver | Первый еженедельник манги в России</title>
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" async></script>
-    <![endif]-->
     <link rel="stylesheet" href="css/style_wj.css">
     <meta name="description" content="Читать мангу онлайн на сайте еженедельного журнала" />
     <meta name="keywords" content="Читать мангу Онлайн бесплатно Animesaver анимесэйвер"/>

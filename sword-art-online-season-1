@@ -2,12 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
         ym(55604875, "init", {
             clickmap:true,
             trackLinks:true,
@@ -32,14 +32,37 @@
 </div>
 <div class="layout">
     <header class="navi">
-        <a href="index.html"><img src="images/favicon.png" alt="Logo of the site"></a>
+        <a href="index.html" class="animesaver_link"><img src="images/favicon.png" alt="Logo of the site"></a>
         <div class="navigation">
             <a href="index.html">ГЛАВНАЯ</a>
             <a href="catalogue">КАТАЛОГ</a>
             <a href="weekly-saver">ЖУРНАЛ WS</a>
         </div>
+        <div class="container">                                                         <!--Navigation button for mobile-->
+            <div class="menu-icon">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        <a href="weekly-saver" class="weeklysaver_link"><img src="images/favicon_ws.png" alt="Logo of WS" /></a>
     </header>
+    <div id="mobile_nav" class="mobile_nav">
+        <ul>
+            <a href="index.html"><li>ГЛАВНАЯ</li></a>
+            <a href="weekly-saver"><li>ЖУРНАЛ WS</li></a>
+            <a href="catalogue"><li>КАТАЛОГ</li></a>
+        </ul>
+    </div>
     <div class="ui">
+        <h1 class="ui_1">Animesaver</h1>
+        <h2 class="ui_2">Самый простой сайт по аниме в России!</h2>
     </div>
     <section class="body_layout">
         <div class="news_sidebar">                                                          <!--Sidebar-->
@@ -51,7 +74,7 @@
         <section class="description_of_anime">
             <img src="anime/sword_art_online/sword_logo.jpg" alt="Sword art online pic" />
             <div class="description_of_anime_text">
-                <h2>Мастера меча онлайн (1 сезон)<br>(Sword Art Online)</h2>
+                <h1>Мастера меча онлайн (1 сезон)<br>(Sword Art Online)</h1>
                 <p>
                     Старшеклассник Кадзуто Киригая в годовалом возрасте лишился обоих родителей в результате несчастного случая, попав на попечительство к тетке.
                     Будучи непримечательным школьником в повседневной жизни, дома его ждало увлекательное путешествие в фэнтезийный мир благодаря последнему слову инженерной мысли – шлему виртуальной реальности.

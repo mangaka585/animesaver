@@ -311,10 +311,7 @@ header {
 
     .navigation a {
         font-size: 14pt;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 7px 15px;
         margin-left: 15px;
         border: solid 1px #663399;
         border-radius: 5px;
