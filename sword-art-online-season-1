@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -15,14 +15,21 @@
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149359628-1');
+    </script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Мастера меча онлайн | Animesaver</title>
     <link rel="stylesheet" href="css/style_anime.css">
     <meta name="description" content="Мастера меча онлайн смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Наруто Клинок Поджелудочную Доктор Стоун Мастера меча онлайн"/>
-    <script src="playerjs.js" type="text/javascript"></script>
+    <script async src="playerjs.js" type="text/javascript"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
@@ -54,11 +61,11 @@
         <a href="weekly-saver" class="weeklysaver_link"><img src="images/favicon_ws.png" alt="Logo of WS" /></a>
     </header>
     <div id="mobile_nav" class="mobile_nav">
-        <ul>
-            <a href="index.html"><li>ГЛАВНАЯ</li></a>
-            <a href="weekly-saver"><li>ЖУРНАЛ WS</li></a>
-            <a href="catalogue"><li>КАТАЛОГ</li></a>
-        </ul>
+        <div class="navigation">
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="catalogue">КАТАЛОГ</a>
+            <a href="weekly-saver">ЖУРНАЛ WS</a>
+        </div>
     </div>
     <div class="ui">
         <h1 class="ui_1">Animesaver</h1>
@@ -76,14 +83,16 @@
             <div class="description_of_anime_text">
                 <h1>Мастера меча онлайн (1 сезон)<br>(Sword Art Online)</h1>
                 <p>
-                    Старшеклассник Кадзуто Киригая в годовалом возрасте лишился обоих родителей в результате несчастного случая, попав на попечительство к тетке.
-                    Будучи непримечательным школьником в повседневной жизни, дома его ждало увлекательное путешествие в фэнтезийный мир благодаря последнему слову инженерной мысли – шлему виртуальной реальности.
-                    Многопользовательская компьютерная игра с полным погружением Sword Art Online два месяца проводила бета-тест, куда и записался пытливый подросток.
-                    lВ момент релиза на сервере находилось 10 тысяч человек, не подозревающих о смертельной опасности.
-                    Создатель игры Акихико Каяба нарочно убрал из главного меню кнопку выхода, дабы воплотить на практике свои безумные идеи.
-                    Чтобы покинуть виртуальный мир, игрок должен пройти крепость Айнкрад от первого до финального уровня.
-                    Гибель на поле брани будет означать смерть в реальности, а попытка снятия шлема спровоцирует микроволновое излучение, что поджарит мозг носителя. Осознавая всю серьезность ситуации, школьник, скрывающийся под псевдонимом Кирито, выбрал путь одинокого мечника, желая скорее выполнить условия сумасшедшего разработчика.
-                    Объединившись с Асуной Юки из гильдии Рыцарей Крови, он был решительно настроен дойти до конца.
+                    Будучи самым обычным школьником в повседневной жизни, Кадзуто Киригая увлекался погружениями в мир
+                    фэнтези с помощью шлема виртуальной реальности, который дает возможность полностью прочувствовать
+                    все происходящее вокруг. Многопользовательская игра, которая называется Sword Art Online, два
+                    месяца проводила бета-тестирование, куда и записался главный герой аниме. В момент релиза в онлайне
+                    было 10 тысяч пользователей, которые совсем не подозревали о том, куда о попали на самом деле.
+                    Создатель игры Акихико Каябо специально убрал кнопку выхода из меню, чтобы воплотить в жизнь свой
+                    ужасный план, который заключался в том, что покинуть игру живым можно было только пройдя ее
+                    финальный уровень. Потеряв жизнь в игре, теряешь ее и в реальной жизни. Снять шлем тоже не получится,
+                    так как мозг будет поджарен микроволновым излучением. Кирито выбрал путь одинокого мечника и,
+                    объединившись с Асуной Юки из гильдии Рыцарей Крови, решительно настроился пройти игру до конца.
                 </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
@@ -304,8 +313,9 @@
             <div>
                 <p id="Piroll">Created by mangaka585@gmail.com</p>
             </div>
+            <div id="Mellriart">Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></div>
             <div id="Rights">
-                <p>&#169; 2019 Animesaver.ru. All rights reserved.</p>
+                <p>&#169; 2019 - 2020 Animesaver.ru. All rights reserved.</p>
             </div>
         </div>
     </footer>

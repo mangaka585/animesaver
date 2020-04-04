@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -15,14 +15,21 @@
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149359628-1');
+    </script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Синий Экзорцист | Animesaver</title>
     <link rel="stylesheet" href="css/style_anime.css">
     <meta name="description" content="Синий Экзорцист 2 сезон онлайн смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Наруто Клинок Поджелудочную Доктор Стоун Мастера меча онлайн Синий Экзорцист"/>
-    <script src="playerjs.js" type="text/javascript"></script>
+    <script async src="playerjs.js" type="text/javascript"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
@@ -76,10 +83,11 @@
             <div class="description_of_anime_text">
                 <h1>Синий Экзорцист (2 сезон)<br>(Ao no Exorcist)</h1>
                 <p>
-                    Продолжение популярного сериала. В этот раз будет показана арка оригинальной манги "Нечестивый король Киото".
-                    Глаз Нечистого Короля украден из секретной комнаты в Академии. Рин и его друзья отправляются в Киото, где находится второй глаз.
-                    Долг семьи Рюджи - защита второго артефакта.
-                    Ведь если собрать вместе оба глаза, демоническая сущность вернет к жизни тысячи мертвых.
+                    Второй сезон расскажет нам историю о том, как из секретной комнаты Академии был украден глаз
+                    Нечестивого Короля - одного из величайших демонов в истории, который истребил огромное количество
+                    человеческого населения. Рин с друзьями отправляются в Киото, чтобы не дать злоумышленникам
+                    завладеть вторым глазом, потому что, собрав два глаза вместе, будут возрождены тысячи мертвых,
+                    и тогда уже проблема приобретет совсем другой масштаб...
                 </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">

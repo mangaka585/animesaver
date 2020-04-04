@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -15,14 +15,21 @@
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149359628-1');
+    </script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Арифурэта: Сильнейший ремесленник в мире | Animesaver</title>
     <link rel="stylesheet" href="css/style_anime.css">
     <meta name="description" content="Арифурэта: Сильнейший ремесленник в мире аниме смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Атака Титанов Наруто Клинок Поджелудочную Доктор Стоун Арифурэта: Сильнейший ремесленник в мире Сэйвер Anime Saver Animesaver"/>
-    <script src="playerjs.js" type="text/javascript"></script>
+    <script async src="playerjs.js" type="text/javascript"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
@@ -55,9 +62,9 @@
     </header>
     <div id="mobile_nav" class="mobile_nav">
         <ul>
-            <a href="index.html"><li>ГЛАВНАЯ</li></a>
-            <a href="weekly-saver"><li>ЖУРНАЛ WS</li></a>
-            <a href="catalogue"><li>КАТАЛОГ</li></a>
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="weekly-saver">ЖУРНАЛ WS</a></li>
+            <li><a href="catalogue">КАТАЛОГ</a></li>
         </ul>
     </div>
     <div class="ui">
@@ -76,10 +83,12 @@
             <div class="description_of_anime_text">
                 <h1>Арифурэта: Сильнейший ремесленник в мире<br>(Arifureta Shokugyou de Sekai Saikyou)</h1>
                 <p>
-                    17-летний Хадзимэ Нагумо мало чем может похвастать: по ночам играет, а в школе только и делает, что спит.
-                    Всё изменилось в одночасье, когда его вместе со всем классом призвали в другой мир.
-                    Правда, Хадзимэ не отличился и здесь. Пока одноклассники один за другим открывали невероятные по меркам нового мира способности, он обзавёлся лишь бесполезным ремесленным классом Синергист.
-                    Казалось бы, всё потеряно, и здесь он так и останется никем, но глубины преисподней и предательство тех, кому он доверял, помогают юноше найти применение своему заурядному таланту.
+                    Хадзимэ Нагумо ничем не отличается от стандартных ленивых школьников, он всю ночь напролет играет,
+                    а в школе во время уроков спит. Но в один момент все меняется, потому что его вместе со всем классом
+                    призвали в другой мир. Однако и тут ему не повезло, ведь пока другие открывали в себе очень крутые
+                    по меркам нового мира способности, ему достался только бесполезный ремесленный класс Синергист. Все
+                    бы ничего, только глубины преисподней и предательство тех, кому он доверял, помогли юноше найти
+                    применение своему казалось бы бесполезному таланту. И тут начинается самое интересное...
                 </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
@@ -215,8 +224,9 @@
             <div>
                 <p id="Piroll">Created by mangaka585@gmail.com</p>
             </div>
+            <div id="Mellriart">Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></div>
             <div id="Rights">
-                <p>&#169; 2019 Animesaver.ru. All rights reserved.</p>
+                <p>&#169; 2019 - 2020 Animesaver.ru. All rights reserved.</p>
             </div>
         </div>
     </footer>

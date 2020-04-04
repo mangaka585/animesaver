@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -15,14 +15,21 @@
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149359628-1');
+    </script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Ванпанчмен | Animesaver</title>
     <link rel="stylesheet" href="css/style_anime.css">
     <meta name="description" content="Ванпанчмен смотреть онлайн на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Ванпанчмен"/>
-    <script src="playerjs.js" type="text/javascript"></script>
+    <script async src="playerjs.js" type="text/javascript"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
@@ -55,9 +62,9 @@
     </header>
     <div id="mobile_nav" class="mobile_nav">
         <ul>
-            <a href="index.html"><li>ГЛАВНАЯ</li></a>
-            <a href="weekly-saver"><li>ЖУРНАЛ WS</li></a>
-            <a href="catalogue"><li>КАТАЛОГ</li></a>
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="weekly-saver">ЖУРНАЛ WS</a></li>
+            <li><a href="catalogue">КАТАЛОГ</a></li>
         </ul>
     </div>
     <div class="ui">
@@ -76,14 +83,10 @@
             <div class="description_of_anime_text">
                 <h1>Ванпанчмен (1 сезон)<br>(One Punch Man)</h1>
                 <p>
-                    Как вообще возможно вырубить своего самого сильного противника с одного удара?
-                    Ответ данный вопрос знает главный персонаж аниме сериала «Ванпанчмен» и он без устали делиться этим секретом со всеми, кто спрашивает.
-                    А ответ все таки очень простой нужно всего-то заниматься пока все волосы не повылазят (видать от натуги).
-                    Вот и он ходит абсолютно лысый со всех сторон как пасхальное сверкающее яичко и побеждает врагов с одного удара.
-                    И это не преувеличение, дамы и господа, это самая, что ни на есть простая истина. Предупреждение!
-                    Если ты друг мой любитель эпичных драк, то тут все заканчивается, не успев начаться.
-                    И вроде живи, и радуйся, тому что ты такой крутой и сильный, но ему это уже на самом деле поднадоело, а ведь как все начиналось, когда он был еще простым потерявшим работу человеком с богатой шевелюрой и кустистыми бровищами.
-                    Сайтама, хоть теперь и не очень круто выглядит и из дали на героя не совсем похож, а в близи вообще не похож, но силушки богатырской ему не занимать и единственное чего он теперь хочет-это найти достойного противника, который выдержит хотя бы парочку его смертоносных ударов.
+                    Удивительное аниме этого жанра, в котором нет эпичных долгих драк, а все заканчивается быстро и
+                    одним ударом. Сайтама пытается найти противника, который выдержит больше, чем один удар, что у него,
+                    к сожалению, никак не получается. Отсутствие грозного героического вида главного героя делает это
+                    аниме не только интересным, но и смешным.
                 </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
@@ -303,8 +306,9 @@
             <div>
                 <p id="Piroll">Created by mangaka585@gmail.com</p>
             </div>
+            <div id="Mellriart">Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></div>
             <div id="Rights">
-                <p>&#169; 2019 Animesaver.ru. All rights reserved.</p>
+                <p>&#169; 2019 - 2020 Animesaver.ru. All rights reserved.</p>
             </div>
         </div>
     </footer>

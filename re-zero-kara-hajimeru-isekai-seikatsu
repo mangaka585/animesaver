@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -15,14 +15,21 @@
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149359628-1');
+    </script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Жизнь в альтернативном мире с нуля | Animesaver</title>
     <link rel="stylesheet" href="css/style_anime.css">
     <meta name="description" content="Жизнь в альтернативном мире с нуля 1 сезон онлайн смотреть онлайн бесплатно на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Наруто Клинок Синий Экзорцист"/>
-    <script src="playerjs.js" type="text/javascript"></script>
+    <script async src="playerjs.js" type="text/javascript"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
@@ -55,9 +62,9 @@
     </header>
     <div id="mobile_nav" class="mobile_nav">
         <ul>
-            <a href="index.html"><li>ГЛАВНАЯ</li></a>
-            <a href="weekly-saver"><li>ЖУРНАЛ WS</li></a>
-            <a href="catalogue"><li>КАТАЛОГ</li></a>
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="weekly-saver">ЖУРНАЛ WS</a></li>
+            <li><a href="catalogue">КАТАЛОГ</a></li>
         </ul>
     </div>
     <div class="ui">
@@ -76,11 +83,12 @@
             <div class="description_of_anime_text">
                 <h1>Жизнь в альтернативном мире с нуля (1 сезон)<br>(Re - Zero kara Hajimeru Isekai Seikatsu)</h1>
                 <p>
-                    Главный герой аниме сериала «Жизнь в альтернативном мире с нуля» паренька по имени Субару, живущего обычной жизнью, посещавшему школу и как любой из нас ходящего в магазин, поджидал удивительный сюрприз от судьбы, невероятной шутницы.
-                    По дороге к своему дому с парнем случилось нечто совершенно неожиданное, он оказался в параллельном мире или альтернативной версии реальности, но суть в том, что как только он переместился туда и не успел ни осмотреться не удивиться толком.
-                    Как на него напали, сложно представить чувства человека, который оказался в другом мире, да еще и преследуемый кровожадными убийцами, но тут на помощь приходит прекрасная спасительница, девушка приятной наружности и обладательница длинных седых волос.
-                    Но не успел он порадоваться чудесному спасению, как был убит на месте вместе с новоиспеченной подругой и спасительницей.
-                    Но на этом чудные происшествия не закончились, Субару вновь оказался в начале этой потрясающей истории, затем еще и еще… словно день сурка, теперь нужно понять, как спастись самому и девушке помочь.
+                    Главный герой аниме Субару жил обычной жизнью, посещая школу и делая повседневные дела. Но однажды
+                    по дороге к дому он оказался в альтернативном мире, где сразу же на него напалии и захотели убить.
+                    Однако ему на помощь пришла очаровательная спасительница и обладательница седых длинных волос. И вот
+                    облом: их просто убили, и казалось бы истории конец.. Но Субару снова оказался вначале этой истории,
+                    и так раз за разом. Будто день сурка, ему нужно понять, как спасти себя и девушку. Тут и начинается
+                    самое интересное...
                 </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
@@ -302,7 +310,7 @@
             </div>
             <div id="Mellriart">Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></div>
             <div id="Rights">
-                <p>&#169; 2019 Animesaver.ru. All rights reserved.</p>
+                <p>&#169; 2019 - 2020 Animesaver.ru. All rights reserved.</p>
             </div>
         </div>
     </footer>

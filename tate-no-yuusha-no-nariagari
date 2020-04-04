@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
         ym(55604875, "init", {
             clickmap:true,
             trackLinks:true,
@@ -16,14 +15,21 @@
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149359628-1');
+    </script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Восхождение героя щита | Animesaver</title>
     <link rel="stylesheet" href="css/style_anime.css">
     <meta name="description" content="Восхождение героя щита аниме смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Атака Титанов Наруто Клинок Поджелудочную Доктор Стоун Восхождение героя щита"/>
-    <script src="playerjs.js" type="text/javascript"></script>
+    <script async src="playerjs.js" type="text/javascript"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
@@ -56,9 +62,9 @@
     </header>
     <div id="mobile_nav" class="mobile_nav">
         <ul>
-            <a href="index.html"><li>ГЛАВНАЯ</li></a>
-            <a href="weekly-saver"><li>ЖУРНАЛ WS</li></a>
-            <a href="catalogue"><li>КАТАЛОГ</li></a>
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="weekly-saver">ЖУРНАЛ WS</a></li>
+            <li><a href="catalogue">КАТАЛОГ</a></li>
         </ul>
     </div>
     <div class="ui">
@@ -77,13 +83,12 @@
             <div class="description_of_anime_text">
                 <h1>Восхождение героя щита<br>(Tate no yuusha no nariagari)</h1>
                 <p>
-                    Наофуми Иватани вместе с тремя другими людьми был призван в параллельный мир, чтобы стать его Героем.
-                    При переносе в другой мир каждый из них получил специальную экипировку, которая соответствует типу Героя.
-                    Наш же протагонист получил в руки легендарный щит и решил отправиться в путешествие по этому сказочному миру.
-                    Но уже в самом начале его пути возникли проблемы.
-                    Наофуми не самый харизматичный парень, к тому же он совсем не был готов к Геройским делам, поэтому его прозвали слабейшим из Героев.
-                    Другие герои оставили его одного. В результате Иватани ограбили и обвинили в изнасиловании. Последней каплей стало то, что его остерегались все, начиная от короля и заканчивая крестьянами.
-                    Сильные мира сего стали его врагами, а сам неудачливый Герой потерял веру в людей, но исполнился гневом и желанием отомстить.
+                    Наофуми Иватани и еще трое людей были призваны в другой мир, чтобы стать его героями. При таком
+                    переносе каждый герой получает экипировку, которая соответствует типу героя. Главный герой аниме
+                    получил легендарный щит и отправился в путешествие. Однако, так как он совсем не харизматичный парень,
+                    не созданный для геройских дел, получил прозвище слабейшего из героев. В итоге другие герои оставили
+                    его одного, из-за чего его ограбили. Плюс ко всему, его обвинили в изнасиловании и весь мир стал
+                    остерегаться нашего героя. В итоге он потерял веру в людей и решил отомстить..
                 </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
@@ -303,8 +308,9 @@
             <div>
                 <p id="Piroll">Created by mangaka585@gmail.com</p>
             </div>
+            <div id="Mellriart">Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></div>
             <div id="Rights">
-                <p>&#169; 2019 Animesaver.ru. All rights reserved.</p>
+                <p>&#169; 2019 - 2020 Animesaver.ru. All rights reserved.</p>
             </div>
         </div>
     </footer>

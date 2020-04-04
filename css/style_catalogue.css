@@ -180,6 +180,11 @@ body    {
         background-color: white;
     }
 
+    .mobile_nav ul li a {
+        display: block;
+        height: 100%;
+    }
+
     a:hover {
         color: #10c9c3;
     }

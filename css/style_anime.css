@@ -175,6 +175,11 @@ header {
         background-color: white;
     }
 
+    .mobile_nav ul li a {
+        display: block;
+        height: 100%;
+    }
+
     .preloader__image {
         position: relative;
         top: 45%;

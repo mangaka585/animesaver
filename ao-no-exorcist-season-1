@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -15,14 +15,21 @@
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149359628-1');
+    </script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Синий Экзорцист | Animesaver</title>
     <link rel="stylesheet" href="css/style_anime.css">
     <meta name="description" content="Синий Экзорцист 1 сезон онлайн смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Наруто Клинок Поджелудочную Доктор Стоун Мастера меча онлайн Синий Экзорцист"/>
-    <script src="playerjs.js" type="text/javascript"></script>
+    <script async src="playerjs.js" type="text/javascript"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
@@ -55,9 +62,9 @@
     </header>
     <div id="mobile_nav" class="mobile_nav">
         <ul>
-            <a href="index.html"><li>ГЛАВНАЯ</li></a>
-            <a href="weekly-saver"><li>ЖУРНАЛ WS</li></a>
-            <a href="catalogue"><li>КАТАЛОГ</li></a>
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="weekly-saver">ЖУРНАЛ WS</a></li>
+            <li><a href="catalogue">КАТАЛОГ</a></li>
         </ul>
     </div>
     <div class="ui">
@@ -76,14 +83,12 @@
             <div class="description_of_anime_text">
                 <h1>Синий Экзорцист (1 сезон)<br>(Ao no Exorcist)</h1>
                 <p>
-                    Мир, населенный демонами — Гиенна, по всем законам никогда не должен был соединиться с Ассией — миром людей.
-                    Все же были некие лазейки, демоны смогли пробраться в мир людей и завладеть человеческими телами.
-                    Были люди, которые специально тренировались для того, чтобы сражаться с демонами.
-                    Потом были те, кто смог попросту изгонять демонов из тел, освобождая души невинных.
-                    Именовали их Экзорцистами. История поведает нам о Акумура Рине, в свои 15 лет он решает стать экзорцистом, ему не мешает то, что он демон.
-                    Рин был на половину демоном. У него есть брат, который так же был рожден от демона, но он был слаб и не мог получить силы отца.
-                    При рождении, узнали что Рин — демон, от него хотели избавиться, за него вступился священник, он решил его воспитывать как человека.
-                    Рин не подозревал то, кем он был, перед самой смертью, отец открыл ему всю правду. Сатана, сам Сатана был отцом Рина.
+                    Мир демонов никогда не должен был соединиться с миром людей, но все же были некоторые лазейки,
+                    которые давали возможность пробираться в мир людей. Так демоны завладевали телами людей.
+                    Со временем появились те, кто был способен сражаться и убивать демонов, но этого было недостаточно.
+                    Таким образом появились экзорцисты - специально обученные люди, изгонявшие демонов из людских тел,
+                    освобождая души невинных. В аниме будет рассказываться об Акумуре Рине, который в 15 лет решает
+                    стать одним из экзорцистов, несмотря на то, что он сам наполовину демон...
                 </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">

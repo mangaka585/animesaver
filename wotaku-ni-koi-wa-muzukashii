@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -15,14 +15,21 @@
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149359628-1');
+    </script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Так сложно любить отаку | Animesaver</title>
     <link rel="stylesheet" href="css/style_anime.css" />
     <meta name="description" content="Так сложно любить отаку аниме смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Наруто Клинок Поджелудочную Доктор Стоун Так сложно любить отаку"/>
-    <script src="playerjs.js" type="text/javascript"></script>
+    <script async src="playerjs.js" type="text/javascript"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
@@ -55,9 +62,9 @@
     </header>
     <div id="mobile_nav" class="mobile_nav">
         <ul>
-            <a href="index.html"><li>ГЛАВНАЯ</li></a>
-            <a href="weekly-saver"><li>ЖУРНАЛ WS</li></a>
-            <a href="catalogue"><li>КАТАЛОГ</li></a>
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="weekly-saver">ЖУРНАЛ WS</a></li>
+            <li><a href="catalogue">КАТАЛОГ</a></li>
         </ul>
     </div>
     <div class="ui">
@@ -76,15 +83,9 @@
             <div class="description_of_anime_text">
                 <h1>Так сложно любить отаку<br>(Wotaku ni Koi wa Muzukashii)</h1>
                 <p>
-                    Отаку всегда страдали от того, что им сложно было завести отношения с обычными людьми, без особых увлечений.
-                    Все же отаку очень стеснительны, но не унывают и хотят найти себе подобного.
-                    А ведь это очень сложно, тем более когда они придирчивые. Именно такие отношения затрагивает сюжет аниме.
-                    Наруми Момосэ — типичная отаку, яойщица, обожает айдолов, так же много времени проводит в виртуальных свиданиях.
-                    Только это все она держит в секрете, боится, что засмеют.
-                    События закрутились так, что она теперь работает на новой работе, а там встречает человека, который учился с ней в школе, он так же отаку, только по играм, и зовут его Наруми. А Наруми то поменялся с детства, теперь он не закомплексованный школьник, а настоящий мужчина, красавец, к тому же умный.
-                    Встреча была слегка бурной, ну и в этой буре зародились новые отношения.
-                    А ведь они ничего не смыслят в отношениях, и как они будут справляться?
-                    Давайте-же посмотрим к чему приведет данное аниме, и какие действия предпримут наши герои.
+                    Аниме расскажет нам об отношениях двух отаку, которые совсем в этом ничего не смыслят. Наруми
+                    Момосэ - типичная отаку, которая повстречала на новой работе своего однокласника, который уже не
+                    школьник с комплексами, а умный красавец. Как же будут развиваться эти отношения?
                 </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
@@ -206,8 +207,9 @@
             <div>
                 <p id="Piroll">Created by mangaka585@gmail.com</p>
             </div>
+            <div id="Mellriart">Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></div>
             <div id="Rights">
-                <p>&#169; 2019 Animesaver.ru. All rights reserved.</p>
+                <p>&#169; 2019 - 2020 Animesaver.ru. All rights reserved.</p>
             </div>
         </div>
     </footer>

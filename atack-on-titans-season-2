@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -15,14 +15,21 @@
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149359628-1');
+    </script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Атака титанов 2 сезон| Animesaver</title>
     <link rel="stylesheet" href="css/style_anime.css">
     <meta name="description" content="Атака титанов 2 сезон аниме смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Атака Титанов Наруто Клинок Поджелудочную Доктор Стоун"/>
-    <script src="playerjs.js" type="text/javascript"></script>
+    <script async src="playerjs.js" type="text/javascript"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
@@ -55,9 +62,9 @@
     </header>
     <div id="mobile_nav" class="mobile_nav">
         <ul>
-            <a href="index.html"><li>ГЛАВНАЯ</li></a>
-            <a href="weekly-saver"><li>ЖУРНАЛ WS</li></a>
-            <a href="catalogue"><li>КАТАЛОГ</li></a>
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="weekly-saver">ЖУРНАЛ WS</a></li>
+            <li><a href="catalogue">КАТАЛОГ</a></li>
         </ul>
     </div>
     <div class="ui">
@@ -76,11 +83,9 @@
             <div class="description_of_anime_text">
                 <h1>Атака титанов (2 сезон)<br>(Shingeki no Kyojin)</h1>
                 <p>
-                    Все людишки на волоске от вымирания, и как всегда во всем виноваты эти большие гиганты, у которых единственной в голове считается - покушать как можно больше человеческой плоти.
-                    Когда то до недавних пор люди проживали в гармонии, но все же со страхом в душе, ведь они в голове прокручивали вероятность того что этот день настанет.
-                    Они решили замуровать себя за огромными стенами, естественно которые эти гиганты никак не могли перелезть.
-                    И так все длилось где-то сотню лет. Но в один незабываемый для них день, колоссальный и бронированный один титан смог пробить стену и тем самым открыл путь для других менее мелких титанов.
-                    За один сезон произошло много событий. 25 серий оставили после себя много загадочных вопросов, ну а ответы вы найдете только во втором сезоне данного сериала. Какая же тайна кроется в этих стенах?
+                    Продолжение первого сезона одного из популярнейших аниме, 25 серий которого оставили после себя
+                    очень много вопросов, ведь прорыв стены сверхгигантом сломал все представления людей о безопасности
+                    и защите от гигантов, которым постоянно хочется есть.
                 </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
@@ -209,8 +214,9 @@
             <div>
                 <p id="Piroll">Created by mangaka585@gmail.com</p>
             </div>
+            <div id="Mellriart">Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></div>
             <div id="Rights">
-                <p>&#169; 2019 Animesaver.ru. All rights reserved.</p>
+                <p>&#169; 2019 - 2020 Animesaver.ru. All rights reserved.</p>
             </div>
         </div>
     </footer>

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -15,14 +15,21 @@
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55604875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149359628-1');
+    </script>
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Внук мудреца | Animesaver</title>
     <link rel="stylesheet" href="css/style_anime.css">
     <meta name="description" content="Внук мудреца аниме смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Внук мудреца онлайн бесплатно Атака Титанов Наруто Клинок Поджелудочную Доктор Стоун"/>
-    <script src="playerjs.js" type="text/javascript"></script>
+    <script async src="playerjs.js" type="text/javascript"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
@@ -55,9 +62,9 @@
     </header>
     <div id="mobile_nav" class="mobile_nav">
         <ul>
-            <a href="index.html"><li>ГЛАВНАЯ</li></a>
-            <a href="weekly-saver"><li>ЖУРНАЛ WS</li></a>
-            <a href="catalogue"><li>КАТАЛОГ</li></a>
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="weekly-saver">ЖУРНАЛ WS</a></li>
+            <li><a href="catalogue">КАТАЛОГ</a></li>
         </ul>
     </div>
     <div class="ui">
@@ -76,15 +83,12 @@
             <div class="description_of_anime_text">
                 <h1>Внук мудреца</h1>
                 <p>
-                    В скучной жизни Шина, обычного офисного рабочего, казалось бы, не ждало ничего, кроме рутины.
-                    Однако судьба с ним распорядилась немного иначе.
-                    В силу некоторых обстоятельств Шин умирает, но, в отличие от обычных людей, по каким-то причинам помнит события прошлой жизни.
-                    Кроме того, рождается он в далеко не привычном для себя мире.
-                    Здесь правит волшебство и магия.
-                    Шина приютил мудрец Мерлин и вырастил из него выдающегося волшебника.
-                    Однако тот жил в отшельничестве, поэтому Шин ничего не знал о внешнем мире.
-                    Чтобы это исправить, Шина оправляют в королевскую школу волшебства.
-                    Но такая ли уж это хорошая идея?
+                    Шин - обычный офисный работник, который проживает скучную неинтересную жизнь, но в определенный
+                    момент он умирает, не теряя память о событиях прошлой жизни. Перерождается он в совсем непривычном
+                    для себя мире, где правит волшебство и магия. Его приютил  и вырастил мудрец Мерлин, который обучил
+                    его так, что Шин стал выдающимся волгебником. И так как Мерлин жил в отшельничестве, Шин понятия не
+                    имел, что происходит и как устроен внешний мир. Чтобы исправить это, его отправляют в королевскую
+                    школу волшебства, но действительно ли так будет лучше?
                 </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
@@ -213,8 +217,9 @@
             <div>
                 <p id="Piroll">Created by mangaka585@gmail.com</p>
             </div>
+            <div id="Mellriart">Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></div>
             <div id="Rights">
-                <p>&#169; 2019 Animesaver.ru. All rights reserved.</p>
+                <p>&#169; 2019 - 2020 Animesaver.ru. All rights reserved.</p>
             </div>
         </div>
     </footer>
