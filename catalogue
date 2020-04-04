@@ -82,8 +82,8 @@
                         <a href="re-zero-kara-hajimeru-isekai-seikatsu"><img src="anime/re_zero_kara/main.jpg" alt="Boku_dake pic" /></a>
                     </div>
                     <div>
-                        <h2>Город, в котором меня нет</h2>
-                        <a href="boku-dake-ga-inai-machi"><img src="anime/boku_dake/main.jpg" alt="Boku_dake pic" /></a>
+                        <h2>Мастера меча онлайн<br>(1 сезон)</h2>
+                        <a href="sword-art-online-season-1"><img src="anime/sword_art_online/sword_logo.jpg" alt="Мастера меча онлайн pic" /></a>
                     </div>
                     <div>
                         <h2>Ванпанчмен (1 сезон)</h2>
@@ -150,12 +150,12 @@
                         <a href="kenja-no-mago"><img src="anime/vnuk_mudretsa/vnuk_mudretsa_logo.jpg" alt="Vnuk_mudretsa pic" /></a>
                     </div>
                     <div>
-                        <h2>Маг-обманщик из другого мира</h2>
-                        <a href="isekai-cheat-magician"><img src="anime/mag_obmanchik/mag_obmanchik_logo.jpg" alt="Маг-обманщик из другого мира pic" /></a>
+                        <h2>Город, в котором меня нет</h2>
+                        <a href="boku-dake-ga-inai-machi"><img src="anime/boku_dake/main.jpg" alt="Boku_dake pic" /></a>
                     </div>
                     <div>
-                        <h2>Мастера меча онлайн<br>(1 сезон)</h2>
-                        <a href="sword-art-online-season-1"><img src="anime/sword_art_online/sword_logo.jpg" alt="Мастера меча онлайн pic" /></a>
+                        <h2>Маг-обманщик из другого мира</h2>
+                        <a href="isekai-cheat-magician"><img src="anime/mag_obmanchik/mag_obmanchik_logo.jpg" alt="Маг-обманщик из другого мира pic" /></a>
                     </div>
                     <div>
                         <h2>Синий Экзорцист<br>(1 сезон)</h2>
@@ -183,6 +183,16 @@
             </div>
         </section>
         <footer>
+            <div class="site_description">
+                <p>
+                    Добро пожаловать на animesaver.ru! Мы молодой, развивающийся сайт аниме с необычными планами на будущее.
+                    Ведь у нас есть еще и второе направление: мы создали первый еженедельный журнал российской манги. Прямо
+                    сейчас читайте наш журнал, смотрите аниме сериалы и фильмы без рекламы, которая вечно всех раздражает.
+                    Японские аниме доступны для просмотра без регистрации, смс и каких-либо ограничений. В наших планах стать
+                    самым масштабным в России порталом аниме, где будет абсолютно все бесплатно и легкодоступно. Нам всегда
+                    требуются новые люди в команду, поэтому мы открыты для контактов и рады любой помощи.
+                </p>
+            </div>
             <div class="flex-container">
                 <div id="Piroll">
                     <p>Created by mangaka585@gmail.com</p>

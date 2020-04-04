@@ -424,7 +424,7 @@ header {
         min-height: 400px;
     }
 
-    .news_sidebar { /*News sidebar*/
+    .news_sidebar {
         display: block;
         position: absolute;
         top: 0;
@@ -434,7 +434,7 @@ header {
         border: solid 1px #663399;
         border-radius: 15px;
         text-align: center;
-        height: 720px;
+        height: 100%;
         background: #F5FFFA;
     }
 
@@ -447,7 +447,7 @@ header {
         overflow: scroll;
         -webkit-overflow-scrolling: touch;
         width: 100%;
-        height: 650px;
+        height: 94%;
     }
 
     .description_of_anime {
@@ -545,7 +545,7 @@ header {
         display: none;
     }
 
-    .adv { /*ADV*/
+    .adv {
         display: block;
         position: absolute;
         top: 0;
@@ -555,7 +555,7 @@ header {
         border: solid 1px #663399;
         border-radius: 15px;
         text-align: center;
-        height: 720px;
+        height: 100%;
         background: #F5FFFA;
     }
 
