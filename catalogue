@@ -77,103 +77,111 @@
             </div>
             <section class="main_block">                                                        <!--Main block-->
                     <div class="catalogue_of">
-                    <div>
-                        <h2>Жизнь в альтернативном мире с нуля (1 сезон)</h2>
-                        <a href="re-zero-kara-hajimeru-isekai-seikatsu"><img src="anime/re_zero_kara/main.jpg" alt="Boku_dake pic" /></a>
+                        <div>
+                            <h2>Боруто (51 - 100 серии)</h2>
+                            <a href="boruto-100"><img src="anime/boruto/main2.jpg" alt="Boruto-2 pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Боруто (1 - 50 серии)</h2>
+                            <a href="boruto-50"><img src="anime/boruto/main.jpeg" alt="Boruto-1 pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Жизнь в альтернативном мире с нуля (1 сезон)</h2>
+                            <a href="re-zero-kara-hajimeru-isekai-seikatsu"><img src="anime/re_zero_kara/main.jpg" alt="Boku_dake pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Мастера меча онлайн<br>(1 сезон)</h2>
+                            <a href="sword-art-online-season-1"><img src="anime/sword_art_online/sword_logo.jpg" alt="Мастера меча онлайн pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Ванпанчмен (1 сезон)</h2>
+                            <a href="one-punch-man"><img src="anime/onepunchman/main.jpeg" alt="OnePunchMan pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Радиант (1 сезон)</h2>
+                            <a href="radiant"><img src="anime/radiant/radiant.jpeg" alt="Radiant pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Бакуман (1 сезон)</h2>
+                            <a href="bakuman-season-1"><img src="anime/bakuman/main.jpg" alt="Bakuman pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Доктор Стоун</h2>
+                            <a href="doctor-stone"><img src="anime/dr_stone/stone.jpg" alt="Dr. Stone pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Я хочу съесть твою поджелудочную</h2>
+                            <a href="kimi-no-suizou-wo-tabetai"><img src="anime/kimi_no/kimi_no.jpg" alt="Kimi_no pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Клинок, рассекающий демонов (1 сезон)</h2>
+                            <a href="kimetsu-no-yaiba"><img src="anime/klinok/klinok.jpg" alt="Klinok pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Так сложно любить отаку</h2>
+                            <a href="wotaku-ni-koi-wa-muzukashii"><img src="anime/otaku_love/otaku_love_pic.jpeg" alt="Otaku_love pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Восхождение героя щита</h2>
+                            <a href="tate-no-yuusha-no-nariagari"><img src="anime/tate_no/tate_no_logo.jpg" alt="Tate_no pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Атака титанов<br>(1 сезон)</h2>
+                            <a href="atack-on-titans-season-1"><img src="anime/atack_on_titans/atack_logo.jpg" alt="Atack_on_titans pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Моя геройская академия<br>(1 сезон)</h2>
+                            <a href="boku-no-hero-academia-season-1"><img src="anime/boku_no_hero_academia/hero_logo_1.jpg" alt="Boku_no_hero_academia pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Моя геройская академия<br>(2 сезон)</h2>
+                            <a href="boku-no-hero-academia-season-2"><img src="anime/boku_no_hero_academia/hero_logo_2.jpg" alt="Boku_no_hero_academia_2 pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Моя геройская академия<br>(3 сезон)</h2>
+                            <a href="boku-no-hero-academia-season-3"><img src="anime/boku_no_hero_academia/hero_logo_3.jpg" alt="Boku_no_hero_academia_3 pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Атака титанов<br>(2 сезон)</h2>
+                            <a href="atack-on-titans-season-2"><img src="anime/atack_on_titans/atack_logo_2.jpg" alt="Atack_on_titans_2 pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Арифурэта: Сильнейший ремесленник в мире</h2>
+                            <a href="arifureta"><img src="anime/arifureta/arifureta_logo.jpg" alt="Arifureta pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Форма голоса</h2>
+                            <a href="koe-no-katachi"><img src="anime/koe_no_katachi/koe_no_katachi_logo.jpg" alt="Koe_no_katachi pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Внук мудреца</h2>
+                            <a href="kenja-no-mago"><img src="anime/vnuk_mudretsa/vnuk_mudretsa_logo.jpg" alt="Vnuk_mudretsa pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Город, в котором меня нет</h2>
+                            <a href="boku-dake-ga-inai-machi"><img src="anime/boku_dake/main.jpg" alt="Boku_dake pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Маг-обманщик из другого мира</h2>
+                            <a href="isekai-cheat-magician"><img src="anime/mag_obmanchik/mag_obmanchik_logo.jpg" alt="Маг-обманщик из другого мира pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Синий Экзорцист<br>(1 сезон)</h2>
+                            <a href="ao-no-exorcist-season-1"><img src="anime/ao_no_exorcist/exorcist_1_logo.jpg" alt="Синий Экзорцист pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Синий Экзорцист<br>(2 сезон)</h2>
+                            <a href="ao-no-exorcist-season-2"><img src="anime/ao_no_exorcist/exorcist_2_logo.jpg" alt="Синий Экзорцист pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Мастера меча онлайн<br>(2 сезон)</h2>
+                            <a href="sword-art-online-season-2"><img src="anime/sword_art_online/sword_2_logo.jpg" alt="Мастера меча онлайн pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Мастера меча онлайн<br>(3 сезон)</h2>
+                            <a href="sword-art-online-season-3"><img src="anime/sword_art_online/sword_3_logo.jpg" alt="Мастера меча онлайн pic" /></a>
+                        </div>
                     </div>
-                    <div>
-                        <h2>Мастера меча онлайн<br>(1 сезон)</h2>
-                        <a href="sword-art-online-season-1"><img src="anime/sword_art_online/sword_logo.jpg" alt="Мастера меча онлайн pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Ванпанчмен (1 сезон)</h2>
-                        <a href="one-punch-man"><img src="anime/onepunchman/main.jpeg" alt="OnePunchMan pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Радиант (1 сезон)</h2>
-                        <a href="radiant"><img src="anime/radiant/radiant.jpeg" alt="Radiant pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Бакуман (1 сезон)</h2>
-                        <a href="bakuman-season-1"><img src="anime/bakuman/main.jpg" alt="Bakuman pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Доктор Стоун</h2>
-                        <a href="doctor-stone"><img src="anime/dr_stone/stone.jpg" alt="Dr. Stone pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Я хочу съесть твою поджелудочную</h2>
-                        <a href="kimi-no-suizou-wo-tabetai"><img src="anime/kimi_no/kimi_no.jpg" alt="Kimi_no pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Клинок, рассекающий демонов (1 сезон)</h2>
-                        <a href="kimetsu-no-yaiba"><img src="anime/klinok/klinok.jpg" alt="Klinok pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Так сложно любить отаку</h2>
-                        <a href="wotaku-ni-koi-wa-muzukashii"><img src="anime/otaku_love/otaku_love_pic.jpeg" alt="Otaku_love pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Восхождение героя щита</h2>
-                        <a href="tate-no-yuusha-no-nariagari"><img src="anime/tate_no/tate_no_logo.jpg" alt="Tate_no pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Атака титанов<br>(1 сезон)</h2>
-                        <a href="atack-on-titans-season-1"><img src="anime/atack_on_titans/atack_logo.jpg" alt="Atack_on_titans pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Моя геройская академия<br>(1 сезон)</h2>
-                        <a href="boku-no-hero-academia-season-1"><img src="anime/boku_no_hero_academia/hero_logo_1.jpg" alt="Boku_no_hero_academia pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Моя геройская академия<br>(2 сезон)</h2>
-                        <a href="boku-no-hero-academia-season-2"><img src="anime/boku_no_hero_academia/hero_logo_2.jpg" alt="Boku_no_hero_academia_2 pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Моя геройская академия<br>(3 сезон)</h2>
-                        <a href="boku-no-hero-academia-season-3"><img src="anime/boku_no_hero_academia/hero_logo_3.jpg" alt="Boku_no_hero_academia_3 pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Атака титанов<br>(2 сезон)</h2>
-                        <a href="atack-on-titans-season-2"><img src="anime/atack_on_titans/atack_logo_2.jpg" alt="Atack_on_titans_2 pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Арифурэта: Сильнейший ремесленник в мире</h2>
-                        <a href="arifureta"><img src="anime/arifureta/arifureta_logo.jpg" alt="Arifureta pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Форма голоса</h2>
-                        <a href="koe-no-katachi"><img src="anime/koe_no_katachi/koe_no_katachi_logo.jpg" alt="Koe_no_katachi pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Внук мудреца</h2>
-                        <a href="kenja-no-mago"><img src="anime/vnuk_mudretsa/vnuk_mudretsa_logo.jpg" alt="Vnuk_mudretsa pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Город, в котором меня нет</h2>
-                        <a href="boku-dake-ga-inai-machi"><img src="anime/boku_dake/main.jpg" alt="Boku_dake pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Маг-обманщик из другого мира</h2>
-                        <a href="isekai-cheat-magician"><img src="anime/mag_obmanchik/mag_obmanchik_logo.jpg" alt="Маг-обманщик из другого мира pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Синий Экзорцист<br>(1 сезон)</h2>
-                        <a href="ao-no-exorcist-season-1"><img src="anime/ao_no_exorcist/exorcist_1_logo.jpg" alt="Синий Экзорцист pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Синий Экзорцист<br>(2 сезон)</h2>
-                        <a href="ao-no-exorcist-season-2"><img src="anime/ao_no_exorcist/exorcist_2_logo.jpg" alt="Синий Экзорцист pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Мастера меча онлайн<br>(2 сезон)</h2>
-                        <a href="sword-art-online-season-2"><img src="anime/sword_art_online/sword_2_logo.jpg" alt="Мастера меча онлайн pic" /></a>
-                    </div>
-                    <div>
-                        <h2>Мастера меча онлайн<br>(3 сезон)</h2>
-                        <a href="sword-art-online-season-3"><img src="anime/sword_art_online/sword_3_logo.jpg" alt="Мастера меча онлайн pic" /></a>
-                    </div>
-                </div>
             </section>
             <div class="adv">                                                                   <!--ADV-->
                 <h3>НОВОСТИ ЖУРНАЛА</h3>

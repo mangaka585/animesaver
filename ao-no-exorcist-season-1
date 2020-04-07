@@ -27,7 +27,7 @@
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Синий Экзорцист | Animesaver</title>
     <link rel="stylesheet" href="css/style_anime.css">
-    <meta name="description" content="Синий Экзорцист 1 сезон онлайн смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
+    <meta name="description" content="Синий Экзорцист 1 сезон смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Наруто Клинок Поджелудочную Доктор Стоун Мастера меча онлайн Синий Экзорцист"/>
     <script async src="playerjs.js" type="text/javascript"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -74,7 +74,7 @@
     <section class="body_layout">
         <div class="news_sidebar">                                                          <!--Sidebar-->
             <h3>НОВОСТИ САЙТА</h3>
-            <iframe src="anime/news.html" width="190" height="75%">
+            <iframe src="anime/news.html">
                 Ваш браузер не поддерживает плавающие фреймы!
             </iframe>
         </div>
