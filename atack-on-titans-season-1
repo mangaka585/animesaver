@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/style_anime.css">
     <meta name="description" content="Атака титанов аниме смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Атака Титанов Наруто Клинок Поджелудочную Доктор Стоун"/>
-    <script async src="playerjs.js" type="text/javascript"></script>
+    <script src="playerjs.js" type="text/javascript"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>
 </head>
@@ -74,7 +74,7 @@
     <section class="body_layout">
         <div class="news_sidebar">                                                          <!--Sidebar-->
             <h3>НОВОСТИ САЙТА</h3>
-            <iframe src="anime/news.html" width="190" height="75%">
+            <iframe src="anime/news.html">
                 Ваш браузер не поддерживает плавающие фреймы!
             </iframe>
         </div>

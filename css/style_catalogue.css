@@ -149,7 +149,8 @@ body    {
     .news_sidebar,
     .adv,
     #Mellriart,
-    #Piroll {
+    #Piroll,
+    .site_description   {
         display: none;
     }
 

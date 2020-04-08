@@ -67,7 +67,7 @@
     <section class="body_layout">
         <div class="news_sidebar">                                                          <!--Sidebar-->
             <h3>НОВОСТИ САЙТА</h3>
-            <iframe src="anime/news.html" width="190" height="75%">
+            <iframe src="anime/news.html">
                 Ваш браузер не поддерживает плавающие фреймы!
             </iframe>
         </div>
