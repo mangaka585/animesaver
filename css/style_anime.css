@@ -238,10 +238,11 @@ header {
         margin-top: 5px;
     }
 
-    .description_of_anime_text p {
+    .description_of_anime_text h3 {
         text-indent: 20px;
         text-align: justify;
         font-size: 0.9em;
+        font-weight: normal;
     }
 
     .video {
@@ -475,11 +476,13 @@ header {
         font-family: 'Exo 2', sans-serif;
     }
 
-    .description_of_anime_text p {
+    .description_of_anime_text h3 {
+        font-size: 1em;
         text-indent: 20px;
         margin-left: 230px;
         margin-bottom: 30px;
         text-align: justify;
+        font-weight: normal;
     }
 
     .description_of_anime_info {
