@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/anime/haikyuu/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/haikyuu/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/haikyuu/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/haikyuu/haikyuu-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haikyuu-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/kabukichou/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/kabukichou/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/kabukichou/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/kabukichou/kabukichou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kabukichou-sherlock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/boruto/main3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/boruto/main3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anime/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogue" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/anime_pics/boruto-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/anime_pics/boruto-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haikyuu-4" beforeDir="false" afterPath="$PROJECT_DIR$/haikyuu-4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_pages/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_pages/3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
     </list>
@@ -212,7 +211,7 @@
       <workItem from="1586303756105" duration="202000" />
       <workItem from="1586351355416" duration="3072000" />
       <workItem from="1586379937897" duration="3196000" />
-      <workItem from="1586435165307" duration="1514000" />
+      <workItem from="1586435165307" duration="5350000" />
     </task>
     <task id="LOCAL-00001" summary=" Добавил те страницы, которые отправила дизайнер и переписал страницу журнала, т.к. их число увеличилось и теперь 136">
       <created>1580677786270</created>
@@ -382,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586430005016</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Зилил Волейбол 13 серий">
+      <created>1586436714565</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1586436714565</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,30 +433,31 @@
     <MESSAGE value="Добавил боруто до 100 серии и поправил немного дизайн" />
     <MESSAGE value="Поправил мелкие недочеты" />
     <MESSAGE value="Зилил Боруто 150 серий" />
-    <option name="LAST_COMMIT_MESSAGE" value="Зилил Боруто 150 серий" />
+    <MESSAGE value="Зилил Волейбол 13 серий" />
+    <option name="LAST_COMMIT_MESSAGE" value="Зилил Волейбол 13 серий" />
   </component>
   <component name="WindowStateProjectService">
     <state x="295" y="58" width="800" height="677" key="#Vim_Emulation" timestamp="1580680643109">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="295" y="58" width="800" height="677" key="#Vim_Emulation/35.27.1331.741@35.27.1331.741" timestamp="1580680643109" />
-    <state x="565" y="274" width="781" height="446" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586435205997">
+    <state x="565" y="274" width="781" height="446" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586448581799">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="407" y="201" width="576" height="390" key="#com.intellij.fileTypes.FileTypeChooser/35.27.1331.741@35.27.1331.741" timestamp="1582150813610" />
     <state x="409" y="201" width="781" height="439" key="#com.intellij.fileTypes.FileTypeChooser/38.27.1328.741@38.27.1328.741" timestamp="1584042146703" />
-    <state x="565" y="274" width="781" height="446" key="#com.intellij.fileTypes.FileTypeChooser/40.27.1880.1053@40.27.1880.1053" timestamp="1586435205997" />
+    <state x="565" y="274" width="781" height="446" key="#com.intellij.fileTypes.FileTypeChooser/40.27.1880.1053@40.27.1880.1053" timestamp="1586448581799" />
     <state x="383" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580550820148">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="383" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/35.27.1331.741@35.27.1331.741" timestamp="1580550820148" />
-    <state x="365" y="27" width="972" height="854" key="CommitChangelistDialog2" timestamp="1586430004848">
+    <state x="365" y="27" width="972" height="854" key="CommitChangelistDialog2" timestamp="1586436714391">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="236" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585672048943" />
     <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1581975580276" />
     <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2/38.27.1328.741@38.27.1328.741" timestamp="1585346337243" />
-    <state x="365" y="27" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1586430004848" />
+    <state x="365" y="27" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1586436714391" />
     <state x="214" y="38" key="SettingsEditor" timestamp="1581179267702">
       <screen x="35" y="27" width="1331" height="741" />
     </state>

@@ -78,7 +78,11 @@
             <section class="main_block">                                                        <!--Main block-->
                     <div class="catalogue_of">
                         <div>
-                            <h2>Волейбол!! К вершине (4 сезон)</h2>
+                            <h2>Шерлок из Кабуки-тё</h2>
+                            <a href="kabukichou-sherlock"><img src="anime/kabukichou/kabukichou.jpg" alt="Kabukichou pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Волейбол!! К вершине<br>(4 сезон)</h2>
                             <a href="haikyuu-4"><img src="anime/haikyuu/haikyuu-4.jpg" alt="Haikyuu-4 pic" /></a>
                         </div>
                         <div>
