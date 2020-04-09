@@ -78,6 +78,10 @@
             <section class="main_block">                                                        <!--Main block-->
                     <div class="catalogue_of">
                         <div>
+                            <h2>Боруто (101 - 150 серии)</h2>
+                            <a href="boruto-150"><img src="anime/boruto/main3.jpg" alt="Boruto-3 pic" /></a>
+                        </div>
+                        <div>
                             <h2>Боруто (51 - 100 серии)</h2>
                             <a href="boruto-100"><img src="anime/boruto/main2.jpg" alt="Boruto-2 pic" /></a>
                         </div>
