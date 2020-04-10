@@ -4,7 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
   <url>
@@ -68,6 +67,11 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://animesaver.ru/kyokoi-suiri</loc>
+    <lastmod>2020-03-15T22:18:53+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://animesaver.ru/isekai-cheat-magician</loc>
     <lastmod>2020-03-15T22:18:53+00:00</lastmod>
     <priority>0.80</priority>
@@ -89,6 +93,11 @@
   </url>
   <url>
     <loc>https://animesaver.ru/boruto-50</loc>
+    <lastmod>2020-03-15T22:18:53+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://animesaver.ru/dorohedoro</loc>
     <lastmod>2020-03-15T22:18:53+00:00</lastmod>
     <priority>0.80</priority>
   </url>

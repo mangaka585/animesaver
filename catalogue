@@ -78,6 +78,14 @@
             <section class="main_block">                                                        <!--Main block-->
                     <div class="catalogue_of">
                         <div>
+                            <h2>Ложные выводы</h2>
+                            <a href="kyokoi-suiri"><img src="anime/kyokoi_suiri/kyokou_suiri.jpg" alt="Kyokoi-suiri pic" /></a>
+                        </div>
+                        <div>
+                            <h2>Дорохедоро</h2>
+                            <a href="dorohedoro"><img src="anime/dorohedoro/dorohedoro.jpg" alt="Dorohedoro pic" /></a>
+                        </div>
+                        <div>
                             <h2>Шерлок из Кабуки-тё</h2>
                             <a href="kabukichou-sherlock"><img src="anime/kabukichou/kabukichou.jpg" alt="Kabukichou pic" /></a>
                         </div>
