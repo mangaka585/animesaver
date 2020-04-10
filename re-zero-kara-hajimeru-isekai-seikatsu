@@ -82,14 +82,14 @@
             <img src="anime/re_zero_kara/main.jpg" alt="Re-zero pic" />
             <div class="description_of_anime_text">
                 <h1>Жизнь в альтернативном мире с нуля (1 сезон)<br>(Re - Zero kara Hajimeru Isekai Seikatsu)</h1>
-                <h3>
+                <p>
                     Главный герой аниме Субару жил обычной жизнью, посещая школу и делая повседневные дела. Но однажды
                     по дороге к дому он оказался в альтернативном мире, где сразу же на него напалии и захотели убить.
                     Однако ему на помощь пришла очаровательная спасительница и обладательница седых длинных волос. И вот
                     облом: их просто убили, и казалось бы истории конец.. Но Субару снова оказался вначале этой истории,
                     и так раз за разом. Будто день сурка, ему нужно понять, как спасти себя и девушку. Тут и начинается
                     самое интересное...
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -118,6 +118,7 @@
                 <img src="anime/re_zero_kara/1.jpg" alt="1"/><img src="anime/re_zero_kara/2.jpg" alt="2"/><img src="anime/re_zero_kara/3.jpg" alt="3"/>
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть 1 сезон аниме "Жизнь в алтернативном мире с нуля" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

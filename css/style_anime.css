@@ -238,10 +238,10 @@ header {
         margin-top: 5px;
     }
 
-    .description_of_anime_text h3 {
+    .description_of_anime_text p {
         text-indent: 20px;
         text-align: justify;
-        font-size: 0.9em;
+        font-size: 1em;
         font-weight: normal;
     }
 
@@ -305,7 +305,8 @@ header {
     .navigation,
     .preloader,
     .description_of_anime_info,
-    .images_of_anime {
+    .images_of_anime,
+    .h2_description {
         display: none;
     }
 }
@@ -476,7 +477,14 @@ header {
         font-family: 'Exo 2', sans-serif;
     }
 
-    .description_of_anime_text h3 {
+    .h2_description {
+        font-family: 'Exo 2', sans-serif;
+        text-align: center;
+        font-size: 1.4em;
+        color: rebeccapurple;
+    }
+
+    .description_of_anime_text p {
         font-size: 1em;
         text-indent: 20px;
         margin-left: 230px;

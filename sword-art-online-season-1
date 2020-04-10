@@ -82,7 +82,7 @@
             <img src="anime/sword_art_online/sword_logo.jpg" alt="Sword art online pic" />
             <div class="description_of_anime_text">
                 <h1>Мастера меча онлайн (1 сезон)<br>(Sword Art Online)</h1>
-                <h3>
+                <p>
                     Будучи самым обычным школьником в повседневной жизни, Кадзуто Киригая увлекался погружениями в мир
                     фэнтези с помощью шлема виртуальной реальности, который дает возможность полностью прочувствовать
                     все происходящее вокруг. Многопользовательская игра, которая называется Sword Art Online, два
@@ -93,7 +93,7 @@
                     финальный уровень. Потеряв жизнь в игре, теряешь ее и в реальной жизни. Снять шлем тоже не получится,
                     так как мозг будет поджарен микроволновым излучением. Кирито выбрал путь одинокого мечника и,
                     объединившись с Асуной Юки из гильдии Рыцарей Крови, решительно настроился пройти игру до конца.
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -122,6 +122,7 @@
                 <img src="anime/sword_art_online/1.jpg" alt="1"/><img src="anime/sword_art_online/2.jpg" alt="2"/><img src="anime/sword_art_online/3.jpg" alt="3"/>
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть 1 сезон аниме "Мастера меча онлайн" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

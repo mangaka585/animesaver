@@ -75,13 +75,13 @@
             <img src="anime/mag_obmanchik/mag_obmanchik_logo.jpg" alt="Маг-обманщик pic" />
             <div class="description_of_anime_text">
                 <h1>Маг-обманщик из другого мира (Isekai Cheat Magician)</h1>
-                <h3>
+                <p>
                     Главные герои аниме, Таити Нисимура и Рин Адзума-  обычные школьники которые, возвращаясь домой
                     после школы, каким-то образом оказались в центре червоточины. Таким образом они оказались в совсем
                     другом мире, где нет современных технологий, а вместо привычных зданий - бескрайние поля. Позже
                     обнаружилось, что это вселенная волшебства, и наши герои тоже обладают необычыми магическими
                     способнстями. Осталось только понять в чем смысл их пребывания здесь...
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -110,6 +110,7 @@
                 <img src="anime/mag_obmanchik/1.jpg" alt="1"/><img src="anime/mag_obmanchik/2.jpg" alt="2"/><img src="anime/mag_obmanchik/3.jpg" alt="3" />
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть аниме "Маг-обманщик из другого мира" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

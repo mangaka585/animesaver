@@ -82,13 +82,13 @@
             <img src="anime/boku_dake/main.jpg" alt="Boku_dake_ga_Inai_Machi pic" />
             <div class="description_of_anime_text">
                 <h1>Город, в котором меня нет</h1>
-                <h3>
+                <p>
                     Сатору Фудзинума немного замкнут в себе и увлекается рисованием, мечтая, что его рисунки покорят
                     когда-нибудь мир. А пока этого не произошло, приходится подрабатывать курьером. Интересным это аниме
                     делает то, что у главного героя есть дар отматывать время на несколько минут назад. Но происходит
                     это не по его желанию, а будто вселенная говорит ему, что нужно спасать попавших в беду людей, иначе
                     он вечно будет возвращаться в один и тот же момент, пока не сделает, что нужно.
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -117,6 +117,7 @@
                 <img src="anime/boku_dake/1.jpg" alt="1"/><img src="anime/boku_dake/2.jpg" alt="2"/><img src="anime/boku_dake/3.jpg" alt="3"/>
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть аниме "Город, в котором меня нет" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

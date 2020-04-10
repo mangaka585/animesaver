@@ -82,14 +82,14 @@
             <img src="anime/no_guns_life/main.jpg" alt="No-guns-life pic" />
             <div class="description_of_anime_text">
                 <h1>Жизнь без оружия<br>(No guns life)</h1>
-                <h3>
+                <p>
                     Аниме связано с Дзюдзо Инуи, который является бывший солдатом. Он, как и многие другие, не смог
                     вернутся к мирной жизни после окончания войны. Тем более он пошел на большие жертвы - ему произвели
                     модификацию тела ради победы (вместо головы гигантский пистолет). Таких как он называют экстендами.
                     Теперь его основное занятие - это решение проблем в трущобах города, связанных с подобными ему
                     бывшими солдатами. История же начинается с момента, когда в его офисе появляется экстенд с похищенным
                     ребенком и просит его о помощи.
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -116,6 +116,7 @@
                 <img src="anime/no_guns_life/1.jpg" alt="1"/><img src="anime/no_guns_life/2.jpg" alt="2"/><img src="anime/no_guns_life/3.jpeg" alt="3" />
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть аниме "Жизнь без оружия" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

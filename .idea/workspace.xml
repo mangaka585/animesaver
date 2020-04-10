@@ -2,24 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/anime/no_guns_life/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/no_guns_life/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/no_guns_life/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/no_guns_life/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/no-guns-life" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/boruto/main3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/boruto/main3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/dorohedoro/dorohedoro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/dorohedoro/dorohedoro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/haikyuu/haikyuu-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/haikyuu/haikyuu-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/kabukichou/kabukichou.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/kabukichou/kabukichou.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/kyokoi_suiri/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/kyokoi_suiri/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/kyokoi_suiri/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/kyokoi_suiri/2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/kyokoi_suiri/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/kyokoi_suiri/3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/kyokoi_suiri/kyokou_suiri.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/kyokoi_suiri/kyokou_suiri.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ao-no-exorcist-season-1" beforeDir="false" afterPath="$PROJECT_DIR$/ao-no-exorcist-season-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ao-no-exorcist-season-2" beforeDir="false" afterPath="$PROJECT_DIR$/ao-no-exorcist-season-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arifureta" beforeDir="false" afterPath="$PROJECT_DIR$/arifureta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atack-on-titans-season-1" beforeDir="false" afterPath="$PROJECT_DIR$/atack-on-titans-season-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atack-on-titans-season-2" beforeDir="false" afterPath="$PROJECT_DIR$/atack-on-titans-season-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakuman-season-1" beforeDir="false" afterPath="$PROJECT_DIR$/bakuman-season-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boku-dake-ga-inai-machi" beforeDir="false" afterPath="$PROJECT_DIR$/boku-dake-ga-inai-machi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boku-no-hero-academia-season-1" beforeDir="false" afterPath="$PROJECT_DIR$/boku-no-hero-academia-season-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boku-no-hero-academia-season-2" beforeDir="false" afterPath="$PROJECT_DIR$/boku-no-hero-academia-season-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boku-no-hero-academia-season-3" beforeDir="false" afterPath="$PROJECT_DIR$/boku-no-hero-academia-season-3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boruto-100" beforeDir="false" afterPath="$PROJECT_DIR$/boruto-100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boruto-150" beforeDir="false" afterPath="$PROJECT_DIR$/boruto-150" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boruto-50" beforeDir="false" afterPath="$PROJECT_DIR$/boruto-50" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogue" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_pages/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_pages/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_anime.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_anime.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-stone" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-stone" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dorohedoro" beforeDir="false" afterPath="$PROJECT_DIR$/dorohedoro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haikyuu-4" beforeDir="false" afterPath="$PROJECT_DIR$/haikyuu-4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isekai-cheat-magician" beforeDir="false" afterPath="$PROJECT_DIR$/isekai-cheat-magician" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kabukichou-sherlock" beforeDir="false" afterPath="$PROJECT_DIR$/kabukichou-sherlock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kenja-no-mago" beforeDir="false" afterPath="$PROJECT_DIR$/kenja-no-mago" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kimetsu-no-yaiba" beforeDir="false" afterPath="$PROJECT_DIR$/kimetsu-no-yaiba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kimi-no-suizou-wo-tabetai" beforeDir="false" afterPath="$PROJECT_DIR$/kimi-no-suizou-wo-tabetai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koe-no-katachi" beforeDir="false" afterPath="$PROJECT_DIR$/koe-no-katachi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kyokoi-suiri" beforeDir="false" afterPath="$PROJECT_DIR$/kyokoi-suiri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no-guns-life" beforeDir="false" afterPath="$PROJECT_DIR$/no-guns-life" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one-punch-man" beforeDir="false" afterPath="$PROJECT_DIR$/one-punch-man" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radiant" beforeDir="false" afterPath="$PROJECT_DIR$/radiant" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-zero-kara-hajimeru-isekai-seikatsu" beforeDir="false" afterPath="$PROJECT_DIR$/re-zero-kara-hajimeru-isekai-seikatsu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sword-art-online-season-1" beforeDir="false" afterPath="$PROJECT_DIR$/sword-art-online-season-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sword-art-online-season-2" beforeDir="false" afterPath="$PROJECT_DIR$/sword-art-online-season-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sword-art-online-season-3" beforeDir="false" afterPath="$PROJECT_DIR$/sword-art-online-season-3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tate-no-yuusha-no-nariagari" beforeDir="false" afterPath="$PROJECT_DIR$/tate-no-yuusha-no-nariagari" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wotaku-ni-koi-wa-muzukashii" beforeDir="false" afterPath="$PROJECT_DIR$/wotaku-ni-koi-wa-muzukashii" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +236,8 @@
       <workItem from="1586351355416" duration="3072000" />
       <workItem from="1586379937897" duration="3196000" />
       <workItem from="1586435165307" duration="7790000" />
-      <workItem from="1586502206058" duration="8086000" />
+      <workItem from="1586502206058" duration="8214000" />
+      <workItem from="1586540134733" duration="2487000" />
     </task>
     <task id="LOCAL-00001" summary=" Добавил те страницы, которые отправила дизайнер и переписал страницу журнала, т.к. их число увеличилось и теперь 136">
       <created>1580677786270</created>
@@ -417,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586511360546</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Добавил Жизнь без оружия, поправил размеры картинок">
+      <created>1586530998436</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1586530998436</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Изменил дизайин журнала, сделал все ссылки рабочими, поменяли страницы и добавили новые, исправили обложку журнала. Почти готов журнал и оформление для выпуска" />
     <MESSAGE value="Изменили некоторые страницы журнала. Подправил стиль. Добавил невозможность просмотра журнала с устройства книжной ориентации." />
     <MESSAGE value="Исправили некоторые страницы в журнале. Запустили его сегодня в 12 часов в доступ. Изменил некоторые ссылки и подписи. По стилям и сайту ничего не менял" />
     <MESSAGE value="Исправил масштаб фонового изображения на читалке. Исправил на странице журнала так, что теперь контент посередине и не появляется горизонтальная полоса прокрутки. Переименовал кнопки везде где можно было. Сделал предзагрузку сайта читалки." />
@@ -463,7 +487,8 @@
     <MESSAGE value="Зилил Шерлока" />
     <MESSAGE value="Обновил для SEO h3 tags" />
     <MESSAGE value="Добавил Ложные выводы и Дорохедоро" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил Ложные выводы и Дорохедоро" />
+    <MESSAGE value="Добавил Жизнь без оружия, поправил размеры картинок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил Жизнь без оружия, поправил размеры картинок" />
   </component>
   <component name="WindowStateProjectService">
     <state x="295" y="58" width="800" height="677" key="#Vim_Emulation" timestamp="1580680643109">
@@ -480,13 +505,13 @@
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="383" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/35.27.1331.741@35.27.1331.741" timestamp="1580550820148" />
-    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2" timestamp="1586511359756">
+    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2" timestamp="1586530998102">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="236" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585672048943" />
     <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1581975580276" />
     <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2/38.27.1328.741@38.27.1328.741" timestamp="1585346337243" />
-    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1586511359756" />
+    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1586530998102" />
     <state x="214" y="38" key="SettingsEditor" timestamp="1581179267702">
       <screen x="35" y="27" width="1331" height="741" />
     </state>

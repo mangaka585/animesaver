@@ -82,11 +82,11 @@
             <img src="anime/atack_on_titans/atack_logo_2.jpg" alt="Atack_on_titans pic" />
             <div class="description_of_anime_text">
                 <h1>Атака титанов (2 сезон)<br>(Shingeki no Kyojin)</h1>
-                <h3>
+                <p>
                     Продолжение первого сезона одного из популярнейших аниме, 25 серий которого оставили после себя
                     очень много вопросов, ведь прорыв стены сверхгигантом сломал все представления людей о безопасности
                     и защите от гигантов, которым постоянно хочется есть.
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -115,6 +115,7 @@
                 <img src="anime/atack_on_titans/4.jpg" alt="1"/><img src="anime/atack_on_titans/5.jpg" alt="2"/><img src="anime/atack_on_titans/6.jpg" alt="3" />
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть 2 сезон аниме "Атака титанов" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

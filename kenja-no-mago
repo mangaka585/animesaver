@@ -82,14 +82,14 @@
             <img src="anime/vnuk_mudretsa/vnuk_mudretsa_logo.jpg" alt="Vnuk_mudretsa pic" />
             <div class="description_of_anime_text">
                 <h1>Внук мудреца</h1>
-                <h3>
+                <p>
                     Шин - обычный офисный работник, который проживает скучную неинтересную жизнь, но в определенный
                     момент он умирает, не теряя память о событиях прошлой жизни. Перерождается он в совсем непривычном
                     для себя мире, где правит волшебство и магия. Его приютил  и вырастил мудрец Мерлин, который обучил
                     его так, что Шин стал выдающимся волгебником. И так как Мерлин жил в отшельничестве, Шин понятия не
                     имел, что происходит и как устроен внешний мир. Чтобы исправить это, его отправляют в королевскую
                     школу волшебства, но действительно ли так будет лучше?
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -118,6 +118,7 @@
                 <img src="anime/vnuk_mudretsa/1.jpg" alt="1"/><img src="anime/vnuk_mudretsa/2.jpg" alt="2"/><img src="anime/vnuk_mudretsa/3.jpg" alt="3" />
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть аниме "Внук мудреца" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

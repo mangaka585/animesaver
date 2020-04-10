@@ -82,13 +82,13 @@
             <img src="anime/koe_no_katachi/koe_no_katachi_logo.jpg" alt="Koe_no_katachi pic" />
             <div class="description_of_anime_text">
                 <h1>Форма голоса<br>(Koe no katachi) </h1>
-                <h3>
+                <p>
                     Мир детей очень жесток, потому что они еще не успели научиться скрывать свои ужасные мысли,
                     как взрослые. Однако потом, когда вырастают, оглядываются назад в прошлое, и им становится
                     стыдно за свои поступки. Как много лет должно пройти, чтобы до школьника дошло,
                     кем он был, когда издевался над ребенком-инвалидом? Сёи возненавидел себя за это, и вот судьба дала
                     ему шанс исправиться, но получится ли у него?
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -115,6 +115,7 @@
                 <img src="anime/koe_no_katachi/1.jpg" alt="1"/><img src="anime/koe_no_katachi/2.jpg" alt="2"/><img src="anime/koe_no_katachi/3.jpg" alt="3"/>
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть аниме "Форма голоса" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Смотреть онлайн</h3>

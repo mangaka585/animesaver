@@ -82,12 +82,12 @@
             <img src="anime/onepunchman/main.jpeg" alt="OnePunchMan pic" />
             <div class="description_of_anime_text">
                 <h1>Ванпанчмен (1 сезон)<br>(One Punch Man)</h1>
-                <h3>
+                <p>
                     Удивительное аниме этого жанра, в котором нет эпичных долгих драк, а все заканчивается быстро и
                     одним ударом. Сайтама пытается найти противника, который выдержит больше, чем один удар, что у него,
                     к сожалению, никак не получается. Отсутствие грозного героического вида главного героя делает это
                     аниме не только интересным, но и смешным.
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -116,6 +116,7 @@
                 <img src="anime/onepunchman/1.jpg" alt="1"/><img src="anime/onepunchman/2.png" alt="2"/><img src="anime/onepunchman/3.jpeg" alt="3"/>
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть 1 сезон аниме "Ванпанчмен" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

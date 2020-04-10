@@ -82,12 +82,12 @@
             <img src="anime/bakuman/main.jpg" alt="Bakuman pic" />
             <div class="description_of_anime_text">
                 <h1>Бакуман (1 сезон)<br>(Bakuman)</h1>
-                <h3>
+                <p>
                     Моритака Маширо и Акито Такаги - старшеклассники, настроенные нарисовать мангу, по которой снимут
                     аниме. Ведь только при достижении успеха в этом деле Моритака сможет жениться на девушке своей мечты.
                     Чтобы не рассказывать весь сюжет наперед, просто доверьтесь выбору администрации сайта и посмотрите
                     это аниме. Одно из лучших аниме для фанатов мира аниме и манги!
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -116,6 +116,7 @@
                 <img src="anime/bakuman/1.jpg" alt="1"/><img src="anime/bakuman/2.jpg" alt="2"/><img src="anime/bakuman/3.jpg" alt="3" />
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть 1 сезон аниме "Бакуман" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

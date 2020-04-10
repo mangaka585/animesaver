@@ -82,13 +82,13 @@
             <img src="anime/atack_on_titans/atack_logo.jpg" alt="Atack_on_titans pic" />
             <div class="description_of_anime_text">
                 <h1>Атака титанов (1 сезон)<br>(Shingeki no Kyojin)</h1>
-                <h3>
+                <p>
                     Много столетий назад человечество почти полностью было истреблено гигантами, которые убивали людей
                     не из чувства голода, а просто так, без причины. Оставшиеся люди, которые смогли выжить среди такого
                     бесчинства, построили высоченные стены вокруг своего города, которые смогли защитить население от
                     бесконечного числа гигантов. Но будут ли стены и дальше защищать людей? Откуда вообще взялись
                     гиганты и можно ли их победить?
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -117,6 +117,7 @@
                 <img src="anime/atack_on_titans/1.jpg" alt="1"/><img src="anime/atack_on_titans/2.jpg" alt="2"/><img src="anime/atack_on_titans/3.jpg" alt="3" />
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть 1 сезон аниме "Атака титанов" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

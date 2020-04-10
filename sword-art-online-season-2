@@ -83,13 +83,13 @@
             <img src="anime/sword_art_online/sword_2_logo.jpg" alt="Sword art online pic" />
             <div class="description_of_anime_text">
                 <h1>Мастера меча онлайн 2<br>(Sword Art Online 2)</h1>
-                <h3>
+                <p>
                     Во втором сезоне полюбившегося аниме действия будут развиваться в уже совсем другой виртуальной вселенной,
                     где нет ни мечей или магии, зато есть огнестрельное оружие, и успех развития в игре зависит лишь от умения им пользоваться.
                     Как-то появляется персонаж, который застрелил во время игры другого игрока, и сообщил всем, что игрок, управлявший тем персонажем, мёртв и в реальной жизни.
                     Количество таких странных совпадений увеличивается, все в шоке, включая и действующую власть.
                     Кого же отправить на расследование такой ужасной странности, если не того, у кого уже есть опыт в подоных делах?
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -118,6 +118,7 @@
                 <img src="anime/sword_art_online/4.jpg" alt="1"/><img src="anime/sword_art_online/5.jpg" alt="2"/><img src="anime/sword_art_online/6.jpg" alt="3"/>
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть 2 сезон аниме "Мастера меча онлайн" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

@@ -82,7 +82,7 @@
             <img src="anime/kabukichou/kabukichou.jpg" alt="Kabukichou pic" />
             <div class="description_of_anime_text">
                 <h1>Шерлок из Кабуки-тё<br>Kabukichou Sherlock</h1>
-                <h3>
+                <p>
                     Кабуки-тё - самое беспокойное место района Синдзюку. Чем ярче свет неоновых огней, тем гуще вокруг
                     него собираются тени. И во тьме, скрывающей преступников, расположился дом, где под опекой миссис
                     Хадсон живут те самые знаменитые детективы. Их семеро, и каждый чудоват по-своему:
@@ -91,7 +91,7 @@
                     охота на Джека Потрошителя, и начинается наша история. Снова знакомые нам персонажи Шерлок, Ватсон и
                     Мориарти.. Что лежит в основе этого союза, какие занадки предстоит разгадать вместе и в чем
                     заключается вся драма?
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -118,6 +118,7 @@
                 <img src="anime/kabukichou/1.jpg" alt="1"/><img src="anime/kabukichou/2.jpeg" alt="2"/><img src="anime/kabukichou/3.jpg" alt="3" />
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть аниме "Шерлок из Кабуки-тё" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

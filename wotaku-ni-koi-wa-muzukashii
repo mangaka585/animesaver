@@ -82,11 +82,11 @@
             <img src="anime/otaku_love/otaku_love_pic.jpeg" alt="Otake_love pic" />
             <div class="description_of_anime_text">
                 <h1>Так сложно любить отаку<br>(Wotaku ni Koi wa Muzukashii)</h1>
-                <h3>
+                <p>
                     Аниме расскажет нам об отношениях двух отаку, которые совсем в этом ничего не смыслят. Наруми
                     Момосэ - типичная отаку, которая повстречала на новой работе своего однокласника, который уже не
                     школьник с комплексами, а умный красавец. Как же будут развиваться эти отношения?
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -115,6 +115,7 @@
                 <img src="anime/otaku_love/1.jpg" alt="1"/><img src="anime/otaku_love/2.jpg" alt="2"/><img src="anime/otaku_love/3.jpg" alt="3" />
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть аниме "Так сложно любить отаку" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

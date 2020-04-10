@@ -82,14 +82,14 @@
             <img src="anime/dorohedoro/dorohedoro.jpg" alt="Dorohedoro pic" />
             <div class="description_of_anime_text">
                 <h1>Дорохедоро<br>(Dorohedoro)</h1>
-                <h3>
+                <p>
                     Кайман является жителем Дыры - города, в котором живут не самые приятные личности. Но есть еще
                     более ужасное место, в котором обитают маги. Маги мерзки тем, что ставят бесчеловечные опыты на
                     жителях Дыры. Кайману тоже пришлось пережить это, и теперь его голова - это рожа рептилии. Имя свое
                     и память он потерял, поэтому единственное, что ему остается, так это вместе со своей сильной
                     подругой Никайдо вернуть свою внешность и память обратно, перед этим жестко отомстив обидчику.
                     Литры крови и ужасных картин будут сопровождать их все путешествие, не для слабонервных..
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -116,6 +116,7 @@
                 <img src="anime/dorohedoro/1.jpg" alt="1"/><img src="anime/dorohedoro/2.jpeg" alt="2"/><img src="anime/dorohedoro/3.jpg" alt="3" />
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть аниме "Дорохедоро" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

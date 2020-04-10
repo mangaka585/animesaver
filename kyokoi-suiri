@@ -82,14 +82,14 @@
             <img src="anime/kyokoi_suiri/kyokou_suiri.jpg" alt="Kyokoi_suiri pic" />
             <div class="description_of_anime_text">
                 <h1>Ложные выводы<br>(Kyokoi suiri)</h1>
-                <h3>
+                <p>
                     Еще ребенком Котоко Иванага была унесена ёкаями, которые предложили ей стать богиней мудрости,
                     чтобы выступать посредником между людским и потусторонним мирами. Она согласилась, отдав в замен
                     свои правый глаз и левую ногу. Через пол года после этих события она встречает двадцатилетнего
                     студента колледжа Куро, который в итоге становится её партнером в расследовании необычных дел.
                     Увлекательным приключением это все становится тогда, когда обнаруживается, что у Куро есть очень
                     интересная сверхспособность..
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -116,6 +116,7 @@
                 <img src="anime/kyokoi_suiri/1.jpg" alt="1"/><img src="anime/kyokoi_suiri/2.jpeg" alt="2"/><img src="anime/kyokoi_suiri/3.jpeg" alt="3" />
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть аниме "Ложные выводы" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>

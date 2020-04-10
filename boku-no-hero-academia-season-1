@@ -82,14 +82,14 @@
             <img src="anime/boku_no_hero_academia/hero_logo_1.jpg" alt="Boku_no_hero_academia pic" />
             <div class="description_of_anime_text">
                 <h1>Моя геройская академия (1 сезон)<br>(Boku no Hero Academia)</h1>
-                <h3>
+                <p>
                     В мире, где у всех есть сверхспособности, развить свои природные навыки можно с помощью Академии
                     Героев, куда и мечтает попасть главый герой аниме Мидория Изуку. Однако у него совсем нет никаких
                     способностей, ему действительно не повезло. Но он не сдается и живет в ожидании того, что природа
                     все же себя проявит, в то же время изучая все аспекты работы героев. Экзамены в Академию на носу,
                     а причуды так и не проявились. Лишь случайная встреча с Всемогущим, который доверил Изуку невероятный
                     секрет, позволила все же осуществить мечту - стать героем №1.
-                </h3>
+                </p>
                 <div class="description_of_anime_info">
                     <div class="description_of_anime_info_1">
                         <span>
@@ -118,6 +118,7 @@
                 <img src="anime/boku_no_hero_academia/1.jpg" alt="1"/><img src="anime/boku_no_hero_academia/2.jpg" alt="2"/><img src="anime/boku_no_hero_academia/3.jpg" alt="3" />
             </div>
             <div style="clear: both"></div>
+            <h2 class="h2_description">Смотреть 1 сезон аниме "Моя геройская академия" онлайн</h2>
             <section class="video">
                 <div>
                     <h3>Серия 1</h3>
