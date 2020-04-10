@@ -78,6 +78,10 @@
             <section class="main_block">                                                        <!--Main block-->
                     <div class="catalogue_of">
                         <div>
+                            <h2>Жизнб без оружия</h2>
+                            <a href="no-guns-life"><img src="anime/no_guns_life/main.jpg" alt="No-guns-life pic" /></a>
+                        </div>
+                        <div>
                             <h2>Ложные выводы</h2>
                             <a href="kyokoi-suiri"><img src="anime/kyokoi_suiri/kyokou_suiri.jpg" alt="Kyokoi-suiri pic" /></a>
                         </div>
