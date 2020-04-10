@@ -495,34 +495,63 @@ header {
 
     .description_of_anime_info {
         display: block;
-        height: 120px;
+        position: relative;
+        margin-top: 75px;
+        font-family: 'Exo 2', sans-serif;
+        margin-bottom: 10px;
     }
 
     .description_of_anime_info_1 {
-        color: #787878;
-        position: absolute;
-        left: 250px;
-        width: 100px;
+        padding: 2px;
+        border: 2px solid #30cfd0;
+        width: 100%;
+        margin: auto;
+        box-sizing: border-box;
     }
 
-    .description_of_anime_info_2 {
-        color: #787878;
-        position: absolute;
-        left: 350px;
-        border-left: dotted 2px #787878;
-        padding-left: 15px;
+    .description_of_anime_info_tabble   {
+        padding: 2px;
+        border-bottom: 1px solid #dee8f1;
+        overflow: hidden;
+        font-size: 0.85em;
+    }
+
+    .description_of_anime_info_text {
+        display: table-cell;
+        padding-left: 5px;
+        vertical-align: middle;
+        margin-left: 2px;
+        color: #888;
+        text-align: justify;
+        width: 450px;
+    }
+
+    .description_of_anime_info_title    {
+        display: table-cell;
+        width: 110px;
+        padding: 6px 10px;
+        border-right: 1px solid #dee8f1;
+        vertical-align: middle;
     }
 
     .images_of_anime {
-        margin-left: 30px;
+        border: solid 2px #30cfd0;
+        width: 96.5%;
+        margin: auto;
     }
 
     .images_of_anime img {
         border: solid 1px #663399;
-        margin-top: 30px;
-        margin-right: 34px;
         float: left;
         width: 200px;
+        margin-inline: 22px;
+    }
+
+    legend  {
+        font-family: 'Exo 2', sans-serif;
+        color: #30cfd0;
+        font-size: 1.1em;
+        margin-left: 10px;
     }
 
     .video {
@@ -536,7 +565,7 @@ header {
         width: 80%;
         min-height: 40vh;
         flex-direction: column;
-        left: 8%;
+        margin: auto;
         position: relative;
         margin-bottom: 15px;
     }

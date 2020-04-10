@@ -90,33 +90,57 @@
                     на деревню, что вскоре и случается. Тут Сет и Альма решаются отправиться в путешествие, чтобы найти
                     гнездо этого зла, которое называется Радиант, чтобы уничтожить его навсегда.
                 </p>
-                <div class="description_of_anime_info">
-                    <div class="description_of_anime_info_1">
-                        <span>
-                        Год:<br>
-                        Режиссер:<br>
-                        Жанр:<br>
-                        Премьера:<br>
-                        Время:<br>
-                        Серии:
-                        </span>
+            </div>
+            <div class="description_of_anime_info">
+                <fieldset class="description_of_anime_info_1">
+                    <legend>Информация</legend>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Год</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            2018
+                        </div>
                     </div>
-                    <div class="description_of_anime_info_2">
-                        <span>
-                        2018<br>
-                        Киси Сэйдзи<br>
-                        Фэнтези, приключения<br>
-                        6 октября 2018<br>
-                        24 мин.<br>
-                        21 из 21
-                        </span>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Режиссёр</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            Киси Сэйдзи
+                        </div>
                     </div>
-                </div>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Жанр</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            Фэнтези, приключения
+                        </div>
+                    </div>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Время</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            24 минут
+                        </div>
+                    </div>
+                    <div class="description_of_anime_info_tabble" style="border-bottom: none">
+                        <div class="description_of_anime_info_title">
+                            <strong>Серии</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            21 из 21
+                        </div>
+                    </div>
+                </fieldset>
             </div>
             <div style="clear: both"></div>
-            <div class="images_of_anime">
+            <fieldset class="images_of_anime">
+                <legend>Скриншоты</legend>
                 <img src="anime/radiant/1.jpg" alt="1"/><img src="anime/radiant/2.jpg" alt="2"/><img src="anime/radiant/3.jpg" alt="3"/>
-            </div>
+            </fieldset>
             <div style="clear: both"></div>
             <h2 class="h2_description">Смотреть 1 сезон аниме "Радиант" онлайн</h2>
             <section class="video">

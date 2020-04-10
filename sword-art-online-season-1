@@ -94,33 +94,57 @@
                     так как мозг будет поджарен микроволновым излучением. Кирито выбрал путь одинокого мечника и,
                     объединившись с Асуной Юки из гильдии Рыцарей Крови, решительно настроился пройти игру до конца.
                 </p>
-                <div class="description_of_anime_info">
-                    <div class="description_of_anime_info_1">
-                        <span>
-                        Год:<br>
-                        Режиссер:<br>
-                        Жанр:<br>
-                        Премьера:<br>
-                        Время:<br>
-                        Серии:
-                        </span>
+            </div>
+            <div class="description_of_anime_info">
+                <fieldset class="description_of_anime_info_1">
+                    <legend>Информация</legend>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Год</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            2012
+                        </div>
                     </div>
-                    <div class="description_of_anime_info_2">
-                        <span>
-                        2012<br>
-                        Ито Томохико<br>
-                        Приключения, фэнтези, романтика<br>
-                        7 июля 2012<br>
-                        25 мин.<br>
-                        25 из 25
-                        </span>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Режиссёр</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            Ито Томохико
+                        </div>
                     </div>
-                </div>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Жанр</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            Приключения, фэнтези, романтика
+                        </div>
+                    </div>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Время</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            25 минут
+                        </div>
+                    </div>
+                    <div class="description_of_anime_info_tabble" style="border-bottom: none">
+                        <div class="description_of_anime_info_title">
+                            <strong>Серии</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            25 из 25
+                        </div>
+                    </div>
+                </fieldset>
             </div>
             <div style="clear: both"></div>
-            <div class="images_of_anime">
+            <fieldset class="images_of_anime">
+                <legend>Скриншоты</legend>
                 <img src="anime/sword_art_online/1.jpg" alt="1"/><img src="anime/sword_art_online/2.jpg" alt="2"/><img src="anime/sword_art_online/3.jpg" alt="3"/>
-            </div>
+            </fieldset>
             <div style="clear: both"></div>
             <h2 class="h2_description">Смотреть 1 сезон аниме "Мастера меча онлайн" онлайн</h2>
             <section class="video">

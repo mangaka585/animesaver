@@ -90,33 +90,57 @@
                     Количество таких странных совпадений увеличивается, все в шоке, включая и действующую власть.
                     Кого же отправить на расследование такой ужасной странности, если не того, у кого уже есть опыт в подоных делах?
                 </p>
-                <div class="description_of_anime_info">
-                    <div class="description_of_anime_info_1">
-                        <span>
-                        Год:<br>
-                        Режиссер:<br>
-                        Жанр:<br>
-                        Премьера:<br>
-                        Время:<br>
-                        Серии:
-                        </span>
+            </div>
+            <div class="description_of_anime_info">
+                <fieldset class="description_of_anime_info_1">
+                    <legend>Информация</legend>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Год</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            2014
+                        </div>
                     </div>
-                    <div class="description_of_anime_info_2">
-                        <span>
-                        2014<br>
-                        Ито Томохико<br>
-                        Приключения, фэнтези, романтика<br>
-                        5 июля 2014<br>
-                        25 мин.<br>
-                        24 из 24
-                        </span>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Режиссёр</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            Ито Томохико
+                        </div>
                     </div>
-                </div>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Жанр</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            Приключения, фэнтези, романтика
+                        </div>
+                    </div>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Время</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            25 минут
+                        </div>
+                    </div>
+                    <div class="description_of_anime_info_tabble" style="border-bottom: none">
+                        <div class="description_of_anime_info_title">
+                            <strong>Серии</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            24 из 24
+                        </div>
+                    </div>
+                </fieldset>
             </div>
             <div style="clear: both"></div>
-            <div class="images_of_anime">
+            <fieldset class="images_of_anime">
+                <legend>Скриншоты</legend>
                 <img src="anime/sword_art_online/4.jpg" alt="1"/><img src="anime/sword_art_online/5.jpg" alt="2"/><img src="anime/sword_art_online/6.jpg" alt="3"/>
-            </div>
+            </fieldset>
             <div style="clear: both"></div>
             <h2 class="h2_description">Смотреть 2 сезон аниме "Мастера меча онлайн" онлайн</h2>
             <section class="video">

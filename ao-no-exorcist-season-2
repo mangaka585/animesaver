@@ -89,33 +89,57 @@
                     завладеть вторым глазом, потому что, собрав два глаза вместе, будут возрождены тысячи мертвых,
                     и тогда уже проблема приобретет совсем другой масштаб...
                 </p>
-                <div class="description_of_anime_info">
-                    <div class="description_of_anime_info_1">
-                        <span>
-                        Год:<br>
-                        Режиссер:<br>
-                        Жанр:<br>
-                        Премьера:<br>
-                        Время:<br>
-                        Серии:
-                        </span>
+            </div>
+            <div class="description_of_anime_info">
+                <fieldset class="description_of_anime_info_1">
+                    <legend>Информация</legend>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Год</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            2017
+                        </div>
                     </div>
-                    <div class="description_of_anime_info_2">
-                        <span>
-                        2017<br>
-                        Хацуми Койти<br>
-                        Приключения, комедия, драма<br>
-                        6 января 2017<br>
-                        25 мин.<br>
-                        12 из 12
-                        </span>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Режиссёр</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            Хацуми Койти
+                        </div>
                     </div>
-                </div>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Жанр</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            Приключения, комедия, драма
+                        </div>
+                    </div>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Время</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            25 минут
+                        </div>
+                    </div>
+                    <div class="description_of_anime_info_tabble" style="border-bottom: none">
+                        <div class="description_of_anime_info_title">
+                            <strong>Серии</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            12 из 12
+                        </div>
+                    </div>
+                </fieldset>
             </div>
             <div style="clear: both"></div>
-            <div class="images_of_anime">
+            <fieldset class="images_of_anime">
+                <legend>Скриншоты</legend>
                 <img src="anime/ao_no_exorcist/4.jpg" alt="1"/><img src="anime/ao_no_exorcist/5.jpg" alt="2"/><img src="anime/ao_no_exorcist/6.jpg" alt="3"/>
-            </div>
+            </fieldset>
             <div style="clear: both"></div>
             <h2 class="h2_description">Смотреть 2 сезон аниме "Синий экзорцист" онлайн</h2>
             <section class="video">

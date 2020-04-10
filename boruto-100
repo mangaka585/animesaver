@@ -92,31 +92,57 @@
                     Какие трудности встретятся на пути? И какие сюрпризы приготовила франшиза одного из величайших аниме
                     в истории?
                 </p>
-                <div class="description_of_anime_info">
-                    <div class="description_of_anime_info_1">
-                        <span>
-                        Год:<br>
-                        Режиссер:<br>
-                        Жанр:<br>
-                        Время:<br>
-                        Серии:
-                        </span>
+            </div>
+            <div class="description_of_anime_info">
+                <fieldset class="description_of_anime_info_1">
+                    <legend>Информация</legend>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Год</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            2017
+                        </div>
                     </div>
-                    <div class="description_of_anime_info_2">
-                        <span>
-                        2017<br>
-                        Абэ Нориюки<br>
-                        Приключения, боевые искусства, сёнэн<br>
-                        25 мин.<br>
-                        50
-                        </span>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Режиссёр</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            Абэ Нориюки
+                        </div>
                     </div>
-                </div>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Жанр</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            Приключения, боевые искусства, сёнэн
+                        </div>
+                    </div>
+                    <div class="description_of_anime_info_tabble">
+                        <div class="description_of_anime_info_title">
+                            <strong>Время</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            25 минут
+                        </div>
+                    </div>
+                    <div class="description_of_anime_info_tabble" style="border-bottom: none">
+                        <div class="description_of_anime_info_title">
+                            <strong>Серии</strong>
+                        </div>
+                        <div class="description_of_anime_info_text">
+                            51 - 100
+                        </div>
+                    </div>
+                </fieldset>
             </div>
             <div style="clear: both"></div>
-            <div class="images_of_anime">
+            <fieldset class="images_of_anime">
+                <legend>Скриншоты</legend>
                 <img src="anime/boruto/4.jpeg" alt="1"/><img src="anime/boruto/5.jpg" alt="2"/><img src="anime/boruto/6.jpg" alt="3"/>
-            </div>
+            </fieldset>
             <div style="clear: both"></div>
             <h2 class="h2_description">Смотреть аниме "Боруто" онлайн</h2>
             <section class="video">

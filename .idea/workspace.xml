@@ -16,7 +16,6 @@
       <change beforePath="$PROJECT_DIR$/boruto-100" beforeDir="false" afterPath="$PROJECT_DIR$/boruto-100" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boruto-150" beforeDir="false" afterPath="$PROJECT_DIR$/boruto-150" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boruto-50" beforeDir="false" afterPath="$PROJECT_DIR$/boruto-50" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_anime.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_anime.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doctor-stone" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-stone" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dorohedoro" beforeDir="false" afterPath="$PROJECT_DIR$/dorohedoro" afterDir="false" />
@@ -237,7 +236,7 @@
       <workItem from="1586379937897" duration="3196000" />
       <workItem from="1586435165307" duration="7790000" />
       <workItem from="1586502206058" duration="8214000" />
-      <workItem from="1586540134733" duration="2487000" />
+      <workItem from="1586540134733" duration="15981000" />
     </task>
     <task id="LOCAL-00001" summary=" Добавил те страницы, которые отправила дизайнер и переписал страницу журнала, т.к. их число увеличилось и теперь 136">
       <created>1580677786270</created>
@@ -442,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586530998436</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Поправил для SEO, добавил h2 на аниме страницу">
+      <created>1586542760728</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1586542760728</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Изменили некоторые страницы журнала. Подправил стиль. Добавил невозможность просмотра журнала с устройства книжной ориентации." />
     <MESSAGE value="Исправили некоторые страницы в журнале. Запустили его сегодня в 12 часов в доступ. Изменил некоторые ссылки и подписи. По стилям и сайту ничего не менял" />
     <MESSAGE value="Исправил масштаб фонового изображения на читалке. Исправил на странице журнала так, что теперь контент посередине и не появляется горизонтальная полоса прокрутки. Переименовал кнопки везде где можно было. Сделал предзагрузку сайта читалки." />
     <MESSAGE value="Логотип подгружается как лого журнала, испралены маленькие ошибки в дизайне. Создан второй выпуск" />
@@ -488,7 +493,8 @@
     <MESSAGE value="Обновил для SEO h3 tags" />
     <MESSAGE value="Добавил Ложные выводы и Дорохедоро" />
     <MESSAGE value="Добавил Жизнь без оружия, поправил размеры картинок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил Жизнь без оружия, поправил размеры картинок" />
+    <MESSAGE value="Поправил для SEO, добавил h2 на аниме страницу" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил для SEO, добавил h2 на аниме страницу" />
   </component>
   <component name="WindowStateProjectService">
     <state x="295" y="58" width="800" height="677" key="#Vim_Emulation" timestamp="1580680643109">
@@ -505,13 +511,13 @@
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="383" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/35.27.1331.741@35.27.1331.741" timestamp="1580550820148" />
-    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2" timestamp="1586530998102">
+    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2" timestamp="1586542760473">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="236" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585672048943" />
     <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1581975580276" />
     <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2/38.27.1328.741@38.27.1328.741" timestamp="1585346337243" />
-    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1586530998102" />
+    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1586542760473" />
     <state x="214" y="38" key="SettingsEditor" timestamp="1581179267702">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
