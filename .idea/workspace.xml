@@ -1,41 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="">
+    <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="Обновил дизайн и SEO послеразговора с Шамилем">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalogue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ao-no-exorcist-season-1" beforeDir="false" afterPath="$PROJECT_DIR$/ao-no-exorcist-season-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ao-no-exorcist-season-2" beforeDir="false" afterPath="$PROJECT_DIR$/ao-no-exorcist-season-2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arifureta" beforeDir="false" afterPath="$PROJECT_DIR$/arifureta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atack-on-titans-season-1" beforeDir="false" afterPath="$PROJECT_DIR$/atack-on-titans-season-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atack-on-titans-season-2" beforeDir="false" afterPath="$PROJECT_DIR$/atack-on-titans-season-2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakuman-season-1" beforeDir="false" afterPath="$PROJECT_DIR$/bakuman-season-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boku-dake-ga-inai-machi" beforeDir="false" afterPath="$PROJECT_DIR$/boku-dake-ga-inai-machi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boku-no-hero-academia-season-1" beforeDir="false" afterPath="$PROJECT_DIR$/boku-no-hero-academia-season-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boku-no-hero-academia-season-2" beforeDir="false" afterPath="$PROJECT_DIR$/boku-no-hero-academia-season-2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boku-no-hero-academia-season-3" beforeDir="false" afterPath="$PROJECT_DIR$/boku-no-hero-academia-season-3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boruto-100" beforeDir="false" afterPath="$PROJECT_DIR$/boruto-100" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boruto-150" beforeDir="false" afterPath="$PROJECT_DIR$/boruto-150" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boruto-50" beforeDir="false" afterPath="$PROJECT_DIR$/boruto-50" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/main.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/main2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/boruto/main3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ao-no-exorcist-season-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ao-no-exorcist-season-2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arifureta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atack-on-titans-season-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atack-on-titans-season-2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakuman-season-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boku-dake-ga-inai-machi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boku-no-hero-academia-season-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boku-no-hero-academia-season-2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boku-no-hero-academia-season-3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boruto-100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boruto-150" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boruto-50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_anime.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_anime.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doctor-stone" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-stone" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dorohedoro" beforeDir="false" afterPath="$PROJECT_DIR$/dorohedoro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikyuu-4" beforeDir="false" afterPath="$PROJECT_DIR$/haikyuu-4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isekai-cheat-magician" beforeDir="false" afterPath="$PROJECT_DIR$/isekai-cheat-magician" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kabukichou-sherlock" beforeDir="false" afterPath="$PROJECT_DIR$/kabukichou-sherlock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kenja-no-mago" beforeDir="false" afterPath="$PROJECT_DIR$/kenja-no-mago" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kimetsu-no-yaiba" beforeDir="false" afterPath="$PROJECT_DIR$/kimetsu-no-yaiba" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kimi-no-suizou-wo-tabetai" beforeDir="false" afterPath="$PROJECT_DIR$/kimi-no-suizou-wo-tabetai" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koe-no-katachi" beforeDir="false" afterPath="$PROJECT_DIR$/koe-no-katachi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kyokoi-suiri" beforeDir="false" afterPath="$PROJECT_DIR$/kyokoi-suiri" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/no-guns-life" beforeDir="false" afterPath="$PROJECT_DIR$/no-guns-life" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one-punch-man" beforeDir="false" afterPath="$PROJECT_DIR$/one-punch-man" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radiant" beforeDir="false" afterPath="$PROJECT_DIR$/radiant" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/re-zero-kara-hajimeru-isekai-seikatsu" beforeDir="false" afterPath="$PROJECT_DIR$/re-zero-kara-hajimeru-isekai-seikatsu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sword-art-online-season-1" beforeDir="false" afterPath="$PROJECT_DIR$/sword-art-online-season-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sword-art-online-season-2" beforeDir="false" afterPath="$PROJECT_DIR$/sword-art-online-season-2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sword-art-online-season-3" beforeDir="false" afterPath="$PROJECT_DIR$/sword-art-online-season-3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tate-no-yuusha-no-nariagari" beforeDir="false" afterPath="$PROJECT_DIR$/tate-no-yuusha-no-nariagari" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wotaku-ni-koi-wa-muzukashii" beforeDir="false" afterPath="$PROJECT_DIR$/wotaku-ni-koi-wa-muzukashii" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-stone" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dorohedoro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/haikyuu-4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_pages/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_pages/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_pages/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_pages/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isekai-cheat-magician" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kabukichou-sherlock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kenja-no-mago" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kimetsu-no-yaiba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kimi-no-suizou-wo-tabetai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koe-no-katachi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kyokoi-suiri" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/no-guns-life" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/one-punch-man" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radiant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-zero-kara-hajimeru-isekai-seikatsu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sword-art-online-season-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sword-art-online-season-2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sword-art-online-season-3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tate-no-yuusha-no-nariagari" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly-saver" beforeDir="false" afterPath="$PROJECT_DIR$/weekly-saver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wotaku-ni-koi-wa-muzukashii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/fourth.html" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/fourth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/second.html" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/second.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/third.html" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/third.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +75,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -236,7 +279,11 @@
       <workItem from="1586379937897" duration="3196000" />
       <workItem from="1586435165307" duration="7790000" />
       <workItem from="1586502206058" duration="8214000" />
-      <workItem from="1586540134733" duration="15981000" />
+      <workItem from="1586540134733" duration="16158000" />
+      <workItem from="1586599802543" duration="33273000" />
+      <workItem from="1586726972830" duration="1862000" />
+      <workItem from="1586805963579" duration="8046000" />
+      <workItem from="1586843787756" duration="11540000" />
     </task>
     <task id="LOCAL-00001" summary=" Добавил те страницы, которые отправила дизайнер и переписал страницу журнала, т.к. их число увеличилось и теперь 136">
       <created>1580677786270</created>
@@ -448,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586542760728</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Обновил дизайн и SEO послеразговора с Шамилем">
+      <created>1586558280255</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1586558280255</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +523,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Исправили некоторые страницы в журнале. Запустили его сегодня в 12 часов в доступ. Изменил некоторые ссылки и подписи. По стилям и сайту ничего не менял" />
     <MESSAGE value="Исправил масштаб фонового изображения на читалке. Исправил на странице журнала так, что теперь контент посередине и не появляется горизонтальная полоса прокрутки. Переименовал кнопки везде где можно было. Сделал предзагрузку сайта читалки." />
     <MESSAGE value="Логотип подгружается как лого журнала, испралены маленькие ошибки в дизайне. Создан второй выпуск" />
     <MESSAGE value="Финальные изменения для выпуска.. Открытие сслыки.. Потом изменить изображения - добавить разделительную черту" />
@@ -494,13 +547,22 @@
     <MESSAGE value="Добавил Ложные выводы и Дорохедоро" />
     <MESSAGE value="Добавил Жизнь без оружия, поправил размеры картинок" />
     <MESSAGE value="Поправил для SEO, добавил h2 на аниме страницу" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил для SEO, добавил h2 на аниме страницу" />
+    <MESSAGE value="Обновил дизайн и SEO послеразговора с Шамилем" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновил дизайн и SEO послеразговора с Шамилем" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="575" y="215" width="800" height="684" key="#SQL_Dialects" timestamp="1586639805783">
+      <screen x="40" y="27" width="1880" height="1053" />
+    </state>
+    <state x="575" y="215" width="800" height="684" key="#SQL_Dialects/40.27.1880.1053@40.27.1880.1053" timestamp="1586639805783" />
     <state x="295" y="58" width="800" height="677" key="#Vim_Emulation" timestamp="1580680643109">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="295" y="58" width="800" height="677" key="#Vim_Emulation/35.27.1331.741@35.27.1331.741" timestamp="1580680643109" />
+    <state x="575" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586651861835">
+      <screen x="40" y="27" width="1880" height="1053" />
+    </state>
+    <state x="575" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.27.1880.1053@40.27.1880.1053" timestamp="1586651861835" />
     <state x="565" y="274" width="781" height="446" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586527379974">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
@@ -511,13 +573,21 @@
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="383" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/35.27.1331.741@35.27.1331.741" timestamp="1580550820148" />
-    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2" timestamp="1586542760473">
+    <state x="713" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586990245344">
+      <screen x="40" y="27" width="1880" height="1053" />
+    </state>
+    <state x="713" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/40.27.1880.1053@40.27.1880.1053" timestamp="1586990245344" />
+    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2" timestamp="1586990148800">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="236" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585672048943" />
     <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1581975580276" />
     <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2/38.27.1328.741@38.27.1328.741" timestamp="1585346337243" />
-    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1586542760473" />
+    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1586990148800" />
+    <state x="775" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1586681880110">
+      <screen x="40" y="27" width="1880" height="1053" />
+    </state>
+    <state x="775" y="479" width="399" height="156" key="NewPhpFileDialog/40.27.1880.1053@40.27.1880.1053" timestamp="1586681880110" />
     <state x="214" y="38" key="SettingsEditor" timestamp="1581179267702">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
@@ -532,10 +602,11 @@
     </state>
     <state x="365" y="187" key="run.anything.popup/35.27.1331.741@35.27.1331.741" timestamp="1580681380772" />
     <state x="367" y="187" width="672" height="677" key="run.anything.popup/38.27.1328.741@38.27.1328.741" timestamp="1584311501305" />
-    <state x="365" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583707738561">
-      <screen x="38" y="27" width="1328" height="741" />
+    <state x="503" y="115" width="952" height="964" key="search.everywhere.popup" timestamp="1586641842451">
+      <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="363" y="89" width="672" height="678" key="search.everywhere.popup/35.27.1331.741@35.27.1331.741" timestamp="1582146800265" />
     <state x="365" y="89" width="672" height="678" key="search.everywhere.popup/38.27.1328.741@38.27.1328.741" timestamp="1583707738561" />
+    <state x="503" y="115" width="952" height="964" key="search.everywhere.popup/40.27.1880.1053@40.27.1880.1053" timestamp="1586641842451" />
   </component>
 </project>

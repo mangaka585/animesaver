@@ -1,5 +1,5 @@
 User-agent: *
 Disallow:/anime/ws_news.html
-Disallow:/anime/news.html
+Disallow:/anime/news.php
 
 Sitemap: https://animesaver.ru/sitemap.xml

@@ -538,13 +538,14 @@ header {
         border: solid 2px #30cfd0;
         width: 96.5%;
         margin: auto;
+        margin-bottom: 15px;
     }
 
     .images_of_anime img {
         border: solid 1px #663399;
         float: left;
         width: 200px;
-        margin-inline: 22px;
+        margin-left: 33px;
     }
 
     legend  {
@@ -552,6 +553,10 @@ header {
         color: #30cfd0;
         font-size: 1.1em;
         margin-left: 10px;
+    }
+
+    #vk_comments    {
+        margin: auto;
     }
 
     .video {
@@ -586,6 +591,7 @@ header {
         margin-bottom: 5px;
         display: none;
     }
+
 
     .adv {
         display: block;

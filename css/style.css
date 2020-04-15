@@ -246,25 +246,28 @@ header {
         margin-bottom: 5px;
     }
 
-    .index_pages_button {
+    #pagination {
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: center;
         font-family: 'Exo 2', sans-serif;
-        font-size: 14pt;
+        font-size: 1em;
         color: white;
+        margin-bottom: 15px;
+    }
+
+    #pagination a {
         background: #004e92;
         padding: 9px 11px;
         border-radius: 5px;
-        margin-right: 5px;
         border: solid 1px black;
     }
 
-    .index_pages_button_current {
-        font-family: 'Exo 2', sans-serif;
-        font-size: 14pt;
-        color: white;
+    #pagination span {
         background: #663399;
         padding: 9px 11px;
         border-radius: 5px;
-        margin-right: 5px;
         border: solid 1px black;
     }
 
@@ -295,14 +298,13 @@ header {
         display: flex;
         color: #787878;
         position: relative;
-        padding-left: 20%;
         font-family: 'Comfortaa', cursive;
         font-size: 0.8em;
     }
 
     #Rights {
         align-items: center;
-        margin-top: 5px;
+        margin: auto;
     }
 
     #Mellriart,
@@ -314,7 +316,8 @@ header {
     .ui,
     .navigation,
     .preloader,
-    .site_description   {
+    .site_description,
+    .views {
         display: none;
     }
 }
@@ -334,8 +337,8 @@ header {
 
     .preloader__image {
         position: relative;
-        top: 35%;
-        left: 40%;
+        top: 45%;
+        left: 45%;
         width: 300px;
         height: 200px;
         margin-top: -32px;
@@ -478,15 +481,16 @@ header {
     }
 
     .main_block_element img {
-        display: block;
-        float: left;
+        display: inline-block;
         padding: 5px;
         border: solid 1px #040404;
         left: 30px;
+        vertical-align: top;
     }
 
     .main_block_element_description {
-        width: 600px;
+        display: inline-block;
+        width: 450px;
         min-height: 310px;
     }
 
@@ -495,14 +499,21 @@ header {
         font-size: 0.9em;
     }
 
-    .main_block_element_genre {
+    .views  {
         display: block;
-        float: right;
+        font-size: 0.8em;
+        color: #8F8F8F;
+        width: auto;
+        text-align: right;
+    }
+
+    .main_block_element_genre {
+        display: inline-block;
         right: 0;
         width: 100px;
         border-left: solid 1px #787878;
         padding: 5px;
-        top: 50px;
+        vertical-align: top;
         min-height: 180px;
     }
 
@@ -519,9 +530,9 @@ header {
         font-family: 'Comfortaa', cursive;
         font-size: 1em;
         margin-top: 0;
-        margin-left: 200px;
+        margin-left: 10px;
         color: #004e92;
-        width: 68%;
+        width: 90%;
         padding: 10px;
         border-radius: 5px;
         border: solid 1px #004e92;
@@ -532,7 +543,7 @@ header {
     }
 
     .main_block_element p {
-        margin-left: 202px;
+        margin-left: 10px;
         width: 428px;
     }
 
@@ -546,7 +557,7 @@ header {
         text-align: center;
         margin-bottom: 5px;
     }
-
+                                    /* Удалить после переноса на php */
     .index_pages_button {
         font-family: 'Exo 2', sans-serif;
         font-size: 14pt;
@@ -574,13 +585,38 @@ header {
         font-family: 'Comfortaa', cursive;
         position: absolute;
         font-size: 0.8em;
-        right: 0;
+        right: 20px;
         bottom: 10px;
         padding: 7px 15px;
         background-image: linear-gradient(to right, #314755 0%, #004e92 100%);
         border: solid 1px #663399;
         border-radius: 5px;
         color: white;
+    }
+
+    #pagination {
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 1em;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    #pagination a {
+        background: #004e92;
+        padding: 9px 11px;
+        border-radius: 5px;
+        border: solid 1px black;
+    }
+
+    #pagination span {
+        background: #663399;
+        padding: 9px 11px;
+        border-radius: 5px;
+        border: solid 1px black;
     }
 
     .adv {
