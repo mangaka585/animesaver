@@ -3,6 +3,8 @@ include "includes/db.php";
 $url = $_GET['link'];
     $result = mysqli_query($connection,"SELECT * FROM  `anime` WHERE  `link` = '$url'");
     $r1 = mysqli_fetch_assoc($result);
+
+    mysqli_query($connection, "UPDATE `anime` SET `views` = `views` + 1 WHERE `link` = '$url'");
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -95,6 +97,7 @@ $url = $_GET['link'];
                 <p>
                     <?php echo $r1['description']; ?>
                 </>
+                <div class="views">Просмотров: <?php echo $r1['views']; ?></div>
             </div>
             <div class="description_of_anime_info">
                 <fieldset class="description_of_anime_info_1">

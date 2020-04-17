@@ -104,13 +104,13 @@
                                 <?php echo mb_substr($anime_page_result['description'],0,440, 'utf-8') . '...'; ?>
                             </p>
                             <div style="clear: both"></div>
-                            <div class="views"><?php
+                            <div class="views">Просмотров: <?php
                                 if($anime_page_result['views'] == null) {
                                     echo 0;
                                 } else {
                                     echo $anime_page_result['views'];
                                 }
-                                ?> просмотров</div>
+                                ?></div>
                         </div>
                         <div class="main_block_element_genre">
                             <h4>Жанр:</h4>

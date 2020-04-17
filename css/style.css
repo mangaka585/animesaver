@@ -505,6 +505,7 @@ header {
         color: #8F8F8F;
         width: auto;
         text-align: right;
+        margin-right: 15px;
     }
 
     .main_block_element_genre {

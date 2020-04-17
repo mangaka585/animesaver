@@ -306,7 +306,8 @@ header {
     .preloader,
     .description_of_anime_info,
     .images_of_anime,
-    .h2_description {
+    .h2_description,
+    .views {
         display: none;
     }
 }
@@ -469,6 +470,7 @@ header {
         left: 50px;
         top: 50px;
         width: 200px;
+        border-radius: 5px;
     }
 
     .description_of_anime_text h1 {
@@ -507,6 +509,7 @@ header {
         width: 100%;
         margin: auto;
         box-sizing: border-box;
+        border-radius: 5px;
     }
 
     .description_of_anime_info_tabble   {
@@ -539,6 +542,7 @@ header {
         width: 96.5%;
         margin: auto;
         margin-bottom: 15px;
+        border-radius: 5px;
     }
 
     .images_of_anime img {
@@ -546,6 +550,13 @@ header {
         float: left;
         width: 200px;
         margin-left: 33px;
+    }
+
+    .views  {
+        text-align: right;
+        margin-right: 15px;
+        color: #8F8F8F;
+        font-size: 0.9em;
     }
 
     legend  {
