@@ -1,10 +1,15 @@
 <?php
 include "includes/db.php";
 $url = $_GET['link'];
+    mysqli_query($connection, "UPDATE `anime` SET `views` = `views` + 1 WHERE `link` = '$url'");
     $result = mysqli_query($connection,"SELECT * FROM  `anime` WHERE  `link` = '$url'");
     $r1 = mysqli_fetch_assoc($result);
 
-    mysqli_query($connection, "UPDATE `anime` SET `views` = `views` + 1 WHERE `link` = '$url'");
+    if($r1 == null){
+        echo 'Упс, видимо страницы больше нет(';
+        die();
+    } else {
+
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -96,8 +101,14 @@ $url = $_GET['link'];
                 <h1><?php echo $r1['title'];?><br><?php echo $r1['title_eng']; ?></h1>
                 <p>
                     <?php echo $r1['description']; ?>
-                </>
+                </p>
                 <div class="views">Просмотров: <?php echo $r1['views']; ?></div>
+                <div class="vl_likes">
+                    <div id="vk_like"></div>
+                    <script type="text/javascript">
+                        VK.Widgets.Like('vk_like', {pageTitle: '<?php echo $r1['title'];?> на сайте Animesaver.ru'}, <?php echo $r1['id'];?>);
+                    </script>
+                </div>
             </div>
             <div class="description_of_anime_info">
                 <fieldset class="description_of_anime_info_1">
@@ -827,7 +838,7 @@ $url = $_GET['link'];
                 <legend>Комментарии</legend>
                 <div id="vk_comments"></div>                                               <!--VK comments-->
                 <script type="text/javascript">
-                    VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*", width: 720});
+                    VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*", width: 720}, <?php echo $r1['id']; ?>);
                 </script>
             </fieldset>
         </section>
@@ -852,4 +863,4 @@ $url = $_GET['link'];
 </div>
 </body>
 </html>
-<?php mysqli_close($connection);?>
+<?php } mysqli_close($connection);?>

@@ -13,7 +13,7 @@ include "../includes/db.php";
     </head>
 <body>
 <?php
-    $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_date` DESC");
+    $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_date` DESC LIMIT 0, 20");
 ?>
     <section class="layout">
         <?php

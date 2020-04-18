@@ -307,7 +307,8 @@ header {
     .description_of_anime_info,
     .images_of_anime,
     .h2_description,
-    .views {
+    .views,
+    .vk_likes {
         display: none;
     }
 }
@@ -498,9 +499,14 @@ header {
     .description_of_anime_info {
         display: block;
         position: relative;
-        margin-top: 75px;
+        margin-top: 25px;
         font-family: 'Exo 2', sans-serif;
         margin-bottom: 10px;
+    }
+
+    .vk_likes {
+        margin-left: 59%;
+        margin-top: 10px;
     }
 
     .description_of_anime_info_1 {
