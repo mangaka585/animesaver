@@ -2,16 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/anime/somali_to_mori/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/somali_to_mori/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/somali_to_mori/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/somali_to_mori/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/infinite_dendrogram/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/infinite_dendrogram/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/infinite_dendrogram/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/infinite_dendrogram/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/jibaku_shounen/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/jibaku_shounen/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/jibaku_shounen/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/jibaku_shounen/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/majitsushi_orphen/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/majitsushi_orphen/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/majitsushi_orphen/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/majitsushi_orphen/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/pet/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/pet/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/pet/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/pet/main.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/rikei_ga_koi/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/rikei_ga_koi/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/rikei_ga_koi/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/rikei_ga_koi/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/shokugeki_no_souma/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/shokugeki_no_souma/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/shokugeki_no_souma/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/shokugeki_no_souma/main.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anime.php" beforeDir="false" afterPath="$PROJECT_DIR$/anime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/anime/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/haikyuu/haikyuu-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/anime/haikyuu/haikyuu-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_anime.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_anime.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_catalogue.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_catalogue.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +226,10 @@
       <workItem from="1586726972830" duration="1862000" />
       <workItem from="1586805963579" duration="8046000" />
       <workItem from="1586843787756" duration="11762000" />
-      <workItem from="1587026488821" duration="18140000" />
+      <workItem from="1587026488821" duration="18333000" />
+      <workItem from="1587251736983" duration="222000" />
+      <workItem from="1587288716565" duration="2684000" />
+      <workItem from="1587412178930" duration="8473000" />
     </task>
     <task id="LOCAL-00001" summary=" Добавил те страницы, которые отправила дизайнер и переписал страницу журнала, т.к. их число увеличилось и теперь 136">
       <created>1580677786270</created>
@@ -436,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587102942939</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Добавил новости журнала из группы ВК, лайки на страницу аниме и поисковик на главую страницу">
+      <created>1587251359388</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1587251359388</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +489,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Финальные изменения для выпуска.. Открытие сслыки.. Потом изменить изображения - добавить разделительную черту" />
     <MESSAGE value="Добавил первый сезон Бакумана. Исправил многие недочеты в дизайне.. Стало красивее и легче" />
     <MESSAGE value="Исправил дизайн просмотра серий аниме, сделал прелоадеры" />
     <MESSAGE value="Заливаем третий выпуск, исправили дизайн читалки" />
@@ -481,7 +513,8 @@
     <MESSAGE value="Обновил дизайн и SEO послеразговора с Шамилем" />
     <MESSAGE value="Перенес сайт на php" />
     <MESSAGE value="Добавил количество просмотров на страницы, поправил дизайн" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил количество просмотров на страницы, поправил дизайн" />
+    <MESSAGE value="Добавил новости журнала из группы ВК, лайки на страницу аниме и поисковик на главую страницу" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил новости журнала из группы ВК, лайки на страницу аниме и поисковик на главую страницу" />
   </component>
   <component name="WindowStateProjectService">
     <state x="575" y="215" width="800" height="684" key="#SQL_Dialects" timestamp="1586639805783">
@@ -510,13 +543,13 @@
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="713" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/40.27.1880.1053@40.27.1880.1053" timestamp="1586990245344" />
-    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2" timestamp="1587102942571">
+    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2" timestamp="1587251359174">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="236" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585672048943" />
     <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1581975580276" />
     <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2/38.27.1328.741@38.27.1328.741" timestamp="1585346337243" />
-    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1587102942571" />
+    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1587251359174" />
     <state x="775" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1586681880110">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>

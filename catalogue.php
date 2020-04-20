@@ -82,6 +82,15 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                 </iframe>
             </div>
             <section class="main_block">                                                        <!--Main block-->
+                <?php
+                $current_page = (int) $_GET['page'];
+                if($current_page == null)   {
+                    $page_start = 0;
+                } else {
+                    $page_start = 21*($current_page - 1);
+                };
+                $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_date` DESC LIMIT $page_start,21");
+                ?>
                     <div class="catalogue_of">
                         <?php
                         while($anime_page_result = mysqli_fetch_assoc($anime_page)){
@@ -92,6 +101,45 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                         </div>
                         <?php } ?>
                     </div>
+                <?php
+                /* Входные параметры */
+                $count_pages_pre = mysqli_query($connection, "SELECT COUNT(*) FROM `anime`" );
+                $count_pages_result = mysqli_fetch_array($count_pages_pre);
+                $count_pages = ceil($count_pages_result[0]/21);
+                $active = (int) $_GET['page'];
+                if($active == null) {
+                    $active = 1;
+                };
+                $count_show_pages = 7;
+                $url = "/catalogue.php";
+                $url_page = "/catalogue.php?page=";
+                if ($count_pages > 1) {
+                    $left = $active - 1;
+                    $right = $count_pages - $active;
+                    if ($left < floor($count_show_pages / 2)) $start = 1;
+                    else $start = $active - floor($count_show_pages / 2);
+                    $end = $start + $count_show_pages - 1;
+                    if ($end > $count_pages) {
+                        $start -= ($end - $count_pages);
+                        $end = $count_pages;
+                        if ($start < 1) $start = 1;
+                    }
+                    ?>
+                    <!-- Pagination -->
+                    <div id="pagination">
+                        <?php if ($active != 1) { ?>
+                            <a href="<?=$url?>" title="Первая страница">&lt;&lt;</a>
+
+                        <?php } ?>
+                        <?php for ($i = $start; $i <= $end; $i++) { ?>
+                            <?php if ($i == $active) { ?><span><?=$i?></span><?php } else { ?><a href="<?php if ($i == 1) { ?><?=$url?><?php } else { ?><?=$url_page.$i?><?php } ?>"><?=$i?></a><?php } ?>
+                        <?php } ?>
+                        <?php if ($active != $count_pages) { ?>
+
+                            <a href="<?=$url_page.$count_pages?>" title="Последняя страница">&gt;&gt;</a>
+                        <?php } ?>
+                    </div>
+                <?php } ?>
             </section>
             <div class="adv">                                                                   <!--ADV-->
                 <h3>НОВОСТИ ЖУРНАЛА</h3>

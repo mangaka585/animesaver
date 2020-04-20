@@ -4,6 +4,7 @@ $url = $_GET['link'];
     mysqli_query($connection, "UPDATE `anime` SET `views` = `views` + 1 WHERE `link` = '$url'");
     $result = mysqli_query($connection,"SELECT * FROM  `anime` WHERE  `link` = '$url'");
     $r1 = mysqli_fetch_assoc($result);
+    $recomendation_count = 0;
 
     if($r1 == null){
         echo 'Упс, видимо страницы больше нет(';
@@ -103,7 +104,7 @@ $url = $_GET['link'];
                     <?php echo $r1['description']; ?>
                 </p>
                 <div class="views">Просмотров: <?php echo $r1['views']; ?></div>
-                <div class="vl_likes">
+                <div class="vk_likes">
                     <div id="vk_like"></div>
                     <script type="text/javascript">
                         VK.Widgets.Like('vk_like', {pageTitle: '<?php echo $r1['title'];?> на сайте Animesaver.ru'}, <?php echo $r1['id'];?>);
@@ -844,9 +845,50 @@ $url = $_GET['link'];
         </section>
         <div class="adv">                                                                   <!--ADV-->
             <h3>НОВОСТИ ЖУРНАЛА</h3>
-            <iframe src="anime/ws_news.html">
-                Ваш браузер не поддерживает плавающие фреймы!
-            </iframe>
+            <div id="vk_groups"></div>
+            <script type="text/javascript">
+                VK.Widgets.Group("vk_groups", {mode: 4, width: "200", height: "1390", color1: "F5FFFA"}, 189077461);
+            </script>
+        </div>
+    </section>
+
+    <?php //Код для рандомного вычисления id анимешек для рекомендаций
+    $count_anime_pages_pre = mysqli_query($connection, "SELECT COUNT(*) FROM `anime`");
+    $count_anime_pages_pre1 = mysqli_fetch_array($count_anime_pages_pre);
+    $count_anime_pages = $count_anime_pages_pre1[0];
+    function randarr( $N, $min, $max) {
+        return array_map(
+            function() use( $min, $max) {
+                return rand( $min, $max);
+            },
+            array_pad( [], $N, 0)
+        );
+    };
+    $random_array = randarr(5, 0, $count_anime_pages);
+    $array_num = 0;
+    ?>
+
+    <section class="recomendations">
+        <div class="recomendations__content">
+            <h2 class="recomendations__content__h2">Вместе с этим аниме смотрят</h2>
+            <div class="recomendations__content__flexbox">
+
+                <?php
+                while($recomendation_count<5) {
+                    $array_num_value = $random_array[$array_num];
+                    $recomendation = mysqli_query($connection, "SELECT * FROM  `anime` WHERE  `id` = '$array_num_value'");
+                    $recomendation_result = mysqli_fetch_assoc($recomendation);
+                    $recomendation_count += 1;
+                    $array_num += 1;
+                    ?>
+                    <div class="recomendations__content__flexbox__element">
+                        <a href="anime.php?link=<?php echo $recomendation_result['link'];?>" class="recomendations__content__flexbox__element__a">
+                            <h4 class="recomendations__content__flexbox__element__h4"><?php echo $recomendation_result['title'];?></h4>
+                            <img src=<?php echo $recomendation_result['main_img_sourse']; ?> alt="<?php echo $recomendation_result['title']; ?>pic" class="recomendations__content__flexbox__element__img"/>
+                        </a>
+                    </div>
+                <?php } ?>
+            </div>
         </div>
     </section>
     <footer>

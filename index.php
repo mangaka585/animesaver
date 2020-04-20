@@ -27,7 +27,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-149359628-1');
     </script>
-    <script type="text/javascript" async src="https://vk.com/js/api/openapi.js?167"></script>
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
     <script async src="https://apps.elfsight.com/p/platform.js" defer></script>
     <meta name="yandex-verification" content="067bb48ccc18ed4a" />
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
@@ -199,16 +199,7 @@
             <script type="text/javascript">
                 VK.Widgets.Group("vk_groups", {mode: 4, width: "200", height: "690", color1: "F5FFFA"}, 189077461);
             </script>
-            <!--<iframe src="anime/ws_news.html">
-                Ваш браузер не поддерживает плавающие фреймы!
-            </iframe>-->
         </div>
-        <!--<div class="vk_groups">
-            <div id="vk_groups"></div>
-            <script type="text/javascript">
-                VK.Widgets.Group("vk_groups", {mode: 4, width: "200", height: "400", color1: "F5FFFA"}, 189077461);
-            </script>
-        </div>-->
     </section>
     <footer>
         <div class="site_description">
