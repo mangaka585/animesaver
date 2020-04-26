@@ -36,11 +36,10 @@
 <body>
 <div class="layout">
     <header class="navi">
-        <a href="index.php" class="animesaver_link"><img src="images/favicon.png" alt="Logo of the site"></a>
-
+        <a href="/" class="animesaver_link"><img src="images/favicon.png" alt="Logo of the site"></a>
         <div class="navigation">
-            <a href="index.php">ГЛАВНАЯ</a>
-            <a href="catalogue.php">КАТАЛОГ</a>
+            <a href="/">ГЛАВНАЯ</a>
+            <a href="catalogue">КАТАЛОГ</a>
 			<a href="weekly-saver">ЖУРНАЛ WS</a>
         </div>
         <div class="container">                                                         <!--Navigation button for mobile-->
@@ -60,9 +59,9 @@
     </header>
     <div id="mobile_nav" class="mobile_nav">
         <ul>
-            <li><a href="index.php">ГЛАВНАЯ</a></li>
+            <li><a href="/">ГЛАВНАЯ</a></li>
             <li><a href="weekly-saver">ЖУРНАЛ WS</a></li>
-            <li><a href="catalogue.php">КАТАЛОГ</a></li>
+            <li><a href="catalogue">КАТАЛОГ</a></li>
         </ul>
     </div>
     <div class="ui">

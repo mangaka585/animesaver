@@ -23,7 +23,7 @@ include "../includes/db.php";
             <h3>"<?php echo $anime_page_result['title']; ?>"</h3>
             <p>Все <?php echo $anime_page_result['series']; ?> серий доступны для просмотра.</p>
             <span><?php echo $anime_page_result['update_date']; ?></span>
-            <a href="../anime.php?link=<?php echo $anime_page_result['link']; ?>" target="_top">Смотреть</a>
+            <a href="../<?php echo $anime_page_result['link']; ?>" target="_top">Смотреть</a>
         </div>
         <?php }?>
     </section>
