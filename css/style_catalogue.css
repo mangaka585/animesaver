@@ -401,7 +401,7 @@ body    {
     .body_layout {
         display: block;
         position: relative;
-        min-height: 400px;
+        min-height: 800px;
     }
 
     .news_sidebar {

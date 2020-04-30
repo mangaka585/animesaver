@@ -515,6 +515,10 @@ header {
         margin-right: 15px;
     }
 
+    .views div  {
+        background: url('../images/eye.png') 95% no-repeat;
+    }
+
     .main_block_element_genre {
         display: inline-block;
         right: 0;

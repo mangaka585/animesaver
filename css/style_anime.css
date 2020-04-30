@@ -566,6 +566,10 @@ header {
         font-size: 0.9em;
     }
 
+    .views div  {
+        background: url("../images/eye.png") 96% no-repeat;
+    }
+
     legend  {
         font-family: 'Exo 2', sans-serif;
         color: #30cfd0;

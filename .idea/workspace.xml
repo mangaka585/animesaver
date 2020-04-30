@@ -2,52 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/darwins_game/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/darwins_game/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/darwins_game/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/darwins_game/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/idinvaded/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/idinvaded/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/idinvaded/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/idinvaded/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/mairimashita/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/mairimashita/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/mairimashita/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/mairimashita/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/overlord/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/overlord/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/overlord/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/overlord/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/runway_de/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/runway_de/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/runway_de/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/runway_de/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/tokyo_ghoul/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/tokyo_ghoul/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/tokyo_ghoul/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anime/tokyo_ghoul/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/favicon_for_line1.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/enen_no/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/enen_no/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/enen_no/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/enen_no/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/given/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/given/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/given/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/given/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/vinland_saga/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/vinland_saga/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/vinland_saga/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anime/vinland_saga/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/animepage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/homepage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_0_0_125.sql" beforeDir="false" afterPath="$PROJECT_DIR$/10_0_0_125.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/anime/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/anime/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_anime.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_anime.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_catalogue.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_catalogue.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/favicon_for_line.ico" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon_for_line.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicon_for_line1.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_pages/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_pages/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_pages/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_pages/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly-saver" beforeDir="false" afterPath="$PROJECT_DIR$/weekly-saver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/first/1-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/first/1-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/first/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/first/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/15-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/15-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pages/fourth/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/magazine/samples/pics/first_magazine.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ws/magazine/samples/pics/first_magazine.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/includes" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -101,19 +78,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/anime" />
-      <recent name="$PROJECT_DIR$/ws/magazine/samples/css" />
-      <recent name="$PROJECT_DIR$/ws/magazine/samples/js" />
-      <recent name="$PROJECT_DIR$/ws/magazine/samples" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/anime/scripts" />
       <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver\Second" />
       <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver\First" />
       <recent name="C:\Users\777\Desktop\Animesaver" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/includes" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/anime" />
+      <recent name="$PROJECT_DIR$/ws/magazine/samples/css" />
+      <recent name="$PROJECT_DIR$/ws/magazine/samples/js" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -247,7 +224,10 @@
       <workItem from="1587421678445" duration="36000" />
       <workItem from="1587489450507" duration="3377000" />
       <workItem from="1587673193474" duration="600000" />
-      <workItem from="1587822751301" duration="23776000" />
+      <workItem from="1587822751301" duration="23939000" />
+      <workItem from="1588171447031" duration="880000" />
+      <workItem from="1588243711616" duration="692000" />
+      <workItem from="1588248682538" duration="6684000" />
     </task>
     <task id="LOCAL-00001" summary=" Добавил те страницы, которые отправила дизайнер и переписал страницу журнала, т.к. их число увеличилось и теперь 136">
       <created>1580677786270</created>
@@ -494,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587421377861</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Сделал красивыми ссылки в адресной строке, исправил дизайн. Объединены страницы аниме и главной страницы">
+      <created>1587860568679</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1587860568680</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +501,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Исправил дизайн просмотра серий аниме, сделал прелоадеры" />
     <MESSAGE value="Заливаем третий выпуск, исправили дизайн читалки" />
     <MESSAGE value="Исправил структуру сайтов. Добавил 3 сериала. Исправил title и descriptions. Добавил третью страницу главной страницы. Добавил новости журнала" />
     <MESSAGE value="Добавил новый мульт" />
@@ -539,7 +525,8 @@
     <MESSAGE value="Добавил количество просмотров на страницы, поправил дизайн" />
     <MESSAGE value="Добавил новости журнала из группы ВК, лайки на страницу аниме и поисковик на главую страницу" />
     <MESSAGE value="Добавил блок случайных аниме на странице аниме. Обновил соответствующие стили" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил блок случайных аниме на странице аниме. Обновил соответствующие стили" />
+    <MESSAGE value="Сделал красивыми ссылки в адресной строке, исправил дизайн. Объединены страницы аниме и главной страницы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал красивыми ссылки в адресной строке, исправил дизайн. Объединены страницы аниме и главной страницы" />
   </component>
   <component name="WindowStateProjectService">
     <state x="575" y="215" width="800" height="684" key="#SQL_Dialects" timestamp="1587843082708">
@@ -572,13 +559,13 @@
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="716" y="406" width="518" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/40.27.1880.1053@40.27.1880.1053" timestamp="1587843667692" />
-    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2" timestamp="1587421377549">
+    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2" timestamp="1587860568154">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="236" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585672048943" />
     <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1581975580276" />
     <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2/38.27.1328.741@38.27.1328.741" timestamp="1585346337243" />
-    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1587421377549" />
+    <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1587860568154" />
     <state x="763" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1587843855169">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
