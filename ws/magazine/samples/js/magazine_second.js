@@ -1,6 +1,4 @@
-/*
- * Magazine sample
-*/
+/* Magazine sample*/
 
 function addPage(page, book) {
 
@@ -33,7 +31,7 @@ function loadPage(page, pageElement) {
 	});
 
 	img.load(function() {
-		
+
 		// Set the size
 		$(this).css({width: '100%', height: '100%'});
 
@@ -42,7 +40,7 @@ function loadPage(page, pageElement) {
 		$(this).appendTo(pageElement);
 
 		// Remove the loader indicator
-		
+
 		pageElement.find('.loader').remove();
 	});
 
@@ -58,17 +56,17 @@ function loadPage(page, pageElement) {
 
 function zoomTo(event) {
 
-		setTimeout(function() {
-			if ($('.magazine-viewport').data().regionClicked) {
-				$('.magazine-viewport').data().regionClicked = false;
+	setTimeout(function() {
+		if ($('.magazine-viewport').data().regionClicked) {
+			$('.magazine-viewport').data().regionClicked = false;
+		} else {
+			if ($('.magazine-viewport').zoom('value')==1) {
+				$('.magazine-viewport').zoom('zoomIn', event);
 			} else {
-				if ($('.magazine-viewport').zoom('value')==1) {
-					$('.magazine-viewport').zoom('zoomIn', event);
-				} else {
-					$('.magazine-viewport').zoom('zoomOut');
-				}
+				$('.magazine-viewport').zoom('zoomOut');
 			}
-		}, 1);
+		}
+	}, 1);
 
 }
 
@@ -79,18 +77,18 @@ function zoomTo(event) {
 function loadRegions(page, element) {
 
 	$.getJSON('pages/second/'+page+'-regions.json').
-		done(function(data) {
+	done(function(data) {
 
-			$.each(data, function(key, region) {
-				addRegion(region, element);
-			});
+		$.each(data, function(key, region) {
+			addRegion(region, element);
 		});
+	});
 }
 
 // Add region
 
 function addRegion(region, pageElement) {
-	
+
 	var reg = $('<div />', {'class': 'region  ' + region['class']}),
 		options = $('.magazine').turn('options'),
 		pageWidth = options.width/2,
@@ -116,11 +114,11 @@ function regionClick(event) {
 	if (region.hasClass('region')) {
 
 		$('.magazine-viewport').data().regionClicked = true;
-		
+
 		setTimeout(function() {
 			$('.magazine-viewport').data().regionClicked = false;
 		}, 100);
-		
+
 		var regionType = $.trim(region.attr('class').replace('region', ''));
 
 		return processRegion(region, regionType);
@@ -140,7 +138,7 @@ function processRegion(region, regionType) {
 
 			window.open(data.url);
 
-		break;
+			break;
 		case 'zoom' :
 
 			var regionOffset = region.offset(),
@@ -152,12 +150,12 @@ function processRegion(region, regionType) {
 
 			$('.magazine-viewport').zoom('zoomIn', pos);
 
-		break;
+			break;
 		case 'to-page' :
 
 			$('.magazine').turn('page', data.page);
 
-		break;
+			break;
 	}
 
 }
@@ -165,7 +163,7 @@ function processRegion(region, regionType) {
 // Load large page
 
 function loadLargePage(page, pageElement) {
-	
+
 	var img = $('<img />');
 
 	img.load(function() {
@@ -174,18 +172,18 @@ function loadLargePage(page, pageElement) {
 		$(this).css({width: '100%', height: '100%'});
 		$(this).appendTo(pageElement);
 		prevImg.remove();
-		
+
 	});
 
 	// Loadnew page
-	
+
 	img.attr('src', 'pages/second/' +  page + '-large.jpg');
 }
 
 // Load small page
 
 function loadSmallPage(page, pageElement) {
-	
+
 	var img = pageElement.find('img');
 
 	img.css({width: '100%', height: '100%'});
@@ -205,15 +203,15 @@ function isChrome() {
 }
 
 function disableControls(page) {
-		if (page==1)
-			$('.previous-button').hide();
-		else
-			$('.previous-button').show();
-					
-		if (page==$('.magazine').turn('pages'))
-			$('.next-button').hide();
-		else
-			$('.next-button').show();
+	if (page==1)
+		$('.previous-button').hide();
+	else
+		$('.previous-button').show();
+
+	if (page==$('.magazine').turn('pages'))
+		$('.next-button').hide();
+	else
+		$('.next-button').show();
 }
 
 // Set the width and height for the viewport
@@ -244,7 +242,7 @@ function resizeViewport() {
 		if (bound.width%2!==0)
 			bound.width-=1;
 
-			
+
 		if (bound.width!=$('.magazine').width() || bound.height!=$('.magazine').height()) {
 
 			$('.magazine').turn('size', bound.width, bound.height);
@@ -276,7 +274,7 @@ function resizeViewport() {
 		$('.made').show();
 
 	$('.magazine').addClass('animated');
-	
+
 }
 
 
@@ -301,7 +299,7 @@ function moveBar(yes) {
 // Width of the flipbook when zoomed in
 
 function largeMagazineWidth() {
-	
+
 	return 1414;
 
 }
@@ -323,25 +321,25 @@ function decodeParams(data) {
 // Calculate the width and height of a square within another square
 
 function calculateBound(d) {
-	
+
 	var bound = {width: d.width, height: d.height};
 
 	if (bound.width>d.boundWidth || bound.height>d.boundHeight) {
-		
+
 		var rel = bound.width/bound.height;
 
 		if (d.boundWidth/rel>d.boundHeight && d.boundHeight*rel<=d.boundWidth) {
-			
+
 			bound.width = Math.round(d.boundHeight*rel);
 			bound.height = d.boundHeight;
 
 		} else {
-			
+
 			bound.width = d.boundWidth;
 			bound.height = Math.round(d.boundWidth/rel);
-		
+
 		}
 	}
-		
+
 	return bound;
 }

@@ -1,292 +1,374 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://animesaver.ru/</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://animesaver.ru/</loc>
+	<lastmod>2020-05-13T17:06:16+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/catalogue</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/catalogue</loc>
+	<lastmod>2020-05-13T17:06:17+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/weekly-saver</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/weekly-saver</loc>
+	<lastmod>2020-05-13T17:06:20+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/runway-de-waratte</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/gunjou-no-magmel</loc>
+	<lastmod>2020-05-13T17:06:20+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/tokyo-ghoul-re</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/shoumetsu-toshi</loc>
+	<lastmod>2020-05-13T17:06:20+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/overlord-season-2</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/nobunaga-sensei-no-osanazuma</loc>
+	<lastmod>2020-05-13T17:06:20+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/mairimashita</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/granbelm</loc>
+	<lastmod>2020-05-13T17:06:21+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/darwins-game</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/katsute-kami</loc>
+	<lastmod>2020-05-13T17:06:21+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/idinvaded</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/toaru-kagaku</loc>
+	<lastmod>2020-05-13T17:06:21+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/majutsushi-orphen-hagure-tabi</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/cop-craft</loc>
+	<lastmod>2020-05-13T17:06:24+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/pet</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/machikado-mazoku</loc>
+	<lastmod>2020-05-13T17:06:21+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/infinite-dendrogram</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/vinland-saga</loc>
+	<lastmod>2020-05-13T17:06:22+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/shokugeki-no-souma</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/enen-no-shouboutai</loc>
+	<lastmod>2020-05-13T17:06:22+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/index.php?page=2</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/index.php?page=2</loc>
+	<lastmod>2020-05-13T17:06:22+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/index.php?page=3</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/index.php?page=3</loc>
+	<lastmod>2020-05-13T17:06:22+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/index.php?page=4</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/index.php?page=4</loc>
+	<lastmod>2020-05-13T17:06:22+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/index.php?page=5</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/index.php?page=5</loc>
+	<lastmod>2020-05-13T17:06:23+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/anime/news.php</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://animesaver.ru/index.php?page=6</loc>
+	<lastmod>2020-05-13T17:06:23+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/jibaku-shounen-hanako-kun</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/shinchou-yuusha</loc>
+	<lastmod>2020-05-13T17:06:23+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/bem</loc>
+	<lastmod>2020-05-13T17:06:23+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/somali_to_mori</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/dungeon-ni-deai</loc>
+	<lastmod>2020-05-13T17:06:23+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/ao-no-exorcist-season-1</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/given</loc>
+	<lastmod>2020-05-13T17:06:23+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/boku-dake-ga-inai-machi</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/assassins-pride</loc>
+	<lastmod>2020-05-13T17:06:24+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/no-guns-life</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/beastars</loc>
+	<lastmod>2020-05-13T17:06:24+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/kyokoi-suiri</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/fairy_gone</loc>
+	<lastmod>2020-05-13T17:06:24+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/dorohedoro</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/runway-de-waratte</loc>
+	<lastmod>2020-05-13T17:06:24+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/kabukichou-sherlock</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/tokyo-ghoul-re</loc>
+	<lastmod>2020-05-13T17:06:24+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/haikyuu-season-4</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/overlord-season-2</loc>
+	<lastmod>2020-05-13T17:06:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/re-zero-kara-hajimeru-isekai-seikatsu-season-1</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/mairimashita</loc>
+	<lastmod>2020-05-13T17:06:24+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/one-punch-man-season-1</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/darwins-game</loc>
+	<lastmod>2020-05-13T17:06:27+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/radiant</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/idinvaded</loc>
+	<lastmod>2020-05-13T17:06:24+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/bakuman-season-1</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/majutsushi-orphen-hagure-tabi</loc>
+	<lastmod>2020-05-13T17:06:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/catalogue?page=2</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/catalogue?page=2</loc>
+	<lastmod>2020-05-13T17:06:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/ws/magazine/samples/fourth.html</loc>
-  <lastmod>2020-04-15T22:34:05+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/catalogue?page=3</loc>
+	<lastmod>2020-05-13T17:06:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/ws/magazine/samples/third.html</loc>
-  <lastmod>2020-04-15T22:34:05+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/ws/magazine/samples/fourth.html</loc>
+	<lastmod>2020-05-13T17:06:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/ws/magazine/samples/second.html</loc>
-  <lastmod>2020-04-15T22:34:05+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/ws/magazine/samples/third.html</loc>
+	<lastmod>2020-05-13T17:06:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/ws/magazine/samples/index.html</loc>
-  <lastmod>2020-04-15T22:34:05+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/ws/magazine/samples/second.html</loc>
+	<lastmod>2020-05-13T17:06:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/atack-on-titans-season-2</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/ws/magazine/samples/index.html</loc>
+	<lastmod>2020-05-13T17:06:25+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/sword-art-online-season-3</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/doctor-stone</loc>
+	<lastmod>2020-05-13T17:06:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/kimi-no-suizou-wo-tabetai</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita</loc>
+	<lastmod>2020-05-13T17:06:26+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/sword-art-online-season-1</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/kyokoi-suiri</loc>
+	<lastmod>2020-05-13T17:06:26+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/koe-no-katachi</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/tate-no-yuusha-no-nariagari</loc>
+	<lastmod>2020-05-13T17:06:26+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/boku-no-hero-academia-season-2</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/boku-no-hero-academia-season-1</loc>
+	<lastmod>2020-05-13T17:06:26+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/ao-no-exorcist-season-2</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/one-punch-man-season-1</loc>
+	<lastmod>2020-05-13T17:06:26+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/kimetsu-no-yaiba-season-1</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/kimi-no-suizou-wo-tabetai</loc>
+	<lastmod>2020-05-13T17:06:27+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/wotaku-ni-koi-wa-muzukashii</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/isekai-cheat-magician</loc>
+	<lastmod>2020-05-13T17:06:26+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/sword-art-online-season-2</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/atack-on-titans-season-2</loc>
+	<lastmod>2020-05-13T17:06:26+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/boku-no-hero-academia-season-1</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/boku-no-hero-academia-season-3</loc>
+	<lastmod>2020-05-13T17:06:27+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/boku-no-hero-academia-season-3</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/sword-art-online-season-3</loc>
+	<lastmod>2020-05-13T17:06:27+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/atack-on-titans-season-1</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/haikyuu-season-4</loc>
+	<lastmod>2020-05-13T17:06:27+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/index.php</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/sword-art-online-season-1</loc>
+	<lastmod>2020-05-13T17:06:27+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/isekai-cheat-magician</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/bakuman-season-1</loc>
+	<lastmod>2020-05-13T17:06:27+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/kenja-no-mago</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/ao-no-exorcist-season-2</loc>
+	<lastmod>2020-05-13T17:06:27+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/tate-no-yuusha-no-nariagari</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/pet</loc>
+	<lastmod>2020-05-13T17:06:28+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/arifureta</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/radiant</loc>
+	<lastmod>2020-05-13T17:06:27+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://animesaver.ru/doctor-stone</loc>
-  <lastmod>2020-04-26T00:13:18+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://animesaver.ru/dorohedoro</loc>
+	<lastmod>2020-05-13T17:06:28+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
-
-
+<url>
+	<loc>https://animesaver.ru/re-zero-kara-hajimeru-isekai-seikatsu-season-1</loc>
+	<lastmod>2020-05-13T17:06:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/infinite-dendrogram</loc>
+	<lastmod>2020-05-13T17:06:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/index.php</loc>
+	<lastmod>2020-05-13T17:06:29+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/shokugeki-no-souma</loc>
+	<lastmod>2020-05-13T17:06:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/jibaku-shounen-hanako-kun</loc>
+	<lastmod>2020-05-13T17:06:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/somali_to_mori</loc>
+	<lastmod>2020-05-13T17:06:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/ao-no-exorcist-season-1</loc>
+	<lastmod>2020-05-13T17:06:29+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/boku-dake-ga-inai-machi</loc>
+	<lastmod>2020-05-13T17:06:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/no-guns-life</loc>
+	<lastmod>2020-05-13T17:06:29+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/kabukichou-sherlock</loc>
+	<lastmod>2020-05-13T17:06:29+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/sword-art-online-season-2</loc>
+	<lastmod>2020-05-13T17:06:29+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/kenja-no-mago</loc>
+	<lastmod>2020-05-13T17:06:29+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/koe-no-katachi</loc>
+	<lastmod>2020-05-13T17:06:29+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/arifureta</loc>
+	<lastmod>2020-05-13T17:06:29+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/boku-no-hero-academia-season-2</loc>
+	<lastmod>2020-05-13T17:06:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/atack-on-titans-season-1</loc>
+	<lastmod>2020-05-13T17:06:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/kimetsu-no-yaiba-season-1</loc>
+	<lastmod>2020-05-13T17:06:29+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://animesaver.ru/wotaku-ni-koi-wa-muzukashii</loc>
+	<lastmod>2020-05-13T17:06:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
 </urlset>
