@@ -229,6 +229,9 @@
             </div>
         </div>
     </footer>
+    <a href="#" class="scroll-top" title="В начало">
+        <img src="images/up.png" alt="up_logo"/>
+    </a>
 </div>
 </body>
 </html>

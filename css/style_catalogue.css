@@ -151,7 +151,9 @@ body    {
     #Mellriart,
     #Piroll,
     .site_description,
-    .preloader {
+    .preloader,
+    a.scroll-top,
+    .scroll-top img {
         display: none;
     }
 
@@ -241,12 +243,11 @@ body    {
     #pagination {
         display: block;
         width: 80%;
-        margin: auto;
         text-align: center;
         font-family: 'Exo 2', sans-serif;
         font-size: 1em;
         color: white;
-        margin-bottom: 15px;
+        margin: auto auto 15px;
     }
 
     #pagination a {
@@ -433,10 +434,7 @@ body    {
     .main_block {
         display: block;
         width: 800px;
-        margin-left: 230px;
-        margin-right: 230px;
-        margin-top: 25px;
-        margin-bottom: 30px;
+        margin: 25px 230px 30px;
     }
 
     .catalogue_of {
@@ -463,10 +461,9 @@ body    {
         text-align: center;
         height: 38px;
         width: auto;
-        margin: 2px;
         color: black;
         font-family: 'Comfortaa', cursive;
-        margin-top: 5px;
+        margin: 5px 2px 2px;
     }
 
     .catalogue_of img {
@@ -479,12 +476,11 @@ body    {
     #pagination {
         display: block;
         width: 80%;
-        margin: auto;
         text-align: center;
         font-family: 'Exo 2', sans-serif;
         font-size: 1em;
         color: white;
-        margin-bottom: 15px;
+        margin: auto auto 15px;
     }
 
     #pagination a {
@@ -565,6 +561,16 @@ body    {
         font-size: 0.9em;
         width: 360px;
         margin-right: 80px;
+    }
+
+    a.scroll-top {
+        display: none;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        z-index: 1000;
+        bottom: 50px;
+        right: 30px;
     }
 }
 

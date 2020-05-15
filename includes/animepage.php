@@ -6,9 +6,8 @@
     $recomendation_count = 0;
 
     if($r1 == null){
-        echo 'Упс, видимо страницы больше нет(';
-        die();
-    }
+        include 'includes/404_error.php';
+    } else {
 ?>
         <!DOCTYPE html>
         <html lang="ru">
@@ -84,7 +83,7 @@
                 </ul>
             </div>
             <div class="ui">
-                <h1 class="ui_1">Animesaver</h1>
+                <h2 class="ui_1">Animesaver</h2>
                 <h2 class="ui_2">Самый простой сайт по аниме в России!</h2>
             </div>
             <section class="body_layout">
@@ -902,6 +901,10 @@
                     </div>
                 </div>
             </footer>
+            <a href="#" class="scroll-top" title="В начало">
+                <img src="images/up.png" alt="up_logo"/>
+            </a>
         </div>
         </body>
         </html>
+<?php } ?>

@@ -309,7 +309,9 @@ header {
     .h2_description,
     .views,
     .vk_likes,
-    .recomendations {
+    .recomendations,
+    a.scroll-top,
+    .scroll-top img {
         display: none;
     }
 }
@@ -584,7 +586,6 @@ header {
     .video {
         display: -webkit-flex;
         display: flex;
-        margin-top: 15px;
         font-family: 'Exo 2', sans-serif;
         font-size: 0.8em;
         -webkit-flex-wrap: wrap;
@@ -592,9 +593,8 @@ header {
         width: 80%;
         min-height: 40vh;
         flex-direction: column;
-        margin: auto;
         position: relative;
-        margin-bottom: 15px;
+        margin: auto auto 15px;
     }
 
     .video h3 {
@@ -712,6 +712,16 @@ header {
         font-size: 0.9em;
         width: 360px;
         margin-right: 80px;
+    }
+
+    a.scroll-top {
+        display: none;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        z-index: 1000;
+        bottom: 50px;
+        right: 30px;
     }
 }
 

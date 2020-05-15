@@ -1,7 +1,6 @@
 @font-face {							 /*Шрифт Presentscript-cyrillic*/
     font-family: "Presentscript-cyrillic";
     src: url("../fonts/presentscript-cyrillic.ttf");
-    src: url("../fonts/presentscript-cyrillic.eot?#iefix")format("embedded-opentype"),
     url("../fonts/presentscript-cyrillic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
@@ -9,7 +8,6 @@
 @font-face {							 /*Шрифт Futura-normal*/
     font-family: "Futura-normal";
     src: url("../fonts/futura-normal.ttf");
-    src: url("../fonts/futura-normalc.eot?#iefix")format("embedded-opentype"),
     url("../fonts/futura-normal.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
@@ -54,4 +52,8 @@ div span{
     font-size: 10pt;
     color: #787878;
     margin-bottom: 3px;
+}
+div img {
+    width: 170px;
+    margin-left: 5px;
 }

@@ -249,12 +249,11 @@ header {
     #pagination {
         display: block;
         width: 80%;
-        margin: auto;
         text-align: center;
         font-family: 'Exo 2', sans-serif;
         font-size: 1em;
         color: white;
-        margin-bottom: 15px;
+        margin: auto auto 15px;
     }
 
     #pagination a {
@@ -319,7 +318,9 @@ header {
     .site_description,
     .views,
     .vk_groups,
-    .search_engine {
+    .search_engine,
+    .scroll-top,
+    .scroll-top img {
         display: none;
     }
 }
@@ -610,12 +611,11 @@ header {
     #pagination {
         display: block;
         width: 80%;
-        margin: auto;
         text-align: center;
         font-family: 'Exo 2', sans-serif;
         font-size: 1em;
         color: white;
-        margin-bottom: 15px;
+        margin: auto auto 15px;
     }
 
     #pagination a {
@@ -706,5 +706,16 @@ header {
         width: 360px;
         margin-right: 80px;
     }
+
+    a.scroll-top {
+        display: none;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        z-index: 1000;
+        bottom: 50px;
+        right: 30px;
+    }
+
 }
 

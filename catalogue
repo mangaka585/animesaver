@@ -178,5 +178,8 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
             </div>
         </footer>
     </div>
+    <a href="#" class="scroll-top" title="В начало">
+        <img src="images/up.png" alt="up_logo"/>
+    </a>
 </body>
 </html>

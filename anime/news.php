@@ -13,7 +13,7 @@ include "../includes/db.php";
     </head>
 <body>
 <?php
-    $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_date` DESC LIMIT 0, 20");
+    $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_date` DESC LIMIT 0, 10");
 ?>
     <section class="layout">
         <?php
@@ -21,6 +21,7 @@ include "../includes/db.php";
         ?>
         <div>
             <h3>"<?php echo $anime_page_result['title']; ?>"</h3>
+            <img src="../<?php echo $anime_page_result['pic_1']; ?>" alt="<?php echo $anime_page_result['title'];?> pic" />
             <p>Все <?php echo $anime_page_result['series'] ?> серий доступны для просмотра.</p>
             <span><?php echo $anime_page_result['update_date']; ?></span>
             <a href="../<?php echo $anime_page_result['link']; ?>" target="_top">Смотреть</a>
