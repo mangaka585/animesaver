@@ -1,21 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="Добавил страницу ошибки">
-      <change afterPath="$PROJECT_DIR$/css/style_404.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/404-error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/404_error.php" afterDir="false" />
+    <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/anime/ws_news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style_ws_test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/goodjob.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws/element.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/03_02_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/15_02_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/16_02_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/16_03_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/16_04_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/16_08_2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/17_04_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/18_04_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/19_02_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/21_04_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/23_02_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/23_04_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/24_01_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ws_news/24_04_2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/index-test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/reg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/save_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/testreg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly-saver(example)" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/anime/news.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogue" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_404.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_404.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_anime.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_anime.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_catalogue.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_catalogue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_news.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/404_error.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/404_error.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/animepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/animepage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/homepage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/jquery_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/jquery_code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_pages/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_pages/3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +79,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ws/magazine" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,18 +92,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/anime" />
       <recent name="$PROJECT_DIR$/ws/magazine" />
       <recent name="$PROJECT_DIR$/ws/magazine/samples" />
       <recent name="$PROJECT_DIR$/includes" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/anime" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/includes" />
       <recent name="$PROJECT_DIR$/ws/magazine/samples" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/anime/scripts" />
       <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver\Second" />
-      <recent name="C:\Users\777\Desktop\Animesaver\weekly_saver\First" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -223,7 +245,10 @@
       <workItem from="1589375064513" duration="9940000" />
       <workItem from="1589453063814" duration="666000" />
       <workItem from="1589538190679" duration="1853000" />
-      <workItem from="1589541238757" duration="4492000" />
+      <workItem from="1589541238757" duration="10637000" />
+      <workItem from="1589889192523" duration="2682000" />
+      <workItem from="1589894249681" duration="6170000" />
+      <workItem from="1590146233544" duration="22330000" />
     </task>
     <task id="LOCAL-00001" summary=" Добавил те страницы, которые отправила дизайнер и переписал страницу журнала, т.к. их число увеличилось и теперь 136">
       <created>1580677786270</created>
@@ -491,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589379577257</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Добавил страницу ошибки">
+      <created>1589545746129</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1589545746129</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,42 +579,42 @@
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="575" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.27.1880.1053@40.27.1880.1053" timestamp="1587106661444" />
-    <state x="565" y="274" width="781" height="446" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587843944500">
-      <screen x="40" y="27" width="1880" height="1053" />
+    <state x="566" y="274" width="781" height="446" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589577868596">
+      <screen x="42" y="27" width="1878" height="1053" />
     </state>
     <state x="407" y="201" width="576" height="390" key="#com.intellij.fileTypes.FileTypeChooser/35.27.1331.741@35.27.1331.741" timestamp="1582150813610" />
     <state x="409" y="201" width="781" height="439" key="#com.intellij.fileTypes.FileTypeChooser/38.27.1328.741@38.27.1328.741" timestamp="1584042146703" />
     <state x="565" y="274" width="781" height="446" key="#com.intellij.fileTypes.FileTypeChooser/40.27.1880.1053@40.27.1880.1053" timestamp="1587843944500" />
-    <state x="714" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589376798227">
+    <state x="566" y="274" key="#com.intellij.fileTypes.FileTypeChooser/42.27.1878.1053@42.27.1878.1053" timestamp="1589577868596" />
+    <state x="714" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590178263522">
       <screen x="42" y="27" width="1878" height="1053" />
     </state>
     <state x="713" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/40.27.1880.1053@40.27.1880.1053" timestamp="1586990245344" />
-    <state x="714" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/42.27.1878.1053@42.27.1878.1053" timestamp="1589376798227" />
+    <state x="714" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/42.27.1878.1053@42.27.1878.1053" timestamp="1590178263522" />
     <state x="716" y="406" width="518" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587843667692">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="716" y="406" width="518" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/40.27.1880.1053@40.27.1880.1053" timestamp="1587843667692" />
-    <state x="885" y="120" width="912" height="911" key="CommitChangelistDialog2" timestamp="1589545702659">
+    <state x="885" y="120" width="912" height="911" key="CommitChangelistDialog2" timestamp="1589545745740">
       <screen x="42" y="27" width="1878" height="1053" />
     </state>
     <state x="236" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585672048943" />
     <state x="265" y="27" width="860" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1581975580276" />
     <state x="267" y="27" width="865" height="741" key="CommitChangelistDialog2/38.27.1328.741@38.27.1328.741" timestamp="1585346337243" />
     <state x="884" y="120" width="972" height="854" key="CommitChangelistDialog2/40.27.1880.1053@40.27.1880.1053" timestamp="1588286982665" />
-    <state x="885" y="120" width="912" height="911" key="CommitChangelistDialog2/42.27.1878.1053@42.27.1878.1053" timestamp="1589545702659" />
+    <state x="885" y="120" width="912" height="911" key="CommitChangelistDialog2/42.27.1878.1053@42.27.1878.1053" timestamp="1589545745740" />
     <state x="763" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1587843855169">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
     <state x="763" y="311" width="424" height="491" key="FileChooserDialogImpl/40.27.1880.1053@40.27.1880.1053" timestamp="1587843855169" />
-    <state x="776" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1589538624504">
+    <state x="776" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1590185153863">
       <screen x="42" y="27" width="1878" height="1053" />
     </state>
     <state x="775" y="479" width="399" height="156" key="NewPhpFileDialog/40.27.1880.1053@40.27.1880.1053" timestamp="1586681880110" />
-    <state x="776" y="479" key="NewPhpFileDialog/42.27.1878.1053@42.27.1878.1053" timestamp="1589538624504" />
+    <state x="776" y="479" width="399" height="156" key="NewPhpFileDialog/42.27.1878.1053@42.27.1878.1053" timestamp="1590185153863" />
     <state x="368" y="64" width="1031" height="737" key="SettingsEditor" timestamp="1587843506876">
       <screen x="40" y="27" width="1880" height="1053" />
     </state>
-    <state x="214" y="38" key="SettingsEditor/35.27.1331.741@35.27.1331.741" timestamp="1581179267702" />
     <state x="368" y="64" width="1031" height="737" key="SettingsEditor/40.27.1880.1053@40.27.1880.1053" timestamp="1587843506876" />
     <state x="636" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585847724691">
       <screen x="40" y="27" width="1880" height="1053" />

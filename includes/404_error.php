@@ -24,9 +24,9 @@
         gtag('js', new Date());
         gtag('config', 'UA-149359628-1');
     </script>
-    <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
+    <link rel="shortcut icon" href="https://animesaver.ru/images/avicon_for_line.ico" type="image/png">
     <title>Error-404 | Animesaver</title>
-    <link rel="stylesheet" href="css/style_404.css">
+    <link rel="stylesheet" href="https://animesaver.ru/css/style_404.css">
     <meta name="description" content="Аниме смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Наруто Клинок Поджелудочную Доктор Стоун Мастера меча онлайн Синий Экзорцист"/>
 </head>
@@ -53,7 +53,7 @@
         <button onclick="window.location.href='/index.php'">Перейти на главную страницу</button>
     </section>
     <section class="right_side">
-        <img src="images/404-error.png" alt="404-error pic" />
+        <img src="https://animesaver.ru/images/404-error.png" alt="404-error pic" />
     </section>
 </div>
 </body>

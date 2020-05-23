@@ -35,7 +35,8 @@
                 gtag('js', new Date());
                 gtag('config', 'UA-149359628-1');
             </script>
-            <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script> <!--VK comments-->
+            <script async src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
             <script type="text/javascript">
                 VK.init({apiId: 7327920, onlyWidgets: true});
             </script>
@@ -44,7 +45,6 @@
             <link rel="stylesheet" href="css/style_anime.css">
             <meta name="description" content="<?php echo $r1['description_2']; ?> смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
             <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Наруто Клинок Поджелудочную Доктор Стоун Мастера меча онлайн Синий Экзорцист"/>
-            <script src="playerjs.js" type="text/javascript"></script>
             <script src="https://code.jquery.com/jquery-latest.min.js"></script>
             <script src="scripts/jquery_code.js" type="text/javascript"></script>
         </head>
@@ -85,6 +85,9 @@
             <div class="ui">
                 <h2 class="ui_1">Animesaver</h2>
                 <h2 class="ui_2">Самый простой сайт по аниме в России!</h2>
+                <div class="search_engine">
+                    <div class="elfsight-app-d5eeebce-1968-4227-9fe6-aa4b05598245"></div>
+                </div>
             </div>
             <section class="body_layout">
                 <div class="news_sidebar">                                                          <!--Sidebar-->
@@ -188,666 +191,915 @@
                             ?>
                             <div>
                                 <h3>Серия 1</h3>
-                                <div id="1"></div>
+                                <div id="1">
+                                <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_1']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"1", file:<?php echo $r1['seria_1']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                            } }
                         ?>
                         <?php
                         if($r1['seria_2'] != null){
                             ?>
                             <div>
                                 <h3>Серия 2</h3>
-                                <div id="2"></div>
+                                <div id="2">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_2']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"2", file:<?php echo $r1['seria_2']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                            } }
                         ?>
                         <?php
                         if($r1['seria_3'] != null){
                             ?>
                             <div>
                                 <h3>Серия 3</h3>
-                                <div id="3"></div>
+                                <div id="3">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_3']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"3", file:<?php echo $r1['seria_3']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                            } }
                         ?>
                         <?php
                         if($r1['seria_4'] != null){
                             ?>
                             <div>
                                 <h3>Серия 4</h3>
-                                <div id="4"></div>
+                                <div id="4">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_4']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"4", file:<?php echo $r1['seria_4']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                            } }
                         ?>
                         <?php
                         if($r1['seria_5'] != null){
                             ?>
                             <div>
                                 <h3>Серия 5</h3>
-                                <div id="5"></div>
+                                <div id="5">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_5']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"5", file:<?php echo $r1['seria_5']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                            } }
                         ?>
                         <?php
                         if($r1['seria_6'] != null){
                             ?>
                             <div>
                                 <h3>Серия 6</h3>
-                                <div id="6"></div>
+                                <div id="6">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_6']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"6", file:<?php echo $r1['seria_6']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_7'] != null){
                             ?>
                             <div>
                                 <h3>Серия 7</h3>
-                                <div id="7"></div>
+                                <div id="7">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_7']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"7", file:<?php echo $r1['seria_7']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_8'] != null){
                             ?>
                             <div>
                                 <h3>Серия 8</h3>
-                                <div id="8"></div>
+                                <div id="8">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_8']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"8", file:<?php echo $r1['seria_8']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_9'] != null){
                             ?>
                             <div>
                                 <h3>Серия 9</h3>
-                                <div id="9"></div>
+                                <div id="9">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_9']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"9", file:<?php echo $r1['seria_9']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_10'] != null){
                             ?>
                             <div>
                                 <h3>Серия 10</h3>
-                                <div id="10"></div>
+                                <div id="10">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_10']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"10", file:<?php echo $r1['seria_10']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_11'] != null){
                             ?>
                             <div>
                                 <h3>Серия 11</h3>
-                                <div id="11"></div>
+                                <div id="11">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_11']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"11", file:<?php echo $r1['seria_11']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_12'] != null){
                             ?>
                             <div>
                                 <h3>Серия 12</h3>
-                                <div id="12"></div>
+                                <div id="12">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_12']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"12", file:<?php echo $r1['seria_12']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_13'] != null){
                             ?>
                             <div>
                                 <h3>Серия 13</h3>
-                                <div id="13"></div>
+                                <div id="13">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_13']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"13", file:<?php echo $r1['seria_13']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_14'] != null){
                             ?>
                             <div>
                                 <h3>Серия 14</h3>
-                                <div id="14"></div>
+                                <div id="14">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_14']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"14", file:<?php echo $r1['seria_14']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_15'] != null){
                             ?>
                             <div>
                                 <h3>Серия 15</h3>
-                                <div id="15"></div>
+                                <div id="15">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_15']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"15", file:<?php echo $r1['seria_15']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_16'] != null){
                             ?>
                             <div>
                                 <h3>Серия 16</h3>
-                                <div id="16"></div>
+                                <div id="16">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_16']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"16", file:<?php echo $r1['seria_16']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_17'] != null){
                             ?>
                             <div>
                                 <h3>Серия 17</h3>
-                                <div id="17"></div>
+                                <div id="17">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_17']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"17", file:<?php echo $r1['seria_17']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_18'] != null){
                             ?>
                             <div>
                                 <h3>Серия 18</h3>
-                                <div id="18"></div>
+                                <div id="18">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_18']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"18", file:<?php echo $r1['seria_18']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_19'] != null){
                             ?>
                             <div>
                                 <h3>Серия 19</h3>
-                                <div id="19"></div>
+                                <div id="19">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_19']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"19", file:<?php echo $r1['seria_19']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_20'] != null){
                             ?>
                             <div>
                                 <h3>Серия 20</h3>
-                                <div id="20"></div>
+                                <div id="20">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_20']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"20", file:<?php echo $r1['seria_20']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_21'] != null){
                             ?>
                             <div>
                                 <h3>Серия 21</h3>
-                                <div id="21"></div>
+                                <div id="21">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_21']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"21", file:<?php echo $r1['seria_21']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_22'] != null){
                             ?>
                             <div>
                                 <h3>Серия 22</h3>
-                                <div id="22"></div>
+                                <div id="22">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_22']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"22", file:<?php echo $r1['seria_22']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_23'] != null){
                             ?>
                             <div>
                                 <h3>Серия 23</h3>
-                                <div id="23"></div>
+                                <div id="23">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_23']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"23", file:<?php echo $r1['seria_23']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_24'] != null){
                             ?>
                             <div>
                                 <h3>Серия 24</h3>
-                                <div id="24"></div>
+                                <div id="24">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_24']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"24", file:<?php echo $r1['seria_24']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_25'] != null){
                             ?>
                             <div>
                                 <h3>Серия 25</h3>
-                                <div id="25"></div>
+                                <div id="25">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_25']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"25", file:<?php echo $r1['seria_25']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_26'] != null){
                             ?>
                             <div>
                                 <h3>Серия 26</h3>
-                                <div id="26"></div>
+                                <div id="26">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_26']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"26", file:<?php echo $r1['seria_26']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_27'] != null){
                             ?>
                             <div>
                                 <h3>Серия 27</h3>
-                                <div id="27"></div>
+                                <div id="27">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_27']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"27", file:<?php echo $r1['seria_27']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_28'] != null){
                             ?>
                             <div>
                                 <h3>Серия 28</h3>
-                                <div id="28"></div>
+                                <div id="28">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_28']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"28", file:<?php echo $r1['seria_28']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_29'] != null){
                             ?>
                             <div>
                                 <h3>Серия 29</h3>
-                                <div id="29"></div>
+                                <div id="29">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_29']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"29", file:<?php echo $r1['seria_29']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_30'] != null){
                             ?>
                             <div>
                                 <h3>Серия 30</h3>
-                                <div id="30"></div>
+                                <div id="30">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_30']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"30", file:<?php echo $r1['seria_30']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_31'] != null){
                             ?>
                             <div>
                                 <h3>Серия 31</h3>
-                                <div id="31"></div>
+                                <div id="31">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_31']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"31", file:<?php echo $r1['seria_31']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_32'] != null){
                             ?>
                             <div>
                                 <h3>Серия 32</h3>
-                                <div id="32"></div>
+                                <div id="32">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_32']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"32", file:<?php echo $r1['seria_32']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_33'] != null){
                             ?>
                             <div>
                                 <h3>Серия 33</h3>
-                                <div id="33"></div>
+                                <div id="33">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_33']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"33", file:<?php echo $r1['seria_33']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_34'] != null){
                             ?>
                             <div>
                                 <h3>Серия 34</h3>
-                                <div id="34"></div>
+                                <div id="34">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_34']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"34", file:<?php echo $r1['seria_34']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_35'] != null){
                             ?>
                             <div>
                                 <h3>Серия 35</h3>
-                                <div id="35"></div>
+                                <div id="35">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_35']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"35", file:<?php echo $r1['seria_35']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_36'] != null){
                             ?>
                             <div>
                                 <h3>Серия 36</h3>
-                                <div id="36"></div>
+                                <div id="36">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_36']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"36", file:<?php echo $r1['seria_36']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_37'] != null){
                             ?>
                             <div>
                                 <h3>Серия 37</h3>
-                                <div id="37"></div>
+                                <div id="37">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_37']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"37", file:<?php echo $r1['seria_37']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_38'] != null){
                             ?>
                             <div>
                                 <h3>Серия 38</h3>
-                                <div id="38"></div>
+                                <div id="38">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_38']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"38", file:<?php echo $r1['seria_38']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_39'] != null){
                             ?>
                             <div>
                                 <h3>Серия 39</h3>
-                                <div id="39"></div>
+                                <div id="39">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_39']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"39", file:<?php echo $r1['seria_39']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_40'] != null){
                             ?>
                             <div>
                                 <h3>Серия 40</h3>
-                                <div id="40"></div>
+                                <div id="40">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_40']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"40", file:<?php echo $r1['seria_40']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_41'] != null){
                             ?>
                             <div>
                                 <h3>Серия 41</h3>
-                                <div id="41"></div>
+                                <div id="41">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_41']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"41", file:<?php echo $r1['seria_41']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_42'] != null){
                             ?>
                             <div>
                                 <h3>Серия 42</h3>
-                                <div id="42"></div>
+                                <div id="42">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_42']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"42", file:<?php echo $r1['seria_42']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_43'] != null){
                             ?>
                             <div>
                                 <h3>Серия 43</h3>
-                                <div id="43"></div>
+                                <div id="43">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_43']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"43", file:<?php echo $r1['seria_43']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_44'] != null){
                             ?>
                             <div>
                                 <h3>Серия 44</h3>
-                                <div id="44"></div>
+                                <div id="44">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_44']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"44", file:<?php echo $r1['seria_44']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_45'] != null){
                             ?>
                             <div>
                                 <h3>Серия 45</h3>
-                                <div id="45"></div>
+                                <div id="45">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_45']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"45", file:<?php echo $r1['seria_45']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_46'] != null){
                             ?>
                             <div>
                                 <h3>Серия 46</h3>
-                                <div id="46"></div>
+                                <div id="46">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_46']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"46", file:<?php echo $r1['seria_46']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_47'] != null){
                             ?>
                             <div>
                                 <h3>Серия 47</h3>
-                                <div id="47"></div>
+                                <div id="47">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_47']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"47", file:<?php echo $r1['seria_47']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_48'] != null){
                             ?>
                             <div>
                                 <h3>Серия 48</h3>
-                                <div id="48"></div>
+                                <div id="48">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_48']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"48", file:<?php echo $r1['seria_48']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_49'] != null){
                             ?>
                             <div>
                                 <h3>Серия 49</h3>
-                                <div id="49"></div>
+                                <div id="49">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_49']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"49", file:<?php echo $r1['seria_49']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                         <?php
                         if($r1['seria_50'] != null){
                             ?>
                             <div>
                                 <h3>Серия 50</h3>
-                                <div id="50"></div>
+                                <div id="50">
+                                    <?php if($r1['kodik_bd'] == 1) { ?>
+                                    <iframe src="http:<?php echo $r1['seria_50']; ?>"
+                                            allowfullscreen="" frameborder="0"></iframe></div></div>
+                                <?php } else {?>
+                                </div>
                                 <script>
                                     var player = new Playerjs({id:"50", file:<?php echo $r1['seria_50']; ?>});
                                 </script>
                             </div>
                             <?php
-                        }
+                        } }
                         ?>
                     </section>
                     <fieldset class="images_of_anime">
                         <legend>Комментарии</legend>
                         <div id="vk_comments"></div>                                               <!--VK comments-->
                         <script type="text/javascript">
-                            VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*", width: 720}, <?php echo $r1['id']; ?>);
+                            VK.Widgets.Comments("vk_comments", {limit: 10, attach: false, width: 720}, <?php echo $r1['id']; ?>);
                         </script>
                     </fieldset>
                 </section>
                 <div class="adv">                                                                   <!--ADV-->
                     <h3>НОВОСТИ ЖУРНАЛА</h3>
-                    <div id="vk_groups"></div>
-                    <script type="text/javascript">
-                        VK.Widgets.Group("vk_groups", {mode: 4, width: "200", height: "1390", color1: "F5FFFA"}, 189077461);
-                    </script>
+                    <iframe src="anime/ws_news.php">
+                        Ваш браузер не поддерживает плавающие фреймы!
+                    </iframe>
                 </div>
             </section>
 

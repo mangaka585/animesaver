@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Yandex.Metrika counter -->
+    <script async  type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        ym(55604875, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149359628-1');
+    </script>
+    <meta name="yandex-verification" content="067bb48ccc18ed4a" />
+    <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
+    <title>Weekly Saver | Первый еженедельник манги в России</title>
+    <link rel="stylesheet" href="css/style_ws_test.css">
+    <meta name="description" content="Читать мангу онлайн на сайте еженедельного журнала" />
+    <meta name="keywords" content="Читать мангу Онлайн бесплатно Animesaver анимесэйвер"/>
+</head>
+<body>
+<section class="layout">
+    <header>
+
+    </header>
+    <section>
+        <div class="element">
+            <div class="image_1">
+                <img src="ws/magazine/samples/pages/fourth/1.jpg" alt="fourth_num"/>
+            </div>
+            <div class="description_1">
+                <h2 class="title">Выпуск 4</h2>
+                <ol>
+                    <li>Обзор на "Летние воины"</li>
+                    <li>Обзор на "Ученик чудовища"</li>
+                    <li>Работы режиссера Мамору Хосода</li>
+                    <li>Конкурс от Weekly Saver</li>
+                    <li>Аниме-новости</li>
+                    <li>Сон Данте</li>
+                    <li>Ангел Нового Эдема</li>
+                    <li>Хроники Орбереса (3 - 4 главы)</li>
+                    <li>Дьявольский союз</li>
+                    <li>Death</li>
+                </ol>
+            </div>
+        </div>
+        <div class="element">
+            <div class="description_2">
+                <h2 class="title">Выпуск 3</h2>
+                <ol>
+                    <li>История Армии Японии</li>
+                    <li>Топ-10 военных аниме</li>
+                    <li>Аниме-новости</li>
+                    <li>Kot and Shprot</li>
+                    <li>Хроники Орбереса. Ночь в лесу</li>
+                    <li>Death (6 - 7 главы)</li>
+                </ol>
+            </div>
+            <div class="image_2">
+                <img src="ws/magazine/samples/pages/third/1.jpg" alt="third_num"/>
+            </div>
+        </div>
+        <div class="element">
+            <div class="image_1">
+                <img src="ws/magazine/samples/pages/second/1.jpg" alt="second_num"/>
+            </div>
+            <div class="description_1">
+                <h2 class="title">Выпуск 2</h2>
+                <ol>
+                    <li>Рецензия на Death Note: One Shot</li>
+                    <li>День Святого Валентина</li>
+                    <li>Аниме-новости</li>
+                    <li>Мгновение</li>
+                    <li>Хроники Орбереса. Песочница</li>
+                    <li>Death</li>
+                </ol>
+            </div>
+        </div>
+        <div class="element">
+            <div class="description_2">
+                <h2 class="title">Выпуск 1</h2>
+                <ol>
+                    <li>Хроники Орбереса: Джин и Ева</li>
+                    <li>Death</li>
+                    <li>Интервью с Sophie Laurel</li>
+                    <li>Путник</li>
+                    <li>Аниме-новости</li>
+                    <li>Рецензия</li>
+                </ol>
+            </div>
+            <div class="image_2">
+                <img src="ws/magazine/samples/pages/first/1.jpg" alt="first_num"/>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</section>
+</body>
+</html>

@@ -202,10 +202,9 @@
         </section>
         <div class="adv">                                                                   <!--ADV-->
             <h3>НОВОСТИ ЖУРНАЛА</h3>
-            <div id="vk_groups"></div>
-            <script type="text/javascript">
-                VK.Widgets.Group("vk_groups", {mode: 4, width: "200", height: "690", color1: "F5FFFA"}, 189077461);
-            </script>
+            <iframe src="anime/ws_news.php">
+                Ваш браузер не поддерживает плавающие фреймы!
+            </iframe>
         </div>
     </section>
     <footer>

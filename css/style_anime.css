@@ -275,6 +275,11 @@ header {
         display: none;
     }
 
+    .video div div iframe {
+        width: 100%;
+        height: 150px;
+    }
+
     footer {
         display: block;
         height: 20px;
@@ -311,7 +316,8 @@ header {
     .vk_likes,
     .recomendations,
     a.scroll-top,
-    .scroll-top img {
+    .scroll-top img,
+    .search_engine {
         display: none;
     }
 }
@@ -423,6 +429,11 @@ header {
         position: absolute;
         top: 85px;
         left: 120px;
+    }
+
+    .search_engine {
+        margin-top: 300px;
+        margin-left: 170px;
     }
 
     .body_layout {
@@ -612,6 +623,11 @@ header {
         padding: 5px;
         margin-bottom: 5px;
         display: none;
+    }
+
+    .video div div iframe {
+        width: 100%;
+        height: 300px;
     }
 
     .recomendations {
