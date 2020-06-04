@@ -3,10 +3,7 @@ session_start();//  вся процедура работает на сессия
 if (isset($_POST['login'])) { $login = $_POST['login']; if ($login == '') { unset($login);} } //заносим введенный пользователем логин в переменную $login, если он пустой, то уничтожаем переменную
 if (isset($_POST['password'])) { $password=$_POST['password']; if ($password =='') { unset($password);} }
 //заносим введенный пользователем пароль в переменную $password, если он пустой, то уничтожаем переменную
-if (empty($login) or empty($password)) //если пользователь не ввел логин или пароль, то выдаем ошибку и останавливаем скрипт
-{
-    exit ("Вы ввели не всю информацию, вернитесь назад и заполните все поля!");
-}
+
 //если логин и пароль введены,то обрабатываем их, чтобы теги и скрипты не работали, мало ли что люди могут ввести
 $login = stripslashes($login);
 $login = htmlspecialchars($login);
@@ -26,32 +23,8 @@ $myrow = mysqli_fetch_array($result);
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Yandex.Metrika counter -->
-        <script async type="text/javascript">
-            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-            ym(55604875, "init", {
-                clickmap:true,
-                trackLinks:true,
-                accurateTrackBounce:true,
-                webvisor:true
-            });
-        </script>
-        <!-- /Yandex.Metrika counter -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-149359628-1');
-        </script>
-        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
         <script async src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <meta name="yandex-verification" content="067bb48ccc18ed4a" />
         <link rel="shortcut icon" href="../images/favicon_for_line.ico" type="image/png">
-        <link rel="cannonical" href="https://animesaver.ru/">
         <title>Смотреть аниме онлайн бесплатно в хорошем качестве | Animesaver</title>
         <link rel="stylesheet" href="../css/style.css">
         <meta name="description" content="Только самые популярные аниме в хорошем качестве без рекламы можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
@@ -109,32 +82,79 @@ $myrow = mysqli_fetch_array($result);
             </div>
             <section class="main_block">                                                        <!--Main block-->
                 <?php
-                if (empty($myrow['password']))
+                if (empty($login) or empty($password)) //если пользователь не ввел логин или пароль, то выдаем ошибку и останавливаем скрипт
+                { ?>
+                    <h2 class="welldone_h2">Вы ввели не всю информацию</h2>
+                    <div class="dabbing_wrong"><img src="../images/wrong_password.png" alt="dabbing pic" /></div>
+                    </br>
+                    <div class="try_again">
+                        <input type="submit" value="ПОПРОБОВАТЬ СНОВА" onclick="try_again_button()"/>
+                    </div>
+                    <div class="iframe_class">
+                        <iframe src="index-test.php"></iframe>
+                    </div>
+                    <div class="links">
+                        <a href="https://animesaver.ru">ГЛАВНАЯ</a>
+                        <a href="https://animesaver.ru/catalogue">КАТАЛОГ</a>
+                        <a href="https://animesaver.ru/weekly-saver">ЖУРНАЛ</a>
+                        <a href="https://vk.com/weeklysaver" target="_blank">ГРУППА ВК</a>
+                    </div>
+                <?php }
+
+                else if (empty($myrow['password']))
                 {
-                    //если пользователя с введенным логином не существует
-                    exit ("Извините, введённый вами login или пароль неверный.");
-                }
+                    //если пользователя с введенным логином не существует ?>
+                    <h2 class="welldone_h2">Введённый логин или пароль неверный</h2>
+                    <div class="dabbing_wrong"><img src="../images/wrong_password.png" alt="dabbing pic" /></div>
+                    </br>
+                    <div class="try_again">
+                        <input type="submit" value="ПОПРОБОВАТЬ СНОВА" onclick="try_again_button()"/>
+                    </div>
+                    <div class="iframe_class">
+                        <iframe src="index-test.php"></iframe>
+                    </div>
+                    <div class="links">
+                        <a href="https://animesaver.ru">ГЛАВНАЯ</a>
+                        <a href="https://animesaver.ru/catalogue">КАТАЛОГ</a>
+                        <a href="https://animesaver.ru/weekly-saver">ЖУРНАЛ</a>
+                        <a href="https://vk.com/weeklysaver" target="_blank">ГРУППА ВК</a>
+                    </div>
+                <?php }
                 else {
                     //если существует, то сверяем пароли
                     if ($myrow['password']==$password) {
                         //если пароли совпадают, то запускаем пользователю сессию! Можете его поздравить, он вошел!
                         $_SESSION['login']=$myrow['login'];
                         $_SESSION['id']=$myrow['id'];//эти данные очень часто используются, вот их и будет "носить с собой" вошедший пользователь
-                        ?><h2 class="welldone_h2">Вы успешно вошли на сайт!</h2>
-                        <div class="dabbing"><img src="../images/goodjob.png" alt="dabbing pic" /></div>
-                        </br>
-                        <div class="links">
-                            <a href="https://animesaver.ru">ГЛАВНАЯ</a>
-                            <a href="https://animesaver.ru/catalogue">КАТАЛОГ</a>
-                            <a href="https://animesaver.ru/weekly-saver">ЖУРНАЛ</a>
-                            <a href="https://vk.com/weeklysaver">ГРУППА ВК</a>
-                        </div>
+                        ?>
+                    <h2 class="welldone_h2">Вы успешно вошли на сайт!</h2>
+                    <div class="dabbing"><img src="../images/goodjob.png" alt="dabbing pic" /></div>
+                    <div class="links">
+                        <a href="https://animesaver.ru">ГЛАВНАЯ</a>
+                        <a href="https://animesaver.ru/catalogue">КАТАЛОГ</a>
+                        <a href="https://animesaver.ru/weekly-saver">ЖУРНАЛ</a>
+                        <a href="https://vk.com/weeklysaver" target="_blank">ГРУППА ВК</a>
+                    </div>
                     <?php }
                     else {
                         //если пароли не сошлись
-
-                        exit ("Извините, введённый вами login или пароль неверный.");
-                    }
+                        ?>
+                    <h2 class="welldone_h2">Введённый вами пароль неверный</h2>
+                    <div class="dabbing_wrong"><img src="../images/wrong_password.png" alt="dabbing pic" /></div>
+                    </br>
+                    <div class="try_again">
+                        <input type="submit" value="ПОПРОБОВАТЬ СНОВА" onclick="try_again_button()"/>
+                    </div>
+                    <div class="iframe_class">
+                        <iframe src="index-test.php"></iframe>
+                    </div>
+                    <div class="links">
+                        <a href="https://animesaver.ru">ГЛАВНАЯ</a>
+                        <a href="https://animesaver.ru/catalogue">КАТАЛОГ</a>
+                        <a href="https://animesaver.ru/weekly-saver">ЖУРНАЛ</a>
+                        <a href="https://vk.com/weeklysaver" target="_blank">ГРУППА ВК</a>
+                    </div>
+                    <?php }
                 }
                 ?>
             </section>

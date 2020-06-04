@@ -27,8 +27,6 @@ include "includes/db.php";
         gtag('js', new Date());
         gtag('config', 'UA-149359628-1');
     </script>
-    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
-    <script async src="https://apps.elfsight.com/p/platform.js" defer></script>
     <meta name="yandex-verification" content="067bb48ccc18ed4a" />
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <title>Каталог | Animesaver</title>
@@ -78,9 +76,6 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
         <div class="ui">
             <h1 class="ui_1">Animesaver</h1>
             <h2 class="ui_2">Самый простой сайт по аниме в России!</h2>
-            <div class="search_engine">
-                <div class="elfsight-app-d5eeebce-1968-4227-9fe6-aa4b05598245"></div>
-            </div>
         </div>
         <section class="body_layout">
             <div class="news_sidebar">                                                          <!--Sidebar-->
@@ -103,7 +98,7 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                         <?php
                         while($anime_page_result = mysqli_fetch_assoc($anime_page)){
                         ?>
-                        <div>
+                        <div title="<?php echo $anime_page_result['title']; ?>">
                            <a href="/<?php echo $anime_page_result['link']; ?>">
                                <h2><?php echo $anime_page_result['title']; ?></h2>
                                <img src="<?php echo $anime_page_result['main_img_sourse']; ?>" alt="<?php echo $anime_page_result['title']; ?> pic" />
@@ -121,7 +116,7 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                 if($active == null) {
                     $active = 1;
                 };
-                $count_show_pages = 7;
+                $count_show_pages = 6;
                 $url = "/catalogue";
                 $url_page = "/catalogue?page=";
                 if ($count_pages > 1) {

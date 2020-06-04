@@ -31,8 +31,6 @@
         gtag('js', new Date());
         gtag('config', 'UA-149359628-1');
     </script>
-    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
-    <script async src="https://apps.elfsight.com/p/platform.js" defer></script>
     <meta name="yandex-verification" content="067bb48ccc18ed4a" />
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <link rel="cannonical" href="https://animesaver.ru/">
@@ -80,9 +78,6 @@
     <div class="ui">
         <h1 class="ui_1">Animesaver</h1>
         <h2 class="ui_2">Самый простой сайт по аниме в России!</h2>
-        <div class="search_engine">
-            <div class="elfsight-app-d5eeebce-1968-4227-9fe6-aa4b05598245"></div>
-        </div>
     </div>
     <section class="body_layout">
         <div class="news_sidebar">                                                          <!--Sidebar-->
@@ -168,7 +163,7 @@
             if($active == null) {
                 $active = 1;
             };
-            $count_show_pages = 7;
+            $count_show_pages = 6;
             $url = "/index.php";
             $url_page = "/index.php?page=";
             if ($count_pages > 1) {

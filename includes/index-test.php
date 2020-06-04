@@ -4,50 +4,75 @@ session_start();
 ?>
 <html>
 <head>
-    <title>Главная страница</title>
+    <title>Форма регистрации</title>
+    <style>
+        span input {
+            margin-bottom: 5px;
+        }
+
+        .submit {
+            width: 273px;
+            height: 40px;
+            font-size: 1em;
+            background: darkblue;
+            color: white;
+            border-radius: 7px;
+        }
+
+        .submit:hover   {
+            background: white;
+            color: black;
+        }
+
+        span    {
+            text-align: center;
+        }
+
+        a {
+            display: block;
+            padding: 10px;
+            border: solid 1px black;
+            width: 253px;
+            border-radius: 5px;
+            background: deepskyblue;
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        a:hover {
+            background: dodgerblue;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-<h2>Главная страница</h2>
-<form action="testreg.php" method="post">
+<form action="testreg.php" method="post" target="_top">
 
-    <!--****  testreg.php - это адрес обработчика. То есть, после нажатия на кнопку  "Войти", данные из полей отправятся на страничку testreg.php методом  "post" ***** -->
-    <p>
-        <label>Ваш логин:<br></label>
-        <input name="login" type="text" size="15" maxlength="15">
-    </p>
+    <span>
+        <input name="login" type="text" size="23" maxlength="15" placeholder="Логин">
+    </span>
+    <span>
+        <input name="password" type="password" size="23" maxlength="15" placeholder="Пароль">
+    </span>
+    <span>
+        <input type="submit" name="submit" value="Войти" class="submit">
 
-
-    <!--**** В текстовое поле (name="login" type="text") пользователь вводит свой логин ***** -->
-
-    <p>
-
-        <label>Ваш пароль:<br></label>
-        <input name="password" type="password" size="15" maxlength="15">
-    </p>
-
-    <!--**** В поле для паролей (name="password" type="password") пользователь вводит свой пароль ***** -->
-
-    <p>
-        <input type="submit" name="submit" value="Войти">
-
-        <!--**** Кнопочка (type="submit") отправляет данные на страничку testreg.php ***** -->
-        <br>
-        <!--**** ссылка на регистрацию, ведь как-то же должны гости туда попадать ***** -->
-        <a href="reg.php">Зарегистрироваться</a>
-    </p></form>
-<br>
+        <a href="reg.php" target="_top">Зарегистрироваться</a>
+    </span>
+</form>
 <?php
 // Проверяем, пусты ли переменные логина и id пользователя
 if (empty($_SESSION['login']) or empty($_SESSION['id']))
 {
     // Если пусты, то мы не выводим ссылку
-    echo "Вы вошли на сайт, как гость<br><a href='#'>Эта ссылка  доступна только зарегистрированным пользователям</a>";
+    //echo "Вы вошли на сайт, как гость<br><a href='#'>Эта ссылка  доступна только зарегистрированным пользователям</a>";
 }
 else
 {
 
     // Если не пусты, то мы выводим ссылку
-    echo "Вы вошли на сайт, как ".$_SESSION['login']."<br><a  href='http://tvpavlovsk.sk6.ru/'>Эта ссылка доступна только  зарегистрированным пользователям</a>";
+    //echo "Вы вошли на сайт, как ".$_SESSION['login']."<br><a  href='http://tvpavlovsk.sk6.ru/'>Эта ссылка доступна только  зарегистрированным пользователям</a>";
 }
 ?>
 </body>

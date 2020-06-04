@@ -61,5 +61,13 @@ $( document ).ready(function() {
     event.preventDefault();
     $('html, body').animate({scrollTop: 0}, 600);
   });
-
 });
+
+function try_again_button() {
+  let element = document.getElementsByClassName('iframe_class');
+  if (element[0].style.display === 'none') {
+    element[0].style.display = 'block';
+  } else {
+    element[0].style.display = 'none';
+  }
+}

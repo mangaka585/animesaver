@@ -35,7 +35,6 @@
                 gtag('js', new Date());
                 gtag('config', 'UA-149359628-1');
             </script>
-            <script async src="https://apps.elfsight.com/p/platform.js" defer></script>
             <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
             <script type="text/javascript">
                 VK.init({apiId: 7327920, onlyWidgets: true});
@@ -43,7 +42,7 @@
             <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
             <title><?php echo $r1['title']; ?> | Animesaver</title>
             <link rel="stylesheet" href="css/style_anime.css">
-            <meta name="description" content="<?php echo $r1['description_2']; ?> смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
+            <meta name="description" content="Аниме <?php echo $r1['title']; ?> смотреть онлайн бесплатно без регистрации в хорошем качестве" />
             <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Наруто Клинок Поджелудочную Доктор Стоун Мастера меча онлайн Синий Экзорцист"/>
             <script src="https://code.jquery.com/jquery-latest.min.js"></script>
             <script src="scripts/jquery_code.js" type="text/javascript"></script>
@@ -85,9 +84,6 @@
             <div class="ui">
                 <h2 class="ui_1">Animesaver</h2>
                 <h2 class="ui_2">Самый простой сайт по аниме в России!</h2>
-                <div class="search_engine">
-                    <div class="elfsight-app-d5eeebce-1968-4227-9fe6-aa4b05598245"></div>
-                </div>
             </div>
             <section class="body_layout">
                 <div class="news_sidebar">                                                          <!--Sidebar-->

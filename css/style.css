@@ -447,12 +447,14 @@ header {
     .body_layout_testreg {
         display: block;
         position: relative;
-        min-height: auto;
+        min-height: 750px;
         margin-bottom: 30px;
     }
 
     .links {
         text-align: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
     }
 
     .links a {
@@ -467,6 +469,36 @@ header {
     .links a:hover {
         color: black;
         background: azure;
+    }
+
+    .try_again {
+        text-align: center;
+    }
+
+    .try_again input {
+        border: solid 1px black;
+        padding: 10px;
+        border-radius: 7px;
+        font-size: 1em;
+        color: white;
+        background: darkorchid;
+        width: 87%;
+    }
+
+    .try_again input:hover    {
+        background: aqua;
+        color: black;
+    }
+
+    .iframe_class {
+        text-align: center;
+        margin: auto auto 20px;
+        display: none;
+    }
+
+    .iframe_class iframe    {
+        border: none;
+        height: 180px;
     }
 
     .news_sidebar {
@@ -512,6 +544,14 @@ header {
 
     .dabbing img    {
         width: 800px;
+    }
+
+    .dabbing_wrong {
+        text-align: center;
+    }
+
+    .dabbing_wrong img  {
+        width: 430px;
     }
 
     .main_block_element {
