@@ -189,7 +189,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                 <h3>Серия 51</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                <h3>Серия 101</h3> <?php } else { ?>
+                                <h3>Серия 101</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                <h3>Серия 151</h3> <?php } else { ?>
                                 <h3>Серия 1</h3> <?php } ?>
                                 <div id="1">
                                 <?php if($r1['kodik_bd'] == 1) { ?>
@@ -211,7 +212,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 52</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 102</h3> <?php } else { ?>
+                                    <h3>Серия 102</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 152</h3> <?php } else { ?>
                                     <h3>Серия 2</h3> <?php } ?>
                                 <div id="2">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -233,7 +235,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 53</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 103</h3> <?php } else { ?>
+                                    <h3>Серия 103</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 153</h3> <?php } else { ?>
                                     <h3>Серия 3</h3> <?php } ?>
                                 <div id="3">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -255,7 +258,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 54</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 104</h3> <?php } else { ?>
+                                    <h3>Серия 104</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 154</h3> <?php } else { ?>
                                     <h3>Серия 4</h3> <?php } ?>
                                 <div id="4">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -277,7 +281,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 55</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 105</h3> <?php } else { ?>
+                                    <h3>Серия 105</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 155</h3> <?php } else { ?>
                                     <h3>Серия 5</h3> <?php } ?>
                                 <div id="5">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -299,7 +304,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 56</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 106</h3> <?php } else { ?>
+                                    <h3>Серия 106</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 156</h3> <?php } else { ?>
                                     <h3>Серия 6</h3> <?php } ?>
                                 <div id="6">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -321,7 +327,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 57</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 107</h3> <?php } else { ?>
+                                    <h3>Серия 107</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 157</h3> <?php } else { ?>
                                     <h3>Серия 7</h3> <?php } ?>
                                 <div id="7">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -343,7 +350,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 58</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 108</h3> <?php } else { ?>
+                                    <h3>Серия 108</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 158</h3> <?php } else { ?>
                                     <h3>Серия 8</h3> <?php } ?>
                                 <div id="8">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -365,7 +373,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 59</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 109</h3> <?php } else { ?>
+                                    <h3>Серия 109</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 159</h3> <?php } else { ?>
                                     <h3>Серия 9</h3> <?php } ?>
                                 <div id="9">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -387,7 +396,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 60</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 110</h3> <?php } else { ?>
+                                    <h3>Серия 110</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 160</h3> <?php } else { ?>
                                     <h3>Серия 10</h3> <?php } ?>
                                 <div id="10">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -409,7 +419,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 61</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 111</h3> <?php } else { ?>
+                                    <h3>Серия 111</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 161</h3> <?php } else { ?>
                                     <h3>Серия 11</h3> <?php } ?>
                                 <div id="11">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -431,7 +442,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 62</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 112</h3> <?php } else { ?>
+                                    <h3>Серия 112</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 162</h3> <?php } else { ?>
                                     <h3>Серия 12</h3> <?php } ?>
                                 <div id="12">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -453,7 +465,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 63</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 113</h3> <?php } else { ?>
+                                    <h3>Серия 113</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 163</h3> <?php } else { ?>
                                     <h3>Серия 13</h3> <?php } ?>
                                 <div id="13">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -475,7 +488,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 64</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 114</h3> <?php } else { ?>
+                                    <h3>Серия 114</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 164</h3> <?php } else { ?>
                                     <h3>Серия 14</h3> <?php } ?>
                                 <div id="14">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -497,7 +511,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 65</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 115</h3> <?php } else { ?>
+                                    <h3>Серия 115</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 165</h3> <?php } else { ?>
                                     <h3>Серия 15</h3> <?php } ?>
                                 <div id="15">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -519,7 +534,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 66</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 116</h3> <?php } else { ?>
+                                    <h3>Серия 116</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 166</h3> <?php } else { ?>
                                     <h3>Серия 16</h3> <?php } ?>
                                 <div id="16">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -541,7 +557,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 67</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 117</h3> <?php } else { ?>
+                                    <h3>Серия 117</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 167</h3> <?php } else { ?>
                                     <h3>Серия 17</h3> <?php } ?>
                                 <div id="17">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -563,7 +580,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 68</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 118</h3> <?php } else { ?>
+                                    <h3>Серия 118</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 168</h3> <?php } else { ?>
                                     <h3>Серия 18</h3> <?php } ?>
                                 <div id="18">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -585,7 +603,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 69</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 119</h3> <?php } else { ?>
+                                    <h3>Серия 119</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 169</h3> <?php } else { ?>
                                     <h3>Серия 19</h3> <?php } ?>
                                 <div id="19">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -607,7 +626,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 70</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 120</h3> <?php } else { ?>
+                                    <h3>Серия 120</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 170</h3> <?php } else { ?>
                                     <h3>Серия 20</h3> <?php } ?>
                                 <div id="20">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -629,7 +649,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 71</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 121</h3> <?php } else { ?>
+                                    <h3>Серия 121</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 171</h3> <?php } else { ?>
                                     <h3>Серия 21</h3> <?php } ?>
                                 <div id="21">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -651,7 +672,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 72</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 122</h3> <?php } else { ?>
+                                    <h3>Серия 122</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 172</h3> <?php } else { ?>
                                     <h3>Серия 22</h3> <?php } ?>
                                 <div id="22">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -673,7 +695,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 73</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 123</h3> <?php } else { ?>
+                                    <h3>Серия 123</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 173</h3> <?php } else { ?>
                                     <h3>Серия 23</h3> <?php } ?>
                                 <div id="23">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -695,7 +718,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 74</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 124</h3> <?php } else { ?>
+                                    <h3>Серия 124</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 174</h3> <?php } else { ?>
                                     <h3>Серия 24</h3> <?php } ?>
                                 <div id="24">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -717,7 +741,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 75</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 125</h3> <?php } else { ?>
+                                    <h3>Серия 125</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 175</h3> <?php } else { ?>
                                     <h3>Серия 25</h3> <?php } ?>
                                 <div id="25">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -739,7 +764,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 76</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 126</h3> <?php } else { ?>
+                                    <h3>Серия 126</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 176</h3> <?php } else { ?>
                                     <h3>Серия 26</h3> <?php } ?>
                                 <div id="26">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -761,7 +787,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 77</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 127</h3> <?php } else { ?>
+                                    <h3>Серия 127</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 177</h3> <?php } else { ?>
                                     <h3>Серия 27</h3> <?php } ?>
                                 <div id="27">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -783,7 +810,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 78</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 128</h3> <?php } else { ?>
+                                    <h3>Серия 128</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 178</h3> <?php } else { ?>
                                     <h3>Серия 28</h3> <?php } ?>
                                 <div id="28">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -805,7 +833,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 79</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 129</h3> <?php } else { ?>
+                                    <h3>Серия 129</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 179</h3> <?php } else { ?>
                                     <h3>Серия 29</h3> <?php } ?>
                                 <div id="29">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -827,7 +856,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 80</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 130</h3> <?php } else { ?>
+                                    <h3>Серия 130</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 180</h3> <?php } else { ?>
                                     <h3>Серия 30</h3> <?php } ?>
                                 <div id="30">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -849,7 +879,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 81</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 131</h3> <?php } else { ?>
+                                    <h3>Серия 131</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 181</h3> <?php } else { ?>
                                     <h3>Серия 31</h3> <?php } ?>
                                 <div id="31">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -871,7 +902,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 82</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 132</h3> <?php } else { ?>
+                                    <h3>Серия 132</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 182</h3> <?php } else { ?>
                                     <h3>Серия 32</h3> <?php } ?>
                                 <div id="32">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -893,7 +925,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 83</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 133</h3> <?php } else { ?>
+                                    <h3>Серия 133</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 183</h3> <?php } else { ?>
                                     <h3>Серия 33</h3> <?php } ?>
                                 <div id="33">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -915,7 +948,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 84</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 134</h3> <?php } else { ?>
+                                    <h3>Серия 134</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 184</h3> <?php } else { ?>
                                     <h3>Серия 34</h3> <?php } ?>
                                 <div id="34">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -937,7 +971,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 85</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 135</h3> <?php } else { ?>
+                                    <h3>Серия 135</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 185</h3> <?php } else { ?>
                                     <h3>Серия 35</h3> <?php } ?>
                                 <div id="35">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -959,7 +994,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 86</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 136</h3> <?php } else { ?>
+                                    <h3>Серия 136</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 186</h3> <?php } else { ?>
                                     <h3>Серия 36</h3> <?php } ?>
                                 <div id="36">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -981,7 +1017,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 87</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 137</h3> <?php } else { ?>
+                                    <h3>Серия 137</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 187</h3> <?php } else { ?>
                                     <h3>Серия 37</h3> <?php } ?>
                                 <div id="37">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1003,7 +1040,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 88</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 138</h3> <?php } else { ?>
+                                    <h3>Серия 138</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 188</h3> <?php } else { ?>
                                     <h3>Серия 38</h3> <?php } ?>
                                 <div id="38">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1025,7 +1063,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 89</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 139</h3> <?php } else { ?>
+                                    <h3>Серия 139</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 189</h3> <?php } else { ?>
                                     <h3>Серия 39</h3> <?php } ?>
                                 <div id="39">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1047,7 +1086,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 90</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 140</h3> <?php } else { ?>
+                                    <h3>Серия 140</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 190</h3> <?php } else { ?>
                                     <h3>Серия 40</h3> <?php } ?>
                                 <div id="40">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1069,7 +1109,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 91</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 141</h3> <?php } else { ?>
+                                    <h3>Серия 141</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 191</h3> <?php } else { ?>
                                     <h3>Серия 41</h3> <?php } ?>
                                 <div id="41">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1091,7 +1132,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 92</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 142</h3> <?php } else { ?>
+                                    <h3>Серия 142</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 192</h3> <?php } else { ?>
                                     <h3>Серия 42</h3> <?php } ?>
                                 <div id="42">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1113,7 +1155,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 93</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 143</h3> <?php } else { ?>
+                                    <h3>Серия 143</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 193</h3> <?php } else { ?>
                                     <h3>Серия 43</h3> <?php } ?>
                                 <div id="43">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1135,7 +1178,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 94</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 144</h3> <?php } else { ?>
+                                    <h3>Серия 144</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 194</h3> <?php } else { ?>
                                     <h3>Серия 44</h3> <?php } ?>
                                 <div id="44">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1157,7 +1201,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 95</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 145</h3> <?php } else { ?>
+                                    <h3>Серия 145</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 195</h3> <?php } else { ?>
                                     <h3>Серия 45</h3> <?php } ?>
                                 <div id="45">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1179,7 +1224,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 96</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 146</h3> <?php } else { ?>
+                                    <h3>Серия 146</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 196</h3> <?php } else { ?>
                                     <h3>Серия 46</h3> <?php } ?>
                                 <div id="46">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1201,7 +1247,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 97</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 147</h3> <?php } else { ?>
+                                    <h3>Серия 147</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 197</h3> <?php } else { ?>
                                     <h3>Серия 47</h3> <?php } ?>
                                 <div id="47">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1223,7 +1270,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 98</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 148</h3> <?php } else { ?>
+                                    <h3>Серия 148</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 198</h3> <?php } else { ?>
                                     <h3>Серия 48</h3> <?php } ?>
                                 <div id="48">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1245,7 +1293,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 99</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 149</h3> <?php } else { ?>
+                                    <h3>Серия 149</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 199</h3> <?php } else { ?>
                                     <h3>Серия 49</h3> <?php } ?>
                                 <div id="49">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
@@ -1267,7 +1316,8 @@
                                 <?php if($r1['50+series'] == 1) { ?>
                                     <h3>Серия 100</h3>
                                 <?php } else if($r1['100+series'] == 1) { ?>
-                                    <h3>Серия 150</h3> <?php } else { ?>
+                                    <h3>Серия 150</h3> <?php } else if($r1['150+series'] == 1){ ?>
+                                    <h3>Серия 200</h3> <?php } else { ?>
                                     <h3>Серия 50</h3> <?php } ?>
                                 <div id="50">
                                     <?php if($r1['kodik_bd'] == 1) { ?>
