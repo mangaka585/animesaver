@@ -23,11 +23,10 @@ $myrow = mysqli_fetch_array($result);
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script async src="https://apps.elfsight.com/p/platform.js" defer></script>
         <link rel="shortcut icon" href="../images/favicon_for_line.ico" type="image/png">
         <title>Смотреть аниме онлайн бесплатно в хорошем качестве | Animesaver</title>
         <link rel="stylesheet" href="../css/style.css">
-        <meta name="description" content="Только самые популярные аниме в хорошем качестве без рекламы можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
+        <meta name="description" content="Авторизация на Animesaver.ru"/>
         <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
         <script src="https://code.jquery.com/jquery-latest.min.js"></script>
         <script src="../scripts/jquery_code.js" type="text/javascript"></script>
@@ -69,9 +68,6 @@ $myrow = mysqli_fetch_array($result);
         <div class="ui">
             <h1 class="ui_1">Animesaver</h1>
             <h2 class="ui_2">Самый простой сайт по аниме в России!</h2>
-            <div class="search_engine">
-                <div class="elfsight-app-d5eeebce-1968-4227-9fe6-aa4b05598245"></div>
-            </div>
         </div>
         <section class="body_layout_testreg">
             <div class="news_sidebar">                                                          <!--Sidebar-->
@@ -192,5 +188,3 @@ $myrow = mysqli_fetch_array($result);
     </div>
     </body>
     </html>
-
-

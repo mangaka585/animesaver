@@ -490,6 +490,11 @@ header {
         color: black;
     }
 
+    #birth {
+      font-size: 2em;
+      width: 184px;
+    }
+
     .iframe_class {
         text-align: center;
         margin: auto auto 20px;
@@ -794,4 +799,3 @@ header {
     }
 
 }
-

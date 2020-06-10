@@ -3,13 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script async src="../https://apps.elfsight.com/p/platform.js" defer></script>
-    <meta name="yandex-verification" content="067bb48ccc18ed4a" />
     <link rel="shortcut icon" href="../images/favicon_for_line.ico" type="image/png">
-    <link rel="cannonical" href="https://animesaver.ru/">
     <title>Регистрация | Animesaver</title>
     <link rel="stylesheet" href="../css/style.css">
-    <meta name="description" content="Только самые популярные аниме в хорошем качестве без рекламы можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
+    <meta name="description" content="Регистрация на Animesaver.ru"/>
     <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
     <script src="../https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="../scripts/jquery_code.js" type="text/javascript"></script>
@@ -66,13 +63,16 @@
             <h2>Регистрация</h2>
             <form action="save_user.php" method="post">
                 <p>
-                    <label>Ваш логин:<br></label>
+                    <label>Логин:<br></label>
                     <input name="login" type="text" size="15" maxlength="15">
                 </p>
                 <p>
-                    <label>Ваш пароль:<br></label>
-                    <input name="password" type="password" size="15" maxlength="15">
+                    <label>Пароль:<br></label>
+                    <input name="password" type="password" size="15" maxlength="20">
                 </p>
+                <p>
+                  <label>Дата рождения:<br></label>
+                  <input name="birth" type="date" size="15" id="birth">
                 <p>
                     <input type="submit" name="submit" value="Зарегистрироваться">
                 </p>

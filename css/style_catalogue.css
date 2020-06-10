@@ -465,6 +465,7 @@ body    {
 
     .catalogue_of h2 {
         text-align: center;
+        font-size: 1.1em;
         height: 38px;
         width: auto;
         color: black;
@@ -579,5 +580,3 @@ body    {
         right: 30px;
     }
 }
-
-
