@@ -6,12 +6,17 @@ session_start();
 <head>
     <title>Форма регистрации</title>
     <style>
+        body  {
+            text-align: center;
+            color: blueviolet;
+        }
+
         span input {
             margin-bottom: 5px;
         }
 
         .submit {
-            width: 273px;
+            width: 180px;
             height: 40px;
             font-size: 1em;
             background: darkblue;
@@ -32,7 +37,7 @@ session_start();
             display: block;
             padding: 10px;
             border: solid 1px black;
-            width: 253px;
+            width: 158px;
             border-radius: 5px;
             background: deepskyblue;
             color: white;
@@ -47,32 +52,33 @@ session_start();
     </style>
 </head>
 <body>
-<form action="testreg.php" method="post" target="_top">
-
-    <span>
-        <input name="login" type="text" size="23" maxlength="15" placeholder="Логин">
-    </span>
-    <span>
-        <input name="password" type="password" size="23" maxlength="15" placeholder="Пароль">
-    </span>
-    <span>
-        <input type="submit" name="submit" value="Войти" class="submit">
-
-        <a href="reg.php" target="_top">Зарегистрироваться</a>
-    </span>
-</form>
 <?php
 // Проверяем, пусты ли переменные логина и id пользователя
 if (empty($_SESSION['login']) or empty($_SESSION['id']))
-{
+{ ?>
+  <form action="testreg.php" method="post" target="_top">
+
+      <span>
+          <input name="login" type="text" size="12" maxlength="15" placeholder="Логин">
+      </span>
+      <span>
+          <input name="password" type="password" size="12" maxlength="15" placeholder="Пароль">
+      </span>
+      <span>
+          <input type="submit" name="submit" value="Войти" class="submit">
+
+          <a href="reg.php">Регистрация</a>
+      </span>
+  </form>
     // Если пусты, то мы не выводим ссылку
     //echo "Вы вошли на сайт, как гость<br><a href='#'>Эта ссылка  доступна только зарегистрированным пользователям</a>";
-}
+<?php }
 else
 {
 
     // Если не пусты, то мы выводим ссылку
-    //echo "Вы вошли на сайт, как ".$_SESSION['login']."<br><a  href='http://tvpavlovsk.sk6.ru/'>Эта ссылка доступна только  зарегистрированным пользователям</a>";
+   echo "Вы вошли на сайт, как ".$_SESSION['login']//."<br><a  href='http://tvpavlovsk.sk6.ru/'>Эта ссылка доступна только  зарегистрированным пользователям</a>"
+   ;
 }
 ?>
 </body>

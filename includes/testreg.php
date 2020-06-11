@@ -87,7 +87,7 @@ $myrow = mysqli_fetch_array($result);
                         <input type="submit" value="ПОПРОБОВАТЬ СНОВА" onclick="try_again_button()"/>
                     </div>
                     <div class="iframe_class">
-                        <iframe src="index-test.php"></iframe>
+                        <iframe src="autorisation.php"></iframe>
                     </div>
                     <div class="links">
                         <a href="https://animesaver.ru">ГЛАВНАЯ</a>
@@ -107,7 +107,7 @@ $myrow = mysqli_fetch_array($result);
                         <input type="submit" value="ПОПРОБОВАТЬ СНОВА" onclick="try_again_button()"/>
                     </div>
                     <div class="iframe_class">
-                        <iframe src="index-test.php"></iframe>
+                        <iframe src="autorisation.php"></iframe>
                     </div>
                     <div class="links">
                         <a href="https://animesaver.ru">ГЛАВНАЯ</a>
@@ -142,7 +142,7 @@ $myrow = mysqli_fetch_array($result);
                         <input type="submit" value="ПОПРОБОВАТЬ СНОВА" onclick="try_again_button()"/>
                     </div>
                     <div class="iframe_class">
-                        <iframe src="index-test.php"></iframe>
+                        <iframe src="autorisation.php"></iframe>
                     </div>
                     <div class="links">
                         <a href="https://animesaver.ru">ГЛАВНАЯ</a>

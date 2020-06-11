@@ -320,7 +320,8 @@ header {
     .vk_groups,
     .search_engine,
     .scroll-top,
-    .scroll-top img {
+    .scroll-top img,
+    .registration {
         display: none;
     }
 }
@@ -520,11 +521,11 @@ header {
         background: #F5FFFA;
     }
 
-    .news_sidebar h3, .adv h3 {
+    .news_sidebar h3, .adv h3, .registration h3 {
         font-size: 0.95em;
     }
 
-    .news_sidebar iframe, .adv iframe {
+    .news_sidebar iframe, .adv iframe, .registration iframe {
         border: 0;
         overflow: scroll;
         -webkit-overflow-scrolling: touch;
@@ -724,6 +725,20 @@ header {
         border-radius: 15px;
         text-align: center;
         height: 750px;
+        background: #F5FFFA;
+    }
+
+    .registration {
+        display: block;
+        position: absolute;
+        top: 760px;
+        right: 0;
+        width: 200px;
+        color: #787878;
+        border: solid 1px #663399;
+        border-radius: 15px;
+        text-align: center;
+        height: 350px;
         background: #F5FFFA;
     }
 

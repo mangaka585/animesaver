@@ -201,6 +201,12 @@
                 Ваш браузер не поддерживает плавающие фреймы!
             </iframe>
         </div>
+        <div class="registration">
+            <h3>АВТОРИЗАЦИЯ</h3>
+            <iframe src="includes/autorisation.php">
+                Ваш браузер не поддерживает плаваюшие фреймы!
+            </iframe>
+        </div>
     </section>
     <footer>
         <div class="site_description">
