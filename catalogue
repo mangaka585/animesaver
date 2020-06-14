@@ -76,6 +76,10 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
         <div class="ui">
             <h1 class="ui_1">Animesaver</h1>
             <h2 class="ui_2">Самый простой сайт по аниме в России!</h2>
+            <form action="includes/search.php" method="post" target="_top" class="search">
+                  <input type="text" size="20" maxlength="128" name="search" class="search_input" placeholder="      Поиск аниме по названию">
+                  <input type="submit" name="submit" class="search_submit" value="Найти" title="Найти">
+            </form>
         </div>
         <section class="body_layout">
             <div class="news_sidebar">                                                          <!--Sidebar-->

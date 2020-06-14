@@ -1,5 +1,9 @@
 User-agent: *
 Disallow:/anime/ws_news.html
 Disallow:/anime/news.php
+Disallow:/anime/includes/reg.php
+Disallow:/anime/includes/save_user.php
+Disallow:/anime/includes/testreg.php
+Disallow:/anime/includes/autorisation.php
 
 Sitemap: https://animesaver.ru/sitemap.xml

@@ -70,15 +70,17 @@ if (empty($_SESSION['login']) or empty($_SESSION['id']))
           <a href="reg.php">Регистрация</a>
       </span>
   </form>
-    // Если пусты, то мы не выводим ссылку
-    //echo "Вы вошли на сайт, как гость<br><a href='#'>Эта ссылка  доступна только зарегистрированным пользователям</a>";
-<?php }
+<?php
+// Если пусты, то мы не выводим ссылку
+//echo "Вы вошли на сайт, как гость<br><a href='#'>Эта ссылка  доступна только зарегистрированным пользователям</a>";
+}
 else
 {
 
     // Если не пусты, то мы выводим ссылку
-   echo "Вы вошли на сайт, как ".$_SESSION['login']//."<br><a  href='http://tvpavlovsk.sk6.ru/'>Эта ссылка доступна только  зарегистрированным пользователям</a>"
-   ;
+   echo "Вы вошли на сайт, как ".$_SESSION['login']."<br>
+   <img alt='autorisation image' src='https://animesaver.ru/images/autorisation.jpg' style='width: 180px;margin-top: 30px;'>";
+   //."<br><a  href='http://tvpavlovsk.sk6.ru/'>Эта ссылка доступна только  зарегистрированным пользователям</a>"
 }
 ?>
 </body>

@@ -321,7 +321,8 @@ header {
     .search_engine,
     .scroll-top,
     .scroll-top img,
-    .registration {
+    .registration,
+    .search {
         display: none;
     }
 }
@@ -438,6 +439,30 @@ header {
         left: 120px;
     }
 
+    .search {
+      margin-top: 315px;
+      margin-left: 230px;
+    }
+
+    .search_input {
+      width: 710px;
+      border: solid 1px black;
+      height: 30px;
+      border-radius: 10px;
+      padding-left: 15px;
+    }
+
+    .search_submit {
+      height: 32px;
+      border: solid 1px black;
+      border-radius: 10px;
+      width: 70px;
+    }
+
+    .search_submit:hover {
+      background: dodgerblue;
+    }
+
     .body_layout {
         display: block;
         position: relative;
@@ -518,7 +543,7 @@ header {
         border-radius: 15px;
         text-align: center;
         height: 750px;
-        background: #F5FFFA;
+        background: #FFF;
     }
 
     .news_sidebar h3, .adv h3, .registration h3 {
@@ -725,7 +750,7 @@ header {
         border-radius: 15px;
         text-align: center;
         height: 750px;
-        background: #F5FFFA;
+        background: #FFF;
     }
 
     .registration {
@@ -739,7 +764,7 @@ header {
         border-radius: 15px;
         text-align: center;
         height: 350px;
-        background: #F5FFFA;
+        background: #FFF;
     }
 
     .vk_groups {

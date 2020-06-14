@@ -154,7 +154,8 @@ body    {
     .preloader,
     a.scroll-top,
     .scroll-top img,
-    .search_engine {
+    .search_engine,
+    .search {
         display: none;
     }
 
@@ -400,9 +401,28 @@ body    {
         left: 120px;
     }
 
-    .search_engine {
-        margin-top: 300px;
-        margin-left: 170px;
+    .search {
+      margin-top: 315px;
+      margin-left: 230px;
+    }
+
+    .search_input {
+      width: 710px;
+      border: solid 1px black;
+      height: 30px;
+      border-radius: 10px;
+      padding-left: 15px;
+    }
+
+    .search_submit {
+      height: 32px;
+      border: solid 1px black;
+      border-radius: 10px;
+      width: 70px;
+    }
+
+    .search_submit:hover {
+      background: dodgerblue;
     }
 
     .body_layout {
