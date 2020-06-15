@@ -34,9 +34,23 @@
     <meta name="yandex-verification" content="067bb48ccc18ed4a" />
     <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
     <link rel="cannonical" href="https://animesaver.ru/">
-    <title>Смотреть аниме онлайн бесплатно в хорошем качестве | Animesaver</title>
+    <title>Смотреть аниме онлайн бесплатно в хорошем качестве
+        <?php
+          $current_page_for_title = (int) $_GET['page'];
+          if($current_page_for_title != null)   {
+              echo "(".$current_page_for_title.")";
+          };
+        ?>
+       | Animesaver</title>
     <link rel="stylesheet" href="css/style.css">
-    <meta name="description" content="Только самые популярные аниме в хорошем качестве без рекламы можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
+    <meta name="description" content="Только самые популярные аниме в хорошем качестве без рекламы можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!
+    <?php
+      $current_page_for_description = (int) $_GET['page'];
+      if($current_page_for_description != null)   {
+          echo " Страница ".$current_page_for_title;
+      };
+    ?>
+    "/>
     <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/jquery_code.js" type="text/javascript"></script>

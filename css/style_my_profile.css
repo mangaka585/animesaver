@@ -6,11 +6,7 @@ body    {
     -webkit-text-size-adjust:none;
 }
 
-header {
-    display: block;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)    {
     .stop-scrolling {
         height: 100%;
         overflow: hidden;
@@ -148,6 +144,21 @@ header {
         width: 30px;
     }
 
+    .navigation,
+    .ui,
+    .news_sidebar,
+    .adv,
+    #Mellriart,
+    #Piroll,
+    .site_description,
+    .preloader,
+    a.scroll-top,
+    .scroll-top img,
+    .search_engine,
+    .search {
+        display: none;
+    }
+
     .mobile_nav {
         height: 100vh;
         background-color: #004e92;
@@ -180,6 +191,115 @@ header {
         height: 100%;
     }
 
+    a:hover {
+        color: #10c9c3;
+    }
+
+    .body_layout {
+        display: block;
+        position: relative;
+    }
+
+    .main_block {
+        display: block;
+        width: 100%;
+        margin-top: 36px;
+    }
+
+    .catalogue_of {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }
+
+    .catalogue_of div {
+        width: 47%;
+        background: #F5FFFA;
+        border: solid 1px #663399;
+        margin-top: 5%;
+        margin-right: 1%;
+        margin-left: 1%;
+        border-radius: 15px;
+        padding-bottom: 1%;
+    }
+
+    .catalogue_of h2 {
+        text-align: center;
+        width: auto;
+        height: 20px;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        font-size: 0.65em;
+        color: black;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .catalogue_of img {
+        width: 96%;
+        padding: 2% 2% 0;
+        height: 86%;
+    }
+
+    #pagination {
+        display: block;
+        width: 80%;
+        text-align: center;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 1em;
+        color: white;
+        margin: auto auto 15px;
+    }
+
+    #pagination a {
+        background: #004e92;
+        padding: 9px 11px;
+        border-radius: 5px;
+        border: solid 1px black;
+    }
+
+    #pagination span {
+        background: #663399;
+        padding: 9px 11px;
+        border-radius: 5px;
+        border: solid 1px black;
+    }
+
+    footer {
+        display: block;
+        height: 20px;
+        background: white;
+        bottom: 0;
+    }
+
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        color: #787878;
+        position: relative;
+        padding-left: 10%;
+        font-family: 'Comfortaa', cursive;
+        font-size: 0.7em;
+    }
+
+    #Rights {
+        align-items: center;
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width: 769px) {
+    .preloader {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        background: #dfe9f3;
+        z-index: 1001;
+    }
+
     .preloader__image {
         position: relative;
         top: 45%;
@@ -200,164 +320,8 @@ header {
         display: none;
     }
 
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    a:hover {
-        color: #10c9c3;
-    }
-
-    .body_layout {
+    header {
         display: block;
-        position: relative;
-        min-height: 400px;
-    }
-
-    .description_of_anime {
-        display: block;
-        margin-left: 3%;
-        margin-right: 3%;
-        margin-top: 46px;
-        position: relative;
-    }
-
-    .description_of_anime img {
-        border: solid 1px black;
-        padding: 5px;
-        margin-left: 15%;
-        width: 70%;
-    }
-
-    .description_of_anime_text h1 {
-        color: #663399;
-        text-align: center;
-        font-family: 'Exo 2', sans-serif;
-        font-size: 1.1em;
-        margin-top: 5px;
-    }
-
-    .description_of_anime_text p {
-        text-indent: 20px;
-        text-align: justify;
-        font-size: 1em;
-        font-weight: normal;
-    }
-
-    .video {
-        display: -webkit-flex;
-        display: flex;
-        margin-top: 15px;
-        font-family: 'Exo 2', sans-serif;
-        font-size: 0.8em;
-        -webkit-flex-wrap: wrap;
-        flex-wrap: wrap;
-        flex-direction: column;
-        position: relative;
-        margin-bottom: 15px;
-    }
-
-    .video h3 {
-        margin-top: 10px;
-        margin-bottom: 5px;
-        text-align: center;
-        color: #663399;
-    }
-
-    .video h3:hover {
-        color: #10c9c3
-    }
-
-    .video div div {
-        padding: 5px;
-        margin-bottom: 5px;
-        display: none;
-    }
-
-    .video div div iframe {
-        width: 100%;
-        height: 150px;
-    }
-
-    footer {
-        display: block;
-        height: 20px;
-        background: white;
-        bottom: 0;
-    }
-
-    .flex-container {
-        display: -webkit-flex;
-        display: flex;
-        color: #787878;
-        position: relative;
-        padding-left: 20%;
-        font-family: 'Comfortaa', cursive;
-        font-size: 0.7em;
-    }
-
-    #Rights {
-        align-items: center;
-        margin-top: 5px;
-    }
-
-    #Mellriart,
-    #Piroll,
-    .adv,
-    .news_sidebar,
-    .ui,
-    .navigation,
-    .preloader,
-    .description_of_anime_info,
-    .images_of_anime,
-    .h2_description,
-    .views,
-    .vk_likes,
-    .recomendations,
-    a.scroll-top,
-    .scroll-top img,
-    .search_engine {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 769px) {
-    .container,
-    .weeklysaver_link,
-    .mobile_nav {
-        display: none;
-    }
-
-    .preloader {
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        overflow: hidden;
-        background: #dfe9f3;
-        z-index: 1001;
-    }
-
-    .preloader__image {
-        position: relative;
-        top: 45%;
-        left: 44%;
-        width: 300px;
-        height: 200px;
-        margin-top: -32px;
-        margin-left: -32px;
-        background: url('../images/Vanilla-1s-280px.gif') no-repeat 50% 50%;
-    }
-
-    .loaded_hiding .preloader {
-        transition: 0.3s opacity;
-        opacity: 0;
-    }
-
-    .loaded .preloader {
-        display: none;
     }
 
     .layout {
@@ -376,7 +340,7 @@ header {
         height: 90px;
     }
 
-    .navi :first-child img {
+    .navi img {
         position: absolute;
         top: 5px;
         left: 80px;
@@ -398,6 +362,12 @@ header {
         border: solid 1px #663399;
         border-radius: 5px;
         color: black;
+    }
+
+    .container,
+    .weeklysaver_link,
+    .mobile_nav {
+        display: none;
     }
 
     a:hover {
@@ -431,15 +401,34 @@ header {
         left: 120px;
     }
 
-    .search_engine {
-        margin-top: 300px;
-        margin-left: 170px;
+    .search {
+      margin-top: 315px;
+      margin-left: 230px;
+    }
+
+    .search_input {
+      width: 710px;
+      border: solid 1px black;
+      height: 30px;
+      border-radius: 10px;
+      padding-left: 15px;
+    }
+
+    .search_submit {
+      height: 32px;
+      border: solid 1px black;
+      border-radius: 10px;
+      width: 70px;
+    }
+
+    .search_submit:hover {
+      background: dodgerblue;
     }
 
     .body_layout {
         display: block;
         position: relative;
-        min-height: 400px;
+        min-height: 800px;
     }
 
     .news_sidebar {
@@ -468,226 +457,71 @@ header {
         height: 94%;
     }
 
-    .description_of_anime {
+    .main_block {
         display: block;
         width: 800px;
-        margin-left: 230px;
-        margin-right: 230px;
-        margin-top: 25px;
-        position: relative;
-        min-height: 500px;
+        margin: 25px 230px 30px;
     }
 
-    .description_of_anime img {
-        float: left;
-        border: solid 1px black;
-        padding: 5px;
-        left: 50px;
-        top: 50px;
-        width: 200px;
-        border-radius: 5px;
-    }
-
-    .description_of_anime_text h1 {
-        color: #663399;
-        text-align: center;
-        font-family: 'Exo 2', sans-serif;
-    }
-
-    .h2_description {
-        font-family: 'Exo 2', sans-serif;
-        text-align: center;
-        font-size: 1.4em;
-        color: rebeccapurple;
-    }
-
-    .description_of_anime_text p {
-        font-size: 1em;
-        text-indent: 20px;
-        margin-left: 230px;
-        margin-bottom: 30px;
-        text-align: justify;
-        font-weight: normal;
-    }
-
-    .description_of_anime_info {
-        display: block;
-        position: relative;
-        margin-top: 25px;
-        font-family: 'Exo 2', sans-serif;
-        margin-bottom: 10px;
-    }
-
-    .vk_likes {
-        margin-left: 50%;
-        margin-top: 10px;
-    }
-
-    .vk_likes input{
-      width: 250px;
-      height: 30px;
-      border: solid 1px black;
-      border-radius: 10px;
-      background: cornflowerblue;
-      color: black;
-    }
-
-    .description_of_anime_info_1 {
-        padding: 2px;
-        border: 2px solid #30cfd0;
-        width: 100%;
-        margin: auto;
-        box-sizing: border-box;
-        border-radius: 5px;
-    }
-
-    .description_of_anime_info_tabble   {
-        padding: 2px;
-        border-bottom: 1px solid #dee8f1;
-        overflow: hidden;
-        font-size: 0.85em;
-    }
-
-    .description_of_anime_info_text {
-        display: table-cell;
-        padding-left: 5px;
-        vertical-align: middle;
-        margin-left: 2px;
-        color: #888;
-        text-align: justify;
-        width: 450px;
-    }
-
-    .description_of_anime_info_title    {
-        display: table-cell;
-        width: 110px;
-        padding: 6px 10px;
-        border-right: 1px solid #dee8f1;
-        vertical-align: middle;
-    }
-
-    .images_of_anime {
-        border: solid 2px #30cfd0;
-        width: 96.5%;
-        margin: auto;
-        margin-bottom: 15px;
-        border-radius: 5px;
-    }
-
-    .images_of_anime img {
-        border: solid 1px #663399;
-        float: left;
-        width: 200px;
-        margin-left: 33px;
-    }
-
-    .views  {
-        text-align: right;
-        margin-right: 15px;
-        color: #8F8F8F;
-        font-size: 0.9em;
-    }
-
-    .views div  {
-        background: url("../images/eye.png") 96% no-repeat;
-    }
-
-    legend  {
-        font-family: 'Exo 2', sans-serif;
-        color: #30cfd0;
-        font-size: 1.1em;
-        margin-left: 10px;
-    }
-
-    #vk_comments    {
-        margin: auto;
-    }
-
-    .video {
+    .catalogue_of {
         display: -webkit-flex;
         display: flex;
-        font-family: 'Exo 2', sans-serif;
-        font-size: 0.8em;
+        font-size: 0.7em;
         -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
+    }
+
+    .catalogue_of div {
+        width: 188px;
+        background: #F5FFFA;
+        margin: 1px 5px 15px;
+        border: solid 1px black;
+        border-radius: 15px;
+    }
+
+    .catalogue_of div:hover {
+        background: #6A5ACD;
+    }
+
+    .catalogue_of h2 {
+        text-align: center;
+        font-size: 1.1em;
+        height: 38px;
+        width: auto;
+        color: black;
+        font-family: 'Comfortaa', cursive;
+        margin: 5px 2px 2px;
+    }
+
+    .catalogue_of img {
+        padding-left: 5px;
+        padding-bottom: 3px;
+        width: 178px;
+        height: 270px;
+    }
+
+    #pagination {
+        display: block;
         width: 80%;
-        min-height: 40vh;
-        flex-direction: column;
-        position: relative;
+        text-align: center;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 1em;
+        color: white;
         margin: auto auto 15px;
     }
 
-    .video h3 {
-        margin-top: 10px;
-        margin-bottom: 5px;
-        text-align: center;
-        color: #663399;
-    }
-
-    .video h3:hover {
-        color: #10c9c3
-    }
-
-    .video div div {
-        padding: 5px;
-        margin-bottom: 5px;
-        display: none;
-    }
-
-    .video div div iframe {
-        width: 100%;
-        height: 300px;
-    }
-
-    .recomendations {
-        display: block;
-        height: 415px;
-        width: auto;
-        border: solid 1px #663399;
-        margin-bottom: 10px;
-        border-radius: 15px;
-        background: #F5FFFA;
-        font-family: 'Exo 2', sans-serif;
-    }
-
-    .recomendations__content    {
-        text-align: center;
-        color: black;
-    }
-
-    .recomendations__content__h2    {
-        margin: 5px;
-        color: #787878;
-    }
-
-    .recomendations__content__flexbox   {
-        display: flex;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    .recomendations__content__flexbox__element  {
+    #pagination a {
+        background: #004e92;
+        padding: 9px 11px;
+        border-radius: 5px;
         border: solid 1px black;
-        margin-right: 35px;
-        border-radius: 10px;
-        padding: 5px;
-        background: lavender;
     }
 
-    .recomendations__content__flexbox__element:hover    {
-        background: midnightblue;
-        border-color: #10c9c3;
-    }
-
-    .recomendations__content__flexbox__element__h4  {
-        margin: 5px;
-        height: 40px;
-        font-size: 0.8em;
-    }
-
-    .recomendations__content__flexbox__element__img {
-        width: 200px;
-        height: 300px;
+    #pagination span {
+        background: #663399;
+        padding: 9px 11px;
+        border-radius: 5px;
+        border: solid 1px black;
     }
 
     .adv {
@@ -705,8 +539,9 @@ header {
     }
 
     footer {
+        position: relative;
         display: block;
-        height: 55px;
+        height: auto;
         background: #040404;
         bottom: 0;
         border: solid 1px #040404;
@@ -714,14 +549,24 @@ header {
         border-top-right-radius: 15px;
     }
 
+    .site_description   {
+        color: grey;
+        padding: 10px;
+        text-align: justify;
+        font-size: 0.9em;
+    }
+
+    .site_description p {
+        margin-bottom: 0;
+    }
+
     .flex-container {
         display: -webkit-flex;
         display: flex;
         color: #787878;
-        position: absolute;
-        left: 100px;
+        margin-left: 100px;
+        font-size: 0.84em;
         font-family: 'Comfortaa', cursive;
-        font-size: 10pt;
     }
 
     #Rights {
@@ -729,13 +574,17 @@ header {
         margin-top: 10px;
     }
 
+    #Rights p   {
+        margin-top: 0;
+    }
+
     #Mellriart {
-        margin-top: 23px;
+        margin-top: 10px;
     }
 
     #Piroll {
         color: #10c9c3;
-        margin-top: 25px;
+        margin-top: 0;
         font-size: 0.9em;
         width: 360px;
         margin-right: 80px;

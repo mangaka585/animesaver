@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $url = trim($url_test, "/");
     mysqli_query($connection, "UPDATE `anime` SET `views` = `views` + 1 WHERE `link` = '$url'");
     $result = mysqli_query($connection,"SELECT * FROM  `anime` WHERE  `link` = '$url'");
@@ -102,12 +103,52 @@
                         <div class="views">
                             <div> <?php echo $r1['views']; ?></div>
                         </div>
-                        <div class="vk_likes">
-                            <div id="vk_like"></div>
-                            <script type="text/javascript">
-                                VK.Widgets.Like('vk_like', {pageTitle: '<?php echo $r1['title'];?> на сайте Animesaver.ru'}, <?php echo $r1['id'];?>);
-                            </script>
-                        </div>
+                        <?php
+                          if (empty($_SESSION['login'])) {?>
+                            <div class="vk_likes">
+                                <input type="submit" id="fakeElement" value="Добавить в избранное"></input>
+                                <script>
+                                  let fakeElement = document.getElementById('fakeElement');
+                                  fakeElement.addEventListener('click', function(){
+                                    alert("Чтобы добавить в избранное, необходимо авторизоваться");
+                                  });
+                                </script>
+                            </div>
+                          <?php } else {
+                              $login = $_SESSION['login'];
+                              $anime_id = $r1['id'];
+                              $user_id_array = mysqli_query($connection, "SELECT * FROM `users` WHERE `login` LIKE '$login'");
+                              $user_id_full = mysqli_fetch_assoc($user_id_array);
+                              $user_id = (int) $user_id_full['id'];
+                              $check_favorites_anime = mysqli_query($connection, "SELECT COUNT(*) FROM `favorites_anime` WHERE `user_id` = $user_id AND `anime_id` = $anime_id");
+                              $check_favorites_anime_last = mysqli_fetch_array($check_favorites_anime);
+                              $check_favorites_anime_finish = (int) $check_favorites_anime_last[0];
+                              if($check_favorites_anime_finish == 0) {?>
+                                <div class="vk_likes">
+                                  <form method="POST">
+                                    <input type="submit" name="toFavorites" value="Добавить в избранное"></input>
+                                  </form>
+                                    <?php # Если кнопка нажата
+                                      if( isset( $_POST['toFavorites'] ) )
+                                      {
+                                          mysqli_query($connection,"INSERT INTO `favorites_anime` (`id`, `user_id`, `anime_id`) VALUES (NULL, $user_id, $anime_id)");
+                                      }
+                                    ?>
+                                </div>
+                              <?php } else { ?>
+                                <div class="vk_likes">
+                                  <form method="POST">
+                                    <input type="submit" name="fromFavorites" value="Удалить из избранного"></input>
+                                  </form>
+                                    <?php # Если кнопка нажата
+                                      if( isset( $_POST['fromFavorites'] ) )
+                                      {
+                                          mysqli_query($connection,"DELETE FROM `favorites_anime` WHERE `favorites_anime`.`user_id` = $user_id AND `anime_id` = $anime_id");
+                                      }
+                                    ?>
+                                </div>
+                              <?php }?>
+                          <?php } ?>
                     </div>
                     <div class="description_of_anime_info">
                         <fieldset class="description_of_anime_info_1">
