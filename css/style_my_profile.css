@@ -431,6 +431,60 @@ body    {
         min-height: 800px;
     }
 
+    .user_name  {
+      text-align: center;
+      color: darkblue;
+
+    }
+
+    .avatar_div {
+      display: inline-block;
+      width: 250px;
+    }
+
+    .user_avatar {
+      border: solid 1px blueviolet;
+      padding: 5px;
+      width: 200px;
+      height: 200px;
+      border-radius: 70px;
+    }
+
+    .update_avatar {
+      width: 210px;
+      height: 30px;
+    }
+
+    .user_info_div {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .user_info_input  {
+      margin-bottom: 5px;
+      width: 228px;
+      height: 28px;
+    }
+
+    .upload_avatar {
+      display: inline-block;
+    }
+
+    .change_user_info_div {
+      display:inline-block;
+      vertical-align: top;
+    }
+
+    .change_user_info_submit {
+      width: 200px;
+      height: 30px;
+      margin-left: 278px;
+    }
+
+    .title_favorutes {
+      text-align: center;
+    }
+
     .news_sidebar {
         display: block;
         position: absolute;
@@ -547,6 +601,7 @@ body    {
         border: solid 1px #040404;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+        margin-top: 25px;
     }
 
     .site_description   {

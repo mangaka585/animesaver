@@ -64,54 +64,26 @@
         <section class="main_block">                                                        <!--Main block-->
             <?php
               include "db.php";
-              if (empty($_SESSION['login'])) {echo "Критическая ошибка! Обратитесь в администрацию сайта по адресу mangaka585@gmail.com"; die();}
-              else {
-                $login = $_SESSION['login'];
-                $user_id_array = mysqli_query($connection, "SELECT * FROM `users` WHERE `login` LIKE '$login'");
-                $user_id_full = mysqli_fetch_assoc($user_id_array);
-                $user_id = (int) $user_id_full['id'];
-                ?>
-                <h3 class="user_name">Пользователь <?php echo $login?></h3>
-                <div class="avatar_div">
-                    <img src="<?php if($user_id_full['avatar'] == null) {echo '../images/avatars/avatar.jpg';} else {
-                      echo "../images/avatars/".$user_id.".jpg";
-                    }?>" alt="avatar picture" class="user_avatar"/>
-                </div>
-                <div class="user_info_div" style="">
-                    <input type="text" placeholder="Фамилия" name="surname" class="user_info_input"><br>
-                    <input type="text" placeholder="Имя" name="name" class="user_info_input"><br>
-                    <input type="date" name="birth" class="user_info_input"><br>
-                    <input type="text" placeholder="О себе" name="selfInfo" class="user_info_input">
-                </div>
-                                                                                            <!--Загрузка изображения-->
-                <form action="upload_avatar.php" method="post" enctype="multipart/form-data" class="upload_avatar">
-                  <input type="file" name="filename" title="Файл должен быть формата JPG и весть не более двух мегабайт"><br>
-                  <input type="submit" value="Обновить аватар" class="update_avatar"><br>
-                </form>
-                <div class="change_user_info_div">
-                    <input type="submit" value="Редактировать" name="change" class="change_user_info_submit">
-                </div>
-                <h3 class="title_favorutes">Избранные аниме </h3>
-                  <?php
-                    $favorites_anime_array = mysqli_query($connection,"SELECT * FROM `favorites_anime` WHERE `user_id` = $user_id");
-                  ?>
-                      <div class="catalogue_of">
-                        <?php
-                          while($favorites_anime = mysqli_fetch_assoc($favorites_anime_array)) {
-                          $anime_id = (int) $favorites_anime['anime_id'];
-                          $anime_array = mysqli_query($connection, "SELECT * FROM `anime` WHERE `id` LIKE '$anime_id'");
-                          $anime = mysqli_fetch_assoc($anime_array);
-                        ?>
-                          <div title="<?php echo $anime['title']; ?>">
-                             <a href="/<?php echo "../".$anime['link']; ?>">
-                                 <h2><?php echo $anime['title']; ?></h2>
-                                 <img src="<?php echo "../".$anime['main_img_sourse']; ?>" alt="<?php echo $anime_page_result['title']; ?> pic" />
-                             </a>
-                          </div>
-                        <?php };?>
-                      </div>
-                  <?php
-                   };
+              $login = $_SESSION['login'];
+              $user_id_array = mysqli_query($connection, "SELECT * FROM `users` WHERE `login` LIKE '$login'");
+              $user_id_full = mysqli_fetch_assoc($user_id_array);
+              $user_id = (int) $user_id_full['id'];
+              if($_FILES["filename"]["size"] > 1024*2*1024)
+                 {
+                   echo ("Размер файла превышает три мегабайта");
+                   exit;
+                 }
+                 // Проверяем загружен ли файл
+                 if(is_uploaded_file($_FILES["filename"]["tmp_name"]))
+                 {
+                   // Если файл загружен успешно, перемещаем его из временной директории в конечную
+                   move_uploaded_file($_FILES["filename"]["tmp_name"], "/home/users/m/mangaka585/domains/animesaver.ru/images/avatars/".$user_id.".jpg");
+                   mysqli_query($connection, "UPDATE `users` SET `avatar` = '$user_id.jpg' WHERE `users`.`id` = '$user_id'");
+                   echo "Аватарка успешно обновлена</br><a href="my_profile.php">Вернуться обратно</a>;
+
+                 } else {
+                    echo("Ошибка загрузки файла");
+                 }
             ?>
         </section>
         <div class="adv">                                                                   <!--ADV-->
