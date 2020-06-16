@@ -12,16 +12,22 @@ session_start();
         }
 
         span input {
-            margin-bottom: 5px;
+          margin-bottom: 5px;
+          width: 175px;
+          height: 30px;
+          padding: 10px;
+          border-radius: 5px;
+          border: solid 1px grey;
         }
 
         .submit {
-            width: 180px;
-            height: 40px;
-            font-size: 1em;
-            background: darkblue;
-            color: white;
-            border-radius: 7px;
+          width: 175px;
+          height: 40px;
+          font-size: 1em;
+          background: cadetblue;
+          color: white;
+          border-radius: 7px;
+          border: solid 1px black;
         }
 
         .submit:hover   {
@@ -34,15 +40,15 @@ session_start();
         }
 
         a {
-            display: block;
-            padding: 10px;
-            border: solid 1px black;
-            width: 158px;
-            border-radius: 5px;
-            background: deepskyblue;
-            color: white;
-            text-decoration: none;
-            font-size: 1em;
+          display: inline-block;
+          padding: 2px;
+          border: dotted 2px black;
+          width: 167px;
+          border-radius: 7px;
+          background: deepskyblue;
+          color: white;
+          text-decoration: none;
+          font-size: 1em;
         }
 
         a:hover {
@@ -66,7 +72,7 @@ if (empty($_SESSION['login']) or empty($_SESSION['id']))
       </span>
       <span>
           <input type="submit" name="submit" value="Войти" class="submit">
-
+          <br>
           <a href="reg.php">Регистрация</a>
       </span>
   </form>
@@ -78,9 +84,9 @@ else
 {
 
     // Если не пусты, то мы выводим ссылку
-   echo "Вы вошли на сайт, как ".$_SESSION['login']."<br>
+   echo "Вы вошли на сайт, как ".$_SESSION['login']."<br>"."
+   <a href='https://animesaver.ru/includes/my_profile.php' target='_top' style='color:black; padding-top:3px;padding-bottom:3px;padding-left:7px;padding-right:7px;margin-top: 5px;'>Моя страница</a>
    <img alt='autorisation image' src='https://animesaver.ru/images/autorisation.jpg' style='width: 180px;margin-top: 30px;'>";
-   //."<br><a  href='http://tvpavlovsk.sk6.ru/'>Эта ссылка доступна только  зарегистрированным пользователям</a>"
 }
 ?>
 </body>

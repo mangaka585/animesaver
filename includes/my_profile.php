@@ -71,7 +71,7 @@
                 $user_id_full = mysqli_fetch_assoc($user_id_array);
                 $user_id = (int) $user_id_full['id'];
                 ?>
-                <h3 class="user_name">Пользователь <?php echo $login?></h3>
+                <h2 class="user_name">Пользователь <?php echo $login?></h2>
                 <div class="avatar_div">
                     <img src="<?php if($user_id_full['avatar'] == null) {echo '../images/avatars/avatar.jpg';} else {
                       echo "../images/avatars/".$user_id.".jpg";
@@ -109,7 +109,7 @@
                   <input type="file" name="filename" title="Файл должен быть формата JPG и весить не более двух мегабайт"><br>
                   <input type="submit" value="Обновить аватар" class="update_avatar"><br>
                 </form>
-                <h3 class="title_favorutes">Избранные аниме </h3>
+                <h2 class="title_favorutes">Избранные аниме </h2>
                   <?php
                     $favorites_anime_array = mysqli_query($connection,"SELECT * FROM `favorites_anime` WHERE `user_id` = $user_id");
                   ?>
@@ -128,6 +128,21 @@
                           </div>
                         <?php };?>
                       </div>
+                  <h2 class="title_favorutes">Просмотренные аниме</h2>
+                  <div class="watched_anime">
+                    <?php
+                      $watched_anime_array = mysqli_query($connection,"SELECT * FROM `watched_anime` WHERE `user_id` = $user_id");
+                    ?>
+                    <div class="catalogue_of_watched_anime">
+                      <?php while($watched_anime = mysqli_fetch_assoc($watched_anime_array)) {
+                          $watched_anime_id = (int) $watched_anime['anime_id'];
+                          $watched_anime_list = mysqli_query($connection, "SELECT * FROM `anime` WHERE `id` LIKE '$watched_anime_id'");
+                          $watched_anime_element = mysqli_fetch_assoc($watched_anime_list);
+                        ?>
+                          <a href="<?php echo "../".$watched_anime_element['link'] ?>" class="watched_anime_element"><?php echo $watched_anime_element['title']?></a>
+                        <?php } ?>
+                    </div>
+                  </div>
                   <?php
                    };
             ?>
@@ -154,7 +169,7 @@
             <div>
                 <p id="Piroll">Created by mangaka585@gmail.com</p>
             </div>
-            <div id="Mellriart">Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></div>
+            <div id="Mellriart"><p>Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></p></div>
             <div id="Rights">
                 <p>&#169; 2019 - 2020 Animesaver.ru. All rights reserved.</p>
             </div>

@@ -432,7 +432,7 @@ header {
     }
 
     .ui_2 {
-        font-size: 0.9em;
+        font-size: 1.2em;
         color: #787878;
         position: absolute;
         top: 85px;
@@ -611,7 +611,7 @@ header {
 
     .main_block_element_description p {
         text-align: justify;
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     .views  {
@@ -796,6 +796,7 @@ header {
 
     .site_description p {
         margin-bottom: 0;
+        font-size: 1.1em;
     }
 
     .flex-container {
@@ -809,21 +810,10 @@ header {
 
     #Rights {
         margin-left: 145px;
-        margin-top: 10px;
-    }
-
-    #Rights p   {
-        margin-top: 0;
-    }
-
-    #Mellriart {
-        margin-top: 10px;
     }
 
     #Piroll {
-        color: #10c9c3;
-        margin-top: 10px;
-        font-size: 0.9em;
+        font-size: 1em;
         width: 360px;
         margin-right: 80px;
     }

@@ -394,7 +394,7 @@ body    {
     }
 
     .ui_2 {
-        font-size: 0.9em;
+        font-size: 1.2em;
         color: #787878;
         position: absolute;
         top: 85px;
@@ -434,7 +434,7 @@ body    {
     .user_name  {
       text-align: center;
       color: darkblue;
-
+      font-family: 'Comfortaa', cursive;
     }
 
     .avatar_div {
@@ -468,6 +468,7 @@ body    {
       border-radius: 5px;
       color: black;
       background: white;
+      border: none;
     }
 
     .user_info_input_text {
@@ -477,6 +478,7 @@ body    {
       border-radius: 5px;
       color: black;
       background: white;
+      border: none;
     }
 
     .upload_avatar {
@@ -486,7 +488,7 @@ body    {
     .change_user_info_submit {
       width: 200px;
       height: 30px;
-      margin-left: 368px;
+      margin-left: 336px;
       margin-top: 5px;
       border: solid 1px black;
       border-radius: 5px;
@@ -494,7 +496,7 @@ body    {
       padding-bottom: 10px;
       padding-left: 20px;
       padding-right: 20px;
-      background: cadetblue;
+      background: white;
     }
 
     .change_user_info_submit:hover {
@@ -503,6 +505,8 @@ body    {
 
     .title_favorutes {
       text-align: center;
+      font-family: 'Comfortaa', cursive;
+      color: blue;
     }
 
     .news_sidebar {
@@ -574,6 +578,20 @@ body    {
         height: 270px;
     }
 
+    .catalogue_of_watched_anime a {
+      width: 100%;
+      background: white;
+      display: block;
+      margin-bottom: 5px;
+      text-align: center;
+      font-size: 1.1em;
+      border: solid 1px grey;
+      border-radius: 5px;
+      padding-top: 2px;
+      font-family: 'Comfortaa', cursive;
+      padding-bottom: 2px;
+    }
+
     #pagination {
         display: block;
         width: 80%;
@@ -633,6 +651,7 @@ body    {
 
     .site_description p {
         margin-bottom: 0;
+        font-size: 1.1em;
     }
 
     .flex-container {
@@ -646,21 +665,10 @@ body    {
 
     #Rights {
         margin-left: 145px;
-        margin-top: 10px;
-    }
-
-    #Rights p   {
-        margin-top: 0;
-    }
-
-    #Mellriart {
-        margin-top: 10px;
     }
 
     #Piroll {
-        color: #10c9c3;
-        margin-top: 0;
-        font-size: 0.9em;
+        font-size: 1em;
         width: 360px;
         margin-right: 80px;
     }

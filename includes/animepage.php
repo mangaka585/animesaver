@@ -103,17 +103,21 @@
                         <div class="views">
                             <div> <?php echo $r1['views']; ?></div>
                         </div>
+                        <div class="vk_likes">
                         <?php
                           if (empty($_SESSION['login'])) {?>
-                            <div class="vk_likes">
                                 <input type="submit" id="fakeElement" value="Добавить в избранное"></input>
+                                <input type="submit" id="fakeElement1" value="Добавить в просмотренное"></input>
                                 <script>
                                   let fakeElement = document.getElementById('fakeElement');
                                   fakeElement.addEventListener('click', function(){
                                     alert("Чтобы добавить в избранное, необходимо авторизоваться");
                                   });
+                                  let fakeElement1 = document.getElementById('fakeElement1');
+                                  fakeElement1.addEventListener('click', function(){
+                                    alert("Чтобы добавить в просмотренное, необходимо авторизоваться");
+                                  });
                                 </script>
-                            </div>
                           <?php } else {
                               $login = $_SESSION['login'];
                               $anime_id = $r1['id'];
@@ -124,7 +128,6 @@
                               $check_favorites_anime_last = mysqli_fetch_array($check_favorites_anime);
                               $check_favorites_anime_finish = (int) $check_favorites_anime_last[0];
                               if($check_favorites_anime_finish == 0) {?>
-                                <div class="vk_likes">
                                   <form method="POST">
                                     <input type="submit" name="toFavorites" value="Добавить в избранное"></input>
                                   </form>
@@ -133,10 +136,7 @@
                                       {
                                           mysqli_query($connection,"INSERT INTO `favorites_anime` (`id`, `user_id`, `anime_id`) VALUES (NULL, $user_id, $anime_id)");
                                       }
-                                    ?>
-                                </div>
-                              <?php } else { ?>
-                                <div class="vk_likes">
+                                    } else { ?>
                                   <form method="POST">
                                     <input type="submit" name="fromFavorites" value="Удалить из избранного"></input>
                                   </form>
@@ -145,10 +145,31 @@
                                       {
                                           mysqli_query($connection,"DELETE FROM `favorites_anime` WHERE `favorites_anime`.`user_id` = $user_id AND `anime_id` = $anime_id");
                                       }
-                                    ?>
-                                </div>
-                              <?php }?>
+                                    };
+                                    $check_watched_anime = mysqli_query($connection, "SELECT COUNT(*) FROM `watched_anime` WHERE `user_id` = $user_id AND `anime_id` = $anime_id");
+                                    $check_watched_anime_last = mysqli_fetch_array($check_watched_anime);
+                                    $check_watched_anime_finish = (int) $check_watched_anime_last[0];
+                                    if($check_watched_anime_finish == 0) {?>
+                                        <form method="POST">
+                                          <input type="submit" name="toWatched" value="Добавить в просмотренное"></input>
+                                        </form>
+                                          <?php # Если кнопка нажата
+                                            if( isset( $_POST['toWatched'] ) )
+                                            {
+                                                mysqli_query($connection,"INSERT INTO `watched_anime` (`id`, `user_id`, `anime_id`) VALUES (NULL, $user_id, $anime_id)");
+                                            }
+                                          } else { ?>
+                                        <form method="POST">
+                                          <input type="submit" name="fromWatched" value="Удалить из просмотренного"></input>
+                                        </form>
+                                          <?php # Если кнопка нажата
+                                            if( isset( $_POST['fromWatched'] ) )
+                                            {
+                                                mysqli_query($connection,"DELETE FROM `watched_anime` WHERE `watched_anime`.`user_id` = $user_id AND `anime_id` = $anime_id");
+                                            }
+                                          };?>
                           <?php } ?>
+                        </div>
                     </div>
                     <div class="description_of_anime_info">
                         <fieldset class="description_of_anime_info_1">
@@ -1453,7 +1474,7 @@
                     <div>
                         <p id="Piroll">Created by mangaka585@gmail.com</p>
                     </div>
-                    <div id="Mellriart">Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></div>
+                    <div id="Mellriart"><p>Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></p></div>
                     <div id="Rights">
                         <p>&#169; 2019 - 2020 Animesaver.ru. All rights reserved.</p>
                     </div>

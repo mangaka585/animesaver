@@ -160,7 +160,7 @@
             <div>
                 <p id="Piroll">Created by mangaka585@gmail.com</p>
             </div>
-            <div id="Mellriart">Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></div>
+            <div id="Mellriart"><p>Special thanks to <a href="https://www.instagram.com/meellri/">Meellri</a></p></div>
             <div id="Rights">
                 <p>&#169; 2019 - 2020 Animesaver.ru. All rights reserved.</p>
             </div>
