@@ -458,27 +458,47 @@ body    {
     .user_info_div {
       display: inline-block;
       vertical-align: top;
+      width: 540px;
     }
 
     .user_info_input  {
       margin-bottom: 5px;
       width: 228px;
       height: 28px;
+      border-radius: 5px;
+      color: black;
+      background: white;
+    }
+
+    .user_info_input_text {
+      height: 80px;
+      width: 500px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      color: black;
+      background: white;
     }
 
     .upload_avatar {
       display: inline-block;
     }
 
-    .change_user_info_div {
-      display:inline-block;
-      vertical-align: top;
-    }
-
     .change_user_info_submit {
       width: 200px;
       height: 30px;
-      margin-left: 278px;
+      margin-left: 368px;
+      margin-top: 5px;
+      border: solid 1px black;
+      border-radius: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background: cadetblue;
+    }
+
+    .change_user_info_submit:hover {
+      background: blue;
     }
 
     .title_favorutes {

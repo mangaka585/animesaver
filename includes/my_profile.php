@@ -77,20 +77,38 @@
                       echo "../images/avatars/".$user_id.".jpg";
                     }?>" alt="avatar picture" class="user_avatar"/>
                 </div>
-                <div class="user_info_div" style="">
-                    <input type="text" placeholder="Фамилия" name="surname" class="user_info_input"><br>
-                    <input type="text" placeholder="Имя" name="name" class="user_info_input"><br>
-                    <input type="date" name="birth" class="user_info_input"><br>
-                    <input type="text" placeholder="О себе" name="selfInfo" class="user_info_input">
+                <div class="user_info_div">
+                  <form id="form_save_changes">
+                    <input type="text" placeholder="<?php if($user_id_full['surname'] == null) {echo "Фамилия";} else {echo $user_id_full['surname'];}?>" name="surname" class="user_info_input" id="surname" disabled=true><br>
+                    <input type="text" placeholder="<?php if($user_id_full['name'] == null) {echo "Имя";} else {echo $user_id_full['name'];}?>" name="name" class="user_info_input" id="name" disabled=true><br>
+                    <input type="date" name="birth" class="user_info_input" value="<?php echo $user_id_full['birth'];?>" disabled=true><br>
+                    <textarea placeholder="<?php if($user_id_full['selfInfo'] == null) {echo "О себе";} else {echo $user_id_full['selfInfo'];}?>" cols="40" rows="5" name="selfInfo" class="user_info_input_text" id="selfInfo" disabled=true></textarea><br>
+                    <a href="#" class="change_user_info_submit" id="change_user_info_button">Редактировать</a>
+                    <input type="submit" value="Сохранить" name="save" class="change_user_info_submit" style="display:none" id="save_user_info_button">
+                  </form>
                 </div>
-                                                                                            <!--Загрузка изображения-->
+                <script>
+                let changButton = document.getElementById('change_user_info_button');
+                changButton.addEventListener("click",function(){
+                  let surname = document.getElementById('surname');
+                  let name = document.getElementById('name');
+                  let selfInfo = document.getElementById('selfInfo');
+                  let saveButton = document.getElementById('save_user_info_button');
+                  surname.disabled = false;
+                  name.disabled = false;
+                  selfInfo.disabled = false;
+                  changButton.style.display = "none";
+                  saveButton.style.display = "block";
+                  let form = document.getElementById('form_save_changes');
+                  form.setAttribute('action','save_user_changes.php');
+                  form.setAttribute('method','post');
+                  form.setAttribute('target','_top');
+                })
+                </script>                                                                            <!--Загрузка изображения-->
                 <form action="upload_avatar.php" method="post" enctype="multipart/form-data" class="upload_avatar">
-                  <input type="file" name="filename" title="Файл должен быть формата JPG и весть не более двух мегабайт"><br>
+                  <input type="file" name="filename" title="Файл должен быть формата JPG и весить не более двух мегабайт"><br>
                   <input type="submit" value="Обновить аватар" class="update_avatar"><br>
                 </form>
-                <div class="change_user_info_div">
-                    <input type="submit" value="Редактировать" name="change" class="change_user_info_submit">
-                </div>
                 <h3 class="title_favorutes">Избранные аниме </h3>
                   <?php
                     $favorites_anime_array = mysqli_query($connection,"SELECT * FROM `favorites_anime` WHERE `user_id` = $user_id");
