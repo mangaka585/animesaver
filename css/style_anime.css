@@ -534,6 +534,10 @@ header {
       display: inline-block;
     }
 
+    .vk_likes form{
+      display: inline-block;
+    }
+
     .description_of_anime_info_1 {
         padding: 2px;
         border: 2px solid #30cfd0;
@@ -728,19 +732,13 @@ header {
 
     #Rights {
         margin-left: 145px;
-        margin-top: 10px;
-    }
-
-    #Mellriart {
-        margin-top: 23px;
     }
 
     #Piroll {
-        color: #10c9c3;
-        margin-top: 25px;
-        font-size: 0.9em;
-        width: 360px;
-        margin-right: 80px;
+      color: #10c9c3;
+      font-size: 1em;
+      width: 360px;
+      margin-right: 80px;
     }
 
     a.scroll-top {

@@ -79,7 +79,7 @@
                    // Если файл загружен успешно, перемещаем его из временной директории в конечную
                    move_uploaded_file($_FILES["filename"]["tmp_name"], "/home/users/m/mangaka585/domains/animesaver.ru/images/avatars/".$user_id.".jpg");
                    mysqli_query($connection, "UPDATE `users` SET `avatar` = '$user_id.jpg' WHERE `users`.`id` = '$user_id'");
-                   echo "Аватарка успешно обновлена</br><a href="my_profile.php">Вернуться обратно</a>;
+                   echo "Аватарка успешно обновлена</br><a href='my_profile.php'>Вернуться обратно</a>";
 
                  } else {
                     echo("Ошибка загрузки файла");
