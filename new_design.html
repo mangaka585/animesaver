@@ -4,26 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style_new_design.css">
-  <script async type="text/javascript" >
-      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-          m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-      ym(55604875, "init", {
-          clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true,
-          webvisor:true
-      });
-  </script>
-  <!-- /Yandex.Metrika counter -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
-  <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-149359628-1');
-  </script>
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <link rel="cannonical" href="https://animesaver.ru/">
   <title>Смотреть аниме онлайн бесплатно в хорошем качестве | Animesaver</title>
@@ -36,7 +16,10 @@
     }
     @font-face {
       font-family: "Oswald";
-      src: url("fonts/Oswald-VariableFont_wght.ttf");
+      src: url("fonts/Oswald-VariableFont_wght.ttf") format("truetype");
+      src: url("fonts/Oswald-Regular.otf") format("opentype");
+      font-weight: normal;
+      font-style: normal;
     }
   </style>
   <script defer src="scripts/homepagescripts.js" type="text/javascript"></script>
@@ -46,7 +29,7 @@
 
     <header>                                                                    <!--Блок header-->
         <div class="header__navigation">
-            <a href="/" class="header__navigation__first_a">
+            <a href="https://animesaver.ru" class="header__navigation__first_a">
                 <img src="images/S-icon.png" alt="site logo" class="header__navigation__first_a__img">
                 <h1 class="header__navigation__first_a__h1">AnimeSaver</h1>
             </a>
@@ -76,11 +59,11 @@
                     </a>
                 </li>
             </ul>
-            <form>
-                <button type="submit">
+            <form action="includes/search.php" method="post" target="_top" class="search">
+                <button type="submit" name="submit" title="Найти">
                     <img src="images/magnifying-glass1.svg">
                 </button>
-                <input type="text" size="17" placeholder="Найти аниме">
+                <input type="text" size="17" maxlength="128" name="search" placeholder="Найти аниме">
             </form>
         </div>
     </header>
@@ -197,13 +180,13 @@
                 <h4 class="links__title">Полезные ссылки</h4>
                 <ul class="links__ul">
                     <li>
-                        <a href="https://animesaver.ru/contact_us.php">
+                        <a href="mailto:mangaka585@gmail.com?subject=Вопрос&body=Здравствуйте." target="_blank" rel="noopener noreferrer">
                             <img src="images/letter-bomb.svg">
                             <span>Напишите нам</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://animesaver.ru/privacy_policy.php">
+                        <a href="https://animesaver.ru/includes/privacy_policy.html">
                             <img src="images/dragon-shield.svg">
                             <span>Privacy policy</span>
                         </a>
@@ -243,10 +226,10 @@
   </section>
 
   <div id="to_top_button">
-      <a href="#">
+      <button>
           <img src="images/save-arrow.svg">
           <span>Наверх</span>
-      </a>
+      </button>
   </div>
 
 </body>

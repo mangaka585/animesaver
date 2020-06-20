@@ -1,5 +1,6 @@
 <?php
 include "includes/db.php";
+session_start();
 $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_date` DESC LIMIT 0,66");
 ?>
 <!DOCTYPE html>
@@ -33,41 +34,55 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
 
     <header>                                                                    <!--Блок header-->
         <div class="header__navigation">
-            <a href="/" class="header__navigation__first_a">
-                <img src="images/S-icon.png" alt="site logo" class="header__navigation__first_a__img">
+            <a href="https://animesaver.ru" class="header__navigation__first_a">
+                <img src="images/S-icon.png" alt="site logo" class="header__navigation__first_a__img" alt="Изображение логотипа сайта">
                 <h1 class="header__navigation__first_a__h1">AnimeSaver</h1>
             </a>
             <ul class="header__navigation__buttons">
                 <li class="header__navigation__buttons__li__active">
                     <a href="https://animesaver.ru">
-                        <img src="images/house.svg">
+                        <img src="images/house.svg" alt="значок домика">
                         <span>Главная</span>
                     </a>
                 </li>
                 <li class="header__navigation__buttons__li">
                     <a href="https://animesaver.ru/catalogue">
-                        <img src="images/stack.svg">
+                        <img src="images/stack.svg" alt="значок каталога">
                         <span>Каталог</span>
                     </a>
                 </li>
                 <li class="header__navigation__buttons__li">
                     <a href="https://animesaver.ru/random">
-                        <img src="images/perspective-dice-six-faces-random.svg">
+                        <img src="images/perspective-dice-six-faces-random.svg" alt="значок кубика">
                         <span>Случайное</span>
                     </a>
                 </li>
                 <li class="header__navigation__buttons__li">
+
+                    <?php if(empty($_SESSION['login'])) { ?>
+                    <a id="autorisation" onclick="showWindow()">
+                      <img src="images/stars-stack.svg" alt="значок личного кабинета">
+                      <span>Мой профиль</span>
+                    </a>
+                    <div id="autorisation_window">
+                      <iframe src="includes/autorisation.php">
+                          Ваш браузер не поддерживает плаваюшие фреймы!
+                      </iframe>
+                    </div>
+
+                    <?php } else {?>
                     <a href="https://animesaver.ru/includes/my_profile.php">
-                        <img src="images/stars-stack.svg">
+                        <img src="images/stars-stack.svg" alt="значок личного кабинета">
                         <span>Мой профиль</span>
                     </a>
+                    <?php } ?>
                 </li>
             </ul>
-            <form>
-                <button type="submit">
-                    <img src="images/magnifying-glass1.svg">
+            <form action="includes/search.php" method="post" target="_top" class="search">
+                <button type="submit" name="submit" title="Найти">
+                    <img src="images/magnifying-glass1.svg" alt="значок лупы">
                 </button>
-                <input type="text" size="17" placeholder="Найти аниме">
+                <input type="text" size="17" maxlength="128" name="search" placeholder="Найти аниме">
             </form>
         </div>
     </header>
@@ -82,12 +97,12 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
             <ul class="main_section__menu__buttons">
                 <li class="main_section__menu__buttons__active" id="menuNewButton">
                     <a href="#new">
-                        <img src="images/bowen-knot.svg"><span>Новое</span>
+                        <img src="images/bowen-knot.svg" alt="значок Нового"><span>Новое</span>
                     </a>
                 </li>
                 <li id="menuMagazineButton">
                     <a href="#weeklysaver">
-                        <img src="images/conversation.svg"><span>Журнал</span>
+                        <img src="images/conversation.svg" alt="значок журнала"><span>Журнал</span>
                     </a>
                 </li>
             </ul>
@@ -104,12 +119,12 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                     <div class="content__new__flexbox__element">
                         <div class="content__new__flexbox__element__div">
                             <a href="/<?php echo $anime_page_result['link']; ?>">
-                                <img src="<?php echo $anime_page_result['main_img_sourse']; ?>" class="content__new__flexbox__element__div__img">
+                                <img src="<?php echo $anime_page_result['main_img_sourse']; ?>" class="content__new__flexbox__element__div__img" alt="Изображение аниме">
                             </a>
                         </div>
                         <div class="content__new__flexbox__element__description">
                             <div class="content__new__flexbox__element__description__date">
-                                <img src="images/calendar.svg">
+                                <img src="images/calendar.svg" alt="значок календаря">
                                 <span><?php echo $anime_page_result['update_date']; ?></span>
                             </div>
                             <a href="/<?php echo $anime_page_result['link']; ?>">
@@ -119,7 +134,7 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                             <br>
                             <div class="content__new__flexbox__element__description_series">
                                 <a href="/<?php echo $anime_page_result['link']; ?>">
-                                    <img src="images/toggles.svg">
+                                    <img src="images/toggles.svg" alt="значок серий">
                                     Серии <?php echo $anime_page_result['series'] ?>
                                 </a>
                             </div>
@@ -135,22 +150,22 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                     <div class="content__weeklysaver__left_side__flexbox">
                       <div class="content__weeklysaver__left_side__flexbox__element" id="fourthMagazine">
                           <a href="https://animesaver.ru/ws/magazine/samples/fourth.html">
-                              <img src="ws/magazine/samples/pages/fourth/1.jpg"><h3>Выпуск № 4</h3>
+                              <img src="ws/magazine/samples/pages/fourth/1.jpg" alt="Изображение выпуска 4"><h3>Выпуск № 4</h3>
                           </a>
                       </div>
                       <div class="content__weeklysaver__left_side__flexbox__element" id="thirdMagazine">
                           <a href="https://animesaver.ru/ws/magazine/samples/third.html">
-                              <img src="ws/magazine/samples/pages/third/1.jpg"><h3>Выпуск № 3</h3>
+                              <img src="ws/magazine/samples/pages/third/1.jpg" alt="Изображение выпуска 3"><h3>Выпуск № 3</h3>
                           </a>
                       </div>
                       <div class="content__weeklysaver__left_side__flexbox__element" id="secondMagazine">
                           <a href="https://animesaver.ru/ws/magazine/samples/second.html">
-                              <img src="ws/magazine/samples/pages/second/1.jpg"><h3>Выпуск № 2</h3>
+                              <img src="ws/magazine/samples/pages/second/1.jpg" alt="Изображение выпуска 2"><h3>Выпуск № 2</h3>
                           </a>
                       </div>
                       <div class="content__weeklysaver__left_side__flexbox__element" id="firstMagazine">
                           <a href="https://animesaver.ru/ws/magazine/samples/index.html">
-                              <img src="ws/magazine/samples/pages/first/1.jpg"><h3>Выпуск № 1</h3>
+                              <img src="ws/magazine/samples/pages/first/1.jpg" alt="Изображение выпуска 1"><h3>Выпуск № 1</h3>
                           </a>
                       </div>
                     </div>
@@ -170,13 +185,13 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                 <ul class="links__ul">
                     <li>
                         <a href="https://vk.com/weeklysaver">
-                            <img src="images/logic-gate-xor.svg">
+                            <img src="images/logic-gate-xor.svg" alt="картинка ссылки на ВК журнал">
                             <span>VKontakte</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/animesaver.ru/">
-                            <img src="images/logic-gate-xor.svg">
+                            <img src="images/logic-gate-xor.svg" alt="Картинка ссылки на инстаграм">
                             <span>Instagram</span>
                         </a>
                     </li>
@@ -186,20 +201,20 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                 <h4 class="links__title">Полезные ссылки</h4>
                 <ul class="links__ul">
                     <li>
-                        <a href="https://animesaver.ru/contact_us.php">
-                            <img src="images/letter-bomb.svg">
-                            <span>Напишите нам</span>
-                        </a>
+                      <a href="mailto:mangaka585@gmail.com?subject=Вопрос&body=Здравствуйте." target="_blank" rel="noopener noreferrer">
+                          <img src="images/letter-bomb.svg" alt="Изображение написания письма администрации">
+                          <span>Напишите нам</span>
+                      </a>
                     </li>
                     <li>
-                        <a href="https://animesaver.ru/privacy_policy.php">
-                            <img src="images/dragon-shield.svg">
+                        <a href="https://animesaver.ru/includes/privacy_policy.php">
+                            <img src="images/dragon-shield.svg" alt="Изображение политики конфиденциальности">
                             <span>Privacy policy</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://animesaver.ru/disclaimer.php">
-                            <img src="images/dragon-shield.svg">
+                        <a href="https://animesaver.ru/includes/disclaimer.php">
+                            <img src="images/dragon-shield.svg" alt="Изображение Отказа от ответственности">
                             <span>Disclaimer</span>
                         </a>
                     </li>
@@ -214,7 +229,7 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                   В наших планах стать самым масштабным в России порталом аниме!
                 </p>
                 <div class="links__div3__site_logo">
-                    <img src="images/S-icon.png">
+                    <img src="images/S-icon.png" alt="Изображение логотипа сайта">
                     <h3>AnimeSaver</h3>
                 </div>
             </div>
@@ -232,10 +247,10 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
   </section>
 
   <div id="to_top_button">
-      <a href="#">
-          <img src="images/save-arrow.svg">
+      <button>
+          <img src="images/save-arrow.svg" alt="Изображение стрелочки наверх">
           <span>Наверх</span>
-      </a>
+      </button>
   </div>
                                                                                 <!--Скрипты для метрик-->
   <script async type="text/javascript" >

@@ -67,6 +67,10 @@
     rightSideMagazine.appendChild(chapterList);
   });
 
+  function showWindow(){                                                        //Функция для открытия окна авторизации
+    document.getElementById("autorisation_window").style.display = 'block';
+  }
+
   let last_known_scroll_position = 0;                                           //Прокрутка наверх кнопка
   let ticking = false;
   function doSomething(scroll_pos) {
@@ -90,7 +94,7 @@
   });
 
   document.getElementById('to_top_button').addEventListener('click', function(){
-    scrollTo(document.body, 0, 1250);
+    scrollTo(document.documentElement, 0, 750);
   });
   function scrollTo(element, to, duration) {
     var start = element.scrollTop,
