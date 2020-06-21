@@ -171,12 +171,5 @@ session_start();
 
   </section>
 
-  <div id="to_top_button">
-      <button>
-          <img src="images/save-arrow.svg">
-          <span>Наверх</span>
-      </button>
-  </div>
-
 </body>
 </html>

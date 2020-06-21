@@ -208,6 +208,7 @@ body {
     width: 367px;
     background-color: #f5f5f5;
     margin-bottom: 15px;
+    border-radius: 15px;
   }
 
   .content__new__flexbox__element:hover {
@@ -222,6 +223,8 @@ body {
     width: 112px;
     height: 156px;
     vertical-align: bottom;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
   }
 
   .content__new__flexbox__element__description {
@@ -240,6 +243,7 @@ body {
     background: #1E90FF;
     padding-left: 5px;
     height: 17px;
+    border-top-right-radius: 15px;
   }
 
   .content__new__flexbox__element__description__date img {
@@ -771,12 +775,14 @@ body {
 
   .content__weeklysaver__left_side__flexbox__element {
     box-sizing: border-box;
-    border-right: solid 1px grey;
+    border-bottom: solid 1px gray;
     margin-bottom: 15px;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background: #f5f5f5;
-    margin-left: 15px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .content__weeklysaver__left_side__flexbox__element:hover {
@@ -785,25 +791,23 @@ body {
 
   .content__weeklysaver__left_side__flexbox__element a {
     display: block;
+    text-align: center;
+    text-decoration: none;
   }
 
   .content__weeklysaver__left_side__flexbox__element a img {
     width: 200px;
     height: 284px;
-    display: inline-block;
-    vertical-align: bottom;
+    display: block;
   }
 
   .content__weeklysaver__left_side__flexbox__element a h3 {
-    display: inline-block;
-    writing-mode: tb;
-    margin-bottom: 30%;
+    display: block;
     font-family: "Oswald";
     font-size: 1.5em;
     color: #1E90FF;
-    margin-left: 10px;
-    margin-right: 10px;
-    vertical-align: bottom;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .contect__weeklysaver__right_side {
@@ -812,6 +816,7 @@ body {
 
   .links {
     background: #25292b;
+    padding-bottom: 10px;
   }
 
   .links__div1 {
