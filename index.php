@@ -6,5 +6,5 @@ if($url_test == "/" || $random_num == "/index.php")
 {   //Отрисовываем index.php
     include "includes/new_design.php";
 }  else { //Отрисовываем anime.php
-    include "includes/animepage.php";}
+    include "includes/animepage_new_design.php";}
 mysqli_close($connection);?>
