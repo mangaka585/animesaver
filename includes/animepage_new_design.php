@@ -32,7 +32,7 @@ if($r1 == null){
   <link rel="stylesheet" href="css/style_new_animepage.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <title><?php echo $r1['title']; ?> | Animesaver</title>
-  <meta name="description" content="Аниме Наруто смотреть онлайн бесплатно без регистрации в хорошем качестве"/>
+  <meta name="description" content="Аниме <?php echo $r1['title']; ?>  смотреть онлайн бесплатно без регистрации в хорошем качестве"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
   <script defer src="scripts/animepagescripts.js" type="text/javascript"></script>
 </head>
@@ -46,7 +46,7 @@ if($r1 == null){
                 <h1 class="header__navigation__first_a__h1">AnimeSaver</h1>
             </a>
             <ul class="header__navigation__buttons">
-                <li class="header__navigation__buttons__li__active">
+                <li class="header__navigation__buttons__li">
                     <a href="https://animesaver.ru">
                         <img src="images/house.svg" alt="значок домика">
                         <span>Главная</span>
@@ -65,10 +65,23 @@ if($r1 == null){
                     </a>
                 </li>
                 <li class="header__navigation__buttons__li">
-                    <a href="https://animesaver.ru/includes/my_profile.php">
-                        <img src="images/stars-stack.svg" alt="значок личного кабинета">
-                        <span>Мой профиль</span>
-                    </a>
+                  <?php if(empty($_SESSION['login'])) { ?>
+                  <a id="autorisation" onclick="showWindow()">
+                    <img src="images/stars-stack.svg" alt="значок личного кабинета">
+                    <span>Мой профиль</span>
+                  </a>
+                  <div id="autorisation_window">
+                    <iframe src="includes/autorisation.php">
+                        Ваш браузер не поддерживает плаваюшие фреймы!
+                    </iframe>
+                  </div>
+
+                  <?php } else {?>
+                  <a href="https://animesaver.ru/includes/my_profile.php">
+                      <img src="images/stars-stack.svg" alt="значок личного кабинета">
+                      <span>Мой профиль</span>
+                  </a>
+                  <?php } ?>
                 </li>
             </ul>
             <form action="includes/search.php" method="post" target="_top" class="search">

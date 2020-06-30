@@ -15,6 +15,8 @@ if($url_test == "/" || $random_num == "/index.php")
     $animeObject = mysqli_fetch_assoc($animeLinkArray);
     $animeLink = $animeObject['link'];
     header( "Location: https://animesaver.ru/$animeLink" );
+}   else if($url_test == "/catalogue")
+{   include "includes/catalogue_new_design.php";
 }   else { //Отрисовываем anime.php
     include "includes/animepage_new_design.php";}
 mysqli_close($connection);?>

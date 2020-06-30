@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css" media="screen, print">
+    @font-face {
+      font-family: "Comfortaa-Regular";
+      src: url("fonts/Comfortaa-Regular.ttf");
+    }
+    @font-face {
+      font-family: "Oswald";
+      src: url("fonts/Oswald-VariableFont_wght.ttf") format("truetype");
+      src: url("fonts/Oswald-Regular.otf") format("opentype");
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+  <link rel="stylesheet" href="css/style_new_design.css">
+  <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
+  <title>Каталог | Animesaver</title>
+  <meta name="description" content="Каталог популярных аниме, которые можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно! Страница 1"/>
+  <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
+  <script defer src="scripts/cataloguescripts.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+    <header>                                                                    <!--Блок header-->
+        <div class="header__navigation">
+            <a href="https://animesaver.ru" class="header__navigation__first_a">
+                <img src="images/S-icon.png" alt="site logo" class="header__navigation__first_a__img" alt="Изображение логотипа сайта">
+                <h1 class="header__navigation__first_a__h1">AnimeSaver</h1>
+            </a>
+            <ul class="header__navigation__buttons">
+                <li class="header__navigation__buttons__li__active">
+                    <a href="https://animesaver.ru">
+                        <img src="images/house.svg" alt="значок домика">
+                        <span>Главная</span>
+                    </a>
+                </li>
+                <li class="header__navigation__buttons__li">
+                    <a href="https://animesaver.ru/catalogue">
+                        <img src="images/stack.svg" alt="значок каталога">
+                        <span>Каталог</span>
+                    </a>
+                </li>
+                <li class="header__navigation__buttons__li">
+                    <a href="https://animesaver.ru/random">
+                        <img src="images/perspective-dice-six-faces-random.svg" alt="значок кубика">
+                        <span>Случайное</span>
+                    </a>
+                </li>
+                <li class="header__navigation__buttons__li">
+                    <a href="https://animesaver.ru/includes/my_profile.php">
+                        <img src="images/stars-stack.svg" alt="значок личного кабинета">
+                        <span>Мой профиль</span>
+                    </a>
+                </li>
+            </ul>
+            <form action="includes/search.php" method="post" target="_top" class="search">
+                <button type="submit" name="submit" title="Найти">
+                    <img src="images/magnifying-glass1.svg" alt="значок лупы">
+                </button>
+                <input type="text" size="17" maxlength="128" name="search" placeholder="Найти аниме">
+            </form>
+        </div>
+    </header>
+
+
+    <section class="main_section">                                              <!--Блок main_section-->
+
+        <br>
+        <br>
+        <section class="content">                                               <!--Блок Контента main_section-->
+          <style>
+
+            .content section h3 {
+              font-family: "Comfortaa-Regular";
+              font-size: 1.5em;
+              text-align: center;
+              margin-bottom: 10px;
+            }
+
+            .content__genres {
+              width: 95%;
+              margin-left: auto;
+              overflow: hidden;
+              margin-right: auto;
+              background: #69b5ff;
+              border-radius: 15px;
+              position: relative;
+            }
+
+            .content__genres__toLeft {
+              opacity: 80%;
+              width: 314px;
+              height: 30px;
+              position: absolute;
+              top: 140px;
+              left: -142px;
+              border-bottom: solid 1px black;
+              transform: rotate(-90deg);
+              background: #16222A;
+              z-index: 1;
+            }
+
+            .content__genres__toRight {
+              opacity: 80%;
+              width: 314px;
+              height: 30px;
+              position: absolute;
+              top: 140px;
+              right: -142px;
+              border-bottom: solid 1px black;
+              transform: rotate(90deg);
+              background: #16222A;
+              z-index: 1;
+            }
+
+            .content__genres__toLeft:hover,
+            .content__genres__toRight:hover {
+              opacity: 100%;
+            }
+
+            .content__genres ul {
+              list-style: none;
+              display: inline-flex;
+              width: 9999px;
+              height: 280px;
+              padding-left: 15px;
+              transition: 1s;
+            }
+
+            .content__genres__li {
+              display: inline-block;
+              border: solid 1px black;
+              border-radius: 15px;
+              margin-right: 10px;
+              background: url("anime/boruto/main_1.jpg");
+              width: 200px;
+              height: 280px;
+              background-size: contain;
+              padding-left: 5px;
+              box-sizing: border-box;
+              padding-right: 5px;
+            }
+
+            .content__genres__li:hover {
+              background: azure;
+              background-size: contain;
+              transition: 1s;
+            }
+
+            .content__genres__li h5 {
+              font-family: "Comfortaa-Regular";
+              font-size: 0.9em;
+              margin-top: 5px;
+              margin-bottom: 10px;
+              display: none;
+            }
+
+            .content__genres__li span,
+            .content__genres__li p {
+              margin-top: 5px;
+              display: none;
+            }
+
+          </style>
+            <section>
+                <h3>Приключения</h3>
+                <div class="content__genres">
+                  <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl1"/>
+                  <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl1"/>
+                  <ul id="ul1">
+                    <li class="content__genres__li">
+                      <h5>Боруто (серии 101 - 150)</h5>
+                      <span><b>Рейтинг IMDB:</b> 7.6</span>
+                      <p><b>Сюжет:</b> Сын наруто лалала</p>
+                    </li>
+                  </ul>
+                </div>
+            </section>
+
+          <section>
+              <h3>Экшен</h3>
+              <div class="content__genres">
+                <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl2"/>
+                <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl2"/>
+                <ul id="ul2">
+                  <li class="content__genres__li">
+                    <h5>Боруто (серии 101 - 150)</h5>
+                    <span><b>Рейтинг IMDB:</b> 7.6</span>
+                    <p><b>Сюжет:</b> Сын наруто лалала</p>
+                  </li>
+                </ul>
+              </div>
+        </section>
+
+            <br>
+            <br>
+        </section>
+
+        <section class="links">                                                 <!--Блок Links main_section-->
+            <div class="links__div1">
+                <h4 class="links__title">Социальные сети</h4>
+                <ul class="links__ul">
+                    <li>
+                        <a href="https://vk.com/weeklysaver">
+                            <img src="images/logic-gate-xor.svg" alt="картинка ссылки на ВК журнал">
+                            <span>VKontakte</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/animesaver.ru/">
+                            <img src="images/logic-gate-xor.svg" alt="Картинка ссылки на инстаграм">
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="links__div2">
+                <h4 class="links__title">Полезные ссылки</h4>
+                <ul class="links__ul">
+                    <li>
+                      <a href="mailto:mangaka585@gmail.com?subject=Вопрос&body=Здравствуйте." target="_blank" rel="noopener noreferrer">
+                          <img src="images/letter-bomb.svg" alt="Изображение написания письма администрации">
+                          <span>Напишите нам</span>
+                      </a>
+                    </li>
+                    <li>
+                        <a href="https://animesaver.ru/includes/privacy_policy.php">
+                            <img src="images/dragon-shield.svg" alt="Изображение политики конфиденциальности">
+                            <span>Privacy policy</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://animesaver.ru/includes/disclaimer.php">
+                            <img src="images/dragon-shield.svg" alt="Изображение Отказа от ответственности">
+                            <span>Disclaimer</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="links__div3">
+                <p>
+                  Мы молодой, развивающийся сайт аниме с необычными планами на будущее.
+                  Ведь у нас есть еще и второе направление: мы создали первый еженедельный журнал российской манги.
+                  Прямо сейчас читайте наш журнал, смотрите аниме сериалы и фильмы без рекламы.
+                  Японские аниме доступны для просмотра без регистрации, смс и каких-либо ограничений.
+                  В наших планах стать самым масштабным в России порталом аниме!
+                </p>
+                <div class="links__div3__site_logo">
+                    <img src="images/S-icon.png" alt="Изображение логотипа сайта">
+                    <h3>AnimeSaver</h3>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+          <div>
+            Авторские права и торговые марки на аниме и другие рекламные материалы принадлежат
+            их соответствующим владельцам, и их использование разрешено <br>в соответствии с
+            положениями о добросовестном использовании Закона об авторском праве.
+          </div>
+      </footer>
+
+  </section>
+
+  <div id="to_top_button">
+      <button>
+          <img src="images/save-arrow.svg" alt="Изображение стрелочки наверх">
+          <span>Наверх</span>
+      </button>
+  </div>
+
+  <script>
+    let ul1 = document.getElementById('ul1');
+    let toLeftButtonUl1 = document.getElementById('toLeftButtonUl1');
+    toLeftButtonUl1.addEventListener('click', function(){
+      let position = ul1.style.transform;
+      let skobka = position.indexOf('(');
+      let px = position.indexOf('px');
+      position = position.slice(skobka+1,px);
+      if(position != 0) {
+        position = +position + 590;
+        position = "translateX(" + position + "px)";
+        ul1.style.transform = position;
+      };
+    });
+    let toRightButtonUl1 = document.getElementById('toRightButtonUl1');
+    toRightButtonUl1.addEventListener('click', function(){
+      let position = ul1.style.transform;
+      let skobka = position.indexOf('(');
+      let px = position.indexOf('px');
+      position = position.slice(skobka+1,px);
+      if(position > -590) {
+        position = +position - 590;
+        position = "translateX(" + position + "px)";
+        ul1.style.transform = position;
+      };
+    });
+    let content__genres__liArray = document.getElementsByClassName('content__genres__li');
+    for (var i = 0; i < content__genres__liArray.length; i++) {
+      content__genres__liArray[i].addEventListener('mouseover', function(){
+        this.children[0].style.display = 'block';
+        this.children[1].style.display = 'block';
+        this.children[2].style.display = 'block';
+      })
+    }
+    for (var i = 0; i < content__genres__liArray.length; i++) {
+      content__genres__liArray[i].addEventListener('mouseout', function(){
+        this.children[0].style.display = 'none';
+        this.children[1].style.display = 'none';
+        this.children[2].style.display = 'none';
+      })
+    }
+  </script>
+                                                                                <!--Скрипты для метрик-->
+  <script async type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+      ym(55604875, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+      });
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-149359628-1');
+  </script>
+
+</body>
+</html>

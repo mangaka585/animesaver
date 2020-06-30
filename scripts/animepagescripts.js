@@ -1,4 +1,4 @@
-//Скрипт выбора серий
+                                                                                //Скрипт выбора серий
 let seriaButtonArray = document.getElementsByClassName('main_section__anime__watch__series__left_side__flexbox__element');
 let seriaH3 = document.getElementById('seriaH3');
 let iframe = document.getElementById('iframe');
@@ -12,4 +12,8 @@ for (var i = 0; i < seriaButtonArray.length; i++) {
     };
     this.id = 'main_section__anime__watch__series__left_side__flexbox__element__active';
   })
+}
+
+function showWindow(){                                                          //Функция для открытия окна авторизации
+  document.getElementById("autorisation_window").style.display = 'block';
 }
