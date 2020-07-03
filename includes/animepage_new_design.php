@@ -122,7 +122,7 @@ if($r1 == null){
                       $categories_name = mysqli_query($connection,"SELECT * FROM `categories` WHERE `id` = '$categories'");
                       $categories_name_result = mysqli_fetch_assoc($categories_name);
                       if($categories_name_result != null){ ?>
-                        <a href="#">
+                        <a href="/genres=<?php echo $categories_name_result['id']; ?>">
                           <span><?php echo $categories_name_result['title']; ?></span>
                         </a>
                       <?php };?>
@@ -131,7 +131,7 @@ if($r1 == null){
                       $categories_name = mysqli_query($connection,"SELECT * FROM `categories` WHERE `id` = '$categories'");
                       $categories_name_result = mysqli_fetch_assoc($categories_name);
                       if($categories_name_result != null){ ?>
-                        <a href="#">
+                        <a href="/genres=<?php echo $categories_name_result['id']; ?>">
                           <span><?php echo $categories_name_result['title']; ?></span>
                         </a>
                       <?php };?>
@@ -140,7 +140,7 @@ if($r1 == null){
                       $categories_name = mysqli_query($connection,"SELECT * FROM `categories` WHERE `id` = '$categories'");
                       $categories_name_result = mysqli_fetch_assoc($categories_name);
                       if($categories_name_result != null){ ?>
-                        <a href="#">
+                        <a href="/genres=<?php echo $categories_name_result['id']; ?>">
                           <span><?php echo $categories_name_result['title']; ?></span>
                         </a>
                       <?php };?>
@@ -229,6 +229,16 @@ if($r1 == null){
                                 $start_seria = 151;
                               } else if($r1['200+series'] == 1) {
                                 $start_seria = 201;
+                              } else if($r1['250+series'] == 1) {
+                                $start_seria = 251;
+                              } else if($r1['300+series'] == 1) {
+                                $start_seria = 301;
+                              } else if($r1['350+series'] == 1) {
+                                $start_seria = 351;
+                              } else if($r1['400+series'] == 1) {
+                                $start_seria = 401;
+                              } else if($r1['450+series'] == 1) {
+                                $start_seria = 451;
                               } else {
                                 $start_seria = 1;
                               };

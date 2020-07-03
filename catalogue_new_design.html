@@ -1,3 +1,7 @@
+<?php
+include "includes/db.php";
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head lang="ru">
@@ -16,7 +20,7 @@
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="css/style_new_design.css">
+  <link rel="stylesheet" href="css/style_new_catalogue.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <title>Каталог | Animesaver</title>
   <meta name="description" content="Каталог популярных аниме, которые можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно! Страница 1"/>
@@ -33,13 +37,13 @@
                 <h1 class="header__navigation__first_a__h1">AnimeSaver</h1>
             </a>
             <ul class="header__navigation__buttons">
-                <li class="header__navigation__buttons__li__active">
+                <li class="header__navigation__buttons__li">
                     <a href="https://animesaver.ru">
                         <img src="images/house.svg" alt="значок домика">
                         <span>Главная</span>
                     </a>
                 </li>
-                <li class="header__navigation__buttons__li">
+                <li class="header__navigation__buttons__li__active">
                     <a href="https://animesaver.ru/catalogue">
                         <img src="images/stack.svg" alt="значок каталога">
                         <span>Каталог</span>
@@ -52,10 +56,23 @@
                     </a>
                 </li>
                 <li class="header__navigation__buttons__li">
-                    <a href="https://animesaver.ru/includes/my_profile.php">
-                        <img src="images/stars-stack.svg" alt="значок личного кабинета">
-                        <span>Мой профиль</span>
-                    </a>
+                  <?php if(empty($_SESSION['login'])) { ?>
+                  <a id="autorisation" onclick="showWindow()">
+                    <img src="images/stars-stack.svg" alt="значок личного кабинета">
+                    <span>Мой профиль</span>
+                  </a>
+                  <div id="autorisation_window">
+                    <iframe src="includes/autorisation.php">
+                        Ваш браузер не поддерживает плаваюшие фреймы!
+                    </iframe>
+                  </div>
+
+                  <?php } else {?>
+                  <a href="https://animesaver.ru/includes/my_profile.php">
+                      <img src="images/stars-stack.svg" alt="значок личного кабинета">
+                      <span>Мой профиль</span>
+                  </a>
+                  <?php } ?>
                 </li>
             </ul>
             <form action="includes/search.php" method="post" target="_top" class="search">
@@ -70,135 +87,782 @@
 
     <section class="main_section">                                              <!--Блок main_section-->
 
-        <br>
-        <br>
         <section class="content">                                               <!--Блок Контента main_section-->
-          <style>
 
-            .content section h3 {
-              font-family: "Comfortaa-Regular";
-              font-size: 1.5em;
-              text-align: center;
-              margin-bottom: 10px;
-            }
+          <section class="main_section__menu">                                    <!--Блок Меню main_section-->
+              <div class="main_section__menu__hidden_line">
+                  <br>
+              </div>
+              <ul class="main_section__menu__buttons">
+                  <li class="main_section__menu__buttons__active" id="menuGenres">
+                      <a href="#genres">
+                          <img src="images/settings-knobs.svg" alt="значок Жанров"><span>Жанры</span>
+                      </a>
+                  </li>
+                  <li class="main_section__menu__buttons" id="menuYear">
+                      <a href="#year">
+                          <img src="images/time-trap.svg" alt="значок Времени"><span>Год выпуска</span>
+                      </a>
+                  </li>
+                  <li class="main_section__menu__buttons__active" id="menuGenres_mobile">
+                      <a href="#genres">
+                          <img src="images/settings-knobs.svg" alt="значок Жанров"><span>Жанры</span>
+                      </a>
+                  </li>
+                  <li class="main_section__menu__buttons" id="menuYear_mobile">
+                      <a href="#year">
+                          <img src="images/time-trap.svg" alt="значок Времени"><span>Год выпуска</span>
+                      </a>
+                  </li>
+              </ul>
+          </section>
 
-            .content__genres {
-              width: 95%;
-              margin-left: auto;
-              overflow: hidden;
-              margin-right: auto;
-              background: #69b5ff;
-              border-radius: 15px;
-              position: relative;
-            }
-
-            .content__genres__toLeft {
-              opacity: 80%;
-              width: 314px;
-              height: 30px;
-              position: absolute;
-              top: 140px;
-              left: -142px;
-              border-bottom: solid 1px black;
-              transform: rotate(-90deg);
-              background: #16222A;
-              z-index: 1;
-            }
-
-            .content__genres__toRight {
-              opacity: 80%;
-              width: 314px;
-              height: 30px;
-              position: absolute;
-              top: 140px;
-              right: -142px;
-              border-bottom: solid 1px black;
-              transform: rotate(90deg);
-              background: #16222A;
-              z-index: 1;
-            }
-
-            .content__genres__toLeft:hover,
-            .content__genres__toRight:hover {
-              opacity: 100%;
-            }
-
-            .content__genres ul {
-              list-style: none;
-              display: inline-flex;
-              width: 9999px;
-              height: 280px;
-              padding-left: 15px;
-              transition: 1s;
-            }
-
-            .content__genres__li {
-              display: inline-block;
-              border: solid 1px black;
-              border-radius: 15px;
-              margin-right: 10px;
-              background: url("anime/boruto/main_1.jpg");
-              width: 200px;
-              height: 280px;
-              background-size: contain;
-              padding-left: 5px;
-              box-sizing: border-box;
-              padding-right: 5px;
-            }
-
-            .content__genres__li:hover {
-              background: azure;
-              background-size: contain;
-              transition: 1s;
-            }
-
-            .content__genres__li h5 {
-              font-family: "Comfortaa-Regular";
-              font-size: 0.9em;
-              margin-top: 5px;
-              margin-bottom: 10px;
-              display: none;
-            }
-
-            .content__genres__li span,
-            .content__genres__li p {
-              margin-top: 5px;
-              display: none;
-            }
-
-          </style>
+          <section id="main_section__menu__genres">
             <section>
                 <h3>Приключения</h3>
                 <div class="content__genres">
                   <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl1"/>
                   <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl1"/>
                   <ul id="ul1">
-                    <li class="content__genres__li">
-                      <h5>Боруто (серии 101 - 150)</h5>
-                      <span><b>Рейтинг IMDB:</b> 7.6</span>
-                      <p><b>Сюжет:</b> Сын наруто лалала</p>
+                    <?php
+                    $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 1 OR `categories_2_id` = 1 OR `categories_3_id` = 1 ORDER BY `update_date` DESC LIMIT 0,14");
+                    while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                      <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                        <a href="/<?php echo $adveture['link']; ?>">
+                          <h5><?php echo $adveture['title']; ?></h5>
+                          <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                          <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,159, 'utf-8') . '...'; ?></p>
+                        </a>
+                      </li>
+                    <?php } ?>
+                    <li class="content__genres__li_end">
+                      <a href="/genres=1">
+                        <img src="images/select.svg">
+                        <span>Ещё<br>...</span>
+                      </a>
                     </li>
                   </ul>
                 </div>
             </section>
 
           <section>
-              <h3>Экшен</h3>
+              <h3>Романтика</h3>
               <div class="content__genres">
                 <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl2"/>
                 <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl2"/>
                 <ul id="ul2">
-                  <li class="content__genres__li">
-                    <h5>Боруто (серии 101 - 150)</h5>
-                    <span><b>Рейтинг IMDB:</b> 7.6</span>
-                    <p><b>Сюжет:</b> Сын наруто лалала</p>
+                  <?php
+                  $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 2 OR `categories_2_id` = 2 OR `categories_3_id` = 2 ORDER BY `update_date` DESC LIMIT 0,14");
+                  while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                    <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                      <a href="/<?php echo $adveture['link']; ?>">
+                        <h5><?php echo $adveture['title']; ?></h5>
+                        <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                        <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                      </a>
+                    </li>
+                  <?php } ?>
+                  <li class="content__genres__li_end">
+                    <a href="/genres=2">
+                      <img src="images/select.svg">
+                      <span>Ещё<br>...</span>
+                    </a>
                   </li>
                 </ul>
               </div>
+          </section>
+
+          <section>
+              <h3>Комедия</h3>
+              <div class="content__genres">
+                <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl3"/>
+                <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl3"/>
+                <ul id="ul3">
+                  <?php
+                  $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 3 OR `categories_2_id` = 3 OR `categories_3_id` = 3 ORDER BY `update_date` DESC LIMIT 0,14");
+                  while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                    <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                      <a href="/<?php echo $adveture['link']; ?>">
+                        <h5><?php echo $adveture['title']; ?></h5>
+                        <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                        <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                      </a>
+                    </li>
+                  <?php } ?>
+                  <li class="content__genres__li_end">
+                    <a href="/genres=3">
+                      <img src="images/select.svg">
+                      <span>Ещё<br>...</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          </section>
+
+          <section>
+            <h3>Драма</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl4"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl4"/>
+              <ul id="ul4">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 4 OR `categories_2_id` = 4 OR `categories_3_id` = 4 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=4">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Фэнтэзи</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl5"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl5"/>
+              <ul id="ul5">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 6 OR `categories_2_id` = 6 OR `categories_3_id` = 6 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=6">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Повседневность</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl6"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl6"/>
+              <ul id="ul6">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 7 OR `categories_2_id` = 7 OR `categories_3_id` = 7 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=7">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Школа</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl7"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl7"/>
+              <ul id="ul7">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 9 OR `categories_2_id` = 9 OR `categories_3_id` = 9 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=9">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Детектив</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl8"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl8"/>
+              <ul id="ul8">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 13 OR `categories_2_id` = 13 OR `categories_3_id` = 13 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=13">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ужасы</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl9"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl9"/>
+              <ul id="ul9">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 14 OR `categories_2_id` = 14 OR `categories_3_id` = 14 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=14">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Экшен</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl10"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl10"/>
+              <ul id="ul10">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 15 OR `categories_2_id` = 15 OR `categories_3_id` = 15 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=15">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Психология</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl11"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl11"/>
+              <ul id="ul11">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 17 OR `categories_2_id` = 17 OR `categories_3_id` = 17 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=17">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Сверхъестественное</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl12"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl12"/>
+              <ul id="ul12">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 18 OR `categories_2_id` = 18 OR `categories_3_id` = 18 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=18">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Боевые искусства</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl13"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl13"/>
+              <ul id="ul13">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 22 OR `categories_2_id` = 22 OR `categories_3_id` = 22 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=22">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
         </section>
 
-            <br>
-            <br>
+        <section id="main_section__menu__genres_mobile">
+          <section>
+              <h3>Приключения</h3>
+              <div class="content__genres">
+                <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl1_mobile"/>
+                <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl1_mobile"/>
+                <ul id="ul1_mobile">
+                  <?php
+                  $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 1 OR `categories_2_id` = 1 OR `categories_3_id` = 1 ORDER BY `update_date` DESC LIMIT 0,14");
+                  while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                    <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                      <a href="/<?php echo $adveture['link']; ?>">
+                        <h5><?php echo $adveture['title']; ?></h5>
+                        <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                        <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,159, 'utf-8') . '...'; ?></p>
+                      </a>
+                    </li>
+                  <?php } ?>
+                  <li class="content__genres__li_end">
+                    <a href="/genres=1">
+                      <img src="images/select.svg">
+                      <span>Ещё<br>...</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          </section>
+
+        <section>
+            <h3>Романтика</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl2_mobile"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl2_mobile"/>
+              <ul id="ul2_mobile">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 2 OR `categories_2_id` = 2 OR `categories_3_id` = 2 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=2">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </section>
+
+        <section>
+            <h3>Комедия</h3>
+            <div class="content__genres">
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl3_mobile"/>
+              <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl3_mobile"/>
+              <ul id="ul3_mobile">
+                <?php
+                $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 3 OR `categories_2_id` = 3 OR `categories_3_id` = 3 ORDER BY `update_date` DESC LIMIT 0,14");
+                while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                  <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                    <a href="/<?php echo $adveture['link']; ?>">
+                      <h5><?php echo $adveture['title']; ?></h5>
+                      <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                      <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                    </a>
+                  </li>
+                <?php } ?>
+                <li class="content__genres__li_end">
+                  <a href="/genres=3">
+                    <img src="images/select.svg">
+                    <span>Ещё<br>...</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </section>
+
+        <section>
+          <h3>Драма</h3>
+          <div class="content__genres">
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl4_mobile"/>
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl4_mobile"/>
+            <ul id="ul4_mobile">
+              <?php
+              $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 4 OR `categories_2_id` = 4 OR `categories_3_id` = 4 ORDER BY `update_date` DESC LIMIT 0,14");
+              while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                  <a href="/<?php echo $adveture['link']; ?>">
+                    <h5><?php echo $adveture['title']; ?></h5>
+                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                  </a>
+                </li>
+              <?php } ?>
+              <li class="content__genres__li_end">
+                <a href="/genres=4">
+                  <img src="images/select.svg">
+                  <span>Ещё<br>...</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Фэнтэзи</h3>
+          <div class="content__genres">
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl5_mobile"/>
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl5_mobile"/>
+            <ul id="ul5_mobile">
+              <?php
+              $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 6 OR `categories_2_id` = 6 OR `categories_3_id` = 6 ORDER BY `update_date` DESC LIMIT 0,14");
+              while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                  <a href="/<?php echo $adveture['link']; ?>">
+                    <h5><?php echo $adveture['title']; ?></h5>
+                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                  </a>
+                </li>
+              <?php } ?>
+              <li class="content__genres__li_end">
+                <a href="/genres=6">
+                  <img src="images/select.svg">
+                  <span>Ещё<br>...</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Повседневность</h3>
+          <div class="content__genres">
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl6_mobile"/>
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl6_mobile"/>
+            <ul id="ul6_mobile">
+              <?php
+              $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 7 OR `categories_2_id` = 7 OR `categories_3_id` = 7 ORDER BY `update_date` DESC LIMIT 0,14");
+              while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                  <a href="/<?php echo $adveture['link']; ?>">
+                    <h5><?php echo $adveture['title']; ?></h5>
+                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                  </a>
+                </li>
+              <?php } ?>
+              <li class="content__genres__li_end">
+                <a href="/genres=7">
+                  <img src="images/select.svg">
+                  <span>Ещё<br>...</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Школа</h3>
+          <div class="content__genres">
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl7_mobile"/>
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl7_mobile"/>
+            <ul id="ul7_mobile">
+              <?php
+              $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 9 OR `categories_2_id` = 9 OR `categories_3_id` = 9 ORDER BY `update_date` DESC LIMIT 0,14");
+              while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                  <a href="/<?php echo $adveture['link']; ?>">
+                    <h5><?php echo $adveture['title']; ?></h5>
+                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                  </a>
+                </li>
+              <?php } ?>
+              <li class="content__genres__li_end">
+                <a href="/genres=9">
+                  <img src="images/select.svg">
+                  <span>Ещё<br>...</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Детектив</h3>
+          <div class="content__genres">
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl8_mobile"/>
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl8_mobile"/>
+            <ul id="ul8_mobile">
+              <?php
+              $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 13 OR `categories_2_id` = 13 OR `categories_3_id` = 13 ORDER BY `update_date` DESC LIMIT 0,14");
+              while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                  <a href="/<?php echo $adveture['link']; ?>">
+                    <h5><?php echo $adveture['title']; ?></h5>
+                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                  </a>
+                </li>
+              <?php } ?>
+              <li class="content__genres__li_end">
+                <a href="/genres=13">
+                  <img src="images/select.svg">
+                  <span>Ещё<br>...</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Ужасы</h3>
+          <div class="content__genres">
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl9_mobile"/>
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl9_mobile"/>
+            <ul id="ul9_mobile">
+              <?php
+              $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 14 OR `categories_2_id` = 14 OR `categories_3_id` = 14 ORDER BY `update_date` DESC LIMIT 0,14");
+              while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                  <a href="/<?php echo $adveture['link']; ?>">
+                    <h5><?php echo $adveture['title']; ?></h5>
+                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                  </a>
+                </li>
+              <?php } ?>
+              <li class="content__genres__li_end">
+                <a href="/genres=14">
+                  <img src="images/select.svg">
+                  <span>Ещё<br>...</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Экшен</h3>
+          <div class="content__genres">
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl10_mobile"/>
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl10_mobile"/>
+            <ul id="ul10_mobile">
+              <?php
+              $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 15 OR `categories_2_id` = 15 OR `categories_3_id` = 15 ORDER BY `update_date` DESC LIMIT 0,14");
+              while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                  <a href="/<?php echo $adveture['link']; ?>">
+                    <h5><?php echo $adveture['title']; ?></h5>
+                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                  </a>
+                </li>
+              <?php } ?>
+              <li class="content__genres__li_end">
+                <a href="/genres=15">
+                  <img src="images/select.svg">
+                  <span>Ещё<br>...</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Психология</h3>
+          <div class="content__genres">
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl11_mobile"/>
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl11_mobile"/>
+            <ul id="ul11_mobile">
+              <?php
+              $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 17 OR `categories_2_id` = 17 OR `categories_3_id` = 17 ORDER BY `update_date` DESC LIMIT 0,14");
+              while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                  <a href="/<?php echo $adveture['link']; ?>">
+                    <h5><?php echo $adveture['title']; ?></h5>
+                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                  </a>
+                </li>
+              <?php } ?>
+              <li class="content__genres__li_end">
+                <a href="/genres=17">
+                  <img src="images/select.svg">
+                  <span>Ещё<br>...</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Сверхъестественное</h3>
+          <div class="content__genres">
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl12_mobile"/>
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl12_mobile"/>
+            <ul id="ul12_mobile">
+              <?php
+              $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 18 OR `categories_2_id` = 18 OR `categories_3_id` = 18 ORDER BY `update_date` DESC LIMIT 0,14");
+              while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                  <a href="/<?php echo $adveture['link']; ?>">
+                    <h5><?php echo $adveture['title']; ?></h5>
+                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                  </a>
+                </li>
+              <?php } ?>
+              <li class="content__genres__li_end">
+                <a href="/genres=18">
+                  <img src="images/select.svg">
+                  <span>Ещё<br>...</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Боевые искусства</h3>
+          <div class="content__genres">
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButtonUl13_mobile"/>
+            <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButtonUl13_mobile"/>
+            <ul id="ul13_mobile">
+              <?php
+              $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = 22 OR `categories_2_id` = 22 OR `categories_3_id` = 22 ORDER BY `update_date` DESC LIMIT 0,14");
+              while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                  <a href="/<?php echo $adveture['link']; ?>">
+                    <h5><?php echo $adveture['title']; ?></h5>
+                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,180, 'utf-8') . '...'; ?></p>
+                  </a>
+                </li>
+              <?php } ?>
+              <li class="content__genres__li_end">
+                <a href="/genres=22">
+                  <img src="images/select.svg">
+                  <span>Ещё<br>...</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+      </section>
+
+        <section id="main_section__menu__year">
+          <div class="content__year">
+            <?php
+            $animeYearArray = mysqli_query($connection,"SELECT * FROM `anime` ORDER BY `anime`.`year` DESC ");
+            while($animeYear = mysqli_fetch_assoc($animeYearArray)) { ?>
+            <div class="content__year__element" style="background: url('<?php echo $animeYear["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 212px 290px;">
+              <a href="/<?php echo $animeYear['link']; ?>">
+                <img src="images/crush.svg" class="content__year__element__yearImg">
+                <span style="display:block;" class="content__year__element__yearSpan"><?php echo $animeYear['year']; ?></span>
+                <h5><?php echo $animeYear['title']; ?></h5>
+                <span><b>Рейтинг IMDB:</b> <?php echo $animeYear['IMDb']; ?></span>
+                <p><b>Сюжет:</b> <?php echo mb_substr($animeYear['description'],0,180, 'utf-8') . '...'; ?></p>
+              </a>
+            </div>
+            <?php } ?>
+          </div>
+        </section>
+
+        <section id="main_section__menu__year_mobile">
+          <div class="content__year">
+            <?php
+            $animeYearArray = mysqli_query($connection,"SELECT * FROM `anime` ORDER BY `anime`.`year` DESC ");
+            while($animeYear = mysqli_fetch_assoc($animeYearArray)) { ?>
+            <div class="content__year__element" style="background: url('<?php echo $animeYear["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 212px 290px;">
+              <a href="/<?php echo $animeYear['link']; ?>">
+                <img src="images/crush.svg" class="content__year__element__yearImg">
+                <span style="display:block;" class="content__year__element__yearSpan"><?php echo $animeYear['year']; ?></span>
+                <h5><?php echo $animeYear['title']; ?></h5>
+                <span><b>Рейтинг IMDB:</b> <?php echo $animeYear['IMDb']; ?></span>
+                <p><b>Сюжет:</b> <?php echo mb_substr($animeYear['description'],0,180, 'utf-8') . '...'; ?></p>
+              </a>
+            </div>
+            <?php } ?>
+          </div>
+        </section>
+
+        <br>
+        <br>
         </section>
 
         <section class="links">                                                 <!--Блок Links main_section-->
@@ -274,49 +938,6 @@
           <span>Наверх</span>
       </button>
   </div>
-
-  <script>
-    let ul1 = document.getElementById('ul1');
-    let toLeftButtonUl1 = document.getElementById('toLeftButtonUl1');
-    toLeftButtonUl1.addEventListener('click', function(){
-      let position = ul1.style.transform;
-      let skobka = position.indexOf('(');
-      let px = position.indexOf('px');
-      position = position.slice(skobka+1,px);
-      if(position != 0) {
-        position = +position + 590;
-        position = "translateX(" + position + "px)";
-        ul1.style.transform = position;
-      };
-    });
-    let toRightButtonUl1 = document.getElementById('toRightButtonUl1');
-    toRightButtonUl1.addEventListener('click', function(){
-      let position = ul1.style.transform;
-      let skobka = position.indexOf('(');
-      let px = position.indexOf('px');
-      position = position.slice(skobka+1,px);
-      if(position > -590) {
-        position = +position - 590;
-        position = "translateX(" + position + "px)";
-        ul1.style.transform = position;
-      };
-    });
-    let content__genres__liArray = document.getElementsByClassName('content__genres__li');
-    for (var i = 0; i < content__genres__liArray.length; i++) {
-      content__genres__liArray[i].addEventListener('mouseover', function(){
-        this.children[0].style.display = 'block';
-        this.children[1].style.display = 'block';
-        this.children[2].style.display = 'block';
-      })
-    }
-    for (var i = 0; i < content__genres__liArray.length; i++) {
-      content__genres__liArray[i].addEventListener('mouseout', function(){
-        this.children[0].style.display = 'none';
-        this.children[1].style.display = 'none';
-        this.children[2].style.display = 'none';
-      })
-    }
-  </script>
                                                                                 <!--Скрипты для метрик-->
   <script async type="text/javascript" >
       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
