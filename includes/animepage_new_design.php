@@ -12,11 +12,12 @@ if($r1 == null){
 } else {
 ?>
 <!DOCTYPE html>
-<html>
-<head lang="ru">
+<html lang="ru">
+<head>
   <meta charset="utf-8">
+  <link rel="alternate" hreflang="ru" href="https://animesaver.ru/<?php echo $r1['link']; ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style type="text/css" media="screen, print">
+  <style media="screen, print">
     @font-face {
       font-family: "Comfortaa-Regular";
       src: url("fonts/Comfortaa-Regular.ttf");
@@ -29,12 +30,12 @@ if($r1 == null){
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="css/style_new_animepage.css">
+  <link rel="stylesheet" href="css/style_new_animepage_v2.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <title><?php echo $r1['title']; ?> | Animesaver</title>
   <meta name="description" content="Аниме <?php echo $r1['title']; ?>  смотреть онлайн бесплатно без регистрации в хорошем качестве"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
-  <script defer src="scripts/animepagescripts.js" type="text/javascript"></script>
+  <script defer src="scripts/animepagescripts.js"></script>
 </head>
 <body>
 
@@ -42,7 +43,7 @@ if($r1 == null){
     <header>                                                                    <!--Блок header-->
         <div class="header__navigation">
             <a href="https://animesaver.ru" class="header__navigation__first_a">
-                <img src="images/S-icon.png" alt="site logo" class="header__navigation__first_a__img" alt="Изображение логотипа сайта">
+                <img src="images/S-icon.png" class="header__navigation__first_a__img" alt="Изображение логотипа сайта">
                 <h1 class="header__navigation__first_a__h1">AnimeSaver</h1>
             </a>
             <ul class="header__navigation__buttons">
@@ -71,9 +72,7 @@ if($r1 == null){
                     <span>Мой профиль</span>
                   </a>
                   <div id="autorisation_window">
-                    <iframe src="includes/autorisation.php">
-                        Ваш браузер не поддерживает плаваюшие фреймы!
-                    </iframe>
+                    <iframe src="includes/autorisation.php"></iframe>
                   </div>
 
                   <?php } else {?>
@@ -145,7 +144,7 @@ if($r1 == null){
                         </a>
                       <?php };?>
                     </p>
-                    <p class="main_section__anime__info__description__desc">Описание: </br>
+                    <p class="main_section__anime__info__description__desc">Описание: <br>
                       <span><?php echo $r1['description']; ?></span>
                     </p>
                     <div class="main_section__anime__info__description__another">
@@ -211,8 +210,8 @@ if($r1 == null){
                     </div>
                 </div>
             </section>
-            </br>
-            </br>
+            <br>
+            <br>
 
             <section class="main_section__anime__watch">                        <!--Блок просмотра аниме-->
 
@@ -254,7 +253,7 @@ if($r1 == null){
                       </div>
                       <div class="main_section__anime_watch__series__right_side">
                         <h3 id="seriaH3">Выберите серию, чтобы начать просмотр</h3>
-                        <iframe id="iframe" allowfullscreen="" frameborder="0">
+                        <iframe id="iframe" allowfullscreen="">
                         </iframe>
                       </div>
                   </section>
@@ -262,7 +261,7 @@ if($r1 == null){
             </section>
         </section>
 
-        </br>
+        <br>
         <section class="links">                                                 <!--Блок Links main_section-->
             <div class="links__div1">
                 <h4 class="links__title">Социальные сети</h4>
@@ -337,7 +336,7 @@ if($r1 == null){
       </button>
   </div>
                                                                                 <!--Скрипты для метрик-->
-  <script async type="text/javascript" >
+  <script>
       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");

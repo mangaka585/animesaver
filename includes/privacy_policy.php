@@ -3,16 +3,17 @@ include "db.php";
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
-<head lang="ru">
+<html lang="ru">
+<head>
   <meta charset="utf-8">
+  <link rel="alternate" hreflang="ru" href="https://animesaver.ru/includes/privacy_policy.php" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../css/style_privacyPolicy.css">
   <link rel="shortcut icon" href="../images/favicon_for_line.ico" type="image/png">
   <title>Privacy policy | Animesaver</title>
   <meta name="description" content="Privacy policy Animesaver.ru"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
-  <style type="text/css" media="screen, print">
+  <style media="screen, print">
     @font-face {
       font-family: "Comfortaa-Regular";
       src: url("../fonts/Comfortaa-Regular.ttf");

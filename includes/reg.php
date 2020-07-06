@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+    <link rel="alternate" hreflang="ru" href="https://animesaver.ru/includes/reg.php" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Регистрация | Animesaver</title>
     <meta name="description" content="Регистрация на Animesaver.ru"/>

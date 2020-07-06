@@ -3,11 +3,12 @@ include "includes/db.php";
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
-<head lang="ru">
+<html lang="ru">
+<head>
   <meta charset="utf-8">
+  <link rel="alternate" hreflang="ru" href="https://animesaver.ru/catalogue" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style type="text/css" media="screen, print">
+  <style media="screen, print">
     @font-face {
       font-family: "Comfortaa-Regular";
       src: url("fonts/Comfortaa-Regular.ttf");
@@ -23,9 +24,9 @@ session_start();
   <link rel="stylesheet" href="css/style_new_catalogue_v14.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <title>Каталог | Animesaver</title>
-  <meta name="description" content="Каталог популярных аниме, которые можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно! Страница 1"/>
+  <meta name="description" content="Каталог популярных аниме, которые можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
-  <script defer src="scripts/cataloguescripts_v6.js" type="text/javascript"></script>
+  <script defer src="scripts/cataloguescripts_v6.js"></script>
 </head>
 <body>
 
@@ -33,7 +34,7 @@ session_start();
     <header>                                                                    <!--Блок header-->
         <div class="header__navigation">
             <a href="https://animesaver.ru" class="header__navigation__first_a">
-                <img src="images/S-icon.png" alt="site logo" class="header__navigation__first_a__img" alt="Изображение логотипа сайта">
+                <img src="images/S-icon.png" class="header__navigation__first_a__img" alt="Изображение логотипа сайта">
                 <h1 class="header__navigation__first_a__h1">AnimeSaver</h1>
             </a>
             <ul class="header__navigation__buttons">
@@ -62,9 +63,7 @@ session_start();
                     <span>Мой профиль</span>
                   </a>
                   <div id="autorisation_window">
-                    <iframe src="includes/autorisation.php">
-                        Ваш браузер не поддерживает плаваюшие фреймы!
-                    </iframe>
+                    <iframe src="includes/autorisation.php"></iframe>
                   </div>
 
                   <?php } else {?>
@@ -137,7 +136,7 @@ session_start();
                     <?php } ?>
                     <li class="content__genres__li_end">
                       <a href="/genres=1">
-                        <img src="images/select.svg">
+                        <img src="images/select.svg" alt="Иконка проваливания в жанры">
                         <span>Ещё<br>...</span>
                       </a>
                     </li>
@@ -164,7 +163,7 @@ session_start();
                   <?php } ?>
                   <li class="content__genres__li_end">
                     <a href="/genres=2">
-                      <img src="images/select.svg">
+                      <img src="images/select.svg" alt="Иконка проваливания в жанры">
                       <span>Ещё<br>...</span>
                     </a>
                   </li>
@@ -191,7 +190,7 @@ session_start();
                   <?php } ?>
                   <li class="content__genres__li_end">
                     <a href="/genres=3">
-                      <img src="images/select.svg">
+                      <img src="images/select.svg" alt="Иконка проваливания в жанры">
                       <span>Ещё<br>...</span>
                     </a>
                   </li>
@@ -218,7 +217,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=4">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -245,7 +244,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=6">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -272,7 +271,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=7">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -299,7 +298,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=9">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -326,7 +325,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=13">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -353,7 +352,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=14">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -380,7 +379,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=15">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -407,7 +406,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=17">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -434,7 +433,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=18">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -461,7 +460,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=22">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -489,7 +488,7 @@ session_start();
                   <?php } ?>
                   <li class="content__genres__li_end">
                     <a href="/genres=1">
-                      <img src="images/select.svg">
+                      <img src="images/select.svg" alt="Иконка проваливания в жанры">
                       <span>Ещё<br>...</span>
                     </a>
                   </li>
@@ -514,7 +513,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=2">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -539,7 +538,7 @@ session_start();
                 <?php } ?>
                 <li class="content__genres__li_end">
                   <a href="/genres=3">
-                    <img src="images/select.svg">
+                    <img src="images/select.svg" alt="Иконка проваливания в жанры">
                     <span>Ещё<br>...</span>
                   </a>
                 </li>
@@ -564,7 +563,7 @@ session_start();
               <?php } ?>
               <li class="content__genres__li_end">
                 <a href="/genres=4">
-                  <img src="images/select.svg">
+                  <img src="images/select.svg" alt="Иконка проваливания в жанры">
                   <span>Ещё<br>...</span>
                 </a>
               </li>
@@ -589,7 +588,7 @@ session_start();
               <?php } ?>
               <li class="content__genres__li_end">
                 <a href="/genres=6">
-                  <img src="images/select.svg">
+                  <img src="images/select.svg" alt="Иконка проваливания в жанры">
                   <span>Ещё<br>...</span>
                 </a>
               </li>
@@ -614,7 +613,7 @@ session_start();
               <?php } ?>
               <li class="content__genres__li_end">
                 <a href="/genres=7">
-                  <img src="images/select.svg">
+                  <img src="images/select.svg" alt="Иконка проваливания в жанры">
                   <span>Ещё<br>...</span>
                 </a>
               </li>
@@ -639,7 +638,7 @@ session_start();
               <?php } ?>
               <li class="content__genres__li_end">
                 <a href="/genres=9">
-                  <img src="images/select.svg">
+                  <img src="images/select.svg" alt="Иконка проваливания в жанры">
                   <span>Ещё<br>...</span>
                 </a>
               </li>
@@ -664,7 +663,7 @@ session_start();
               <?php } ?>
               <li class="content__genres__li_end">
                 <a href="/genres=13">
-                  <img src="images/select.svg">
+                  <img src="images/select.svg" alt="Иконка проваливания в жанры">
                   <span>Ещё<br>...</span>
                 </a>
               </li>
@@ -689,7 +688,7 @@ session_start();
               <?php } ?>
               <li class="content__genres__li_end">
                 <a href="/genres=14">
-                  <img src="images/select.svg">
+                  <img src="images/select.svg" alt="Иконка проваливания в жанры">
                   <span>Ещё<br>...</span>
                 </a>
               </li>
@@ -714,7 +713,7 @@ session_start();
               <?php } ?>
               <li class="content__genres__li_end">
                 <a href="/genres=15">
-                  <img src="images/select.svg">
+                  <img src="images/select.svg" alt="Иконка проваливания в жанры">
                   <span>Ещё<br>...</span>
                 </a>
               </li>
@@ -739,7 +738,7 @@ session_start();
               <?php } ?>
               <li class="content__genres__li_end">
                 <a href="/genres=17">
-                  <img src="images/select.svg">
+                  <img src="images/select.svg" alt="Иконка проваливания в жанры">
                   <span>Ещё<br>...</span>
                 </a>
               </li>
@@ -764,7 +763,7 @@ session_start();
               <?php } ?>
               <li class="content__genres__li_end">
                 <a href="/genres=18">
-                  <img src="images/select.svg">
+                  <img src="images/select.svg" alt="Иконка проваливания в жанры">
                   <span>Ещё<br>...</span>
                 </a>
               </li>
@@ -789,7 +788,7 @@ session_start();
               <?php } ?>
               <li class="content__genres__li_end">
                 <a href="/genres=22">
-                  <img src="images/select.svg">
+                  <img src="images/select.svg" alt="Иконка проваливания в жанры">
                   <span>Ещё<br>...</span>
                 </a>
               </li>
@@ -806,7 +805,7 @@ session_start();
             while($animeYear = mysqli_fetch_assoc($animeYearArray)) { ?>
             <div class="content__year__element" style="background: url('<?php echo $animeYear["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 212px 290px;">
               <a href="/<?php echo $animeYear['link']; ?>">
-                <img src="images/crush.svg" class="content__year__element__yearImg">
+                <img src="images/crush.svg" class="content__year__element__yearImg" alt="Значок фона для года">
                 <span style="display:block;" class="content__year__element__yearSpan"><?php echo $animeYear['year']; ?></span>
                 <h5><?php echo $animeYear['title']; ?></h5>
                 <span><b>Рейтинг IMDB:</b> <?php echo $animeYear['IMDb']; ?></span>
@@ -824,7 +823,7 @@ session_start();
             while($animeYear = mysqli_fetch_assoc($animeYearArray)) { ?>
             <div class="content__year__element" style="background: url('<?php echo $animeYear["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 168px 240px;">
               <a href="/<?php echo $animeYear['link']; ?>">
-                <img src="images/crush.svg" class="content__year__element__yearImg">
+                <img src="images/crush.svg" class="content__year__element__yearImg" alt="Значок фона для года">
                 <span style="display:block;" class="content__year__element__yearSpan"><?php echo $animeYear['year']; ?></span>
                 <h5><?php echo $animeYear['title']; ?></h5>
               </a>
@@ -911,7 +910,7 @@ session_start();
       </button>
   </div>
                                                                                 <!--Скрипты для метрик-->
-  <script async type="text/javascript" >
+  <script>
       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");

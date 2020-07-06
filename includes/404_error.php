@@ -2,9 +2,10 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+    <link rel="alternate" hreflang="ru" href="https://animesaver.ru/404_error.php" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Yandex.Metrika counter -->
-    <script async type="text/javascript" >
+    <script async >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");

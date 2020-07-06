@@ -22,6 +22,7 @@ $myrow = mysqli_fetch_array($result);
     <html lang="ru">
     <head>
         <meta charset="utf-8">
+        <link rel="alternate" hreflang="ru" href="https://animesaver.ru/includes/testreg.php" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="../images/favicon_for_line.ico" type="image/png">
         <title>Смотреть аниме онлайн бесплатно в хорошем качестве | Animesaver</title>
@@ -29,7 +30,7 @@ $myrow = mysqli_fetch_array($result);
         <meta name="description" content="Авторизация на Animesaver.ru"/>
         <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
         <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-        <script src="../scripts/jquery_code.js" type="text/javascript"></script>
+        <script src="../scripts/jquery_code.js"></script>
     </head>
     <body>
     <div class="preloader">

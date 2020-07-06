@@ -1,7 +1,10 @@
 <?php
 include "includes/db.php";
 session_start();
-$anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_date` DESC LIMIT 0,66");
+$url_pre = trim($url_test, "/genres=");
+$url = (int) $url_pre;
+$genreArray = mysqli_query($connection,"SELECT * FROM `categories` WHERE `id` = '$url'");
+$genre = mysqli_fetch_assoc($genreArray);
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -21,14 +24,12 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="css/style_new_design_v3.css">
+  <link rel="stylesheet" href="css/style_genres_v2.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
-  <link rel="cannonical" hreflang="ru" href="https://animesaver.ru/">
-  <title>Смотреть аниме онлайн бесплатно в хорошем качестве | Animesaver</title>
-  <meta name="description" content="Только самые популярные аниме в хорошем качестве без рекламы можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
+  <title>Каталог жанра <?php  echo $genre['title'] ?>| Animesaver</title>
+  <meta name="description" content="Каталог <?php echo $genre['title'] ?>, который можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
-  <meta name="google-site-verification" content="_yyf1MpKF0VC1IK6_gsW4rDxrrsRNWtylmtxAADzVhE" /> <!--Код для googleConsole-->
-  <script defer src="scripts/homepagescripts.js"></script>
+  <script defer src="scripts/genres.js"></script>
 </head>
 <body>
 
@@ -36,17 +37,17 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
     <header>                                                                    <!--Блок header-->
         <div class="header__navigation">
             <a href="https://animesaver.ru" class="header__navigation__first_a">
-                <img src="images/S-icon.png" alt="Изображение логотипа сайта">
+                <img src="images/S-icon.png" class="header__navigation__first_a__img" alt="Изображение логотипа сайта">
                 <h1 class="header__navigation__first_a__h1">AnimeSaver</h1>
             </a>
             <ul class="header__navigation__buttons">
-                <li class="header__navigation__buttons__li__active">
+                <li class="header__navigation__buttons__li">
                     <a href="https://animesaver.ru">
                         <img src="images/house.svg" alt="значок домика">
                         <span>Главная</span>
                     </a>
                 </li>
-                <li class="header__navigation__buttons__li">
+                <li class="header__navigation__buttons__li__active">
                     <a href="https://animesaver.ru/catalogue">
                         <img src="images/stack.svg" alt="значок каталога">
                         <span>Каталог</span>
@@ -59,22 +60,21 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                     </a>
                 </li>
                 <li class="header__navigation__buttons__li">
+                  <?php if(empty($_SESSION['login'])) { ?>
+                  <a id="autorisation" onclick="showWindow()">
+                    <img src="images/stars-stack.svg" alt="значок личного кабинета">
+                    <span>Мой профиль</span>
+                  </a>
+                  <div id="autorisation_window">
+                    <iframe src="includes/autorisation.php"></iframe>
+                  </div>
 
-                    <?php if(empty($_SESSION['login'])) { ?>
-                    <a id="autorisation" onclick="showWindow()">
+                  <?php } else {?>
+                  <a href="https://animesaver.ru/includes/my_profile.php">
                       <img src="images/stars-stack.svg" alt="значок личного кабинета">
                       <span>Мой профиль</span>
-                    </a>
-                    <div id="autorisation_window">
-                      <iframe src="includes/autorisation.php"></iframe>
-                    </div>
-
-                    <?php } else {?>
-                    <a href="https://animesaver.ru/includes/my_profile.php">
-                        <img src="images/stars-stack.svg" alt="значок личного кабинета">
-                        <span>Мой профиль</span>
-                    </a>
-                    <?php } ?>
+                  </a>
+                  <?php } ?>
                 </li>
             </ul>
             <form action="includes/search.php" method="post" target="_top" class="search">
@@ -89,93 +89,45 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
 
     <section class="main_section">                                              <!--Блок main_section-->
 
-        <section class="main_section__menu">                                    <!--Блок Меню main_section-->
-            <div class="main_section__menu__hidden_line">
-                <br>
-            </div>
-            <ul class="main_section__menu__buttons">
-                <li class="main_section__menu__buttons__active" id="menuNewButton">
-                    <a href="#new">
-                        <img src="images/bowen-knot.svg" alt="значок Нового"><span>Новое</span>
-                    </a>
-                </li>
-                <li id="menuMagazineButton">
-                    <a href="#weeklysaver">
-                        <img src="images/conversation.svg" alt="значок журнала"><span>Журнал</span>
-                    </a>
-                </li>
-            </ul>
-        </section>
-
         <section class="content">                                               <!--Блок Контента main_section-->
+          <h2 class="content__h2"><?php echo $genre['title'] ?></h2>
 
-            <section class="content__new" id="content__new">                    <!--Блок Контента Новое main_section-->
-                <div class="content__new__fake_br">
-                    <br>
-                </div>
-                <div class="content__new__flexbox">
-                <?php while($anime_page_result = mysqli_fetch_assoc($anime_page)){ ?>
-                    <div class="content__new__flexbox__element">
-                        <div class="content__new__flexbox__element__div">
-                            <a href="/<?php echo $anime_page_result['link']; ?>">
-                                <img src="<?php echo $anime_page_result['main_img_sourse']; ?>" class="content__new__flexbox__element__div__img" alt="Изображение аниме">
-                            </a>
-                        </div>
-                        <div class="content__new__flexbox__element__description">
-                            <div class="content__new__flexbox__element__description__date">
-                                <img src="images/calendar.svg" alt="значок календаря">
-                                <span><?php echo $anime_page_result['update_date']; ?></span>
-                            </div>
-                            <a href="/<?php echo $anime_page_result['link']; ?>">
-                                <h3 class="content__new__flexbox__element__description_title"><?php echo $anime_page_result['title']; ?></h3>
-                            </a>
-                            <br>
-                            <br>
-                            <div class="content__new__flexbox__element__description_series">
-                                <a href="/<?php echo $anime_page_result['link']; ?>">
-                                    <img src="images/toggles.svg" alt="значок серий">
-                                    Серии <?php echo $anime_page_result['series'] ?>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                <?php } ?>
-                </div>
-            </section>
+          <section id="main_section__menu__year">
+            <div class="content__year">
+              <?php
+              $animeYearArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = '$url' OR `categories_2_id` = '$url' OR `categories_3_id` = '$url' ORDER BY `anime`.`year` DESC");
+              while($animeYear = mysqli_fetch_assoc($animeYearArray)) { ?>
+              <div class="content__year__element" style="background: url('<?php echo $animeYear["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 212px 290px;">
+                <a href="/<?php echo $animeYear['link']; ?>">
+                  <img src="images/crush.svg" class="content__year__element__yearImg" alt="Значок фона для года">
+                  <span style="display:block;" class="content__year__element__yearSpan"><?php echo $animeYear['year']; ?></span>
+                  <h5><?php echo $animeYear['title']; ?></h5>
+                  <span><b>Рейтинг IMDB:</b> <?php echo $animeYear['IMDb']; ?></span>
+                  <p><b>Сюжет:</b> <?php echo mb_substr($animeYear['description'],0,180, 'utf-8') . '...'; ?></p>
+                </a>
+              </div>
+              <?php } ?>
+            </div>
+          </section>
 
-            <section class="content__weeklysaver" id="content__weeklysaver">    <!--Блок Контента Журнал main_section-->
-                <br>
-                <section class="content__weeklysaver__left_side">
-                    <div class="content__weeklysaver__left_side__flexbox">
-                      <div class="content__weeklysaver__left_side__flexbox__element" id="fourthMagazine">
-                          <a href="https://animesaver.ru/ws/magazine/samples/fourth.html">
-                              <img src="ws/magazine/samples/pages/fourth/1.jpg" alt="Изображение выпуска 4"><h3>Выпуск № 4</h3>
-                          </a>
-                      </div>
-                      <div class="content__weeklysaver__left_side__flexbox__element" id="thirdMagazine">
-                          <a href="https://animesaver.ru/ws/magazine/samples/third.html">
-                              <img src="ws/magazine/samples/pages/third/1.jpg" alt="Изображение выпуска 3"><h3>Выпуск № 3</h3>
-                          </a>
-                      </div>
-                      <div class="content__weeklysaver__left_side__flexbox__element" id="secondMagazine">
-                          <a href="https://animesaver.ru/ws/magazine/samples/second.html">
-                              <img src="ws/magazine/samples/pages/second/1.jpg" alt="Изображение выпуска 2"><h3>Выпуск № 2</h3>
-                          </a>
-                      </div>
-                      <div class="content__weeklysaver__left_side__flexbox__element" id="firstMagazine">
-                          <a href="https://animesaver.ru/ws/magazine/samples/index.html">
-                              <img src="ws/magazine/samples/pages/first/1.jpg" alt="Изображение выпуска 1"><h3>Выпуск № 1</h3>
-                          </a>
-                      </div>
-                    </div>
-                </section>
-                <section class="contect__weeklysaver__right_side" id="rightSideMagazine">
-                    <h4 id="magazineH4">Наведите на выпуск</h4>
-                </section>
-            </section>
+          <section id="main_section__menu__year_mobile">
+            <div class="content__year">
+              <?php
+              $animeYearArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `categories_1_id` = '$url' OR `categories_2_id` = '$url' OR `categories_3_id` = '$url' ORDER BY `anime`.`year` DESC");
+              while($animeYear = mysqli_fetch_assoc($animeYearArray)) { ?>
+              <div class="content__year__element" style="background: url('<?php echo $animeYear["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 168px 240px;">
+                <a href="/<?php echo $animeYear['link']; ?>">
+                  <img src="images/crush.svg" class="content__year__element__yearImg" alt="Значок фона для года">
+                  <span style="display:block;" class="content__year__element__yearSpan"><?php echo $animeYear['year']; ?></span>
+                  <h5><?php echo $animeYear['title']; ?></h5>
+                </a>
+              </div>
+              <?php } ?>
+            </div>
+          </section>
 
-            <br>
-            <br>
+        <br>
+        <br>
         </section>
 
         <section class="links">                                                 <!--Блок Links main_section-->

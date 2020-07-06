@@ -143,83 +143,108 @@ body {
     margin-top: 50px;
   }
 
-  .main_section__menu__buttons {
-    list-style: none;
+  .main_section__h3 {
     margin-top: 0;
-    border-bottom: solid 1px #DCDCDC;
-    margin-bottom: 0;
+    padding-top: 15px;
+    font-family: 'Comfortaa-Regular';
+    font-size: 0.9em;
+    padding-left: 30px;
+    color: darkgray;
+    margin-bottom: 15px;
   }
 
-  .main_section__menu__buttons__active {
+  .main_section__anime__info {
+    background-image: linear-gradient(to right, #E0EAFC 0%, #CFDEF3 51%, #E0EAFC 100%);
+    border: solid 1px grey;
+  }
+
+  .main_section__anime__info__img {
     display: inline-block;
-    border: solid 1px black;
-    border-bottom: none;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    width: 33%;
   }
 
-  .main_section__menu__buttons li {
-    display: inline-block;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-  }
-
-  .main_section__menu__buttons li:hover {
-    background: #69b5ff;
-  }
-
-  .main_section__menu__buttons li a {
-    display: inline-block;
+  .main_section__anime__info__img img {
     width: 100%;
+    vertical-align: bottom;
+    height: 570px;
   }
 
-  .main_section__menu__buttons li a img {
+  .main_section__anime__info__description {
     display: inline-block;
-    margin-right: 2px;
-    width: 20px;
-    vertical-align: text-bottom;
+    padding-left: 15px;
+    width: 63%;
+    vertical-align: top;
+    font-family: 'Comfortaa-Regular';
+    font-size: 0.9em;
+    position: relative;
+    height: 570px;
   }
 
-  .main_section__menu__buttons li a span {
-    display: inline-block;
-    font-size: 1.2em;
-    font-family: "Oswald";
-    color: black;
+  .main_section__anime__info__description__p {
+    font-weight: bold;
+    margin: 0;
   }
 
-  .content__new__flexbox {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+  .main_section__anime__info__description__p span {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: darkslategray;
   }
 
-  .content__new__flexbox__element {
-    margin-left: 15px;
+  .main_section__anime__info__description__genres,
+  .main_section__anime__info__description__desc {
+    font-weight: bold;
+  }
+
+  .main_section__anime__info__description__genres span,
+  .main_section__anime__info__description__desc span {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: darkslategray;
+  }
+
+  .main_section__anime__info__description__genres a {
+    text-decoration: none;
+  }
+
+  .main_section__anime__info__description__genres a span {
+    padding: 5px;
+    background: white;
+    border-radius: 10px;
+  }
+
+  .main_section__anime__info__description__genres a span:hover {
+    background-image: linear-gradient(to right, #EDE574 0%, #E1F5C4 51%, #EDE574 100%);
+  }
+
+  .main_section__anime__info__description__another {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .main_section__anime__info__description__another__prev_series,
+  .main_section__anime__info__description__another__next_series {
     border: solid 1px #9e9e9e;
     width: 367px;
     background-color: #f5f5f5;
     margin-bottom: 15px;
     border-radius: 15px;
-  }
-
-  .content__new__flexbox__element:hover {
-    background-image: linear-gradient(to right, #EDE574 0%, #E1F5C4 51%, #EDE574 100%);
-  }
-
-  .content__new__flexbox__element__div {
     display: inline-block;
   }
 
-  .content__new__flexbox__element__div__img {
+  .main_section__anime__info__description__another__prev_series:hover,
+  .main_section__anime__info__description__another__next_series:hover {
+    background-image: linear-gradient(to right, #EDE574 0%, #E1F5C4 51%, #EDE574 100%);
+  }
+
+  .main_section__anime__info__description__another__prev_series__div_img,
+  .main_section__anime__info__description__another__next_series__div_img {
+    display: inline-block;
+  }
+
+  .main_section__anime__info__description__another__prev_series__div_img__img,
+  .main_section__anime__info__description__another__next_series__div_img__img {
     width: 112px;
     height: 156px;
     vertical-align: bottom;
@@ -227,7 +252,8 @@ body {
     border-bottom-left-radius: 15px;
   }
 
-  .content__new__flexbox__element__description {
+  .main_section__anime__info__description__another__prev_series__description,
+  .main_section__anime__info__description__another__next_series__description {
     vertical-align: top;
     display: inline-block;
     width: 68.1%;
@@ -236,38 +262,41 @@ body {
     height: 156px;
   }
 
-  .content__new__flexbox__element__description__date {
-    padding-right: 5px;
-    width: 77px;
-    margin-left: auto;
-    background: #1E90FF;
-    padding-left: 5px;
-    height: 17px;
-    border-top-right-radius: 15px;
+  .main_section__anime__info__description__another__prev_series__description_np {
+    height: 25px;
+    width: 100px;
+    background: darkslategrey;
+    padding-left: 15px;
   }
 
-  .content__new__flexbox__element__description__date img {
-    width: 12px;
+  .main_section__anime__info__description__another__prev_series__description_np img,
+  .main_section__anime__info__description__another__next_series__description_np img {
+    vertical-align: bottom;
+    width: 25px;
   }
 
-  .content__new__flexbox__element__description__date span {
+  .main_section__anime__info__description__another__prev_series__description_np span,
+  .main_section__anime__info__description__another__next_series__description_np span {
     color: white;
-    font-family: "Oswald";
-    font-size: 0.8em;
+    font-family: 'Oswald';
+    vertical-align: top;
   }
 
-  .content__new__flexbox__element__description a {
+  .main_section__anime__info__description__another__prev_series__description a,
+  .main_section__anime__info__description__another__next_series__description a {
     text-decoration: none;
     color: black;
   }
 
-  .content__new__flexbox__element__description_title {
+  .main_section__anime__info__description__another__prev_series__description_title,
+  .main_section__anime__info__description__another__next_series__description_title  {
     font-family: "Comfortaa-Regular";
     font-size: 1em;
     padding-left: 7px;
   }
 
-  .content__new__flexbox__element__description_series {
+  .main_section__anime__info__description__another__prev_series__description__series,
+  .main_section__anime__info__description__another__next_series__description__series {
     position: absolute;
     bottom: 0;
     border-top: solid 1px grey;
@@ -277,92 +306,97 @@ body {
     font-size: 1em;
   }
 
-  .content__new__flexbox__element__description_series a {
+  .main_section__anime__info__description__another__prev_series__description__series a,
+  .main_section__anime__info__description__another__next_series__description__series a {
     text-decoration: none;
     color: #1E90FF;
   }
 
-  .content__new__flexbox__element__description_series a img {
+  .main_section__anime__info__description__another__prev_series__description__series a img,
+  .main_section__anime__info__description__another__next_series__description__series a img {
     width: 20px;
     vertical-align: sub;
     margin-right: 5px;
   }
 
-  .content__weeklysaver {
+  .main_section__anime__info__description__another__next_series__description_np {
+    height: 25px;
+    width: 100px;
+    background: darkslategrey;
     padding-left: 15px;
-    padding-right: 15px;
-    display: none;
+    margin-right: 0;
+    margin-left: auto;
+    border-top-right-radius: 15px;
   }
 
-  .content__weeklysaver__left_side {
-    width: 70%;
+  .main_section__anime__watch__series {
+    width: 100%;
+  }
+
+  .main_section__anime__watch__series__left_side {
     display: inline-block;
+    width: 50%;
+    vertical-align: top;
   }
 
-  .content__weeklysaver__left_side__flexbox {
+  .main_section__anime__watch__series__left_side h3 {
+    text-align: center;
+    font-family: "Comfortaa-Regular";
+    color: cornflowerblue;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .main_section__anime__watch__series__left_side__flexbox {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
+    padding: 15px;
   }
 
-  .content__weeklysaver__left_side__flexbox__element {
-    width: 45%;
-    box-sizing: border-box;
-    border-right: solid 1px grey;
-    margin-bottom: 15px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background: #f5f5f5;
-    margin-left: 15px;
-  }
-
-  .content__weeklysaver__left_side__flexbox__element:hover {
-    background-image: linear-gradient(to right, #EDE574 0%, #E1F5C4 51%, #EDE574 100%);
-  }
-
-  .content__weeklysaver__left_side__flexbox__element a {
-    display: block;
-  }
-
-  .content__weeklysaver__left_side__flexbox__element a img {
-    width: 250px;
-    height: 354px;
-    display: inline-block;
-    vertical-align: bottom;
-  }
-
-  .content__weeklysaver__left_side__flexbox__element a h3 {
-    display: inline-block;
-    writing-mode: tb;
-    margin-bottom: 30%;
+  .main_section__anime__watch__series__left_side__flexbox__element {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    border: solid 1px grey;
+    background: aliceblue;
+    border-radius: 15px;
     font-family: "Oswald";
-    font-size: 1.5em;
-    color: #1E90FF;
-    vertical-align: bottom;
+    width: 50px;
+    margin-bottom: 5px;
+    margin-right: 5px;
   }
 
-  .contect__weeklysaver__right_side {
+  #main_section__anime__watch__series__left_side__flexbox__element__active {
+    background: cadetblue;
+    color: white;
+  }
+
+  .main_section__anime__watch__series__left_side__flexbox__element:hover {
+    cursor: pointer;
+    background: #EDE574;
+  }
+
+  .main_section__anime_watch__series__right_side {
     display: inline-block;
-    width: 28%;
+    width: 49%;
     vertical-align: top;
+    border-left: solid 1px darkgrey;
   }
 
-  .contect__weeklysaver__right_side h4 {
+  .main_section__anime_watch__series__right_side h3 {
     font-family: "Comfortaa-Regular";
-    font-size: 1.1em;
     text-align: center;
   }
 
-  #magazineH4 {
-    font-size: 2em;
-  }
-
-  #createdChapters {
-    list-style: cjk-ideographic;
-    font-family: "Oswald";
-    font-size: 1.3em;
-    color: darkslategray;
+  .main_section__anime_watch__series__right_side iframe {
+    width: 500px;
+    height: 300px;
+    margin-left: 35px;
+    border: none;
+    border: 0;
   }
 
   .links {
@@ -612,7 +646,7 @@ body {
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
     font-size: 1em;
-    width: 300px;
+    width: 290px;
   }
 
   .main_section {
@@ -621,126 +655,153 @@ body {
     margin-left: auto;
   }
 
-  .main_section__menu__buttons {
-    list-style: none;
+  .main_section__h3 {
     margin-top: 0;
-    border-bottom: solid 1px #DCDCDC;
-    margin-bottom: 0;
-  }
-
-  .main_section__menu__buttons__active {
-    display: inline-block;
-    border: solid 1px black;
-    border-bottom: none;
-    padding: 10px;
+    font-family: "Comfortaa-Regular";
+    font-size: 0.9em;
     padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    color: grey;
+    text-align: center;
+    margin-bottom: 5px;
   }
 
-  .main_section__menu__buttons li {
+  .main_section__anime__info__img img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+    border: solid 1px grey;
+  }
+
+  .main_section__anime__info__description {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .main_section__anime__info__description_title {
+    text-align: center;
+    font-family: "Comfortaa-Regular";
+    font-size: 1.2em;
+  }
+
+  .main_section__anime__info__description__p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .main_section__anime__info__description__p span {
+    font-weight: normal;
+  }
+
+  .main_section__anime__info__description__genres {
+    font-weight: bold;
+    line-height: 30px;
+  }
+
+  .main_section__anime__info__description__genres a {
+    text-decoration: none;
     display: inline-block;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
   }
 
-  .main_section__menu__buttons li:hover {
-    background: #69b5ff;
+  .main_section__anime__info__description__genres a span {
+    padding: 5px;
+    background: cornflowerblue;
+    border-radius: 10px;
+    color: white;
+    font-weight: normal;
   }
 
-  .main_section__menu__buttons li a {
-    display: inline-block;
-    width: 100%;
+  .main_section__anime__info__description__desc {
+    font-weight: bold;
   }
 
-  .main_section__menu__buttons li a img {
-    display: inline-block;
-    margin-right: 2px;
-    width: 15px;
+  .main_section__anime__info__description__desc span {
+    font-weight: normal;
+
   }
 
-  .main_section__menu__buttons li a span {
-    display: inline-block;
-    font-size: 1em;
-    font-family: "Oswald";
-    color: black;
-  }
-
-  .content__new__flexbox {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-
-  .content__new__flexbox__element {
-    margin-left: 15px;
+  .main_section__anime__info__description__another__prev_series,
+  .main_section__anime__info__description__another__next_series {
     border: solid 1px #9e9e9e;
-    width: 93%;
+    width: 100%;
     background-color: #f5f5f5;
     margin-bottom: 15px;
-  }
-
-  .content__new__flexbox__element:hover {
-    background-image: linear-gradient(to right, #EDE574 0%, #E1F5C4 51%, #EDE574 100%);
-  }
-
-  .content__new__flexbox__element__div {
+    border-radius: 15px;
     display: inline-block;
   }
 
-  .content__new__flexbox__element__div__img {
+  .main_section__anime__info__description__another__prev_series__div_img,
+  .main_section__anime__info__description__another__next_series__div_img {
+    display: inline-block;
+  }
+
+  .main_section__anime__info__description__another__next_series__div_img__img,
+  .main_section__anime__info__description__another__prev_series__div_img__img {
     width: 112px;
     height: 156px;
     vertical-align: bottom;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
   }
 
-  .content__new__flexbox__element__description {
+  .main_section__anime__info__description__another__prev_series__description,
+  .main_section__anime__info__description__another__next_series__description {
     vertical-align: top;
     display: inline-block;
-    width: 66.1%;
+    width: 67.3%;
     margin-left: auto;
     position: relative;
     height: 156px;
   }
 
-  .content__new__flexbox__element__description__date {
-    padding-right: 5px;
-    width: 77px;
+  .main_section__anime__info__description__another__next_series__description_np,
+  .main_section__anime__info__description__another__prev_series__description_np {
+    height: 25px;
+    width: 100px;
+    background: darkslategrey;
+    padding-left: 15px;
+  }
+
+  .main_section__anime__info__description__another__next_series__description_np {
     margin-left: auto;
-    background: #1E90FF;
-    padding-left: 5px;
-    height: 17px;
+    margin-right: 10px;
   }
 
-  .content__new__flexbox__element__description__date img {
-    width: 12px;
-  }
-
-  .content__new__flexbox__element__description__date span {
-    color: white;
-    font-family: "Oswald";
-    font-size: 0.8em;
-  }
-
-  .content__new__flexbox__element__description a {
+  .main_section__anime__info__description__another__next_series__description a,
+  .main_section__anime__info__description__another__prev_series__description a {
     text-decoration: none;
     color: black;
   }
 
-  .content__new__flexbox__element__description_title {
+  .main_section__anime__info__description__another__next_series__description_np img,
+  .main_section__anime__info__description__another__prev_series__description_np img {
+    vertical-align: bottom;
+    width: 25px;
+  }
+
+  .main_section__anime__info__description__another__next_series__description_np span,
+  .main_section__anime__info__description__another__prev_series__description_np span {
+    color: white;
+    font-family: 'Oswald';
+    vertical-align: top;
+  }
+
+  .main_section__anime__info__description__another__next_series__description_np a,
+  .main_section__anime__info__description__another__prev_series__description_np a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .main_section__anime__info__description__another__prev_series__description_title,
+  .main_section__anime__info__description__another__next_series__description_title {
     font-family: "Comfortaa-Regular";
     font-size: 1em;
     padding-left: 7px;
   }
 
-  .content__new__flexbox__element__description_series {
+  .main_section__anime__info__description__another__prev_series__description__series,
+  .main_section__anime__info__description__another__next_series__description__series {
     position: absolute;
     bottom: 0;
     border-top: solid 1px grey;
@@ -750,71 +811,62 @@ body {
     font-size: 1em;
   }
 
-  .content__new__flexbox__element__description_series a {
+  .main_section__anime__info__description__another__prev_series__description__series a,
+  .main_section__anime__info__description__another__next_series__description__series a {
     text-decoration: none;
     color: #1E90FF;
   }
 
-  .content__new__flexbox__element__description_series a img {
+  .main_section__anime__info__description__another__prev_series__description__series a img,
+  .main_section__anime__info__description__another__next_series__description__series a img {
     width: 20px;
     vertical-align: sub;
     margin-right: 5px;
   }
 
-  .content__weeklysaver {
-    padding-left: 15px;
-    padding-right: 15px;
-    display: none;
+  .main_section__anime__watch__series__left_side h3 {
+    margin-top: 0;
+    text-align: center;
+    font-family: "Comfortaa-Regular";
   }
 
-  .content__weeklysaver__left_side__flexbox {
+  .main_section__anime__watch__series__left_side__flexbox {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
+    padding: 15px;
   }
 
-  .content__weeklysaver__left_side__flexbox__element {
-    box-sizing: border-box;
-    border-bottom: solid 1px gray;
-    margin-bottom: 15px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background: #f5f5f5;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .content__weeklysaver__left_side__flexbox__element:hover {
-    background-image: linear-gradient(to right, #EDE574 0%, #E1F5C4 51%, #EDE574 100%);
-  }
-
-  .content__weeklysaver__left_side__flexbox__element a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .content__weeklysaver__left_side__flexbox__element a img {
-    width: 200px;
-    height: 284px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .content__weeklysaver__left_side__flexbox__element a h3 {
-    display: block;
+  .main_section__anime__watch__series__left_side__flexbox__element {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    border: solid 1px grey;
+    background: aliceblue;
+    border-radius: 15px;
     font-family: "Oswald";
-    font-size: 1.5em;
-    color: #1E90FF;
-    margin-top: 5px;
+    width: 40px;
     margin-bottom: 5px;
+    margin-right: 5px;
   }
 
-  .contect__weeklysaver__right_side {
-    display: none;
+  #main_section__anime__watch__series__left_side__flexbox__element__active {
+    background: cadetblue;
+    color: white;
+  }
+
+  #seriaH3 {
+    text-align: center;
+    font-family: "Comfortaa-Regular";
+    font-size: 1em;
+  }
+
+  #iframe {
+    border: none;
+    margin-left: 35px;
+    width: 80%;
   }
 
   .links {

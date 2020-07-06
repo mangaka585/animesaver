@@ -17,6 +17,9 @@ if($url_test == "/" || $random_num == "/index.php")
     header( "Location: https://animesaver.ru/$animeLink" );
 }   else if($url_test == "/catalogue")
 {   include "includes/catalogue_new_design.php";
+}   else if(substr($url_test, 0, 7) == "/genres")
+{   //Отрисовываем страницу каталога жанра
+    include "includes/genres.php";
 }   else { //Отрисовываем anime.php
     include "includes/animepage_new_design.php";}
 mysqli_close($connection);?>

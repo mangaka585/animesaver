@@ -2,9 +2,10 @@
 //  вся процедура работает на сессиях. Именно в ней хранятся данные  пользователя, пока он находится на сайте. Очень важно запустить их в  самом начале странички!!!
 session_start();
 ?>
-<html>
+<html lang="ru">
 <head>
     <title>Форма регистрации</title>
+    <link rel="alternate" hreflang="ru" href="https://animesaver.ru/includes/autorisation.php" />
     <style>
         body  {
             text-align: center;
