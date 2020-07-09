@@ -21,7 +21,7 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="css/style_new_design_v3.css">
+  <link rel="stylesheet" href="css/style_new_design_v4.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <link rel="cannonical" hreflang="ru" href="https://animesaver.ru/">
   <title>Смотреть аниме онлайн бесплатно в хорошем качестве | Animesaver</title>

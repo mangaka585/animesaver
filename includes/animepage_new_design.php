@@ -115,6 +115,9 @@ if($r1 == null){
                     <p class="main_section__anime__info__description__p">Режиссер:
                       <span><?php echo $r1['producer']; ?></span>
                     </p>
+                    <p class="main_section__anime__info__description__p">Просмотров:
+                      <span><?php echo $r1['views']; ?></span>
+                    </p>
                     <p class="main_section__anime__info__description__genres">Жанры:
                       <?php
                       $categories = $r1['categories_1_id'];

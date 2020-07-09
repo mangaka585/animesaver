@@ -195,6 +195,13 @@ body {
     color: black;
   }
 
+  #searchResultH4 {
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Comfortaa-Regular';
+  }
+
   .content__new__flexbox {
     display: -webkit-flex;
     display: flex;
@@ -670,6 +677,13 @@ body {
     font-size: 1em;
     font-family: "Oswald";
     color: black;
+  }
+
+    #searchResultH4 {
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Comfortaa-Regular';
   }
 
   .content__new__flexbox {
