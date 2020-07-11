@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f742961b-eea9-4fe3-acf7-b932ef1f4e55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/style_privacyPolicy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/disclaimer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/privacy_policy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_new_design.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_new_design.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_design.html" beforeDir="false" afterPath="$PROJECT_DIR$/new_design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_design.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_design.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/homepagescripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/homepagescripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -234,6 +229,9 @@
       <workItem from="1591565793138" duration="259000" />
       <workItem from="1591566326973" duration="126000" />
       <workItem from="1592645938688" duration="51000" />
+      <workItem from="1594307958663" duration="474000" />
+      <workItem from="1594308576273" duration="1840000" />
+      <workItem from="1594331379761" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary=" Добавил те страницы, которые отправила дизайнер и переписал страницу журнала, т.к. их число увеличилось и теперь 136">
       <created>1580677786270</created>
