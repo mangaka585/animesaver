@@ -56,10 +56,8 @@ body {
     font-size: 1.3em;
     border: solid 1px #71B9FF;
     border-radius: 7px;
-    padding: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 6px;
+    padding: 4px 10px 6px;
+    cursor: pointer;
   }
 
   .header__navigation__buttons__li__active a,
@@ -80,11 +78,9 @@ body {
     margin-left: 1px;
     margin-right: 1px;
     border-radius: 7px;
-    padding: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 6px;
+    padding: 4px 10px 6px;
     box-sizing:content-box;
+    cursor: pointer;
   }
 
   .header__navigation__buttons__li:hover {
@@ -178,6 +174,19 @@ body {
     font-size: 0.9em;
     position: relative;
     height: 570px;
+  }
+
+  #addToFavorites,
+  #addToWatched {
+    position: absolute;
+    width: 30px;
+    right: -20px;
+    cursor: pointer;
+    top: 5px;
+  }
+
+  #addToWatched {
+    top: 40px;
   }
 
   .main_section__anime__info__description__p {
@@ -356,10 +365,7 @@ body {
   }
 
   .main_section__anime__watch__series__left_side__flexbox__element {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 20px 0;
     border: solid 1px grey;
     background: aliceblue;
     border-radius: 15px;
@@ -484,9 +490,7 @@ body {
     z-index: 1;
     background: #1E90FF;
     border-radius: 7px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px;
     opacity: 80%;
     display: none;
   }
@@ -527,7 +531,6 @@ body {
   header {
     position: relative;
     min-height: 50px;
-    border: 1px solid transparent;
     background-color: #222;
     border-color: #080808;
     margin-bottom: 0;
@@ -574,10 +577,8 @@ body {
     font-size: 1em;
     border: solid 1px #71B9FF;
     border-radius: 7px;
-    padding: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 6px;
+    padding: 4px 10px 6px;
+    cursor: pointer;
   }
 
   .header__navigation__buttons__li__active a,
@@ -595,9 +596,9 @@ body {
     display: inline;
     font-size: 1em;
     border-radius: 7px;
-    padding: 4px;
-    padding-bottom: 6px;
+    padding: 4px 4px 6px;
     box-sizing: content-box;
+    cursor: pointer;
   }
 
   .header__navigation__buttons__li:hover {
@@ -622,8 +623,7 @@ body {
 
   .header__navigation form {
     display: inline-block;
-    margin: 0;
-    margin-left: 6px;
+    margin: 0 0 0 6px;
   }
 
   .header__navigation form button {
@@ -676,6 +676,24 @@ body {
   .main_section__anime__info__description {
     padding-left: 10px;
     padding-right: 10px;
+    position: relative;
+  }
+
+  #addToFavorites,
+  #addToWatched {
+    position: absolute;
+    width: 30px;
+    right: 15px;
+    cursor: pointer;
+    top: 100px;
+    border: solid 1px black;
+    border-radius: 15px;
+    background: black;
+    padding: 1px;
+  }
+
+  #addToWatched {
+    right: 55px;
   }
 
   .main_section__anime__info__description_title {
@@ -839,10 +857,7 @@ body {
   }
 
   .main_section__anime__watch__series__left_side__flexbox__element {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 10px 0;
     border: solid 1px grey;
     background: aliceblue;
     border-radius: 15px;
@@ -923,9 +938,7 @@ body {
     z-index: 1;
     background: #1E90FF;
     border-radius: 7px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px;
     opacity: 80%;
     display: none;
   }

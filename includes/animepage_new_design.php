@@ -30,12 +30,13 @@ if($r1 == null){
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="css/style_new_animepage_v2.css">
+  <link rel="stylesheet" href="css/style_new_animepage_v7.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <title><?php echo $r1['title']; ?> | Animesaver</title>
   <meta name="description" content="Аниме <?php echo $r1['title']; ?>  смотреть онлайн бесплатно без регистрации в хорошем качестве"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
-  <script defer src="scripts/animepagescripts.js"></script>
+  <script defer src="scripts/animepagescripts_v5.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 </head>
 <body>
 
@@ -102,6 +103,49 @@ if($r1 == null){
                     <img src="<?php echo $r1['main_img_sourse']; ?>" alt="Аватарка аниме">
                 </div>
                 <div class="main_section__anime__info__description">
+                    <img src="<?php
+                        $login = $_SESSION['login'];
+                        $anime_id = $r1['id'];
+                        $user_id_array = mysqli_query($connection, "SELECT * FROM `users` WHERE `login` LIKE '$login'");
+                        $user_id_full = mysqli_fetch_assoc($user_id_array);
+                        $user_id = (int) $user_id_full['id'];
+                        $check_favorites_anime = mysqli_query($connection, "SELECT COUNT(*) FROM `favorites_anime` WHERE `user_id` = $user_id AND `anime_id` = $anime_id");
+                        $check_favorites_anime_last = mysqli_fetch_array($check_favorites_anime);
+                        $check_favorites_anime_finish = (int) $check_favorites_anime_last[0];
+                        if (empty($_SESSION['login']) || ($check_favorites_anime_finish == 0)) {
+                            echo "images/round-star.svg";
+                            } else {
+                            echo "images/round-star_done.svg";
+                        } ?>" id="addToFavorites" title="<?php if (empty($_SESSION['login']) || ($check_favorites_anime_finish == 0)) {
+                            echo "Добавить в избранное";
+                        } else {
+                            echo "Удалить из избранного";
+                        }?>">
+                        <form method="post" id="ajax_form" action="" style="display: none;">
+                            <input type="text" name="user_id" value="<?php echo $user_id; ?>" />
+                            <input type="text" name="anime_id" value="<?php echo $r1['id']; ?>" />
+                            <input type="text" name="action" value="<?php if(empty($_SESSION['login'])) {echo "none"; } else if($check_favorites_anime_finish == 0) {echo "add";} else {echo "delete";} ?>" id="addOrDelete"/>
+                        </form>
+                        <div id="result_form" style="display: none;"></div>
+                        <img src="<?php
+                        $check_watched_anime = mysqli_query($connection, "SELECT COUNT(*) FROM `watched_anime` WHERE `user_id` = $user_id AND `anime_id` = $anime_id");
+                        $check_watched_anime_last = mysqli_fetch_array($check_watched_anime);
+                        $check_watched_anime_finish = (int) $check_watched_anime_last[0];
+                        if (empty($_SESSION['login']) || ($check_watched_anime_finish == 0)) {
+                            echo "images/ice-iris.svg";
+                        } else {
+                            echo "images/ice-iris_donee.svg";
+                        } ?>" id="addToWatched" title="<?php if (empty($_SESSION['login']) || ($check_watched_anime_finish == 0)) {
+                            echo "Добавить в просмотренное";
+                        } else {
+                            echo "Удалить из просмотренного";
+                        }?>">
+                        <form method="post" id="ajax_forme" action="" style="display: none;">
+                            <input type="text" name="user_id" value="<?php echo $user_id; ?>" />
+                            <input type="text" name="anime_id" value="<?php echo $r1['id']; ?>" />
+                            <input type="text" name="action" value="<?php if(empty($_SESSION['login'])) {echo "none"; } else if($check_favorites_anime_finish == 0) {echo "add";} else {echo "delete";} ?>" id="addOrDelete_1"/>
+                        </form>
+                        <div id="result_forme" style="display: none;"></div>
                     <h2 class="main_section__anime__info__description_title"><?php echo $r1['title'];?></h2>
                     <p class="main_section__anime__info__description__p">Альтернативное название:
                       <span><?php echo $r1['title_eng']; ?></span>

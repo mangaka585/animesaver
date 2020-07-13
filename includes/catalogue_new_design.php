@@ -21,7 +21,7 @@ session_start();
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="css/style_new_catalogue_v14.css">
+  <link rel="stylesheet" href="css/style_new_catalogue_v18.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <title>Каталог | Animesaver</title>
   <meta name="description" content="Каталог популярных аниме, которые можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
@@ -117,6 +117,16 @@ session_start();
           </section>
 
           <section id="main_section__menu__genres">
+          <section class="main_section__menu__genres__all_genres">
+              <ul>
+                  <?php
+                  $genreslist = mysqli_query($connection, "SELECT * FROM `categories`");
+                  while($genres = mysqli_fetch_assoc($genreslist)) {
+                  ?>
+                  <li><a href="/genres=<?php echo $genres['id']?>"><?php echo $genres['title'] ?></a></li>
+                  <?php } ?>
+              </ul>
+          </section>
             <section>
                 <h3>Приключения</h3>
                 <div class="content__genres">

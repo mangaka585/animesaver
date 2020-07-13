@@ -195,6 +195,37 @@ body {
     color: black;
   }
 
+  .main_section__menu__genres__all_genres ul {
+    display: table;
+    padding-left: 45px;
+  }
+
+  .main_section__menu__genres__all_genres ul li {
+    display: inline-block;
+    width: 200px;
+    border: solid 1px black;
+    background: gray;
+    margin-right: 10px;
+    margin-left: 0;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+  }
+
+  .main_section__menu__genres__all_genres ul li:hover {
+    background: cornflowerblue;
+    color: black ;
+  }
+
+  .main_section__menu__genres__all_genres ul li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
   #menuGenres_mobile,
   #menuYear_mobile,
   #main_section__menu__genres_mobile,
