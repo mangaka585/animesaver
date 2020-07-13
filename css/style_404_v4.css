@@ -1,0 +1,150 @@
+@media screen and (min-width: 469px) {
+    /*Стили для компа*/
+    .layout {
+        text-align: center;
+    }
+
+    .left_side {
+        display: inline-block;
+        width: 45%;
+    }
+
+    .right_side {
+        display: inline-block;
+        width: 40%;
+        border-bottom: solid 2px red;
+        vertical-align: baseline;
+    }
+
+    .right_side img {
+        width: 100%;
+        max-width: 606px;
+        max-height: 900px;
+    }
+
+    .text_2 {
+        font-size: 18em;
+        margin: 0;
+        color: #DC143C;
+        text-align: center;
+    }
+
+    .text_1 {
+        font-size: 2.5em;
+        margin: 0;
+        color: #DC143C;
+        text-align: center;
+    }
+
+    .text_3 {
+        color: #DC143C;
+        font-size: 1.4em;
+        margin: 0;
+        text-align: center;
+    }
+
+    .text_4 {
+        margin: 0;
+        padding: 0;
+        font-size: 1.05em;
+    }
+
+    .text_5 {
+        font-weight: bold;
+        font-size: 1.6em;
+        margin: 1%;
+    }
+
+    ul {
+        margin-left: 2%;
+    }
+
+    .text_6 {
+        color: #DC143C;
+        font-size: 1.3em;
+    }
+
+    .text_7 {
+        color: grey;
+    }
+
+    .text_8 {
+        color: blue;
+        font-size: 1.2em;
+    }
+
+    button {
+        color: green;
+        font-size: 2em;
+        border: solid 2px brown;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 469px) {                                                          /*Стили для мобильника*/
+    .text_1 {
+        color: #DC143C;
+        margin: 0;
+        text-align: center;
+    }
+
+    .text_2 {
+        color: #DC143C;
+        text-align: center;
+        font-size: 13em;
+        margin: 0;
+    }
+
+    .text_3 {
+        color: #DC143C;
+        margin: 0;
+        text-align: center;
+    }
+
+    .text_4 {
+        font-size: 1.05em;
+        text-align: justify;
+        margin-bottom: 0;
+    }
+
+    .text_5 {
+        font-weight: bold;
+        font-size: 1.8em;
+        text-align: center;
+        margin: 30px 0 0;
+    }
+
+    .text_6 {
+        color: #DC143C;
+        font-size: 1.3em;
+        padding-left: 20px;
+        text-align: justify;
+    }
+
+    .text_7 {
+        color: grey;
+    }
+
+    .text_8 {
+        color: blue;
+        font-size: 1.2em;
+        padding-left: 20px;
+        text-align: justify;
+    }
+
+    button {
+        color: green;
+        font-size: 2em;
+        border: solid 2px brown;
+        border-radius: 15px;
+    }
+
+    .right_side {
+        border-bottom: solid 2px red;
+    }
+
+    .right_side img {
+        width: 100%;
+    }
+}

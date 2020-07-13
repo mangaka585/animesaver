@@ -4,31 +4,10 @@
     <meta charset="utf-8">
     <link rel="alternate" hreflang="ru" href="https://animesaver.ru/404_error.php" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Yandex.Metrika counter -->
-    <script async >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-        ym(55604875, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
-        });
-    </script>
-    <!-- /Yandex.Metrika counter -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149359628-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-149359628-1');
-    </script>
     <link rel="shortcut icon" href="https://animesaver.ru/images/avicon_for_line.ico" type="image/png">
     <title>Error-404 | Animesaver</title>
-    <link rel="stylesheet" href="https://animesaver.ru/css/style_404.css">
-    <meta name="description" content="Аниме смотреть онлайн бесплатно без регистрации в хорошем качестве на сайте animesaver.ru" />
+    <link rel="stylesheet" href="https://animesaver.ru/css/style_404_v4.css">
+    <meta name="description" content="Ошибка в адресной строке сайта animesaver.ru" />
     <meta name="keywords" content="Аниме Смотреть Онлайн бесплатно Наруто Клинок Поджелудочную Доктор Стоун Мастера меча онлайн Синий Экзорцист"/>
 </head>
 <body>
