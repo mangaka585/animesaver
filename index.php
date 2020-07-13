@@ -20,6 +20,9 @@ if($url_test == "/" || $random_num == "/index.php")
 }   else if(substr($url_test, 0, 7) == "/genres")
 {   //Отрисовываем страницу каталога жанра
     include "includes/genres.php";
+}   else if(substr($url_test, 0, 5) == "/year")
+{   //Отрисовываем страницу каталога по году
+    include "includes/years.php";
 }   else { //Отрисовываем anime.php
     include "includes/animepage_new_design.php";}
 mysqli_close($connection);?>

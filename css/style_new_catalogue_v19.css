@@ -533,9 +533,8 @@ body {
   header {
     position: relative;
     min-height: 50px;
-    border: 1px solid transparent;
     background-color: #222;
-    border-color: #080808;
+    border: 1px solid #080808;
     margin-bottom: 0;
     padding-bottom: 5px;
   }
@@ -580,10 +579,7 @@ body {
     font-size: 1em;
     border: solid 1px #71B9FF;
     border-radius: 7px;
-    padding: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 6px;
+    padding: 4px 10px 6px;
   }
 
   .header__navigation__buttons__li__active a,
@@ -601,8 +597,7 @@ body {
     display: inline;
     font-size: 1em;
     border-radius: 7px;
-    padding: 4px;
-    padding-bottom: 6px;
+    padding: 4px 4px 6px;
     box-sizing: content-box;
   }
 
@@ -624,8 +619,7 @@ body {
 
   .header__navigation form {
     display: inline-block;
-    margin: 0;
-    margin-left: 6px;
+    margin: 0 0 0 6px;
   }
 
   .header__navigation form button {
@@ -668,20 +662,14 @@ body {
     display: inline-block;
     border: solid 1px black;
     border-bottom: none;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
+    padding: 5px 15px 5px 10px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
 
   .main_section__menu__buttons li {
     display: inline-block;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
+    padding: 5px 15px 5px 10px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
@@ -938,9 +926,7 @@ body {
     z-index: 1;
     background: #1E90FF;
     border-radius: 7px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px;
     opacity: 80%;
     display: none;
   }

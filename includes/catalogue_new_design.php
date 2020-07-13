@@ -21,12 +21,12 @@ session_start();
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="css/style_new_catalogue_v18.css">
+  <link rel="stylesheet" href="css/style_new_catalogue_v19.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <title>Каталог | Animesaver</title>
   <meta name="description" content="Каталог популярных аниме, которые можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
-  <script defer src="scripts/cataloguescripts_v6.js"></script>
+  <script defer src="scripts/cataloguescripts_v10.js"></script>
 </head>
 <body>
 
@@ -809,37 +809,279 @@ session_start();
       </section>
 
         <section id="main_section__menu__year">
-          <div class="content__year">
-            <?php
-            $animeYearArray = mysqli_query($connection,"SELECT * FROM `anime` ORDER BY `anime`.`year` DESC ");
-            while($animeYear = mysqli_fetch_assoc($animeYearArray)) { ?>
-            <div class="content__year__element" style="background: url('<?php echo $animeYear["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 212px 290px;">
-              <a href="/<?php echo $animeYear['link']; ?>">
-                <img src="images/crush.svg" class="content__year__element__yearImg" alt="Значок фона для года">
-                <span style="display:block;" class="content__year__element__yearSpan"><?php echo $animeYear['year']; ?></span>
-                <h5><?php echo $animeYear['title']; ?></h5>
-                <span><b>Рейтинг IMDB:</b> <?php echo $animeYear['IMDb']; ?></span>
-                <p><b>Сюжет:</b> <?php echo mb_substr($animeYear['description'],0,180, 'utf-8') . '...'; ?></p>
-              </a>
-            </div>
-            <?php } ?>
-          </div>
+            <section class="main_section__menu__genres__all_genres">
+                <ul>
+                    <li><a href="/year=2020">2020</a></li>
+                    <li><a href="/year=2019">2019</a></li>
+                    <li><a href="/year=2018">2018</a></li>
+                    <li><a href="/year=2017">2017</a></li>
+                    <li><a href="/year=2016">2016</a></li>
+                    <li><a href="/year=2015">2015</a></li>
+                    <li><a href="/year=2014">2014</a></li>
+                    <li><a href="/year=2013">2013</a></li>
+                    <li><a href="/year=2012">2012</a></li>
+                    <li><a href="/year=2011">2011</a></li>
+                    <li><a href="/year=2010">2010</a></li>
+                    <li><a href="/year=2009">2009</a></li>
+                    <li><a href="/year=2007">2007</a></li>
+                    <li><a href="/year=2006">2006</a></li>
+                    <li><a href="/year=2003">2003</a></li>
+                    <li><a href="/year=2002">2002</a></li>
+                    <li><a href="/year=2001">2001</a></li>
+                    <li><a href="/year=1995">1995</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>2020</h3>
+                <div class="content__genres">
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButton_ul1"/>
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButton_ul1"/>
+                    <ul id="ul1_1">
+                        <?php
+                        $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `year` = 2020 ORDER BY `update_date` DESC LIMIT 0,14");
+                        while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                            <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                                <a href="/<?php echo $adveture['link']; ?>">
+                                    <h5><?php echo $adveture['title']; ?></h5>
+                                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,159, 'utf-8') . '...'; ?></p>
+                                </a>
+                            </li>
+                        <?php } ?>
+                        <li class="content__genres__li_end">
+                            <a href="/year=2020">
+                                <img src="images/select.svg" alt="Иконка проваливания в года">
+                                <span>Ещё<br>...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3>2019</h3>
+                <div class="content__genres">
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButton_ul2"/>
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButton_ul2"/>
+                    <ul id="ul1_2">
+                        <?php
+                        $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `year` = 2019 ORDER BY `update_date` DESC LIMIT 0,14");
+                        while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                            <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                                <a href="/<?php echo $adveture['link']; ?>">
+                                    <h5><?php echo $adveture['title']; ?></h5>
+                                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,159, 'utf-8') . '...'; ?></p>
+                                </a>
+                            </li>
+                        <?php } ?>
+                        <li class="content__genres__li_end">
+                            <a href="/year=2019">
+                                <img src="images/select.svg" alt="Иконка проваливания в года">
+                                <span>Ещё<br>...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3>2018</h3>
+                <div class="content__genres">
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButton_ul3"/>
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButton_ul3"/>
+                    <ul id="ul1_3">
+                        <?php
+                        $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `year` = 2018 ORDER BY `update_date` DESC LIMIT 0,14");
+                        while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                            <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                                <a href="/<?php echo $adveture['link']; ?>">
+                                    <h5><?php echo $adveture['title']; ?></h5>
+                                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,159, 'utf-8') . '...'; ?></p>
+                                </a>
+                            </li>
+                        <?php } ?>
+                        <li class="content__genres__li_end">
+                            <a href="/year=2018">
+                                <img src="images/select.svg" alt="Иконка проваливания в года">
+                                <span>Ещё<br>...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3>2017</h3>
+                <div class="content__genres">
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft" id="toLeftButton_ul4"/>
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight" id="toRightButton_ul4"/>
+                    <ul id="ul1_4">
+                        <?php
+                        $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `year` = 2017 ORDER BY `update_date` DESC LIMIT 0,14");
+                        while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                            <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 200px 280px;">
+                                <a href="/<?php echo $adveture['link']; ?>">
+                                    <h5><?php echo $adveture['title']; ?></h5>
+                                    <span><b>Рейтинг IMDB:</b> <?php echo $adveture['IMDb']; ?></span>
+                                    <p><b>Сюжет:</b> <?php echo mb_substr($adveture['description'],0,159, 'utf-8') . '...'; ?></p>
+                                </a>
+                            </li>
+                        <?php } ?>
+                        <li class="content__genres__li_end">
+                            <a href="/year=2017">
+                                <img src="images/select.svg" alt="Иконка проваливания в года">
+                                <span>Ещё<br>...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </section>
 
         <section id="main_section__menu__year_mobile">
-          <div class="content__year">
-            <?php
-            $animeYearArray = mysqli_query($connection,"SELECT * FROM `anime` ORDER BY `anime`.`year` DESC ");
-            while($animeYear = mysqli_fetch_assoc($animeYearArray)) { ?>
-            <div class="content__year__element" style="background: url('<?php echo $animeYear["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 168px 240px;">
-              <a href="/<?php echo $animeYear['link']; ?>">
-                <img src="images/crush.svg" class="content__year__element__yearImg" alt="Значок фона для года">
-                <span style="display:block;" class="content__year__element__yearSpan"><?php echo $animeYear['year']; ?></span>
-                <h5><?php echo $animeYear['title']; ?></h5>
-              </a>
-            </div>
-            <?php } ?>
-          </div>
+            <section>
+                <h3>2020</h3>
+                <div class="content__genres">
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft"/>
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight"/>
+                    <ul>
+                        <?php
+                        $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `year` = 2020 ORDER BY `update_date` DESC LIMIT 0,14");
+                        while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                            <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 150px 220px;">
+                                <a href="/<?php echo $adveture['link']; ?>">
+                                    <h5><?php echo $adveture['title']; ?></h5>
+                                </a>
+                            </li>
+                        <?php } ?>
+                        <li class="content__genres__li_end">
+                            <a href="/year=2020">
+                                <img src="images/select.svg" alt="Иконка проваливания в года">
+                                <span>Ещё<br>...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3>2019</h3>
+                <div class="content__genres">
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft"/>
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight"/>
+                    <ul>
+                        <?php
+                        $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `year` = 2019 ORDER BY `update_date` DESC LIMIT 0,14");
+                        while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                            <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 150px 220px;">
+                                <a href="/<?php echo $adveture['link']; ?>">
+                                    <h5><?php echo $adveture['title']; ?></h5>
+                                </a>
+                            </li>
+                        <?php } ?>
+                        <li class="content__genres__li_end">
+                            <a href="/year=2019">
+                                <img src="images/select.svg" alt="Иконка проваливания в года">
+                                <span>Ещё<br>...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3>2018</h3>
+                <div class="content__genres">
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft"/>
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight"/>
+                    <ul>
+                        <?php
+                        $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `year` = 2018 ORDER BY `update_date` DESC LIMIT 0,14");
+                        while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                            <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 150px 220px;">
+                                <a href="/<?php echo $adveture['link']; ?>">
+                                    <h5><?php echo $adveture['title']; ?></h5>
+                                </a>
+                            </li>
+                        <?php } ?>
+                        <li class="content__genres__li_end">
+                            <a href="/year=2018">
+                                <img src="images/select.svg" alt="Иконка проваливания в года">
+                                <span>Ещё<br>...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3>2017</h3>
+                <div class="content__genres">
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft"/>
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight"/>
+                    <ul>
+                        <?php
+                        $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `year` = 2017 ORDER BY `update_date` DESC LIMIT 0,14");
+                        while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                            <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 150px 220px;">
+                                <a href="/<?php echo $adveture['link']; ?>">
+                                    <h5><?php echo $adveture['title']; ?></h5>
+                                </a>
+                            </li>
+                        <?php } ?>
+                        <li class="content__genres__li_end">
+                            <a href="/year=2017">
+                                <img src="images/select.svg" alt="Иконка проваливания в года">
+                                <span>Ещё<br>...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3>2016</h3>
+                <div class="content__genres">
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft"/>
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight"/>
+                    <ul>
+                        <?php
+                        $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `year` = 2016 ORDER BY `update_date` DESC LIMIT 0,14");
+                        while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                            <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 150px 220px;">
+                                <a href="/<?php echo $adveture['link']; ?>">
+                                    <h5><?php echo $adveture['title']; ?></h5>
+                                </a>
+                            </li>
+                        <?php } ?>
+                        <li class="content__genres__li_end">
+                            <a href="/year=2016">
+                                <img src="images/select.svg" alt="Иконка проваливания в года">
+                                <span>Ещё<br>...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3>2015</h3>
+                <div class="content__genres">
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toLeft"/>
+                    <img src="images/save-arrow.svg" alt="Стрелка прокрутки аниме" class="content__genres__toRight"/>
+                    <ul>
+                        <?php
+                        $adventuresArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `year` = 2015 ORDER BY `update_date` DESC LIMIT 0,14");
+                        while($adveture = mysqli_fetch_assoc($adventuresArray)) { ?>
+                            <li class="content__genres__li" style="background: url('<?php echo $adveture["main_img_sourse"]; ?>') 100% 100% no-repeat;background-size: 150px 220px;">
+                                <a href="/<?php echo $adveture['link']; ?>">
+                                    <h5><?php echo $adveture['title']; ?></h5>
+                                </a>
+                            </li>
+                        <?php } ?>
+                        <li class="content__genres__li_end">
+                            <a href="/year=2015">
+                                <img src="images/select.svg" alt="Иконка проваливания в года">
+                                <span>Ещё<br>...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </section>
 
         <br>

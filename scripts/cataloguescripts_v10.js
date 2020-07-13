@@ -503,6 +503,135 @@ toRightButtonUl13.addEventListener('click', function(){
   };
 });
 
+
+let ul1_1 = document.getElementById('ul1_1');
+let toLeftButton_ul1= document.getElementById('toLeftButton_ul1');
+toLeftButton_ul1.addEventListener('click', function(){
+  let position = ul1_1.style.transform;
+  let skobka = position.indexOf('(');
+  let px = position.indexOf('px');
+  position = position.slice(skobka+1,px);
+  if(position != 0) {
+    position = +position + 590;
+    if(position > 0) {
+      position = 0;
+    }
+    position = "translateX(" + position + "px)";
+    ul1_1.style.transform = position;
+  }
+});
+let toRightButton_ul1 = document.getElementById('toRightButton_ul1');
+toRightButton_ul1.addEventListener('click', function(){
+  let position = ul1_1.style.transform;
+  let skobka = position.indexOf('(');
+  let px = position.indexOf('px');
+  position = position.slice(skobka+1,px);
+  if(position > -1640) {
+    position = +position - 590;
+    if(position < -1640) {
+      position = -1640;
+    };
+    position = "translateX(" + position + "px)";
+    ul1_1.style.transform = position;
+  }
+});
+
+let ul1_2 = document.getElementById('ul1_2');
+let toLeftButton_ul2= document.getElementById('toLeftButton_ul2');
+toLeftButton_ul2.addEventListener('click', function(){
+  let position = ul1_2.style.transform;
+  let skobka = position.indexOf('(');
+  let px = position.indexOf('px');
+  position = position.slice(skobka+1,px);
+  if(position != 0) {
+    position = +position + 590;
+    if(position > 0) {
+      position = 0;
+    }
+    position = "translateX(" + position + "px)";
+    ul1_2.style.transform = position;
+  }
+});
+let toRightButton_ul2 = document.getElementById('toRightButton_ul2');
+toRightButton_ul2.addEventListener('click', function(){
+  let position = ul1_2.style.transform;
+  let skobka = position.indexOf('(');
+  let px = position.indexOf('px');
+  position = position.slice(skobka+1,px);
+  if(position > -2055) {
+    position = +position - 590;
+    if(position < -2055) {
+      position = -2055;
+    };
+    position = "translateX(" + position + "px)";
+    ul1_2.style.transform = position;
+  }
+});
+
+let ul1_3 = document.getElementById('ul1_3');
+let toLeftButton_ul3= document.getElementById('toLeftButton_ul3');
+toLeftButton_ul3.addEventListener('click', function(){
+  let position = ul1_3.style.transform;
+  let skobka = position.indexOf('(');
+  let px = position.indexOf('px');
+  position = position.slice(skobka+1,px);
+  if(position != 0) {
+    position = +position + 590;
+    if(position > 0) {
+      position = 0;
+    }
+    position = "translateX(" + position + "px)";
+    ul1_3.style.transform = position;
+  }
+});
+let toRightButton_ul3 = document.getElementById('toRightButton_ul3');
+toRightButton_ul3.addEventListener('click', function(){
+  let position = ul1_3.style.transform;
+  let skobka = position.indexOf('(');
+  let px = position.indexOf('px');
+  position = position.slice(skobka+1,px);
+  if(position > -1010) {
+    position = +position - 590;
+    if(position < -1010) {
+      position = -1010;
+    };
+    position = "translateX(" + position + "px)";
+    ul1_3.style.transform = position;
+  }
+});
+
+let ul1_4 = document.getElementById('ul1_4');
+let toLeftButton_ul4= document.getElementById('toLeftButton_ul4');
+toLeftButton_ul4.addEventListener('click', function(){
+  let position = ul1_4.style.transform;
+  let skobka = position.indexOf('(');
+  let px = position.indexOf('px');
+  position = position.slice(skobka+1,px);
+  if(position != 0) {
+    position = +position + 590;
+    if(position > 0) {
+      position = 0;
+    }
+    position = "translateX(" + position + "px)";
+    ul1_4.style.transform = position;
+  }
+});
+let toRightButton_ul4 = document.getElementById('toRightButton_ul4');
+toRightButton_ul4.addEventListener('click', function(){
+  let position = ul1_4.style.transform;
+  let skobka = position.indexOf('(');
+  let px = position.indexOf('px');
+  position = position.slice(skobka+1,px);
+  if(position > -800) {
+    position = +position - 590;
+    if(position < -800) {
+      position = -800;
+    };
+    position = "translateX(" + position + "px)";
+    ul1_4.style.transform = position;
+  }
+});
+
 //Показываем при наведении информацию об аниме во вкладке Жанры
 let content__genres__liArray = document.getElementsByClassName('content__genres__li');
 for (var i = 0; i < content__genres__liArray.length; i++) {
