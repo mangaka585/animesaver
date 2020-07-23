@@ -3,8 +3,6 @@ include "includes/db.php";
 session_start();
 $url_pre = trim($url_test, "/year=");
 $url = (int) $url_pre;
-$genreArray = mysqli_query($connection,"SELECT * FROM `anime` WHERE `year` = '$url'");
-$genre = mysqli_fetch_assoc($genreArray);
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -26,7 +24,7 @@ $genre = mysqli_fetch_assoc($genreArray);
   </style>
   <link rel="stylesheet" href="css/style_genres_v2.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
-  <title>Каталог жанра <?php  echo $genre['title'] ?>| Animesaver</title>
+  <title>Каталог года <?php echo $url; ?> | Animesaver</title>
   <meta name="description" content="Год <?php echo $url;?> аниме, которые можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
   <script defer src="scripts/genres.js"></script>

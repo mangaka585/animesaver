@@ -120,9 +120,11 @@ $myrow = mysqli_fetch_array($result);
                 else {
                     //если существует, то сверяем пароли
                     if ($myrow['password']==$password) {
-                        //если пароли совпадают, то запускаем пользователю сессию! Можете его поздравить, он вошел!
+                        //если пароли совпадают, то запускаем пользователю сессию!
                         $_SESSION['login']=$myrow['login'];
                         $_SESSION['id']=$myrow['id'];//эти данные очень часто используются, вот их и будет "носить с собой" вошедший пользователь
+                        header("Location: https://animesaver.ru/includes/my_profile.php");
+                        exit;
                         ?>
                     <h2 class="welldone_h2">Вы успешно вошли на сайт!</h2>
                     <div class="dabbing"><img src="../images/goodjob.png" alt="dabbing pic" /></div>

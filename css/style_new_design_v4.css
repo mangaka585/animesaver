@@ -60,6 +60,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 6px;
+    cursor: pointer;
   }
 
   .header__navigation__buttons__li__active a,
@@ -85,6 +86,7 @@ body {
     padding-right: 10px;
     padding-bottom: 6px;
     box-sizing:content-box;
+    cursor: pointer;
   }
 
   .header__navigation__buttons__li:hover {

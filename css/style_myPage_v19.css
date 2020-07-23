@@ -1,0 +1,866 @@
+body {
+  margin: 0;
+  background: #F5F5F5;
+  position: relative;
+}
+
+@media screen and (min-width: 469px) {                                          /*Стили для компа и планшета*/
+  header {
+    height: 52px;
+    background: #000000;
+    margin: 0;
+    width: 100%;
+    color: white;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+  }
+
+  .header__navigation {
+    width: 1170px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header__navigation__first_a {
+    text-decoration: none;
+    margin-right: 15px;
+  }
+
+  .header__navigation__first_a__img {
+    width: 45px;
+    vertical-align: middle;
+    margin-top: 3px;
+  }
+
+  .header__navigation__first_a__h1 {
+    font-family: "Comfortaa-Regular";
+    font-size: 2.3em;
+    vertical-align: bottom;
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .header__navigation__buttons {
+    list-style: none;
+    vertical-align: middle;
+    display: inline;
+    font-family: "Oswald";
+  }
+
+  .header__navigation__buttons__li__active {
+    display: inline;
+    font-size: 1.3em;
+    border: solid 1px #71B9FF;
+    border-radius: 7px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+  }
+
+  .header__navigation__buttons__li__active a,
+  .header__navigation__buttons__li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .header__navigation__buttons__li__active a img,
+  .header__navigation__buttons__li a img {
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .header__navigation__buttons__li {
+    display: inline;
+    font-size: 1.3em;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 7px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    box-sizing:content-box;
+  }
+
+  .header__navigation__buttons__li:hover {
+    border: solid 1px white;
+  }
+
+  .header__navigation form {
+    display: inline-block;
+    margin: 0;
+    margin-left: 6px;
+  }
+
+  .header__navigation form button {
+    padding: 4px;
+    vertical-align: middle;
+    border: solid 1px #69ccff;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #69b5ff;
+  }
+
+  .header__navigation form button img {
+    width: 28px;
+  }
+
+  .header__navigation form input {
+    height: 34px;
+    padding-left: 10px;
+    border: solid 1px #69ccff;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-size: 1em;
+  }
+
+  .main_section {
+    width: 1170px;
+    background: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+  }
+
+  .profileInfo {
+    padding-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 30px;
+  }
+
+  .profileInfo__leftSide {
+    display: inline-block;
+    padding: 15px;
+    background: lightblue;
+    vertical-align: top;
+    border-radius: 5px;
+    position: relative;
+    height: 230px;
+    box-sizing: border-box;
+  }
+
+  .profileInfo__leftSide img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+  }
+
+  .upload_avatar {
+    position: absolute;
+    bottom: 5px;
+    display: none;
+  }
+
+  .upload_avatar input {
+    width: 200px;
+  }
+
+  .profileInfo__rightSide {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30px;
+    background: lightblue;
+    border-radius: 5px;
+    width: 550px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    height: 230px;
+  }
+
+  .login {
+    font-family: "Comfortaa-Regular";
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 10px;
+  }
+
+  .profileInfo__rightSide__mainInfo {
+    text-align: left;
+    position: relative;
+  }
+
+  #change_info {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 150px;
+    display: none;
+  }
+
+  .profileInfo__rightSide__mainInfo__leftSide,
+  .profileInfo__rightSide__mainInfo__rightSide {
+    display: inline-block;
+  }
+
+  .profileInfo__rightSide__mainInfo__leftSide ul {
+    color: dimgrey;
+    list-style: none;
+    text-align: left;
+    padding-inline-start: 0;
+    vertical-align: top;
+  }
+
+  .profileInfo__rightSide__mainInfo__rightSide ul {
+    list-style: none;
+    color: unset;
+    padding-inline-start: 40px;
+    vertical-align: top;
+  }
+
+  .edit_info {
+    z-index: 10;
+    position: absolute;
+    background: cornsilk;
+    width: 475px;
+    padding: 10px;
+    left: 43%;
+    border: solid 1px black;
+    border-radius: 15px;
+    top: 105px;
+    height: 165px;
+    display: none;
+  }
+
+  .edit_info__leftSide {
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .edit_info__leftSide ul {
+    margin-top: 0;
+    margin-right: 20px;
+    color: dimgrey;
+    list-style: none;
+    text-align: left;
+    padding-inline-start: 0;
+    vertical-align: top;
+  }
+
+  .edit_info__leftSide ul li {
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+
+  .editInfo__form{
+    display: inline-block;
+  }
+
+  .editInfo__form input {
+    left: 100px;
+    height: 25px;
+    width: 196px;
+    color: black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: solid 1px darkgrey;
+  }
+
+  #save {
+    width: 100px;
+    height: 30px;
+    background: lawngreen;
+    border-radius: 5px;
+    border: solid 1px black;
+  }
+
+  #cancel {
+    width: 100px;
+    height: 30px;
+    background: red;
+    border-radius: 5px;
+    border: solid 1px black;
+  }
+
+  .favoritesAnime,
+  .watchedAnime {
+    padding-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background: lightblue;
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  .favoritesAnime  h3,
+  .watchedAnime h3 {
+    padding-bottom: 10px;
+    font-family: "Comfortaa-Regular";
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .favoritesAnime table ,
+  .watchedAnime table {
+    border: solid 1px black;
+    margin-right: auto;
+    margin-left: auto;
+    background: beige;
+  }
+
+  .trChapter:hover {
+    background: inherit;
+  }
+
+  tr:hover {
+    background: cadetblue;
+  }
+
+  .tableTd1 a,
+  .tableTd2 a,
+  .tableTd3 a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+
+  .tableTd1 {
+    border-right: solid 1px black;
+    padding: 5px;
+    width: 750px;
+    border-bottom: solid 1px black;
+  }
+
+  .tableTd2 {
+    border-right: solid 1px black;
+    padding: 5px;
+    width: 110px;
+    border-bottom: solid 1px black;
+  }
+
+  .tableTd3 {
+    padding: 5px;
+    width: 100px;
+    border-bottom: solid 1px black;
+  }
+
+  iframe {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    background: grey;
+    left: 30%;
+    display: none;
+  }
+
+  .links {
+    height: 200px;
+    background: #25292b;
+  }
+
+  .links__div1 {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .links__title {
+    margin-left: 40px;
+    color: #FFF;
+    padding-top: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-family: "Comfortaa-Regular";
+  }
+
+  .links__ul {
+    list-style: none;
+    color: grey;
+    font-size: 1em;
+    font-family: "Oswald";
+  }
+
+  .links__ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .links__ul li a img {
+    width: 20px;
+    vertical-align: sub;
+    margin-right: 5px;
+  }
+
+  .links__div2 {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+  }
+
+  .links__div3 {
+    display: inline-block;
+    width: 37%;
+  }
+
+  .links__div3 p {
+    font-size: 0.75em;
+    color: grey;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .links__div3__site_logo {
+    margin-left: 148px;
+  }
+
+  .links__div3__site_logo img {
+    width: 45px;
+    vertical-align: middle;
+    margin-top: 3px;
+    margin-right: 1px;
+  }
+
+  .links__div3__site_logo h3 {
+    font-family: "Comfortaa-Regular";
+    font-size: 2.3em;
+    vertical-align: bottom;
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+
+  #to_top_button {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1;
+    background: #1E90FF;
+    border-radius: 7px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 80%;
+    display: none;
+  }
+
+  #to_top_button button {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: inherit;
+    border: none;
+  }
+
+  #to_top_button button img {
+    width: 20px;
+    vertical-align: text-bottom;
+    margin-right: 2px;
+  }
+
+  #to_top_button button span {
+    font-family: "Oswald";
+    font-size: 1.3em;
+  }
+
+  footer {
+    height: 64px;
+    background: #000;
+    text-align: center;
+  }
+
+  footer div {
+    color: #ccc;
+    font-size: 0.8em;
+    padding-top: 14px;
+  }
+}
+
+@media screen and (max-width: 469px) {                                          /*Стили для мобильника*/
+  header {
+    position: relative;
+    min-height: 50px;
+    border: 1px solid transparent;
+    background-color: #222;
+    border-color: #080808;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+  }
+
+  .header__navigation {
+    text-align: center;
+  }
+
+  .header__navigation__first_a {
+    text-decoration: none;
+    margin-left: 15px;
+  }
+
+  .header__navigation__first_a__img {
+    width: 30px;
+    vertical-align: baseline;
+    margin-top: 3px;
+  }
+
+  .header__navigation__first_a__h1 {
+    font-family: "Comfortaa-Regular";
+    font-size: 1.7em;
+    vertical-align: bottom;
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .header__navigation__buttons {
+    list-style: none;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "Oswald";
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 13px;
+  }
+
+  .header__navigation__buttons__li__active {
+    display: inline;
+    font-size: 1em;
+    border: solid 1px #71B9FF;
+    border-radius: 7px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+  }
+
+  .header__navigation__buttons__li__active a,
+  .header__navigation__buttons__li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .header__navigation__buttons__li__active a img,
+  .header__navigation__buttons__li a img {
+    width: 15px;
+  }
+
+  .header__navigation__buttons__li {
+    display: inline;
+    font-size: 1em;
+    border-radius: 7px;
+    padding: 4px;
+    padding-bottom: 6px;
+    box-sizing: content-box;
+  }
+
+  .header__navigation form {
+    display: inline-block;
+    margin: 0;
+    margin-left: 6px;
+  }
+
+  .header__navigation form button {
+    padding: 4px;
+    vertical-align: middle;
+    border: solid 1px #69ccff;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #69b5ff;
+  }
+
+  .header__navigation form button img {
+    width: 28px;
+  }
+
+  .header__navigation form input {
+    height: 34px;
+    padding-left: 10px;
+    border: solid 1px #69ccff;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-size: 1em;
+    width: 290px;
+  }
+
+  .main_section {
+    background: white;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profileInfo {
+    background: lightblue;
+    margin-bottom: 20px;
+  }
+
+  .profileInfo__leftSide {
+    display: inline-block;
+    padding: 15px;
+    vertical-align: bottom;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+  }
+
+  .profileInfo__leftSide img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50px;
+  }
+
+  .upload_avatar {
+    position: absolute;
+    bottom: 5px;
+    display: none;
+  }
+
+  .profileInfo__rightSide {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    width: 60%;
+    word-wrap: break-word;
+  }
+
+  #change_info {
+    top: -20px;
+    position: absolute;
+    right: 5px;
+    width: 150px;
+    display: none;
+}
+
+  .login {
+    font-family: "Comfortaa-Regular";
+    font-size: 1.2em;
+    text-align: left;
+    padding-top: 10px;
+    max-width: 220px;
+  }
+
+  .profileInfo__rightSide__mainInfo {
+    position: relative;
+  }
+
+  .profileInfo__rightSide__mainInfo__leftSide {
+    display: none;
+  }
+
+  .profileInfo__rightSide__mainInfo__rightSide ul {
+    margin-bottom: 0;
+    list-style: none;
+    color: unset;
+    padding-inline-start: 0;
+    vertical-align: top;
+    margin-top: 5px;
+    display: table-caption;
+    min-width: 200px;
+  }
+
+  .profileInfo__rightSide__mainInfo__rightSide ul li {
+    display: inline;
+  }
+
+  #watchedcount,
+  .tableTd2,
+  .tableTd3 {
+    display: none;
+  }
+
+  #birth {
+    display: block;
+  }
+
+  .edit_info {
+    z-index: 10;
+    position: absolute;
+    background: cornsilk;
+    width: 90%;
+    padding: 10px;
+    left: 2%;
+    border: solid 1px black;
+    border-radius: 15px;
+    top: 105px;
+    height: 165px;
+    display: none;
+  }
+
+  .edit_info__leftSide {
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .edit_info__leftSide ul {
+    margin-top: 0;
+    margin-right: 20px;
+    color: dimgrey;
+    list-style: none;
+    text-align: left;
+    padding-inline-start: 0;
+    vertical-align: top;
+  }
+
+  .edit_info__leftSide ul li {
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+
+  .editInfo__form {
+    display: inline-block;
+  }
+
+  .editInfo__form input {
+    left: 100px;
+    height: 25px;
+    width: 196px;
+    color: black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: solid 1px darkgrey;
+  }
+
+  #save {
+    width: 100px;
+    height: 30px;
+    background: lawngreen;
+    border-radius: 5px;
+    border: solid 1px black;
+  }
+
+  #cancel {
+    width: 100px;
+    height: 30px;
+    background: red;
+    border-radius: 5px;
+    border: solid 1px black;
+  }
+
+  .favoritesAnime,
+  .watchedAnime {
+    padding-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: lightblue;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  .favoritesAnime h3,
+  .watchedAnime h3 {
+    padding-bottom: 10px;
+    font-family: "Comfortaa-Regular";
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  table {
+    border: solid 1px black;
+    margin-right: auto;
+    margin-left: auto;
+    background: beige;
+  }
+
+  .tableTd1 {
+    border-right: solid 1px black;
+    padding: 5px;
+    width: 750px;
+    border-bottom: solid 1px black;
+  }
+
+  .tableTd1 a {
+    text-decoration: none;
+    color: darkblue;
+  }
+
+  .links {
+    background: #25292b;
+    padding-bottom: 10px;
+  }
+
+  .links__div1 {
+    vertical-align: top;
+  }
+
+  .links__title {
+    margin-left: 40px;
+    color: #FFF;
+    padding-top: 10px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    font-family: "Comfortaa-Regular";
+  }
+
+  .links__ul {
+    list-style: none;
+    color: grey;
+    font-size: 1em;
+    font-family: "Oswald";
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .links__ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .links__ul li a img {
+    width: 20px;
+    vertical-align: sub;
+    margin-right: 5px;
+  }
+
+  .links__div2 {
+    vertical-align: top;
+  }
+
+  .links__div3 {
+    display: none;
+  }
+
+  #to_top_button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+    background: #1E90FF;
+    border-radius: 7px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 80%;
+    display: none;
+  }
+
+  #to_top_button button {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: inherit;
+    border: none;
+  }
+
+  #to_top_button button img {
+    width: 20px;
+    vertical-align: text-bottom;
+    margin-right: 2px;
+  }
+
+  #to_top_button button span {
+    font-family: "Oswald";
+    font-size: 1.3em;
+  }
+
+  footer {
+    display: none;
+  }
+}
