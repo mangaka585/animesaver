@@ -27,7 +27,7 @@ if (empty($_SESSION['login'])) {
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="../css/style_myPage_v19.css">
+  <link rel="stylesheet" href="../css/style_myPage_v25.css">
   <link rel="shortcut icon" href="../images/favicon_for_line.ico" type="image/png">
   <title>Моя страница | Animesaver</title>
   <meta name="description" content="Моя страница на Animesaver.ru"/>

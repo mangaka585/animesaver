@@ -30,12 +30,12 @@ if($r1 == null){
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="css/style_new_animepage_v7.css">
+  <link rel="stylesheet" href="css/style_new_animepage_v10.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <title><?php echo $r1['title']; ?> | Animesaver</title>
   <meta name="description" content="Аниме <?php echo $r1['title']; ?>  смотреть онлайн бесплатно без регистрации в хорошем качестве"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
-  <script defer src="scripts/animepagescripts_v5.js"></script>
+  <script defer src="scripts/animepagescripts_v9.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 </head>
 <body>
@@ -303,6 +303,51 @@ if($r1 == null){
                         <iframe id="iframe" allowfullscreen="">
                         </iframe>
                       </div>
+                  </section>
+
+                  <section class="comments">                                                      <!--Секция комментариев-->
+                    <hr>
+                    <h4>Комментарии</h4>
+                    <div class="commentsFlexbox">
+                      <?php 
+                      $commentsArray = mysqli_query($connection,"SELECT * FROM `comments` WHERE `anime_id` = $anime_id ORDER BY `pubdate` ASC ");
+                      if(mysqli_num_rows($commentsArray) == 0) { ?>
+                          <h6>Стань первым, кто прокомментирует это аниме</h6>
+                      <?php } else {
+                    while($comment = mysqli_fetch_assoc($commentsArray)) { 
+                      $commentUserId = $comment['user_id'];
+                      ?>
+                      <div class="comments__element">
+                        <div class="comments__element__leftside">
+                          <img src="images/avatars/<?php 
+                            $userCommentArray = mysqli_query($connection,"SELECT * FROM `users` WHERE `id` = $commentUserId ");
+                            $userCommentId = mysqli_fetch_assoc($userCommentArray);
+                            echo $userCommentId['avatar'];
+                           ?>" alt="Аватарка пользователя">
+                        </div>
+                        <div class="comments__element__rightside">
+                          <h5><?php echo $userCommentId['login'] ?></h5>
+                          <p><?php echo $comment['text'] ?></p>
+                        </div>
+                      </div>
+                    </div>
+                  <?php } }
+                  if(empty($_SESSION['login'])) {?>
+                    <p class="no_login">Авторизуйтесь, чтобы оставлять комментарии</p>
+                  <?php } else { ?>
+                    <div class="addComments">
+                      <div class="addComments__leftSide">
+                        <img src="images/avatars/<?php echo $user_id_full['avatar']; ?>" alt="Аватарка пользователя">
+                      </div>
+                      <div class="addComments__rightSide">
+                        <form method="post" id="ajax_formComment" action="">   
+                          <textarea rows="5" cols="100" name="text" placeholder="Здесь можно оставить свой комментарий" class="textarea"></textarea>
+                          <input type="text" name="user_id" value="<?php echo $user_id_full['id']; ?>" style="display: none;">
+                          <input type="text" name="anime_id" value="<?php echo $r1['id']; ?>" style="display: none;">
+                          <input type="submit" onclick="event.preventDefault()" value="Отправить" class="submit" id="submit">
+                        </form>
+                      </div>
+                    </div> <?php } ?>
                   </section>
 
             </section>

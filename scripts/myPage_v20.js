@@ -78,6 +78,7 @@ change_infoButton.addEventListener('click', function() {
 document.getElementById('cancel').addEventListener('click', function(){
   document.getElementById('editInfo').style.display = 'none';
 })
+
 let save = document.getElementById('save');                                     //Сохраняем изменения профиля
 function sent(){
   sendAjaxForm('result_form', 'ajax_form', 'save_user_changes.php');

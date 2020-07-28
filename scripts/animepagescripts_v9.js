@@ -97,3 +97,24 @@ addToWatched.addEventListener('click', function(){
     }
   }
 })
+
+let submitButton = document.getElementById('submit');                                     //Публикуем комментарий
+function sentComment(){
+  sendAjaxFormComment('ajax_formComment', 'includes/addComments.php');
+  return false;
+}
+function sendAjaxFormComment(ajax_formComment, url) {
+  $.ajax({
+    url:     url,
+    type:     "POST",
+    dataType: "html",
+    data: $("#"+ajax_formComment).serialize(),
+  });
+}
+function reloadPage(){
+  window.location.replace(window.location.pathname + window.location.search + window.location.hash);
+}
+submitButton.addEventListener('click', function(event){
+  sentComment();
+  setTimeout(reloadPage, 1000);
+})

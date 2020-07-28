@@ -344,14 +344,28 @@ body {
     border-bottom: solid 1px black;
   }
 
-  iframe {
-    width: 500px;
-    height: 300px;
-    position: absolute;
-    top: 10%;
-    background: grey;
-    left: 30%;
-    display: none;
+  .welldone_h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    color: darkblue;
+  }
+
+  .dabbing_wrong {
+    text-align: center;
+  }
+
+  .iframe_class {
+    text-align: center;
+    margin: auto auto 20px;
+  }
+
+  .entry_frame {
+    border: none;
+    height: 180px;
+    width: 200px;
+    background: black;
+    border-radius: 15px;
   }
 
   .links {
@@ -778,6 +792,34 @@ body {
   .tableTd1 a {
     text-decoration: none;
     color: darkblue;
+  }
+
+  .welldone_h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    color: darkblue;
+  }
+
+  .dabbing_wrong {
+    text-align: center;
+  }
+
+  .dabbing_wrong img {
+    max-width: 100%;
+  }
+
+  .iframe_class {
+    text-align: center;
+    margin: auto auto 20px;
+  }
+
+  .entry_frame {
+    border: none;
+    height: 180px;
+    width: 200px;
+    background: black;
+    border-radius: 15px;
   }
 
   .links {
