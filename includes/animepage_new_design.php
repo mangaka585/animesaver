@@ -120,7 +120,7 @@ if($r1 == null){
                             echo "Добавить в избранное";
                         } else {
                             echo "Удалить из избранного";
-                        }?>">
+                        }?>" alt="Добавить/удалить избранное">
                         <form method="post" id="ajax_form" action="" style="display: none;">
                             <input type="text" name="user_id" value="<?php echo $user_id; ?>" />
                             <input type="text" name="anime_id" value="<?php echo $r1['id']; ?>" />
@@ -139,7 +139,7 @@ if($r1 == null){
                             echo "Добавить в просмотренное";
                         } else {
                             echo "Удалить из просмотренного";
-                        }?>">
+                        }?>" alt="Добавить/удалить просмотренное">
                         <form method="post" id="ajax_forme" action="" style="display: none;">
                             <input type="text" name="user_id" value="<?php echo $user_id; ?>" />
                             <input type="text" name="anime_id" value="<?php echo $r1['id']; ?>" />

@@ -1,19 +1,33 @@
   //Переключение вкладок
   let menuNewButton = document.getElementById('menuNewButton');
   let menuMagazineButton = document.getElementById('menuMagazineButton');
+  let menuTasksButton = document.getElementById('menuTasksButton');
   let contentNew = document.getElementById('content__new');
   let contentWeeklysaver = document.getElementById('content__weeklysaver');
+  let contentTasks = document.getElementById('content__tasks');
   menuNewButton.addEventListener('click',function(){
   contentWeeklysaver.style.display = 'none';
+  contentTasks.style.display = 'none';
   menuMagazineButton.classList.remove('main_section__menu__buttons__active');
+  menuTasksButton.classList.remove('main_section__menu__buttons__active');
   contentNew.style.display = 'block';
   menuNewButton.classList.add('main_section__menu__buttons__active');
   });
   menuMagazineButton.addEventListener('click', function(){
   contentNew.style.display = 'none';
+  contentTasks.style.display = 'none';
   menuNewButton.classList.remove('main_section__menu__buttons__active');
+  menuTasksButton.classList.remove('main_section__menu__buttons__active');
   contentWeeklysaver.style.display = 'block';
   menuMagazineButton.classList.add('main_section__menu__buttons__active');
+  });
+  menuTasksButton.addEventListener('click', function(){
+  contentNew.style.display = 'none';
+  contentWeeklysaver.style.display = 'none';
+  contentTasks.style.display = 'block';
+  menuNewButton.classList.remove('main_section__menu__buttons__active');
+  menuMagazineButton.classList.remove('main_section__menu__buttons__active');
+  menuTasksButton.classList.add('main_section__menu__buttons__active');
   });
   //Заполнение содержанием журнала в правой части страницы
   let firstMagazine = document.getElementById('firstMagazine');

@@ -374,6 +374,79 @@ body {
     color: darkslategray;
   }
 
+  .content__tasks {
+    display: none;
+  }
+
+  .content__tasks h4 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+
+  #takskTable {
+    border-collapse: collapse;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+    text-align: center;
+    width: 90%;
+  }
+
+  #tasksTableTr {
+    background: #71B9FF;
+    font-family: "Comfortaa-Regular";
+  }
+
+  .tasksTableTrTd1 {
+    padding: 5px;
+    border: solid 1px black;
+    width: 25%;
+  }
+
+  .tasksTableTrTd2  {
+    width: 60%;
+    border: solid 1px black;
+  }
+
+  .tasksTableTrTd3  {
+    border: solid 1px black;
+  }
+
+  .tasksTableTrTd11 {
+    text-align: left;
+    padding: 5px;
+  }
+
+  .tasksTableTrTd11 img {
+    width: 50px;
+    border-radius: 5px;
+    border: grey;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  .tasksTableTrTd11 span {
+    font-family: "Comfortaa-Regular";
+    font-weight: 600;
+    vertical-align: sub;
+  }
+
+  .tesksTableTrTd22 {
+    padding: 5px;
+    text-align: left;
+    border-top: solid 1px darkgrey;
+    border-left: solid 1px darkgray;
+    border-right: solid 1px darkgray;
+  }
+
+  .tasksTableTrTd33 {
+    padding: 5px;
+  }
+
   .links {
     height: 200px;
     background: #25292b;

@@ -28,7 +28,7 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
   <meta name="description" content="Только самые популярные аниме в хорошем качестве без рекламы можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
   <meta name="google-site-verification" content="_yyf1MpKF0VC1IK6_gsW4rDxrrsRNWtylmtxAADzVhE" /> <!--Код для googleConsole-->
-  <script defer src="scripts/homepagescripts.js"></script>
+  <script defer src="scripts/homepagescripts_v2.js"></script>
 </head>
 <body>
 
@@ -104,6 +104,11 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                         <img src="images/conversation.svg" alt="значок журнала"><span>Журнал</span>
                     </a>
                 </li>
+                <li id="menuTasksButton">
+                    <a href="#tasks">
+                        <img src="images/envelope.svg" alt="значок Заявок"><span>Заявки</span>
+                    </a>
+                </li>
             </ul>
         </section>
 
@@ -144,34 +149,54 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
             </section>
 
             <section class="content__weeklysaver" id="content__weeklysaver">    <!--Блок Контента Журнал main_section-->
-                <br>
-                <section class="content__weeklysaver__left_side">
-                    <div class="content__weeklysaver__left_side__flexbox">
-                      <div class="content__weeklysaver__left_side__flexbox__element" id="fourthMagazine">
-                          <a href="https://animesaver.ru/ws/magazine/samples/fourth.html">
-                              <img src="ws/magazine/samples/pages/fourth/1.jpg" alt="Изображение выпуска 4"><h3>Выпуск № 4</h3>
-                          </a>
-                      </div>
-                      <div class="content__weeklysaver__left_side__flexbox__element" id="thirdMagazine">
-                          <a href="https://animesaver.ru/ws/magazine/samples/third.html">
-                              <img src="ws/magazine/samples/pages/third/1.jpg" alt="Изображение выпуска 3"><h3>Выпуск № 3</h3>
-                          </a>
-                      </div>
-                      <div class="content__weeklysaver__left_side__flexbox__element" id="secondMagazine">
-                          <a href="https://animesaver.ru/ws/magazine/samples/second.html">
-                              <img src="ws/magazine/samples/pages/second/1.jpg" alt="Изображение выпуска 2"><h3>Выпуск № 2</h3>
-                          </a>
-                      </div>
-                      <div class="content__weeklysaver__left_side__flexbox__element" id="firstMagazine">
-                          <a href="https://animesaver.ru/ws/magazine/samples/index.html">
-                              <img src="ws/magazine/samples/pages/first/1.jpg" alt="Изображение выпуска 1"><h3>Выпуск № 1</h3>
-                          </a>
-                      </div>
-                    </div>
-                </section>
-                <section class="contect__weeklysaver__right_side" id="rightSideMagazine">
-                    <h4 id="magazineH4">Наведите на выпуск</h4>
-                </section>
+              <br>
+              <section class="content__weeklysaver__left_side">
+                <div class="content__weeklysaver__left_side__flexbox">
+                  <div class="content__weeklysaver__left_side__flexbox__element" id="fourthMagazine">
+                    <a href="https://animesaver.ru/ws/magazine/samples/fourth.html">
+                      <img src="ws/magazine/samples/pages/fourth/1.jpg" alt="Изображение выпуска 4"><h3>Выпуск № 4</h3>
+                    </a>
+                  </div>
+                  <div class="content__weeklysaver__left_side__flexbox__element" id="thirdMagazine">
+                    <a href="https://animesaver.ru/ws/magazine/samples/third.html">
+                      <img src="ws/magazine/samples/pages/third/1.jpg" alt="Изображение выпуска 3"><h3>Выпуск № 3</h3>
+                    </a>
+                  </div>
+                  <div class="content__weeklysaver__left_side__flexbox__element" id="secondMagazine">
+                    <a href="https://animesaver.ru/ws/magazine/samples/second.html">
+                      <img src="ws/magazine/samples/pages/second/1.jpg" alt="Изображение выпуска 2"><h3>Выпуск № 2</h3>
+                    </a>
+                  </div>
+                  <div class="content__weeklysaver__left_side__flexbox__element" id="firstMagazine">
+                    <a href="https://animesaver.ru/ws/magazine/samples/index.html">
+                      <img src="ws/magazine/samples/pages/first/1.jpg" alt="Изображение выпуска 1"><h3>Выпуск № 1</h3>
+                    </a>
+                  </div>
+                </div>
+              </section>
+              <section class="contect__weeklysaver__right_side" id="rightSideMagazine">
+                <h4 id="magazineH4">Наведите на выпуск</h4>
+              </section>
+            </section>
+
+            <section class="content__tasks" id="content__tasks">                <!--Блок Заявок main_section-->
+              <br>
+              <h4>Заявки на добавление / обновление контента</h4>
+              <table id="takskTable">
+                <tr id="tasksTableTr">
+                  <td class="tasksTableTrTd1">Автор</td>
+                  <td class="tasksTableTrTd2">Содержание</td>
+                  <td class="tasksTableTrTd3">Статус</td>
+                </tr>
+                <tr>
+                  <td class="tasksTableTrTd11">
+                    <img src="images/avatars/10.jpg" alt="Аватарка пользователя">
+                    <span>mangaka585</span>
+                  </td>
+                  <td class="tesksTableTrTd22">Последние серии Боруто (160-162)</td>
+                  <td class="tasksTableTrTd33">Активна</td>
+                </tr>
+              </table>
             </section>
 
             <br>

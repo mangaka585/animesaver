@@ -103,8 +103,8 @@ session_start();
                     $search = htmlspecialchars($search);
                     //удаляем лишние пробелы
                     $search = trim($search);
-                    $search_array = mysqli_query($connection,"SELECT * FROM `anime` WHERE `title` LIKE '%$search%' ");
-                    $search_count_post = mysqli_query($connection, "SELECT COUNT(1) FROM `anime` WHERE `title` LIKE '%$search%' ");
+                    $search_array = mysqli_query($connection,"SELECT * FROM `anime` WHERE `title` LIKE '%$search%' OR `title_eng` LIKE '%$search%'");
+                    $search_count_post = mysqli_query($connection, "SELECT COUNT(1) FROM `anime` WHERE `title` LIKE '%$search%' OR `title_eng` LIKE '%$search%'");
                     $search_count_get = mysqli_fetch_array($search_count_post);
                     $search_count = ceil($search_count_get[0]);
                   ?>
