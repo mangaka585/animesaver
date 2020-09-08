@@ -2,6 +2,7 @@
 include "includes/db.php";
 session_start();
 $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_date` DESC LIMIT 0,66");
+$tasksArray = mysqli_query($connection,"SELECT * FROM  `tasks` ORDER BY `date`");
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -21,7 +22,7 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="css/style_new_design_v4.css">
+  <link rel="stylesheet" href="css/style_new_design_v8.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <link rel="cannonical" hreflang="ru" href="https://animesaver.ru/">
   <title>Смотреть аниме онлайн бесплатно в хорошем качестве | Animesaver</title>
@@ -188,14 +189,21 @@ $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_
                   <td class="tasksTableTrTd2">Содержание</td>
                   <td class="tasksTableTrTd3">Статус</td>
                 </tr>
-                <tr>
-                  <td class="tasksTableTrTd11">
-                    <img src="images/avatars/10.jpg" alt="Аватарка пользователя">
-                    <span>mangaka585</span>
-                  </td>
-                  <td class="tesksTableTrTd22">Последние серии Боруто (160-162)</td>
-                  <td class="tasksTableTrTd33">Активна</td>
-                </tr>
+                <?php while($task = mysqli_fetch_assoc($tasksArray)){ ?>
+                  <tr>
+                    <td class="tasksTableTrTd11">
+                      <?php
+                        $userIdPre = $task['user_id'];
+                        $userArray = mysqli_query($connection,"SELECT * FROM `users` WHERE `id` = $userIdPre");
+                        $userId = mysqli_fetch_assoc($userArray);
+                        ?>
+                      <img src="images/avatars/<?php echo $userId['avatar'];?>" alt="Аватарка пользователя">
+                      <span><?php echo $userId['login'];?></span>
+                    </td>
+                    <td class="tesksTableTrTd22"><?php echo $task['text']; ?></td>
+                    <td class="tasksTableTrTd33"><?php echo $task['status']; ?></td>
+                  </tr>
+                <?php } ?>
               </table>
             </section>
 

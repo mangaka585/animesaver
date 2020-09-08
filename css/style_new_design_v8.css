@@ -56,10 +56,7 @@ body {
     font-size: 1.3em;
     border: solid 1px #71B9FF;
     border-radius: 7px;
-    padding: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 6px;
+    padding: 4px 10px 6px;
     cursor: pointer;
   }
 
@@ -81,10 +78,7 @@ body {
     margin-left: 1px;
     margin-right: 1px;
     border-radius: 7px;
-    padding: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 6px;
+    padding: 4px 10px 6px;
     box-sizing:content-box;
     cursor: pointer;
   }
@@ -111,8 +105,7 @@ body {
 
   .header__navigation form {
     display: inline-block;
-    margin: 0;
-    margin-left: 6px;
+    margin: 0 0 0 6px;
   }
 
   .header__navigation form button {
@@ -156,20 +149,14 @@ body {
     display: inline-block;
     border: solid 1px black;
     border-bottom: none;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
+    padding: 5px 15px 5px 10px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
 
   .main_section__menu__buttons li {
     display: inline-block;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
+    padding: 5px 15px 5px 10px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
@@ -418,6 +405,7 @@ body {
   .tasksTableTrTd11 {
     text-align: left;
     padding: 5px;
+    border-bottom: solid 1px darkgrey;
   }
 
   .tasksTableTrTd11 img {
@@ -438,13 +426,14 @@ body {
   .tesksTableTrTd22 {
     padding: 5px;
     text-align: left;
-    border-top: solid 1px darkgrey;
+    border-bottom: solid 1px darkgrey;
     border-left: solid 1px darkgray;
     border-right: solid 1px darkgray;
   }
 
   .tasksTableTrTd33 {
     padding: 5px;
+    border-bottom: solid 1px darkgrey;
   }
 
   .links {
@@ -532,9 +521,7 @@ body {
     z-index: 1;
     background: #1E90FF;
     border-radius: 7px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px;
     opacity: 80%;
     display: none;
   }
@@ -622,10 +609,7 @@ body {
     font-size: 1em;
     border: solid 1px #71B9FF;
     border-radius: 7px;
-    padding: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 6px;
+    padding: 4px 10px 6px;
   }
 
   .header__navigation__buttons__li__active a,
@@ -643,8 +627,7 @@ body {
     display: inline;
     font-size: 1em;
     border-radius: 7px;
-    padding: 4px;
-    padding-bottom: 6px;
+    padding: 4px 4px 6px;
     box-sizing: content-box;
   }
 
@@ -670,8 +653,7 @@ body {
 
   .header__navigation form {
     display: inline-block;
-    margin: 0;
-    margin-left: 6px;
+    margin: 0 0 0 6px;
   }
 
   .header__navigation form button {
@@ -714,20 +696,14 @@ body {
     display: inline-block;
     border: solid 1px black;
     border-bottom: none;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
+    padding: 5px 15px 5px 10px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
 
   .main_section__menu__buttons li {
     display: inline-block;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
+    padding: 5px 15px 5px 10px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
@@ -906,6 +882,76 @@ body {
     display: none;
   }
 
+  .content__tasks {
+    display: none;
+  }
+
+  .content__tasks h4 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+
+  #takskTable {
+    border-collapse: collapse;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    text-align: center;
+    width: 95%;
+  }
+
+  #tasksTableTr {
+    background: #71B9FF;
+    font-family: "Comfortaa-Regular";
+  }
+
+  .tasksTableTrTd1 {
+    padding: 5px;
+    border: solid 1px black;
+    width: 30%;
+  }
+
+  .tasksTableTrTd2  {
+    width: 60%;
+    border: solid 1px black;
+  }
+
+  .tasksTableTrTd3  {
+    border: solid 1px black;
+  }
+
+  .tasksTableTrTd11 {
+    text-align: left;
+    padding: 5px;
+    border-bottom: solid 1px darkgrey;
+  }
+
+  .tasksTableTrTd11 img {
+    display: none;
+  }
+
+  .tasksTableTrTd11 span {
+    font-family: "Comfortaa-Regular";
+    font-size: 0.9em;
+    vertical-align: sub;
+  }
+
+  .tesksTableTrTd22 {
+    padding: 5px;
+    text-align: left;
+    border-bottom: solid 1px darkgrey;
+    border-left: solid 1px darkgray;
+    border-right: solid 1px darkgray;
+  }
+
+  .tasksTableTrTd33 {
+    padding: 5px;
+    border-bottom: solid 1px darkgrey;
+  }
+
   .links {
     background: #25292b;
     padding-bottom: 10px;
@@ -960,9 +1006,7 @@ body {
     z-index: 1;
     background: #1E90FF;
     border-radius: 7px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px;
     opacity: 80%;
     display: none;
   }
