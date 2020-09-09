@@ -132,3 +132,26 @@
   	t--;
   	return -c/2 * (t*(t-2) - 1) + b;
   };
+
+let submitButton = document.getElementById('submit');                                     //Публикуем заявку
+function sentTask(){
+  sendAjaxFormTask('ajax_formTask', 'includes/addTasks.php');
+  return false;
+}
+function sendAjaxFormTask(ajax_formTask, url) {
+  $.ajax({
+    url:     url,
+    type:     "POST",
+    dataType: "html",
+    data: $("#"+ajax_formTask).serialize(),
+  });
+}
+function refresh() {    
+  setTimeout(function () {
+      location.reload()
+  }, 100);
+}
+submitButton.addEventListener('click', function(event){
+  sentTask();
+  refresh();
+})

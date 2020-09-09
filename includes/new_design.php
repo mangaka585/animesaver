@@ -2,7 +2,7 @@
 include "includes/db.php";
 session_start();
 $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_date` DESC LIMIT 0,66");
-$tasksArray = mysqli_query($connection,"SELECT * FROM  `tasks` ORDER BY `date`");
+$tasksArray = mysqli_query($connection,"SELECT * FROM  `tasks` ORDER BY `date` DESC");
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -22,14 +22,15 @@ $tasksArray = mysqli_query($connection,"SELECT * FROM  `tasks` ORDER BY `date`")
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="css/style_new_design_v8.css">
+  <link rel="stylesheet" href="css/style_new_design_v9.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <link rel="cannonical" hreflang="ru" href="https://animesaver.ru/">
   <title>Смотреть аниме онлайн бесплатно в хорошем качестве | Animesaver</title>
   <meta name="description" content="Только самые популярные аниме в хорошем качестве без рекламы можно посмотреть онлайн на Animesaver.ru - самом простом сайте по аниме в России! Без регистрации и совершенно бесплатно!"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
   <meta name="google-site-verification" content="_yyf1MpKF0VC1IK6_gsW4rDxrrsRNWtylmtxAADzVhE" /> <!--Код для googleConsole-->
-  <script defer src="scripts/homepagescripts_v2.js"></script>
+  <script defer src="scripts/homepagescripts_v6.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 </head>
 <body>
 
@@ -205,6 +206,25 @@ $tasksArray = mysqli_query($connection,"SELECT * FROM  `tasks` ORDER BY `date`")
                   </tr>
                 <?php } ?>
               </table>
+                  <?php 
+                  if(empty($_SESSION['login'])) {?>
+                    <p class="no_login">Авторизуйтесь, чтобы сделать заявку</p>
+                  <?php } else { 
+                    $login = $_SESSION['login'];
+                    $user_id_array = mysqli_query($connection, "SELECT * FROM `users` WHERE `login` LIKE '$login'");
+                    $user_id_full = mysqli_fetch_assoc($user_id_array); ?>
+                    <div class="addTasks">
+                      <div class="addTasks__leftSide">
+                        <img src="images/avatars/<?php echo $user_id_full['avatar']; ?>" alt="Аватарка пользователя">
+                      </div>
+                      <div class="addTasks__rightSide">
+                        <form method="post" id="ajax_formTask" action="">   
+                          <textarea rows="5" cols="100" name="text" placeholder="Здесь можно ввести текст заявки" class="textarea"></textarea>
+                          <input type="text" name="user_id" value="<?php echo $user_id_full['id']; ?>" style="display: none;">
+                          <input type="submit" onclick="event.preventDefault()" value="Отправить" class="submit" id="submit">
+                        </form>
+                      </div>
+                    <?php } ?>
             </section>
 
             <br>

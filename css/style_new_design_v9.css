@@ -436,6 +436,52 @@ body {
     border-bottom: solid 1px darkgrey;
   }
 
+  .addTasks {
+    padding-left: 30px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .addTasks__leftSide {
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: top;
+  }
+
+  .addTasks__leftSide img {
+    width: 120px;
+    height: 120px;
+    border: solid 1px blue;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+
+  .addTasks__rightSide {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .textarea {
+    display: block;
+    margin: 0 0 6px;
+    background: honeydew;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .submit {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .no_login {
+    text-align: center;
+  }
+
   .links {
     height: 200px;
     background: #25292b;
@@ -950,6 +996,55 @@ body {
   .tasksTableTrTd33 {
     padding: 5px;
     border-bottom: solid 1px darkgrey;
+  }
+
+  .addTasks {
+    padding-left: 5px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .addTasks__leftSide {
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: top;
+  }
+
+  .addTasks__leftSide img {
+    width: 60px;
+    height: 60px;
+    border: solid 1px blue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .addTasks__rightSide {
+    display: inline-block;
+    vertical-align: top;
+    width: 74%;
+  }
+
+  .textarea {
+    display: block;
+    margin: 0 0 6px;
+    background: honeydew;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  .submit {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .no_login {
+    text-align: center;
   }
 
   .links {
