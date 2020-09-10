@@ -2,7 +2,7 @@
 include "includes/db.php";
 session_start();
 $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_date` DESC LIMIT 0,66");
-$tasksArray = mysqli_query($connection,"SELECT * FROM  `tasks` ORDER BY `date` DESC");
+$tasksArray = mysqli_query($connection,"SELECT * FROM  `tasks` ORDER BY `date` DESC LIMIT 0,30");
 ?>
 <!DOCTYPE html>
 <html lang="ru">

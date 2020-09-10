@@ -20,14 +20,15 @@ session_start();
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="../css/style_new_design_v8.css">
+  <link rel="stylesheet" href="../css/style_new_design_v9.css">
   <link rel="shortcut icon" href="../images/favicon_for_line.ico" type="image/png">
   <link rel="cannonical" hreflang="ru" href="https://animesaver.ru/">
   <title>Поиск аниме на сайте | Animesaver</title>
   <meta name="description" content="Поиск аниме на Animesaver.ru"/>
   <meta name="keywords" content="мультфильмы, аниме, смотреть, онлайн, видео, серии, сезоны, эпизоды, мультики, online"/>
   <meta name="google-site-verification" content="_yyf1MpKF0VC1IK6_gsW4rDxrrsRNWtylmtxAADzVhE" /> <!--Код для googleConsole-->
-  <script defer src="../scripts/homepagescripts.js"></script>
+  <script defer src="../scripts/homepagescripts_6.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 </head>
 <body>
 
