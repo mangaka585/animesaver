@@ -423,12 +423,22 @@ body {
     vertical-align: sub;
   }
 
-  .tesksTableTrTd22 {
+  .tasksTableTrTd22 {
     padding: 5px;
     text-align: left;
     border-bottom: solid 1px darkgrey;
     border-left: solid 1px darkgray;
     border-right: solid 1px darkgray;
+  }
+
+  .tasksTableTrTd22 a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .tasksTableTrTd22 a:hover {
+    color: deepskyblue;
   }
 
   .tasksTableTrTd33 {
@@ -985,12 +995,22 @@ body {
     vertical-align: sub;
   }
 
-  .tesksTableTrTd22 {
+  .tasksTableTrTd22 {
     padding: 5px;
     text-align: left;
     border-bottom: solid 1px darkgrey;
     border-left: solid 1px darkgray;
     border-right: solid 1px darkgray;
+  }
+
+  .tasksTableTrTd22 a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .tasksTableTrTd22 a:hover {
+    color: deepskyblue;
   }
 
   .tasksTableTrTd33 {

@@ -20,7 +20,7 @@ session_start();
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="../css/style_new_design_v9.css">
+  <link rel="stylesheet" href="../css/style_new_design_v11.css">
   <link rel="shortcut icon" href="../images/favicon_for_line.ico" type="image/png">
   <link rel="cannonical" hreflang="ru" href="https://animesaver.ru/">
   <title>Поиск аниме на сайте | Animesaver</title>

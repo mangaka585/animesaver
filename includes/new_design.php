@@ -2,7 +2,7 @@
 include "includes/db.php";
 session_start();
 $anime_page = mysqli_query($connection,"SELECT * FROM  `anime` ORDER BY `update_date` DESC LIMIT 0,66");
-$tasksArray = mysqli_query($connection,"SELECT * FROM  `tasks` ORDER BY `date` DESC LIMIT 0,30");
+$tasksArray = mysqli_query($connection,"SELECT * FROM  `tasks` ORDER BY `date` DESC LIMIT 0,40");
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -22,7 +22,7 @@ $tasksArray = mysqli_query($connection,"SELECT * FROM  `tasks` ORDER BY `date` D
       font-style: normal;
     }
   </style>
-  <link rel="stylesheet" href="css/style_new_design_v9.css">
+  <link rel="stylesheet" href="css/style_new_design_v11.css">
   <link rel="shortcut icon" href="images/favicon_for_line.ico" type="image/png">
   <link rel="cannonical" hreflang="ru" href="https://animesaver.ru/">
   <title>Смотреть аниме онлайн бесплатно в хорошем качестве | Animesaver</title>
@@ -201,7 +201,8 @@ $tasksArray = mysqli_query($connection,"SELECT * FROM  `tasks` ORDER BY `date` D
                       <img src="images/avatars/<?php echo $userId['avatar'];?>" alt="Аватарка пользователя">
                       <span><?php echo $userId['login'];?></span>
                     </td>
-                    <td class="tesksTableTrTd22"><?php echo $task['text']; ?></td>
+                    <td class="tasksTableTrTd22"><?php if($task['created_anime_id'] != null) { 
+                      ?><a href="/<?php echo $task['link']; ?>"><?php }; echo $task['text']; ?><?php if($task['created_anime_id'] != null) { ?></a> <?php }; ?></td>
                     <td class="tasksTableTrTd33"><?php echo $task['status']; ?></td>
                   </tr>
                 <?php } ?>
