@@ -25,4 +25,4 @@ if($url_test == "/" || $random_num == "/index.php")
     include "includes/years.php";
 }   else { //Отрисовываем anime.php
     include "includes/animepage_new_design.php";}
-mysqli_close($connection);?>
+mysqli_close($connection); ?>
